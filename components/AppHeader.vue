@@ -47,16 +47,6 @@
 
 <script>
 export default {
-  //we need to put the JS file externally because it needs to be intanciate in hte nuxtconfig.js as "no-ssr" to run on the clients'.
-  head() {
-    return {
-      script: [
-        {
-          src: "~/plugins/hamburger.js"
-        }
-      ]
-    };
-  },
   name: "AppHeader"
 };
 </script>

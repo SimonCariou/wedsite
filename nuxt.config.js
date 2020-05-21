@@ -31,6 +31,7 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
+  //we need to put the JS file externally because it needs to be intanciate in hte nuxtconfig.js as "no-ssr" to run on the clients'.
   plugins: [
     { src: '@/plugins/hamburger.js', ssr: false }
   ],
