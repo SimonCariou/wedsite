@@ -1,6 +1,6 @@
 # wedsite
 
-> wedsite for Rox &amp;&amp; Simon&#39;s wedding comin&#39; up 
+> My breathtaking Nuxt.js project
 
 ## Build Setup
 
