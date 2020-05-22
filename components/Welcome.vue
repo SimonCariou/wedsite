@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight is-primary is-bold">
+  <section class="hero is-fullheight-with-navbar is-primary is-bold">
     <div class="hero-body columns">
       <div class="column has-text-centered">
         <h1 class="title">WEDSITE</h1>
