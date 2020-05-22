@@ -13,8 +13,6 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../node_modules/bulma/css/bulma.css'
 
-import '../assets/css/main.css'
-
 import '../assets/css/main.sass'
 
 import _6f6c098b from '../layouts/default.vue'

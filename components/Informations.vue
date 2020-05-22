@@ -1,13 +1,15 @@
 <template>
-  <section class="hero is-medium is-light">
-    <div class="hero-body columns is-multiline">
+  <section class="hero is-light">
+    <div class="hero-body columns is-multiline is-desktop">
       <div class="column has-text-left is-full">
         <h1 class="title">Informations</h1>
         <h2 class="subtitle">Tout ce que vous avez besoin de savoir</h2>
       </div>
-      <div class="column is-half columns is-multiline">
-        <div class="column is-full">ADRESSE</div>
-        <div class="column is-full">
+      <div class="column is-half">
+        <div class="columns is-multiline">
+          <div class="column is-full">ADRESSE</div>
+          <div class="column is-full"></div>
+
           <img src="@/components/images/sully.webp" alt="Sully" width="100%" height="50%" />
         </div>
       </div>
