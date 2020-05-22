@@ -1,5 +1,5 @@
 <template>
-  <section class="is-medium is-light">
+  <section class="hero is-medium is-light">
     <div class="hero-body columns is-multiline">
       <div class="column has-text-left is-full">
         <h1 class="title">Informations</h1>
