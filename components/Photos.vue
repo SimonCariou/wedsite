@@ -8,40 +8,61 @@
       <div class="column is-full">
         <div class="columns is-centered">
           <div class="column is-three-quarters">
-            <div class="parent">
-              <div class="child">
+            <div id="paginated_gallery" class="snapscroll-parent">
+              <div class="snapscroll-child">
                 <img src="https://via.placeholder.com/640x360" />
                 <div class="caption">
-                  <h3>Caption One</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3>2013</h3>
+                  <p>Teuf, an de grace.</p>
                 </div>
               </div>
-              <div class="child">
+              <div class="snapscroll-child">
                 <img src="https://via.placeholder.com/640x360" />
                 <div class="caption">
-                  <h3>Caption One</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3>2014</h3>
+                  <p>Teuf, an de grace.</p>
                 </div>
               </div>
-              <div class="child">
+              <div class="snapscroll-child">
                 <img src="https://via.placeholder.com/640x360" />
                 <div class="caption">
-                  <h3>Caption One</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3>2015</h3>
+                  <p>Teuf, an de grace.</p>
                 </div>
               </div>
-              <div class="child">
+              <div class="snapscroll-child">
                 <img src="https://via.placeholder.com/640x360" />
                 <div class="caption">
-                  <h3>Caption One</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3>2016</h3>
+                  <p>Teuf, an de grace.</p>
                 </div>
               </div>
-              <div class="child">
+              <div class="snapscroll-child">
                 <img src="https://via.placeholder.com/640x360" />
                 <div class="caption">
-                  <h3>Caption One</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3>2017</h3>
+                  <p>Teuf, an de grace.</p>
+                </div>
+              </div>
+              <div class="snapscroll-child">
+                <img src="https://via.placeholder.com/640x360" />
+                <div class="caption">
+                  <h3>2018</h3>
+                  <p>Teuf, an de grace.</p>
+                </div>
+              </div>
+              <div class="snapscroll-child">
+                <img src="https://via.placeholder.com/640x360" />
+                <div class="caption">
+                  <h3>2019</h3>
+                  <p>Teuf, an de grace.</p>
+                </div>
+              </div>
+              <div class="snapscroll-child">
+                <img src="https://via.placeholder.com/640x360" />
+                <div class="caption">
+                  <h3>2020</h3>
+                  <p>Teuf, an de grace.</p>
                 </div>
               </div>
             </div>
@@ -52,50 +73,30 @@
   </section>
 </template>
 
-<script>
-import Carousel from "~/components/Carousel.vue";
-
-export default {
-  components: {
-    Carousel
-  }
-};
-</script>
-
 <style scoped>
-.parent {
+.snapscroll-parent {
   display: flex;
   padding: 1rem;
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   overflow-x: scroll;
-
+  -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
 }
 
-.child img {
+.snapscroll-child img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.child {
+.snapscroll-child {
   position: relative;
   margin: 0.5rem;
   border-radius: 10px;
   scroll-snap-align: center;
-}
-
-body {
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  background-color: #151515;
-  margin: 0;
-  height: 100%;
-  color: #fff;
 }
 
 p {
@@ -105,31 +106,42 @@ p {
   border-left: 2px solid rgba(255, 255, 255, 0.25);
 }
 
-.child .caption {
+.snapscroll-child .caption {
   position: absolute;
   bottom: 0;
   padding: 1rem;
-  height: 210px;
+  height: 30%;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
-.child:nth-child(1) {
+.snapscroll-child:nth-child(1) {
   flex: 0 0 90%;
 }
 
-.child:nth-child(2) {
+.snapscroll-child:nth-child(2) {
   flex: 0 0 90%;
 }
 
-.child:nth-child(3) {
+.snapscroll-child:nth-child(3) {
   flex: 0 0 90%;
 }
 
-.child:nth-child(4) {
+.snapscroll-child:nth-child(4) {
   flex: 0 0 90%;
 }
 
-.child:nth-child(5) {
+.snapscroll-child:nth-child(5) {
+  flex: 0 0 90%;
+}
+
+.snapscroll-child:nth-child(6) {
+  flex: 0 0 90%;
+}
+.snapscroll-child:nth-child(7) {
+  flex: 0 0 90%;
+}
+.snapscroll-child:nth-child(8) {
   flex: 0 0 90%;
 }
 </style>
