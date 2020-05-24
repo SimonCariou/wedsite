@@ -16,6 +16,9 @@ export default {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
         rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
       }
+    ],
+    script: [
+      { src: 'https://static.miniclipcdn.com/js/game-embed.js' }
     ]
   },
   /*

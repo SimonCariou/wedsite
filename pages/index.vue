@@ -6,6 +6,7 @@
     <Hebergements />
     <Photos />
     <ListeMariage />
+    <Compet />
     <Contact />
   </div>
 </template>
@@ -17,6 +18,7 @@ import Deroulement from "~/components/Deroulement.vue";
 import Hebergements from "~/components/Hebergements.vue";
 import Photos from "~/components/Photos.vue";
 import ListeMariage from "~/components/ListeMariage.vue";
+import Compet from "~/components/Compet.vue";
 import Contact from "~/components/Contact.vue";
 
 export default {
@@ -27,6 +29,7 @@ export default {
     Hebergements,
     Photos,
     ListeMariage,
+    Compet,
     Contact
   }
 };
