@@ -6,8 +6,21 @@
         <h2 class="subtitle">Explications</h2>
       </div>
       <div class="column is-full">
-        <p>BLABLA</p>
+        <div class="columns is-centered">
+          <div class="colum is-half">
+            <Paypal />
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import Paypal from "~/components/Paypal.vue";
+export default {
+  components: {
+    Paypal
+  }
+};
+</script>
