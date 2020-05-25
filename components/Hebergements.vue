@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-light is-bold">
+  <section id="hebergements" class="hero is-fullheight-with-navbar is-light is-bold">
     <div class="hero-body columns is-multiline">
       <div class="column has-text-left is-full">
         <h1 class="title">Hebergements</h1>

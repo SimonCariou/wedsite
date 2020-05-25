@@ -1,16 +1,17 @@
 <template>
   <nav class="navbar is-fixed-top container is-fluid">
     <div class="navbar-brand">
-      <a class="navbar-item" href="http://bulma.io">
+      <nuxt-link to="/#welcome" class="navbar-item">
         <img
           src="@/components/images/roxetsim.png"
           alt="mariage rox et simon"
           width="112"
           height="28"
         />
-      </a>
+      </nuxt-link>
 
       <div class="navbar-burger burger" data-target="navWedsite">
+        <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -23,22 +24,25 @@
     <div id="navWedsite" class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#informations" target>Informations</a>
+          <nuxt-link to="/#informations" class="is-active">Informations</nuxt-link>
         </div>
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#deroulement" target>Deroulement</a>
+          <nuxt-link to="/#deroulement" class="is-active">Deroulement</nuxt-link>
         </div>
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#hebergement" target>Hebergement</a>
+          <nuxt-link to="/#hebergements" class="is-active">Hebergements</nuxt-link>
         </div>
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#photos" target>Photos</a>
+          <nuxt-link to="/#photos" class="is-active">Photos</nuxt-link>
         </div>
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#listeDeMariage" target>Liste de Mariage</a>
+          <nuxt-link to="/#listeDeMariage" class="is-active">Liste de Mariage</nuxt-link>
         </div>
         <div class="navbar-item is-hoverable">
-          <a class="is-active" href="#contact" target>Contact</a>
+          <nuxt-link to="/#contact" class="is-active">Contact</nuxt-link>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <nuxt-link to="/Jeu" class="is-active">Jeu</nuxt-link>
         </div>
       </div>
     </div>

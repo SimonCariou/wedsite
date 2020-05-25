@@ -7,14 +7,15 @@
       </div>
       <div class="column is-full">
         <!-- Place this code where you'd like the game to appear -->
-        <div
-          class="miniclip-game-embed"
-          data-game-name="penguin-push"
-          data-theme="5"
-          data-width="100%"
-          data-height="408"
-          data-language="fr"
-        ></div>
+        <iframe
+          src="//www.miniclip.com/games/penguin-push/fr/webgame.php?bodybg=5&amp;width=100%&amp;height=408&amp;forcecredits=null"
+          width="100%"
+          height="408"
+          frameborder="0"
+          scrolling="no"
+          style="border:none;"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </section>
