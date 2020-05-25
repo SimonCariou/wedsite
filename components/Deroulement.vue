@@ -1,5 +1,5 @@
 <template>
-  <section id="deroulement" class="hero is-fullheight-with-navbar">
+  <section id="deroulement" class="hero is-fullheight-with-navbar is-mobile">
     <div class="hero-body columns is-multiline">
       <div class="column is-full">
         <h1 class="title">Deroulement de la journee</h1>
