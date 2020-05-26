@@ -15,9 +15,13 @@
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/dotenv": "^1.4.0",
     "bulma-timeline": "^3.0.4",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
   }
