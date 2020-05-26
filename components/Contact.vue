@@ -6,25 +6,30 @@
         <h2 class="subtitle">Explications</h2>
       </div>
       <div class="column is-full">
-        <form action="mailto:simon.cariou@epfedu.fr" method="GET" target="_blank">
+        <form
+          class="gform"
+          method="POST"
+          data-email="yo@yo.yo"
+          action="https://script.google.com/macros/s/AKfycbyIbxGfvt7LvtEtgy96hA6JV7mjIJoGbl319h3srvqcUs1dPEvq/exec"
+        >
           <div class="field">
-            <label class="label">Nom</label>
+            <label class="label">Nom/Prenom</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Nom" />
+              <input class="input" type="text" placeholder="Nom" name="name" />
             </div>
           </div>
 
           <div class="field">
             <label class="label">Email</label>
             <div class="control">
-              <input class="input" type="email" placeholder="email" value />
+              <input class="input" type="email" placeholder="email" name="email" />
             </div>
           </div>
 
           <div class="field">
             <label class="label">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Message a nous faire parvenir"></textarea>
+              <textarea class="textarea" placeholder="Message a nous faire parvenir" name="message"></textarea>
             </div>
           </div>
 
