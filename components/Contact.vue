@@ -1,10 +1,10 @@
 <template>
   <section id="contact" class="hero is-fullheight-with-navbar">
+    <div class="hero-head">
+      <h1 class="title">CONTACT</h1>
+      <h2 class="subtitle">Envoyez nous un mail si vous avez des questions.</h2>
+    </div>
     <div class="hero-body columns is-multiline">
-      <div class="column is-full">
-        <h1 class="title">CONTACT</h1>
-        <h2 class="subtitle">Explications</h2>
-      </div>
       <div class="column is-full">
         <form
           class="gform"

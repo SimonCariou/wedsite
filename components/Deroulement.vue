@@ -1,9 +1,11 @@
 <template>
   <section id="deroulement" class="hero is-fullheight-with-navbar is-mobile">
+    <div class="hero-head">
+      <h1 class="title">DEROULEMENT</h1>
+      <h2 class="subtitle">Tout ce que vous avez besoin de savoir</h2>
+    </div>
     <div class="columns hero-body">
       <div class="column has-text-left">
-        <h1 class="title">DEROULEMENT</h1>
-        <h2 class="subtitle">Tout ce que vous avez besoin de savoir</h2>
         <div class="columns">
           <div class="column">
             <div class="timeline is-centered">
