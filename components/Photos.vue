@@ -1,11 +1,11 @@
 <template>
   <section id="photos" class="hero is-fullheight-with-navbar is-primary is-bold">
+    <div class="hero-head">
+      <h1 class="title">PHOTOS</h1>
+      <h2 class="subtitle">Explications</h2>
+    </div>
     <div class="hero-body columns is-multiline">
-      <div class="column is-full">
-        <h1 class="title">Photos</h1>
-        <h2 class="subtitle">Explications</h2>
-      </div>
-      <div class="column is-full">
+      <div class="column">
         <div class="columns is-centered">
           <div class="column is-three-quarters">
             <div id="paginated_gallery" class="snapscroll-parent">

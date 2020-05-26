@@ -1,10 +1,10 @@
  <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar is-light is-bold">
+    <div class="hero-head">
+      <h1 class="title">LISTE DE MARIAGE</h1>
+      <h2 class="subtitle">Explications</h2>
+    </div>
     <div class="hero-body columns is-multiline">
-      <div class="column is-full">
-        <h1 class="title">Liste de mariage</h1>
-        <h2 class="subtitle">Explications</h2>
-      </div>
       <div class="column is-full">
         <div class="columns is-centered">
           <div class="column is-three-quarters">
@@ -67,9 +67,13 @@
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter">
-            <Paypal />
-          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-one-quarter-desktop is-one-quarter-tablet is-three-quarters-mobile">
+          <Paypal />
         </div>
       </div>
     </div>
