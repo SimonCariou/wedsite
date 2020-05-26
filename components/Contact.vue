@@ -2,7 +2,7 @@
   <section id="contact" class="hero is-fullheight-with-navbar">
     <div class="hero-body columns is-multiline">
       <div class="column is-full">
-        <h1 class="title">Contact</h1>
+        <h1 class="title">CONTACT</h1>
         <h2 class="subtitle">Explications</h2>
       </div>
       <div class="column is-full">
@@ -39,6 +39,7 @@
           <div class="thankyou_message" style="display:none;">
             <h2>
               <em>Merci</em> pour ton message nous te repondrons tres vite!
+              <span class="bd-emoji">😉</span>
             </h2>
           </div>
         </form>

@@ -2,7 +2,7 @@
   <section id="informations" class="hero is-fullheight-with-navbar is-light is-bold">
     <div class="hero-body columns is-multiline">
       <div class="column has-text-left is-full">
-        <h1 class="title">Informations</h1>
+        <h1 class="title">INFORMATIONS</h1>
         <h2 class="subtitle">Tout ce que vous avez besoin de savoir</h2>
       </div>
       <div class="column is-half">

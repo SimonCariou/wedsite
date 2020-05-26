@@ -2,7 +2,7 @@
   <section id="hebergements" class="hero is-fullheight-with-navbar is-light is-bold">
     <div class="hero-body columns is-multiline">
       <div class="column has-text-left is-full">
-        <h1 class="title">Hebergements</h1>
+        <h1 class="title">HEBERGEMENTS</h1>
         <h2 class="subtitle">Liste d'endroits ou dormir dans les environs.</h2>
       </div>
       <div class="column is-half">
