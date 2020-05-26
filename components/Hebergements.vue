@@ -1,32 +1,22 @@
 <template>
   <section id="hebergements" class="hero is-fullheight-with-navbar is-light is-bold">
-    <div class="hero-body columns is-multiline">
-      <div class="column has-text-left is-full">
+    <div class="columns hero-body">
+      <div class="column has-text-left">
         <h1 class="title">HEBERGEMENTS</h1>
-        <h2 class="subtitle">Liste d'endroits ou dormir dans les environs.</h2>
-      </div>
-      <div class="column is-half">
+        <h2 class="subtitle">Liste des endroits ou dormir dans le coin.</h2>
         <div class="columns is-multiline">
-          <div class="column is-full">LIEU 1</div>
-          <div class="column is-full">ADRESSE 1</div>
-        </div>
-      </div>
-      <div class="column is-half">
-        <div class="columns is-multiline">
-          <div class="column is-full">LIEU 2</div>
-          <div class="column is-full">ADRESSE 2</div>
-        </div>
-      </div>
-      <div class="column is-half">
-        <div class="columns is-multiline">
-          <div class="column is-full">LIEU 3</div>
-          <div class="column is-full">ADRESSE 3</div>
-        </div>
-      </div>
-      <div class="column is-half">
-        <div class="columns is-multiline">
-          <div class="column is-full">LIEU 4</div>
-          <div class="column is-full">ADRESSE 4</div>
+          <div class="column is-half-desktop">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam lorem, venenatis vitae erat at, porta pretium quam. Duis eleifend orci eleifend pretium vulputate. Sed ex metus, pellentesque eu eros quis, volutpat posuere velit. Fusce non felis nec nunc rhoncus cursus. Aenean et neque dictum, vestibulum ipsum et, consectetur nulla. In in ipsum ligula. Morbi pharetra turpis vitae maximus faucibus. Sed eget porta leo, id viverra dolor.</p>
+          </div>
+          <div class="column is-half-desktop">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam lorem, venenatis vitae erat at, porta pretium quam. Duis eleifend orci eleifend pretium vulputate. Sed ex metus, pellentesque eu eros quis, volutpat posuere velit. Fusce non felis nec nunc rhoncus cursus. Aenean et neque dictum, vestibulum ipsum et, consectetur nulla. In in ipsum ligula. Morbi pharetra turpis vitae maximus faucibus. Sed eget porta leo, id viverra dolor.</p>
+          </div>
+          <div class="column is-half-desktop">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam lorem, venenatis vitae erat at, porta pretium quam. Duis eleifend orci eleifend pretium vulputate. Sed ex metus, pellentesque eu eros quis, volutpat posuere velit. Fusce non felis nec nunc rhoncus cursus. Aenean et neque dictum, vestibulum ipsum et, consectetur nulla. In in ipsum ligula. Morbi pharetra turpis vitae maximus faucibus. Sed eget porta leo, id viverra dolor.</p>
+          </div>
+          <div class="column is-half-desktop">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam lorem, venenatis vitae erat at, porta pretium quam. Duis eleifend orci eleifend pretium vulputate. Sed ex metus, pellentesque eu eros quis, volutpat posuere velit. Fusce non felis nec nunc rhoncus cursus. Aenean et neque dictum, vestibulum ipsum et, consectetur nulla. In in ipsum ligula. Morbi pharetra turpis vitae maximus faucibus. Sed eget porta leo, id viverra dolor.</p>
+          </div>
         </div>
       </div>
     </div>
