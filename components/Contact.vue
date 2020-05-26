@@ -36,8 +36,14 @@
           <div>
             <input type="submit" value="Envoyer" class="button is-primary" />
           </div>
+          <div class="thankyou_message" style="display:none;">
+            <h2>
+              <em>Merci</em> pour ton message nous te repondrons tres vite!
+            </h2>
+          </div>
         </form>
       </div>
     </div>
   </section>
 </template>
+
