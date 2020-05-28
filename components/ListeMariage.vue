@@ -72,7 +72,10 @@
     </div>
     <div class="hero-foot">
       <div class="columns is-mobile is-centered">
-        <div class="column is-one-quarter-desktop is-one-quarter-tablet is-three-quarters-mobile">
+        <div
+          class="column is-one-quarter-desktop is-one-quarter-tablet is-three-quarters-mobile"
+          style="z-index:1"
+        >
           <Paypal />
         </div>
       </div>
