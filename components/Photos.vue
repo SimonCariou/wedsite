@@ -1,5 +1,5 @@
 <template>
-  <section id="photos" class="hero is-fullheight-with-navbar is-primary is-bold">
+  <section id="photos" class="hero is-fullheight-with-navbar is-success is-bold">
     <div class="hero-head">
       <h1 class="title">PHOTOS</h1>
       <h2 class="subtitle">Explications</h2>
@@ -7,62 +7,22 @@
     <div class="hero-body columns is-multiline">
       <div class="column">
         <div class="columns is-centered">
-          <div class="column is-three-quarters">
-            <div id="paginated_gallery" class="snapscroll-parent">
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2013</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
+          <div class="column is-half-desktop is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-3by2">
+                  <img
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
               </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2014</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2015</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2016</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2017</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2018</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2019</h3>
-                  <p>Teuf, an de grace.</p>
-                </div>
-              </div>
-              <div class="snapscroll-child">
-                <img src="https://via.placeholder.com/640x360" />
-                <div class="caption">
-                  <h3>2020</h3>
-                  <p>Teuf, an de grace.</p>
+              <div class="card-content">
+                <div class="content">
+                  <time datetime="2013-1-1">1 Jan 2013</time>
+                  <br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>
