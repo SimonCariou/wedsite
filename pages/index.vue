@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid">
+  <div class="container is-fluid has-navbar-fixed-top">
     <Welcome />
     <Informations />
     <Deroulement />
