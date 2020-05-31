@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: "Wedsite Rox & Sim",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,6 +16,9 @@ export default {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
         rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
       }
+    ],
+    script: [
+      { src: 'https://static.miniclipcdn.com/js/game-embed.js' }
     ]
   },
   /*
@@ -26,19 +29,21 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/main.css'
+    '@/assets/css/main.sass'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   //we need to put the JS file externally because it needs to be intanciate in hte nuxtconfig.js as "no-ssr" to run on the clients'.
   plugins: [
-    { src: '@/plugins/hamburger.js', ssr: false }
+    { src: '@/plugins/hamburger.js', ssr: false },
+    { src: '@/plugins/form_submission_handler.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+
   ],
   /*
   ** Nuxt.js modules
@@ -50,6 +55,7 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+
   ],
   /*
   ** Axios module configuration

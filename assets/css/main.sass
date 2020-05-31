@@ -1,0 +1,41 @@
+@import "~/node_modules/bulma/bulma.sass"
+@import "~/node_modules/bulma-timeline/src/sass/index.sass"
+
+@font-face
+  font-family: "Kano"
+  src: url("~assets/fonts/Kano.otf") format("truetype")
+
+html
+  scroll-snap-type: y mandatory
+
+section
+  scroll-snap-align: end
+
+body, input, textarea,  button
+  font-family: "Kano", sans-serif
+
+div.has-navbar-fixed-top
+  padding-top: 3.25rem
+
+.label
+  color: #363636
+  display: block
+  font-size: 1.2rem
+  font-weight: 700
+
+.hero-head
+  padding-top: 1rem
+  padding-left: 0.8rem
+  padding-right: 1rem
+  padding-bottom: 1rem
+
+.hero-body
+  padding-top: 0
+  padding-bottom: 0.5rem
+
+.hero.is-success .title,
+.hero.is-primary .title
+  text-shadow: 3px 3px 0px #043804
+
+.hero .title
+  text-shadow: 3px 3px 0px #c7d6c7
