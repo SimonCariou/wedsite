@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-fixed-top container is-fluid">
+  <nav class="navbar is-fixed-top container is-full-width">
     <div class="navbar-brand">
       <nuxt-link to="/#welcome" class="navbar-item">
         <img

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="has-navbar-fixed-top">
     <AppHeader />
     <nuxt />
     <AppFooter />
