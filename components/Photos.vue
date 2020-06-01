@@ -1,7 +1,7 @@
 <template>
   <section id="photos" class="hero is-fullheight-with-navbar is-success is-bold">
     <div class="hero-head">
-      <h1 class="title">PHOTOS</h1>
+      <h1 class="title is-4">PHOTOS</h1>
       <h2 class="subtitle">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">

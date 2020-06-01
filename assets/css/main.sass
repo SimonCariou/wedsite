@@ -6,7 +6,9 @@
   src: url("~assets/fonts/Kano.otf") format("truetype")
 
 html
-  scroll-snap-type: y mandatory
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
+  scroll-snap-type: y proximity
 
 section
   scroll-snap-align: end
@@ -39,3 +41,8 @@ div.has-navbar-fixed-top
 
 .hero .title
   text-shadow: 3px 3px 0px #c7d6c7
+
+//custom:
+.container.is-full-width
+  max-width: none
+  width: 100%
