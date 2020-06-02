@@ -21,7 +21,7 @@
     </div>
   </section>
 </template>
-
+<!--
 <script>
 import { create } from "@lottiefiles/lottie-interactivity";
 
@@ -45,7 +45,7 @@ export default {
   }
 };
 </script>
-
+-->
 <style scoped>
 .is-overlaying-lottie {
   bottom: 0;
