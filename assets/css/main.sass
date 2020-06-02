@@ -5,14 +5,15 @@
   font-family: "Kano"
   src: url("~assets/fonts/Kano.otf") format("truetype")
 
-html
-  overflow-y: scroll
-  -webkit-overflow-scrolling: touch
-  scroll-snap-type: y proximity
-
-section
-  scroll-snap-align: end
-
+/*
+ html
+ overflow-y: scroll
+ -webkit-overflow-scrolling: touch
+ scroll-snap-type: y proximity
+ 
+ section
+ scroll-snap-align: end
+ */
 body, input, textarea,  button
   font-family: "Kano", sans-serif
 
@@ -40,6 +41,26 @@ div.has-navbar-fixed-top
   max-width: none
   width: 100%
 
-  // setting custom color for the hero banners to make it more wintery
+// setting custom color for the hero banners to make it more wintery
+.hero.is-primary
+  background-color: #084d11
+  color: #fff
+
 .hero.is-primary.is-bold
   background-image: linear-gradient(141deg, #084d11 0%, #11771f 71%, #308d35 100%)
+
+.hero.is-primary label
+  color: #ffffff
+
+//may use later
+.hero.is-maroon
+  background-color: #084d11
+  color: #fff
+.hero.is-maroon.is-bold
+  background-image: linear-gradient(141deg, #700202 0%, #8d0505 71%, #990707 100%)
+
+.hero.is-maroon .title
+  color: #fff
+
+.hero.is-maroon .subtitle
+  color: #fff
