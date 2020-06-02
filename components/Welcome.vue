@@ -9,6 +9,7 @@
             mode="normal"
             autoplay
             src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
+            style="height: 600px;"
           ></lottie-player>
           <div class="is-overlaying-lottie">
             <h1 class="title">WEDSITE</h1>
