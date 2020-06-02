@@ -38,8 +38,8 @@ export default {
   plugins: [
     { src: '@/plugins/hamburger.js', ssr: false },
     { src: '@/plugins/form_submission_handler.js', ssr: false },
-    { src: '@/node_modules/@lottiefiles/lottie-player', ssr: false },
-    { src: '@/node_modules/@lottiefiles/lottie-interactivity', ssr: false },
+    { src: '@/plugins/lottie-player.js', ssr: false },
+    { src: '@/plugins/lottie-interactivity.min.js', ssr: false },
   ],
   /*
   ** Nuxt.js dev-modules

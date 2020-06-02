@@ -1,5 +1,5 @@
  <template>
-  <section id="listeDeMariage" class="hero is-fullheight-with-navbar is-light is-bold">
+  <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-4">LISTE DE MARIAGE</h1>
       <h2 class="subtitle">Explications</h2>

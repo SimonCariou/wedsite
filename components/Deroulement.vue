@@ -1,5 +1,5 @@
 <template>
-  <section id="deroulement" class="hero is-fullheight-with-navbar is-mobile">
+  <section id="deroulement" class="hero is-fullheight-with-navbar is-mobile is-primary is-bold">
     <div class="hero-head">
       <h1 class="title is-4">DEROULEMENT</h1>
       <h2 class="subtitle">Tout ce que vous avez besoin de savoir</h2>

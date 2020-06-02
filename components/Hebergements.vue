@@ -1,5 +1,5 @@
 <template>
-  <section id="hebergements" class="hero is-fullheight-with-navbar is-light is-bold">
+  <section id="hebergements" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-4">HEBERGEMENTS</h1>
       <h2 class="subtitle">Liste des endroits ou dormir dans le coin.</h2>

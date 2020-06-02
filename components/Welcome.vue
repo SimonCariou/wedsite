@@ -9,10 +9,11 @@
             mode="normal"
             autoplay
             src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
+            style="height: 500px;"
           ></lottie-player>
           <div class="is-overlaying-lottie">
-            <h1 class="title">WEDSITE</h1>
-            <h2 class="subtitle">Rox et Sim se marient</h2>
+            <h1 class="title is-3">BIENVENUE !</h1>
+            <h2 class="subtitle is-5">Rox et Sim se marient le 5 decembre 2020</h2>
             <span class="bd-emoji">❤️</span>
           </div>
         </div>
@@ -20,7 +21,7 @@
     </div>
   </section>
 </template>
-
+<!--
 <script>
 import { create } from "@lottiefiles/lottie-interactivity";
 
@@ -44,7 +45,7 @@ export default {
   }
 };
 </script>
-
+-->
 <style scoped>
 .is-overlaying-lottie {
   bottom: 0;
@@ -52,5 +53,10 @@ export default {
   position: absolute;
   right: 0;
   top: 45%;
+}
+
+.subtitle {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 </style>
