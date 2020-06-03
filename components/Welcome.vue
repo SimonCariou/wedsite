@@ -1,15 +1,16 @@
 <template>
   <section id="welcome" class="hero is-fullheight-with-navbar is-primary is-bold">
-    <div class="hero-body columns is-centered" style="align-items: center">
-      <div class="column has-text-centered">
+    <div class="hero-body columns is-centered">
+      <div class="column has-text-centered is-half-desktop is-full-mobile is-two-fifths-tablet">
         <div id="lottie-container">
           <lottie-player
             id="firstLottie"
             ref="myRef"
             mode="normal"
             autoplay
+            loop
             src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
-            style="height: 500px;"
+            style="height:100%; position: relative;margin:auto"
           ></lottie-player>
           <div class="is-overlaying-lottie">
             <h1 class="title is-3">BIENVENUE !</h1>
@@ -46,17 +47,22 @@ export default {
 };
 </script>
 -->
-<style scoped>
-.is-overlaying-lottie {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 45%;
-}
+<style lang="sass">
+.is-overlaying-lottie
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: calc((100vh - 3.25rem) / 2)
 
-.subtitle {
-  padding-left: 10px;
-  padding-right: 10px;
-}
+#firstLottie
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+
+.subtitle
+  padding-left: 10px
+  padding-right: 10px
 </style>
