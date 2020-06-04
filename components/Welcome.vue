@@ -47,7 +47,7 @@ export default {
 };
 </script>
 -->
-<style lang="sass">
+<style lang="sass" scoped>
 .is-overlaying-lottie
   bottom: 0
   left: 0
