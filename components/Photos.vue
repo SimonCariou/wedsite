@@ -1,7 +1,7 @@
 <template>
-  <section id="photos" class="hero is-fullheight-with-navbar is-success is-bold">
+  <section id="photos" class="hero is-fullheight-with-navbar is-primary is-bold">
     <div class="hero-head">
-      <h1 class="title">PHOTOS</h1>
+      <h1 class="title is-4">PHOTOS</h1>
       <h2 class="subtitle">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">
@@ -9,27 +9,37 @@
         <div class="snapscroll-parent">
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2013.jpg" alt="CDMGE" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Premiere annee en couple
+                <time datetime="2013-6-1">6 Juin 2013</time>
+                <br />Premiere CDMGE pour encourager Roxane aux pompom girls.
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
+              <figure class="image is-4by3">
                 <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
+                  src="@/components/images/scrollsnap_photos/2014.png"
+                  alt="Match de football americain au Texas"
                 />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <time datetime="2014-11-27">27 Nov. 2014</time>
+                <br />Visite de Roxane au Texas pour voir un match de football americain universitaire.
+              </div>
+            </div>
+          </div>
+          <div class="card snapscroll-child">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2015.png" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
@@ -41,11 +51,8 @@
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2016.jpg" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
@@ -57,11 +64,8 @@
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2017.jpg" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
@@ -73,11 +77,8 @@
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2018.jpg" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
@@ -89,11 +90,8 @@
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2019.jpg" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
@@ -105,33 +103,14 @@
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/scrollsnap_photos/2020.jpg" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
                 <time datetime="2013-1-1">1 Jan 2013</time>
                 <br />Anne pre confinement
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Fiancailles aight
               </div>
             </div>
           </div>

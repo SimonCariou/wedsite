@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid">
+  <div class>
     <Welcome />
     <Informations />
     <Deroulement />
