@@ -25,7 +25,7 @@
                       <br />
                       <em>D110 78710 Jouy-Mauvoisin</em>
                       <br />
-                      <br />
+
                       <span>50 couchages</span>
                       <br />
                       <em>58e par personne, salle de bain et toilettes sur le palier</em>
@@ -51,7 +51,7 @@
                       <br />
                       <em>Chemin de la Cote Blanche 78710 Rosny-sur-Seine</em>
                       <br />
-                      <br />
+
                       <span>50 couchages</span>
                       <br />
                       <em>68e par personne, salle de bain et toilettes prives.</em>
@@ -81,7 +81,7 @@
                       <br />
                       <em>D110 78710 Jouy-Mauvoisin</em>
                       <br />
-                      <br />
+
                       <span>50 couchages</span>
                       <br />
                       <em>58e par personne, salle de bain et toilettes sur le palier</em>
@@ -105,7 +105,7 @@
                       <br />
                       <em>Chemin de la Cote Blanche 78710 Rosny-sur-Seine</em>
                       <br />
-                      <br />
+
                       <span>50 couchages</span>
                       <br />
                       <em>68e par personne, salle de bain et toilettes prives.</em>
@@ -122,57 +122,38 @@
 </template>
 
 
-<style scoped>
-@media screen and (max-width: 768px) {
-  .displayed-on-mobile {
-    display: flex;
-  }
+<style scoped lang="sass">
+@media screen and (max-width: 768px)
+  .displayed-on-mobile
+    display: flex
 
-  .hidden-on-mobile {
-    display: none;
-  }
-}
+  .hidden-on-mobile
+    display: none
 
-@media screen and (min-width: 769px) {
-  .displayed-on-tablet-desktop {
-    display: flex;
-  }
+@media screen and (min-width: 769px)
+  .displayed-on-tablet-desktop
+    display: flex
 
-  .hidden-on-tablet-desktop {
-    display: none;
-  }
-}
+  .hidden-on-tablet-desktop
+    display: none
 
-.snapscroll-parent {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
-}
+.snapscroll-parent
+  display: flex
+  width: 100%
+  height: 100%
+  margin: 0 auto
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+  scroll-snap-type: x mandatory
 
-.snapscroll-child {
-  position: relative;
-  margin: 0.5rem;
-  scroll-snap-align: center;
-}
+.snapscroll-child
+  position: relative
+  margin: 0.5rem
+  scroll-snap-align: center
 
-.snapscroll-child:nth-child(1) {
-  flex: 0 0 85%;
-}
+  &:nth-child(1)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(2) {
-  flex: 0 0 85%;
-}
-/*
-.snapscroll-child:nth-child(3) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(4) {
-  flex: 0 0 85%;
-}
-*/
+  &:nth-child(2)
+    flex: 0 0 85%
 </style>
