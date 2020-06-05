@@ -1,5 +1,5 @@
 <template>
-  <section id="photos" class="hero is-fullheight-with-navbar is-primary is-bold">
+  <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-4">PHOTOS</h1>
       <h2 class="subtitle">Explications</h2>
