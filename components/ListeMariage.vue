@@ -9,28 +9,27 @@
         <div class="snapscroll-parent">
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
+              <figure class="image is-4by3">
+                <img src="@/components/images/liste_de_mariage/hawaii.jpg" alt="Hawaii" />
               </figure>
             </div>
             <div class="card-content">
-              <div class="content">Item numero 1</div>
+              <div class="content">Voyage de noce a Hawaii !!</div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
-              <figure class="image is-3by2">
+              <figure class="image is-4by3">
                 <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
+                  src="@/components/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"
+                  alt="Batterie cuisine"
                 />
               </figure>
             </div>
             <div class="card-content">
-              <div class="content">Item numero 1</div>
+              <div
+                class="content"
+              >Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.</div>
             </div>
           </div>
           <div class="card snapscroll-child">
