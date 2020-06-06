@@ -1,5 +1,5 @@
 <template>
-  <section id="photos" class="hero is-fullheight-with-navbar is-primary is-bold">
+  <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-4">PHOTOS</h1>
       <h2 class="subtitle">Explications</h2>
@@ -31,7 +31,7 @@
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2014-11-27">27 Nov. 2014</time>
+                <time datetime="2014-11-27">27 Novembre 2014</time>
                 <br />Visite de Roxane au Texas pour voir un match de football americain universitaire.
               </div>
             </div>
@@ -39,78 +39,84 @@
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2015.png" alt="Placeholder image" />
+                <img src="@/components/images/scrollsnap_photos/2015.png" alt="Soiree EPF" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Soiree en couple blabla
+                <time datetime="2015-4-18">18 Avril 2015</time>
+                <br />Soiree Versus EPF - Campagne BDE.
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2016.jpg" alt="Placeholder image" />
+                <img src="@/components/images/scrollsnap_photos/2016.jpg" alt="Tour Eiffel" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Vacances moris
+                <time datetime="2013-1-1">14 Septembre 2016</time>
+                <br />A l'assaut de la tour Eiffel.
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2017.jpg" alt="Placeholder image" />
+                <img
+                  src="@/components/images/scrollsnap_photos/2017.jpg"
+                  alt="Mariage Pierre-Yves et Elodie"
+                />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Londres
+                <time datetime="2013-1-1">13 Mai 2017</time>
+                <br />Mariage de Pierre-Yves et Elodie Cariou
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2018.jpg" alt="Placeholder image" />
+                <img src="@/components/images/scrollsnap_photos/2018.jpg" alt="Opera Garnier" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Avec le poto Nuggets
+                <time datetime="2018-8-28">28 Aout 2018</time>
+                <br />Avec un style fantome pendant l'escape game de l'Opera Garnier
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2019.jpg" alt="Placeholder image" />
+                <img
+                  src="@/components/images/scrollsnap_photos/2019.jpg"
+                  alt="Paris - Hotel de Ville"
+                />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Vacances la bas.
+                <time datetime="2019-4-20">20 Avril 2019</time>
+                <br />Sortie champetre a Paris sur la place de l'hotel de ville.
               </div>
             </div>
           </div>
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2020.jpg" alt="Placeholder image" />
+                <img src="@/components/images/scrollsnap_photos/2020.jpg" alt="Saint Valentin" />
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <time datetime="2013-1-1">1 Jan 2013</time>
-                <br />Anne pre confinement
+                <time datetime="2020-2-14">14 Fevrier 2020</time>
+                <br />Apero a l'appartement pour la Saint Valentin. Encore jeunes et innoncents, prets a etre confines pendant 3 mois
               </div>
             </div>
           </div>
