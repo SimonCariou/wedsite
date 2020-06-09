@@ -5,7 +5,7 @@
       <h2 class="subtitle">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">
-      <div class="column is-two-fifths-desktop is-full-mobile">
+      <div class="column is-half-desktop is-half-tablet is-full-mobile">
         <div class="snapscroll-parent">
           <div class="card snapscroll-child">
             <div class="card-image">
@@ -112,15 +112,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="hero-foot">
-      <div class="columns is-mobile is-centered">
-        <div
-          class="column is-one-quarter-desktop is-one-quarter-tablet is-three-quarters-mobile"
-          style="z-index:1"
-        >
-          <Paypal />
-        </div>
+      <div class="column is-full-desktop is-full-tablet is-full-mobile" style="z-index:1">
+        <Paypal />
       </div>
     </div>
   </section>
