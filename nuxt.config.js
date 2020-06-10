@@ -21,6 +21,7 @@ export default {
       { src: 'https://static.miniclipcdn.com/js/game-embed.js' },
       { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
       { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' }
+
     ]
   },
   /*
@@ -40,6 +41,7 @@ export default {
   plugins: [
     { src: '@/plugins/hamburger.js', ssr: false },
     { src: '@/plugins/form_submission_handler.js', ssr: false },
+    { src: '@/assets/js/game.js', ssr: false }
 
   ],
   /*
