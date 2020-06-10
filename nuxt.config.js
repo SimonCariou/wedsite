@@ -40,8 +40,8 @@ export default {
   //we need to put the JS file externally because it needs to be intanciate in hte nuxtconfig.js as "no-ssr" to run on the clients'.
   plugins: [
     { src: '@/plugins/hamburger.js', ssr: false },
-    { src: '@/plugins/form_submission_handler.js', ssr: false },
-    { src: '@/assets/js/game.js', ssr: false }
+    { src: '@/plugins/form_submission_handler.js', ssr: false }//,
+    //{ src: '@/assets/js/game.js', ssr: false }
 
   ],
   /*

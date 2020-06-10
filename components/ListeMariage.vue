@@ -128,51 +128,43 @@ export default {
 };
 </script>
 
-<style scoped>
-.snapscroll-parent {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
-}
+<style scoped lang='sass'>
+.snapscroll-parent
+  display: flex
+  width: 100%
+  height: 100%
+  margin: 0 auto
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+  scroll-snap-type: x mandatory
 
-.snapscroll-child {
-  position: relative;
-  margin: 0.5rem;
-  scroll-snap-align: center;
-}
+.snapscroll-child
+  position: relative
+  margin: 0.5rem
+  scroll-snap-align: center
 
-.snapscroll-child:nth-child(1) {
-  flex: 0 0 85%;
-}
+  &:nth-child(1)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(2) {
-  flex: 0 0 85%;
-}
+  &:nth-child(2)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(3) {
-  flex: 0 0 85%;
-}
+  &:nth-child(3)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(4) {
-  flex: 0 0 85%;
-}
+  &:nth-child(4)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(5) {
-  flex: 0 0 85%;
-}
+  &:nth-child(5)
+    flex: 0 0 85%
 
-.snapscroll-child:nth-child(6) {
-  flex: 0 0 85%;
-}
-.snapscroll-child:nth-child(7) {
-  flex: 0 0 85%;
-}
-.snapscroll-child:nth-child(8) {
-  flex: 0 0 85%;
-}
+  &:nth-child(6)
+    flex: 0 0 85%
+
+  &:nth-child(7)
+    flex: 0 0 85%
+
+  &:nth-child(8)
+    flex: 0 0 85%
 </style>
 
