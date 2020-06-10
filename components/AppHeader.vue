@@ -11,7 +11,7 @@
       </nuxt-link>
 
       <div
-        onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+        onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
         class="navbar-burger burger"
         data-target="navWedsite"
       >
@@ -27,49 +27,49 @@
           <a
             href="/#informations"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Informations</a>
         </div>
         <div class="navbar-item is-hoverable">
           <a
             href="/#deroulement"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Deroulement</a>
         </div>
         <div class="navbar-item is-hoverable">
           <a
             href="/#hebergements"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Hebergements</a>
         </div>
         <div class="navbar-item is-hoverable">
           <a
             href="/#photos"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Photos</a>
         </div>
         <div class="navbar-item is-hoverable">
           <a
             href="/#listeDeMariage"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Liste de Mariage</a>
         </div>
         <div class="navbar-item is-hoverable">
           <a
             href="/#contact"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Contact</a>
         </div>
         <div class="navbar-item is-hoverable">
           <nuxt-link
             to="/Jeu"
             class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Jeu</nuxt-link>
         </div>
       </div>
