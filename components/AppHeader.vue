@@ -65,6 +65,7 @@
             onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Contact</a>
         </div>
+        <!--
         <div class="navbar-item is-hoverable">
           <nuxt-link
             to="/Jeu"
@@ -72,6 +73,7 @@
             onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
           >Jeu</nuxt-link>
         </div>
+        -->
       </div>
     </div>
   </nav>
