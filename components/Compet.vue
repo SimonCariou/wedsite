@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<style type="text/css">
+<style type="text/css" scoped>
 body {
   margin: 0;
   padding: 0;
