@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Welcome from "~/components/Welcome.vue";
-import Informations from "~/components/Informations.vue";
-import Deroulement from "~/components/Deroulement.vue";
-import Hebergements from "~/components/Hebergements.vue";
-import Photos from "~/components/Photos.vue";
-import ListeMariage from "~/components/ListeMariage.vue";
-import Contact from "~/components/Contact.vue";
+import Welcome from "~/components/1_Welcome.vue";
+import Informations from "~/components/2_Informations.vue";
+import Deroulement from "~/components/3_Deroulement.vue";
+import Hebergements from "~/components/4_Hebergements.vue";
+import Photos from "~/components/5_Photos.vue";
+import ListeMariage from "~/components/6_ListeMariage.vue";
+import Contact from "~/components/7_Contact.vue";
 
 export default {
   components: {

@@ -14,13 +14,17 @@ export default {
     link: [
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
-
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
       }
     ],
     script: [
       { src: 'https://static.miniclipcdn.com/js/game-embed.js' },
       { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
-      { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' }
+      { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
+
 
     ]
   },
