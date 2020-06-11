@@ -5,23 +5,37 @@
         class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"
       >
         <div id="lottie-container">
-          <lottie-player
-            id="firstLottie"
-            ref="myRef"
-            mode="normal"
-            autoplay
-            src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
-            style="height:100%; position: relative;margin:auto"
-          ></lottie-player>
+          <div class="animate__animated animate__fadeIn animate__delay-3s">
+            <lottie-player
+              id="firstLottie"
+              ref="myRef"
+              mode="normal"
+              autoplay
+              loop
+              src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
+              style="height:100%; position: relative;margin:auto"
+            ></lottie-player>
+          </div>
+
           <div class="is-overlaying-lottie">
-            <h1 class="title is-size-2-mobile is-size-1-desktop">BIENVENUE !</h1>
+            <h1
+              class="title is-size-2-mobile is-size-1-desktop animate__animated animate__fadeInRight"
+            >BIENVENUE !</h1>
             <h2
-              class="subtitle is-size-4-mobile is-size-3-desktop"
+              class="subtitle is-size-4-mobile is-size-3-desktop animate__animated animate__fadeInLeft animate__delay-1s"
             >Rox et Sim se marient le 5 decembre 2020</h2>
-            <span class="bd-emoji">❤️</span>
+            <br />
+            <h3
+              class="is-size-5-mobile is-size-4-desktop animate__animated animate__fadeInRight animate__delay-2s"
+            >Scrollez pour en savoir plus 😉</h3>
           </div>
         </div>
       </div>
+    </div>
+    <div class="hero-foot">
+      <a href="#informations">
+        <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
+      </a>
     </div>
   </section>
 </template>
@@ -65,4 +79,41 @@ export default {
   position: absolute
   right: 0
   top: 0
+
+.arrow,
+.arrow:before
+  position: absolute
+  left: 50%
+
+.arrow
+  width: 24px
+  height: 24px
+  bottom: 4vh
+  margin: -12px 0 0 -12px
+  -webkit-transform: rotate(45deg)
+  border-left: none
+  border-top: none
+  border-right: 2px #fff solid
+  border-bottom: 2px #fff solid
+
+.arrow:before
+  content: ''
+  width: 20px
+  height: 20px
+  top: 50%
+  margin: -10px 0 0 -10px
+  border-left: none
+  border-top: none
+  border-right: 1px #fff solid
+  border-bottom: 1px #fff solid
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-name: arrow
+
+@keyframes arrow
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+    transform: translate(-10px, -10px)
 </style>
