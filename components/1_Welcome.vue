@@ -19,12 +19,12 @@
 
           <div class="is-overlaying-lottie">
             <h1
-              class="title is-size-2-mobile is-size-1-desktop animate__animated animate__fadeInRight"
-            >BIENVENUE !</h1>
+              class="title is-size-1-mobile is-size-1-desktop animate__animated animate__fadeInRight"
+            >Bienvenue.</h1>
             <h2
               class="subtitle is-size-4-mobile is-size-3-desktop animate__animated animate__fadeInLeft animate__delay-1s"
-            >Rox et Sim se marient le 5 decembre 2020</h2>
-            <br />
+            >On se marie le 5 decembre 2020 !</h2>
+
             <h3
               class="is-size-5-mobile is-size-4-desktop animate__animated animate__fadeInRight animate__delay-2s"
             >Scrollez pour en savoir plus 😉</h3>
@@ -70,7 +70,7 @@ export default {
   left: 0
   position: absolute
   right: 0
-  top: calc((100vh - 3.25rem) / 2.2)
+  top: calc((100vh - 3.25rem) / 2.4)
   padding: 0 1rem
 
 #firstLottie

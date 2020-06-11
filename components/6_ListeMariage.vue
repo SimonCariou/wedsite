@@ -1,7 +1,7 @@
  <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
-      <h1 class="title is-size-3-mobile is-size-2-tablet">LISTE DE MARIAGE</h1>
+      <h1 class="title is-size-3-mobile is-size-1-tablet">Liste de Mariage</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">

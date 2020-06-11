@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
-      <h1 class="title is-size-3-mobile is-size-2-tablet">CONTACT</h1>
+      <h1 class="title is-size-3-mobile is-size-1-tablet">Contact</h1>
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Envoyez nous un mail si vous avez des questions.</h2>

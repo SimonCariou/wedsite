@@ -1,7 +1,7 @@
 <template>
   <section id="informations" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
-      <h1 class="title is-size-3-mobile is-size-2-tablet">INFORMATIONS</h1>
+      <h1 class="title is-size-3-mobile is-size-1-tablet">Informations</h1>
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Tout ce que vous avez besoin de savoir sur le lieu</h2>

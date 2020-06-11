@@ -11,6 +11,15 @@
   font-family: "Lato"
   src: url("~assets/fonts/Lato/Lato-Regular.ttf") format("truetype")
 
+// rest of the page (BIS)
+@font-face
+  font-family: "Work Sans regular"
+  src: url("~assets/fonts/Work_Sans/work-sans-v7-latin-regular.ttf") format("truetype")
+
+@font-face
+  font-family: "Work Sans bold"
+  src: url("~assets/fonts/Work_Sans/work-sans-v7-latin-600.ttf") format("truetype")
+
 html
   overflow-y: scroll
   -webkit-overflow-scrolling: touch
@@ -20,10 +29,14 @@ section
   scroll-snap-align: end
 
 body, input, textarea,  button
-  font-family: "Lato", sans-serif
+  font-family: "Work Sans regular", sans-serif
 
 h1
-  font-family: "Kano", sans-serif
+  font-family: "Work Sans bold", sans-serif
+
+@media screen and (min-width: 1024px)
+  .is-size-1-desktop
+    font-size: 5rem !important
 
 div.has-navbar-fixed-top
   padding-top: 3.25rem
