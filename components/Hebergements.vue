@@ -1,8 +1,10 @@
 <template>
   <section id="hebergements" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
-      <h1 class="title is-4">HEBERGEMENTS</h1>
-      <h2 class="subtitle">Liste des endroits ou dormir dans le coin.</h2>
+      <h1 class="title is-size-3-mobile is-size-2-tablet">HEBERGEMENTS</h1>
+      <h2
+        class="subtitle is-size-5-mobile is-size-4-tablet"
+      >Liste des endroits ou dormir dans le coin.</h2>
     </div>
     <div class="columns hero-body">
       <div class="column has-text-left">

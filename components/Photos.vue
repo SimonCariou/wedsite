@@ -1,8 +1,8 @@
 <template>
   <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
-      <h1 class="title is-4">PHOTOS</h1>
-      <h2 class="subtitle">Explications</h2>
+      <h1 class="title is-size-3-mobile is-size-2-tablet">PHOTOS</h1>
+      <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">
       <div class="column is-half-desktop is-full-mobile">
