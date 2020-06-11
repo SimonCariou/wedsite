@@ -1,20 +1,23 @@
 <template>
-  <section id="welcome" class="hero is-fullheight-with-navbar is-primary is-bold">
+  <section id="welcome" class="hero is-fullheight-with-navbar is-primary">
     <div class="hero-body columns is-centered">
-      <div class="column has-text-centered is-half-desktop is-full-mobile is-two-fifths-tablet">
+      <div
+        class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"
+      >
         <div id="lottie-container">
           <lottie-player
             id="firstLottie"
             ref="myRef"
             mode="normal"
             autoplay
-            loop
             src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
             style="height:100%; position: relative;margin:auto"
           ></lottie-player>
           <div class="is-overlaying-lottie">
-            <h1 class="title is-3">BIENVENUE !</h1>
-            <h2 class="subtitle is-5">Rox et Sim se marient le 5 decembre 2020</h2>
+            <h1 class="title is-size-2-mobile is-size-1-desktop">BIENVENUE !</h1>
+            <h2
+              class="subtitle is-size-4-mobile is-size-3-desktop"
+            >Rox et Sim se marient le 5 decembre 2020</h2>
             <span class="bd-emoji">❤️</span>
           </div>
         </div>
@@ -53,7 +56,8 @@ export default {
   left: 0
   position: absolute
   right: 0
-  top: calc((100vh - 3.25rem) / 2)
+  top: calc((100vh - 3.25rem) / 2.2)
+  padding: 0 1rem
 
 #firstLottie
   bottom: 0
@@ -61,8 +65,4 @@ export default {
   position: absolute
   right: 0
   top: 0
-
-.subtitle
-  padding-left: 10px
-  padding-right: 10px
 </style>
