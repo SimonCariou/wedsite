@@ -1,3 +1,5 @@
+CETTE BRANCHE EST UNIQUEMENT DESTINEE A TESTER LES DEPLOYS SUR NETFLIFY.
+
 # wedsite
 
 > My breathtaking Nuxt.js project
