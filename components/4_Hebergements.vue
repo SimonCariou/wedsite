@@ -12,7 +12,7 @@
           <!--DESKTOP-->
 
           <div
-            class="column is-two-fifths-desktop is-half-tablet is-full-mobile is-hidden-mobile is-flex-desktop is-flex-tablet"
+            class="column is-one-third-desktop is-half-tablet is-full-mobile is-hidden-mobile is-flex-desktop is-flex-tablet"
           >
             <div class="card">
               <div class="card-image">
@@ -41,7 +41,7 @@
           </div>
 
           <div
-            class="column is-two-fifths-desktop is-half-tablet is-full-mobile is-hidden-mobile is-flex-desktop is-flex-tablet"
+            class="column is-one-third-desktop is-half-tablet is-full-mobile is-hidden-mobile is-flex-desktop is-flex-tablet"
           >
             <div class="card">
               <div class="card-image">

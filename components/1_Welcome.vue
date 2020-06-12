@@ -19,10 +19,10 @@
 
           <div class="is-overlaying-lottie">
             <h1
-              class="title is-size-1-mobile is-size-1-desktop animate__animated animate__fadeInRight"
+              class="title is-size-1-mobile is-size-0-desktop is-size-0-tablet animate__animated animate__fadeInRight"
             >Bienvenue.</h1>
             <h2
-              class="subtitle is-size-4-mobile is-size-3-desktop animate__animated animate__fadeInRight animate__delay-1s"
+              class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
             >On se marie le 5 decembre 2020 !</h2>
 
             <h3
