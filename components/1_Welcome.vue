@@ -88,7 +88,7 @@ export default {
 .arrow
   width: 24px
   height: 24px
-  bottom: 4%
+  bottom: 40px
   margin: -12px 0 0 -12px
   -webkit-transform: rotate(45deg)
   border-left: none
