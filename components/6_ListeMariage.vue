@@ -5,7 +5,7 @@
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
     <div class="hero-body columns is-multiline is-centered">
-      <div class="column is-half-desktop is-half-tablet is-full-mobile">
+      <div class="column is-two-fifths-desktop is-three-quarters-tablet is-full-mobile">
         <div class="snapscroll-parent">
           <div class="card snapscroll-child">
             <div class="card-image">
