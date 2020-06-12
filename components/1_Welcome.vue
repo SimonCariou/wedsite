@@ -22,18 +22,18 @@
               class="title is-size-1-mobile is-size-1-desktop animate__animated animate__fadeInRight"
             >Bienvenue.</h1>
             <h2
-              class="subtitle is-size-4-mobile is-size-3-desktop animate__animated animate__fadeInLeft animate__delay-1s"
+              class="subtitle is-size-4-mobile is-size-3-desktop animate__animated animate__fadeInRight animate__delay-1s"
             >On se marie le 5 decembre 2020 !</h2>
 
             <h3
               class="is-size-5-mobile is-size-4-desktop animate__animated animate__fadeInRight animate__delay-2s"
-            >Scrollez pour en savoir plus 😉</h3>
+            >Scrollez pour en savoir plus</h3>
           </div>
         </div>
       </div>
     </div>
     <div class="hero-foot">
-      <a href="#informations">
+      <a href="#informations" class="scroll-next">
         <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
       </a>
     </div>
@@ -88,7 +88,7 @@ export default {
 .arrow
   width: 24px
   height: 24px
-  bottom: 4vh
+  bottom: 4%
   margin: -12px 0 0 -12px
   -webkit-transform: rotate(45deg)
   border-left: none
@@ -117,3 +117,4 @@ export default {
     opacity: 0
     transform: translate(-10px, -10px)
 </style>
+
