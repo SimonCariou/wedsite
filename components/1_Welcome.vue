@@ -46,7 +46,7 @@ export default {
   },
   methods: {
     scrollTo() {
-      window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+      window.scrollTo({ top: window.innerHeight - 52, behavior: "smooth" });
     }
   }
 };

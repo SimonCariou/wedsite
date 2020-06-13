@@ -69,7 +69,7 @@ export default {
     },
     clickOnItem(index) {
       this.toggleMenu();
-      this.scrollTo(window.outerHeight * index);
+      this.scrollTo((window.innerHeight - 52) * index);
     },
     scrollTo(top) {
       window.scrollTo({ top: top, behavior: "smooth" });
