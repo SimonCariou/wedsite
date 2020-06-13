@@ -1,11 +1,11 @@
 <template>
-  <div class>
+  <div>
     <Welcome />
     <Informations />
     <Deroulement />
     <Hebergements />
     <Photos />
-    <ListeMariage />
+    <!-- <ListeMariage />-->
     <Contact />
   </div>
 </template>
@@ -31,3 +31,6 @@ export default {
   }
 };
 </script>
+
+<style lang="sass">
+</style>

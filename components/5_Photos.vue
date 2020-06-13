@@ -2,121 +2,29 @@
   <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-size-3-mobile is-size-1-tablet">Photos</h1>
-      <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
+      <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
     </div>
-    <div class="hero-body columns is-multiline is-centered">
-      <div class="column is-two-fifths-desktop is-three-quarters-tablet is-full-mobile">
-        <div class="snapscroll-parent">
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2013.jpg" alt="CDMGE" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2013-6-1">6 Juin 2013</time>
-                <br />Premiere CDMGE pour encourager Roxane aux pompom girls.
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-mobile">
+          <div
+            v-for="card in cards"
+            :key="card.description"
+            class="column is-12-mobile is-6-tablet"
+          >
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img :src="card.image" :alt="card.alternative_description" />
+                </figure>
               </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="@/components/images/scrollsnap_photos/2014.png"
-                  alt="Match de football americain au Texas"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2014-11-27">27 Novembre 2014</time>
-                <br />Visite de Roxane au Texas pour voir un match de football americain universitaire.
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2015.png" alt="Soiree EPF" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2015-4-18">18 Avril 2015</time>
-                <br />Soiree Versus EPF - Campagne BDE.
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2016.jpg" alt="Tour Eiffel" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2013-1-1">14 Septembre 2016</time>
-                <br />A l'assaut de la tour Eiffel.
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="@/components/images/scrollsnap_photos/2017.jpg"
-                  alt="Mariage Pierre-Yves et Elodie"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2013-1-1">13 Mai 2017</time>
-                <br />Mariage de Pierre-Yves et Elodie Cariou
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2018.jpg" alt="Opera Garnier" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2018-8-28">28 Aout 2018</time>
-                <br />Avec un style fantome pendant l'escape game de l'Opera Garnier
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="@/components/images/scrollsnap_photos/2019.jpg"
-                  alt="Paris - Hotel de Ville"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2019-4-20">20 Avril 2019</time>
-                <br />Sortie champetre a Paris sur la place de l'hotel de ville.
-              </div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/components/images/scrollsnap_photos/2020.jpg" alt="Saint Valentin" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <time datetime="2020-2-14">14 Fevrier 2020</time>
-                <br />Apero a l'appartement pour la Saint Valentin. Encore jeunes et innoncents, prets a etre confines pendant 3 mois
+              <div class="card-content">
+                <div class="content">
+                  <div>
+                    <p>{{ card.date }}</p>
+                    <p>{{ card.description }}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -126,51 +34,80 @@
   </section>
 </template>
 
-<style scoped>
-.snapscroll-parent {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
-}
+<script>
+export default {
+  data() {
+    return {
+      cards: [
+        {
+          image: "@/components/images/scrollsnap_photos/2013.jpg",
+          alternative_description: "CDMGE",
+          date: "6 Juin 2013",
+          description: "Premiere CDMGE pour encourager Roxane aux pompom girls."
+        },
+        {
+          image: "@/components/images/scrollsnap_photos/2014.png",
+          alternative_description: "Match de football americain au Texas",
+          date: "27 Novembre 2014",
+          description:
+            "Visite de Roxane au Texas pour voir un match de football americain universitaire."
+        }
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2015.png",
+        //   alternative_description: "Soirée EPF",
+        //   date: "18 Avril 2015",
+        //   description: "Soiree Versus EPF - Campagne BDE."
+        // },
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2016.jpg",
+        //   alternative_description: "Tour Eiffel",
+        //   date: "14 Septembre 2016",
+        //   description: "A l'assaut de la tour Eiffel."
+        // },
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2017.jpg",
+        //   alternative_description: "Mariage Pierre-Yves et Elodie",
+        //   date: "13 Mai 2017",
+        //   description: "Mariage de Pierre-Yves et Elodie Cariou."
+        // },
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2018.jpg",
+        //   alternative_description: "Opera Garnier",
+        //   date: "28 Aout 2018",
+        //   description:
+        //     "Avec un style fantome pendant l'escape game de l'Opera Garnier."
+        // },
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2019.jpg",
+        //   alternative_description: "Paris - Hotel de Ville",
+        //   date: "20 Avril 2019",
+        //   description:
+        //     "Sortie champêtre à Paris sur la place de l'hotel de ville."
+        // },
+        // {
+        //   image: "@/components/images/scrollsnap_photos/2020.jpg",
+        //   alternative_description: "Saint Valentin 2020",
+        //   date: "14 Fevrier 2020",
+        //   description:
+        //     "Apéro à l'appartement pour la Saint Valentin. Encore jeunes et innoncents, prets à être confinés pendant 3 mois."
+        // }
+      ]
+    };
+  }
+};
+</script>
 
-.snapscroll-child {
-  position: relative;
-  margin: 0.5rem;
-  scroll-snap-align: center;
-}
+<style scoped lang="sass">
+.columns
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+  scroll-snap-type: x mandatory
 
-.snapscroll-child:nth-child(1) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(2) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(3) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(4) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(5) {
-  flex: 0 0 85%;
-}
-
-.snapscroll-child:nth-child(6) {
-  flex: 0 0 85%;
-}
-.snapscroll-child:nth-child(7) {
-  flex: 0 0 85%;
-}
-.snapscroll-child:nth-child(8) {
-  flex: 0 0 85%;
-}
+  .column
+    scroll-snap-align: center
+.card
+  display: flex
+  flex-direction: column
+  height: 100%
+  justify-content: space-between
 </style>
-

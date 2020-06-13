@@ -33,12 +33,24 @@
       </div>
     </div>
     <div class="hero-foot">
-      <a href="#informations" class="scroll-next">
+      <span class="scroll-next" @click="scrollTo()">
         <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
-      </a>
+      </span>
     </div>
   </section>
 </template>
+<script>
+export default {
+  mounted() {
+    console.log(this.$refs);
+  },
+  methods: {
+    scrollTo() {
+      window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+    }
+  }
+};
+</script>
 <!--
 <script>
 import { create } from "@lottiefiles/lottie-interactivity";
@@ -65,56 +77,59 @@ export default {
 </script>
 -->
 <style lang="sass" scoped>
-.is-overlaying-lottie
-  bottom: 0
-  left: 0
-  position: absolute
-  right: 0
-  top: calc((100vh - 3.25rem) / 2.4)
-  padding: 0 1rem
+#welcome
+  max-width: 100vw
+  overflow: hidden
+  .is-overlaying-lottie
+    bottom: 0
+    left: 0
+    position: absolute
+    right: 0
+    top: calc((100vh - 3.25rem) / 2.4)
+    padding: 0 1rem
 
-#firstLottie
-  bottom: 0
-  left: 0
-  position: absolute
-  right: 0
-  top: 0
+  #firstLottie
+    bottom: 0
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
 
-.arrow,
-.arrow:before
-  position: absolute
-  left: 50%
+  .arrow,
+  .arrow:before
+    position: absolute
+    left: 50%
 
-.arrow
-  width: 24px
-  height: 24px
-  bottom: 40px
-  margin: -12px 0 0 -12px
-  -webkit-transform: rotate(45deg)
-  border-left: none
-  border-top: none
-  border-right: 2px #fff solid
-  border-bottom: 2px #fff solid
+  .arrow
+    width: 24px
+    height: 24px
+    bottom: 40px
+    margin: -12px 0 0 -12px
+    -webkit-transform: rotate(45deg)
+    border-left: none
+    border-top: none
+    border-right: 2px #fff solid
+    border-bottom: 2px #fff solid
 
-.arrow:before
-  content: ''
-  width: 20px
-  height: 20px
-  top: 50%
-  margin: -10px 0 0 -10px
-  border-left: none
-  border-top: none
-  border-right: 1px #fff solid
-  border-bottom: 1px #fff solid
-  animation-duration: 2s
-  animation-iteration-count: infinite
-  animation-name: arrow
+  .arrow:before
+    content: ''
+    width: 20px
+    height: 20px
+    top: 50%
+    margin: -10px 0 0 -10px
+    border-left: none
+    border-top: none
+    border-right: 1px #fff solid
+    border-bottom: 1px #fff solid
+    animation-duration: 2s
+    animation-iteration-count: infinite
+    animation-name: arrow
 
-@keyframes arrow
-  0%
-    opacity: 1
-  100%
-    opacity: 0
-    transform: translate(-10px, -10px)
+  @keyframes arrow
+    0%
+      opacity: 1
+    100%
+      opacity: 0
+      transform: translate(-10px, -10px)
 </style>
 

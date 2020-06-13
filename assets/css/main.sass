@@ -1,3 +1,5 @@
+// $tablet: 568px
+
 @import "~/node_modules/bulma/bulma.sass"
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
 
@@ -25,8 +27,8 @@ html
   -webkit-overflow-scrolling: touch
   scroll-snap-type: y proximity
 
-section
-  scroll-snap-align: end
+  section
+    scroll-snap-align: end
 
 body, input, textarea,  button
   font-family: "Work Sans regular", sans-serif
@@ -62,11 +64,12 @@ div.has-navbar-fixed-top
   padding-bottom: 0.5rem
 
 //custom:
-.container.is-full-width
-  max-width: none
-  width: 100%
+// .container.is-full-width
+//   max-width: none
+//   width: 100%
 
 // setting custom color for the hero banners to make it more wintery
+
 .hero.is-primary
   background-color: #042709
   color: #fff
