@@ -1,18 +1,19 @@
 <template>
-  <nav class="navbar is-fixed-top container is-full-width">
+  <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
-      <nuxt-link to="/#welcome" class="navbar-item">
+      <a to="/#welcome" class="navbar-item" @click="scrollTo(0)">
         <img
           src="@/components/images/roxetsim.png"
           alt="mariage rox et simon"
           width="112"
           height="28"
         />
-      </nuxt-link>
+      </a>
 
       <div
-        onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
+        @click="toggleMenu()"
         class="navbar-burger burger"
+        :class="{'is-active': isMenuOpen}"
         data-target="navWedsite"
       >
         <span></span>
@@ -21,57 +22,32 @@
       </div>
     </div>
 
-    <div id="navWedsite" class="navbar-menu">
+    <div id="navWedsite" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#informations"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Informations</a>
+          <a @click="clickOnItem(1)">Informations</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#deroulement"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Deroulement</a>
+          <a @click="clickOnItem(2)">Deroulement</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#hebergements"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Hebergements</a>
+          <a @click="clickOnItem(3)">Hebergements</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#photos"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Photos</a>
+          <a @click="clickOnItem(4)">Photos</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#listeDeMariage"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Liste de Mariage</a>
+          <a @click="clickOnItem(5)">Liste de Mariage</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a
-            href="/#contact"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Contact</a>
+          <a @click="clickOnItem(6)">Contact</a>
         </div>
         <!--
         <div class="navbar-item is-hoverable">
           <nuxt-link
             to="/Jeu"
-            class="is-active"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')"
-          >Jeu</nuxt-link>
+
+             @click="toggleMenu()">Jeu</nuxt-link>
         </div>
         -->
       </div>
@@ -81,12 +57,29 @@
 
 <script>
 export default {
-  name: "AppHeader"
+  name: "AppHeader",
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
+    clickOnItem(index) {
+      this.toggleMenu();
+      this.scrollTo(window.outerHeight * index);
+    },
+    scrollTo(top) {
+      window.scrollTo({ top: top, behavior: "smooth" });
+    }
+  }
 };
 </script>
 
 <style scoped>
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,5 +89,5 @@ export default {
 }
 .header ul {
   display: flex;
-}
+} */
 </style>
