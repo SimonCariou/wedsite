@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
-      <a to="/#welcome" class="navbar-item" @click="scrollTo(0)">
+      <a class="navbar-item" @click="clickOnBrand()">
         <img
           src="@/components/images/roxetsim.png"
           alt="mariage rox et simon"
@@ -67,9 +67,19 @@ export default {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
+    closeMenu() {
+      if (this.isMenuOpen) {
+        this.isMenuOpen = false;
+      } else {
+      }
+    },
     clickOnItem(index) {
       this.toggleMenu();
       this.scrollTo((window.innerHeight - 52) * index);
+    },
+    clickOnBrand() {
+      this.closeMenu();
+      this.scrollTo(0);
     },
     scrollTo(top) {
       window.scrollTo({ top: top, behavior: "smooth" });
