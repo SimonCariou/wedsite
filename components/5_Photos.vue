@@ -46,14 +46,14 @@ export default {
           description: "Premiere CDMGE pour encourager Roxane aux pompom girls."
         },
         {
-          image: require("@/assets/images/scrollsnap_photos/2014.png"),
+          image: require("@/assets/images/scrollsnap_photos/2014.jpg"),
           alternative_description: "Match de football americain au Texas",
           date: "27 Novembre 2014",
           description:
             "Visite de Roxane au Texas pour voir un match de football americain universitaire."
         },
         {
-          image: require("@/assets/images/scrollsnap_photos/2015.png"),
+          image: require("@/assets/images/scrollsnap_photos/2015.jpg"),
           alternative_description: "Soirée EPF",
           date: "18 Avril 2015",
           description: "Soiree Versus EPF - Campagne BDE."
