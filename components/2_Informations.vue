@@ -22,7 +22,7 @@
               </div>
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <img src="@/components/images/sully.jpg" alt="Sully" />
+                  <img src="@/assets/images/sully.jpg" alt="Sully" />
                 </figure>
               </div>
             </div>
@@ -43,7 +43,7 @@
                         class="image is-32x32"
                         style="display:inline-block; vertical-align:middle; margin-left:0.25rem"
                       >
-                        <img src="@/components/images/waze_logo.png" alt="Logo Waze" />
+                        <img src="@/assets/images/waze_logo.png" alt="Logo Waze" />
                       </figure>
                     </a>
                   </p>
@@ -82,7 +82,7 @@
 //           content: "Village de Sully",
 //           description:
 //             "Petit village Francais privatise avec ses commerces et son lavoir",
-//           media: "@/components/images/sully.jpg"
+//           media: "@/assets/images/sully.jpg"
 //         },
 //         {
 //           title: "COMMENT S'Y RENDRE",
@@ -90,7 +90,7 @@
 //           content: "Village de Sully",
 //           description:
 //             "Petit village Francais privatise avec ses commerces et son lavoir",
-//           media: "@/components/images/sully.jpg"
+//           media: "@/assets/images/sully.jpg"
 //         }
 //       ]
 //     };

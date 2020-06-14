@@ -2,12 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <a class="navbar-item" @click="clickOnBrand()">
-        <img
-          src="@/components/images/roxetsim.png"
-          alt="mariage rox et simon"
-          width="112"
-          height="28"
-        />
+        <img src="@/assets/images/roxetsim.png" alt="mariage rox et simon" width="112" height="28" />
       </a>
 
       <div

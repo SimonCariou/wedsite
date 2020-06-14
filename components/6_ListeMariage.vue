@@ -10,7 +10,7 @@
           <div class="card snapscroll-child">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="@/components/images/liste_de_mariage/hawaii.jpg" alt="Hawaii" />
+                <img src="@/assets/images/liste_de_mariage/hawaii.jpg" alt="Hawaii" />
               </figure>
             </div>
             <div class="card-content">
@@ -21,7 +21,7 @@
             <div class="card-image">
               <figure class="image is-4by3">
                 <img
-                  src="@/components/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"
+                  src="@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"
                   alt="Batterie cuisine"
                 />
               </figure>
