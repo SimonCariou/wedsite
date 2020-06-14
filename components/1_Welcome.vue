@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="hero-foot">
+    <div class="hero-foot is-hidden-touch">
       <span class="scroll-next" @click="scrollTo()">
         <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
       </span>
