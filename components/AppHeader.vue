@@ -75,6 +75,7 @@ export default {
     },
     clickOnItem(index) {
       this.toggleMenu();
+      this.scrollTo(0, 1);
       this.scrollTo((window.innerHeight - 52) * index);
     },
     clickOnBrand() {
