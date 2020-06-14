@@ -2,12 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <a class="navbar-item" @click="clickOnBrand()">
-        <img
-          src="@/components/images/roxetsim.png"
-          alt="mariage rox et simon"
-          width="112"
-          height="28"
-        />
+        <img src="@/assets/images/roxetsim.png" alt="mariage rox et simon" width="112" height="28" />
       </a>
 
       <div
@@ -75,7 +70,6 @@ export default {
     },
     clickOnItem(index) {
       this.toggleMenu();
-      this.scrollTo(0, 1);
       this.scrollTo((window.innerHeight - 52) * index);
     },
     clickOnBrand() {
