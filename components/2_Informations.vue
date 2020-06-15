@@ -1,12 +1,12 @@
 <template>
   <section id="informations" class="hero is-fullheight-with-navbar">
-    <div class="hero-head">
+    <div class="hero-head observedElement">
       <h1 class="title is-size-3-mobile is-size-1-tablet">Informations</h1>
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Tout ce que vous avez besoin de savoir sur le lieu</h2>
     </div>
-    <div class="hero-body">
+    <div class="hero-body observedElement">
       <div class="container">
         <div class="columns is-mobile">
           <div class="column is-11-mobile is-6-tablet">

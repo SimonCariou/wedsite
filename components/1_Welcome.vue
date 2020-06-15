@@ -1,5 +1,5 @@
 <template>
-  <section id="welcome" class="hero is-fullheight-with-navbar is-primary">
+  <section id="welcome" class="hero is-fullheight-with-navbar is-primary observedElement">
     <div class="hero-body columns is-centered">
       <div
         class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"

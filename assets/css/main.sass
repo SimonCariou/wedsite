@@ -92,3 +92,24 @@ div.has-navbar-fixed-top
 
 .hero.is-maroon .subtitle
   color: #fff
+
+//For animating the text when entering the VP
+.in-view
+  animation: animate-in-view .6s ease-out forwards
+  opacity: 1
+
+@keyframes animate-in-view
+  0%
+    transform: translate3d(0) scale(1.1)
+    opacity: 0
+
+  35%
+    transform: translate3d(0) scale(1.1)
+    opacity: 0
+
+  100%
+    opacity: 1
+
+  //by default not visible. If not set, it blinked when applying in-view class because resetting the opacity to 0 before setting it up to 1
+.observedElement
+  opacity: 0
