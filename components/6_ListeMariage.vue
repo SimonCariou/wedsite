@@ -1,120 +1,37 @@
- <template>
-  <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
+<template>
+  <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head">
       <h1 class="title is-size-3-mobile is-size-1-tablet">Liste de Mariage</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
-    <div class="hero-body columns is-multiline is-centered">
-      <div class="column is-two-fifths-desktop is-three-quarters-tablet is-full-mobile">
-        <div class="snapscroll-parent">
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/liste_de_mariage/hawaii.jpg" alt="Hawaii" />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Voyage de noce a Hawaii !!</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"
-                  alt="Batterie cuisine"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div
-                class="content"
-              >Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
-            </div>
-          </div>
-          <div class="card snapscroll-child">
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <img
-                  src="https://bulma.io/images/placeholders/1280x960.png"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">Item numero 1</div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-mobile">
+          <div
+            v-for="card in cards"
+            :key="card.description"
+            class="column is-11-mobile is-5-tablet"
+          >
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img :src="card.image" :alt="card.alternative_description" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <div>
+                    <p>{{ card.description }}</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="column is-full-desktop is-full-tablet is-full-mobile" style="z-index:1">
-        <Paypal />
-      </div>
+    </div>
+    <div class="container">
+      <Paypal />
     </div>
   </section>
 </template>
@@ -124,47 +41,69 @@ import Paypal from "~/components/Paypal.vue";
 export default {
   components: {
     Paypal
+  },
+  data() {
+    return {
+      cards: [
+        {
+          image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
+          alternative_description: "Hawaii",
+          description: "Voyage de noce a Hawaii !!"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
+          alternative_description: "Batterie de cuisine.",
+          description:
+            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level."
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "1"
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "2"
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "3"
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "4"
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "5"
+        },
+        {
+          image: "https://bulma.io/images/placeholders/1280x960.png",
+          alternative_description: "xx",
+          description: "6"
+        }
+      ]
+    };
   }
 };
 </script>
 
-<style scoped lang='sass'>
-.snapscroll-parent
-  display: flex
-  width: 100%
-  height: 100%
-  margin: 0 auto
+<style scoped lang="sass">
+.columns
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
+  width: 100%
+  max-width: 100vw
 
-.snapscroll-child
-  position: relative
-  margin: 0.5rem
-  scroll-snap-align: center
-
-  &:nth-child(1)
-    flex: 0 0 85%
-
-  &:nth-child(2)
-    flex: 0 0 85%
-
-  &:nth-child(3)
-    flex: 0 0 85%
-
-  &:nth-child(4)
-    flex: 0 0 85%
-
-  &:nth-child(5)
-    flex: 0 0 85%
-
-  &:nth-child(6)
-    flex: 0 0 85%
-
-  &:nth-child(7)
-    flex: 0 0 85%
-
-  &:nth-child(8)
-    flex: 0 0 85%
+  .column
+    scroll-snap-align: center
+.card
+  display: flex
+  flex-direction: column
+  height: 100%
 </style>
-

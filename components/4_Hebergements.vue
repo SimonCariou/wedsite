@@ -67,6 +67,8 @@ export default {
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
+  width: 100%
+  max-width: 100vw
 
   .column
     scroll-snap-align: center

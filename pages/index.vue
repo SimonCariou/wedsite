@@ -5,7 +5,7 @@
     <Deroulement />
     <Hebergements />
     <Photos />
-    <!-- <ListeMariage />-->
+    <ListeMariage />
     <Contact />
   </div>
 </template>
