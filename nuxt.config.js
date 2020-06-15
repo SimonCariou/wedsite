@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -54,7 +53,7 @@ export default {
 
     { src: '@/plugins/form_submission_handler.js', ssr: false },
     //{ src: '@/assets/js/game.js', ssr: false }
-
+    // { src: '@/assets/js/animateText.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
