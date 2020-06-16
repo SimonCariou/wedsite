@@ -114,4 +114,9 @@
   flex-direction: column
   height: 100%
   justify-content: space-between
+
+  .card-image
+    figure
+      img, iframe
+        border-radius: 0 0 15px 15px
 </style>
