@@ -6,7 +6,7 @@
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Envoyez nous un mail si vous avez des questions.</h2>
     </div>
-    <div class="hero-body observedElement observedCarousel">
+    <div class="hero-body observedElement observedSectionBody">
       <form
         class="gform"
         method="POST"

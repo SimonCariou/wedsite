@@ -6,7 +6,7 @@
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Tout ce que vous avez besoin de savoir sur le lieu</h2>
     </div>
-    <div class="hero-body observedElement observedCarousel">
+    <div class="hero-body observedElement observedSectionBody">
       <div class="container">
         <div class="columns is-mobile">
           <div class="column is-11-mobile is-6-tablet">
