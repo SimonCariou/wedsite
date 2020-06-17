@@ -36,11 +36,17 @@ export default {
         for (var i in entries) {
           entries.forEach(function(entry) {
             if (entry.isIntersecting) {
+              console.log("entry.isIntersecting: " + entry.isIntersecting);
               entry.target.classList.add("in-view");
-              console.log("entry.isIntersecting: " + entry.isIntersecting);
             } else {
-              //entry.target.classList.remove("in-view");
               console.log("entry.isIntersecting: " + entry.isIntersecting);
+              if (entry.target.classList.contains("observedCarousel")) {
+                entry.target.classList.remove("in-view");
+              } else {
+                console.log(
+                  "Here we leave the class in-view because we don't want to hide the photos once they are displayed"
+                );
+              }
             }
           });
         }
