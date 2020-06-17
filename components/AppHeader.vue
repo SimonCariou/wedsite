@@ -20,22 +20,22 @@
     <div id="navWedsite" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(1)">Informations</a>
+          <a @click="toggleMenu()" href="/#informations">Informations</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(2)">Deroulement</a>
+          <a @click="toggleMenu()" href="/#deroulement">Deroulement</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(3)">Hebergements</a>
+          <a @click="toggleMenu()" href="/#hebergements">Hebergements</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(4)">Photos</a>
+          <a @click="toggleMenu()" href="/#photos">Photos</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(5)">Liste de Mariage</a>
+          <a @click="toggleMenu()" href="/#listeDeMariage">Liste de Mariage</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="clickOnItem(6)">Contact</a>
+          <a @click="toggleMenu()" href="/#contact">Contact</a>
         </div>
         <!--
         <div class="navbar-item is-hoverable">
@@ -61,6 +61,7 @@ export default {
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
+      console.log("toggle");
     },
     closeMenu() {
       if (this.isMenuOpen) {
@@ -68,18 +69,12 @@ export default {
       } else {
       }
     },
-    clickOnItem(index) {
-      this.toggleMenu();
-      this.scrollTo((window.innerHeight - 52) * index);
-    },
     clickOnBrand() {
       this.closeMenu();
-      this.scrollTo(0);
-    },
-    scrollTo(top) {
-      window.scrollTo({ top: top, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  }
+  },
+  mounted() {}
 };
 </script>
 
