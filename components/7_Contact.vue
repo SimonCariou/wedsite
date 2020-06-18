@@ -35,8 +35,22 @@
         </div>
 
         <div>
-          <input type="submit" value="Envoyer" class="button is-primary" />
+          <input
+            id="idBtnSubmit"
+            ref="refBtnSubmit"
+            type="submit"
+            value="Envoyer"
+            class="button is-primary"
+            @click="displaySpinner()"
+          />
         </div>
+        <progress
+          id="idProgressBarMail"
+          ref="refProgressBarMail"
+          class="progress is-small is-primary"
+          max="100"
+          style="display:none"
+        >15%</progress>
         <div class="thankyou_message" style="display:none;">
           <h2>
             <em>Merci</em> pour ton message nous te repondrons tres vite!
@@ -50,8 +64,13 @@
 <script>
 export default {
   methods: {
-    sendForm() {}
-  }
+    displaySpinner() {
+      console.log("display spinner");
+      this.$refs["refProgressBarMail"].style.display = "block";
+      this.$refs["refBtnSubmit"].style.display = "none";
+    }
+  },
+  mounted() {}
 };
 </script>
 <style lang="sass" scoped>
