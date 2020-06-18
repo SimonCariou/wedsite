@@ -10,7 +10,6 @@
       <form
         class="gform"
         method="POST"
-        data-email="yo@yo.yo"
         action="https://script.google.com/macros/s/AKfycbyIbxGfvt7LvtEtgy96hA6JV7mjIJoGbl319h3srvqcUs1dPEvq/exec"
       >
         <div class="field">
@@ -35,18 +34,10 @@
         </div>
 
         <div>
-          <input
-            id="idBtnSubmit"
-            ref="refBtnSubmit"
-            type="submit"
-            value="Envoyer"
-            class="button is-primary"
-            @click="displaySpinner()"
-          />
+          <input id="idBtnSubmit" type="submit" value="Envoyer" class="button is-primary" />
         </div>
         <progress
           id="idProgressBarMail"
-          ref="refProgressBarMail"
           class="progress is-small is-primary"
           max="100"
           style="display:none"
@@ -61,18 +52,7 @@
     </div>
   </section>
 </template>
-<script>
-export default {
-  methods: {
-    displaySpinner() {
-      console.log("display spinner");
-      this.$refs["refProgressBarMail"].style.display = "block";
-      this.$refs["refBtnSubmit"].style.display = "none";
-    }
-  },
-  mounted() {}
-};
-</script>
+
 <style lang="sass" scoped>
 .gform
   width: 100%
