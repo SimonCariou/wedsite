@@ -15,21 +15,26 @@
         <div class="field">
           <label class="label">Nom/Prenom</label>
           <div class="control">
-            <input class="is-fullwidth input" type="text" placeholder="Nom" name="name" />
+            <input class="is-fullwidth input" type="text" placeholder="Nom" name="name" required />
           </div>
         </div>
 
         <div class="field">
           <label class="label">Email</label>
           <div class="control">
-            <input class="input" type="email" placeholder="email" name="email" />
+            <input class="input" type="email" placeholder="email" name="email" required />
           </div>
         </div>
 
         <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Message a nous faire parvenir" name="message"></textarea>
+            <textarea
+              class="textarea"
+              placeholder="Message a nous faire parvenir"
+              name="message"
+              required
+            ></textarea>
           </div>
         </div>
 
