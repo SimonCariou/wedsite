@@ -1,45 +1,50 @@
 <template>
-  <nav class="navbar is-fixed-top container is-full-width">
+  <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
-      <nuxt-link to="/#welcome" class="navbar-item">
-        <img
-          src="@/components/images/roxetsim.png"
-          alt="mariage rox et simon"
-          width="112"
-          height="28"
-        />
-      </nuxt-link>
+      <a class="navbar-item" @click="clickOnBrand()">
+        <img src="@/assets/images/roxetsim.png" alt="mariage rox et simon" width="112" height="28" />
+      </a>
 
-      <div class="navbar-burger burger" data-target="navWedsite">
+      <div
+        @click="toggleMenu()"
+        class="navbar-burger burger"
+        :class="{'is-active': isMenuOpen}"
+        data-target="navWedsite"
+      >
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
 
-    <div id="navWedsite" class="navbar-menu">
+    <div id="navWedsite" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#informations" class="is-active">Informations</nuxt-link>
+          <a @click="toggleMenu()" href="/#informations">Informations</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#deroulement" class="is-active">Deroulement</nuxt-link>
+          <a @click="toggleMenu()" href="/#deroulement">Deroulement</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#hebergements" class="is-active">Hebergements</nuxt-link>
+          <a @click="toggleMenu()" href="/#hebergements">Hebergements</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#photos" class="is-active">Photos</nuxt-link>
+          <a @click="toggleMenu()" href="/#photos">Photos</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#listeDeMariage" class="is-active">Liste de Mariage</nuxt-link>
+          <a @click="toggleMenu()" href="/#listeDeMariage">Liste de Mariage</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/#contact" class="is-active">Contact</nuxt-link>
+          <a @click="toggleMenu()" href="/#contact">Contact</a>
         </div>
+        <!--
         <div class="navbar-item is-hoverable">
-          <nuxt-link to="/Jeu" class="is-active">Jeu</nuxt-link>
+          <nuxt-link
+            to="/Jeu"
+
+             @click="toggleMenu()">Jeu</nuxt-link>
         </div>
+        -->
       </div>
     </div>
   </nav>
@@ -47,12 +52,34 @@
 
 <script>
 export default {
-  name: "AppHeader"
+  name: "AppHeader",
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+      console.log("toggle");
+    },
+    closeMenu() {
+      if (this.isMenuOpen) {
+        this.isMenuOpen = false;
+      } else {
+      }
+    },
+    clickOnBrand() {
+      this.closeMenu();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  },
+  mounted() {}
 };
 </script>
 
 <style scoped>
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,5 +89,5 @@ export default {
 }
 .header ul {
   display: flex;
-}
+} */
 </style>

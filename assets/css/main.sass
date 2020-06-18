@@ -1,20 +1,48 @@
+// $tablet: 568px
+
 @import "~/node_modules/bulma/bulma.sass"
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
 
+//titles
 @font-face
   font-family: "Kano"
   src: url("~assets/fonts/Kano.otf") format("truetype")
+
+// rest of the page
+@font-face
+  font-family: "Lato"
+  src: url("~assets/fonts/Lato/Lato-Regular.ttf") format("truetype")
+
+// rest of the page (BIS)
+@font-face
+  font-family: "Work Sans regular"
+  src: url("~assets/fonts/Work_Sans/work-sans-v7-latin-regular.ttf") format("truetype")
+
+@font-face
+  font-family: "Work Sans bold"
+  src: url("~assets/fonts/Work_Sans/work-sans-v7-latin-600.ttf") format("truetype")
 
 html
   overflow-y: scroll
   -webkit-overflow-scrolling: touch
   scroll-snap-type: y proximity
 
-section
-  scroll-snap-align: end
+  section
+    scroll-snap-align: end
 
 body, input, textarea,  button
-  font-family: "Kano", sans-serif
+  font-family: "Work Sans regular", sans-serif
+
+h1
+  font-family: "Work Sans bold", sans-serif
+
+@media screen and (min-width: 1024px)
+  .is-size-0-desktop
+    font-size: 5rem !important
+
+@media screen and (min-width: 769px) and (max-width: 1023px)
+  .is-size-0-tablet
+    font-size: 5rem !important
 
 div.has-navbar-fixed-top
   padding-top: 3.25rem
@@ -26,7 +54,7 @@ div.has-navbar-fixed-top
   font-weight: 700
 
 .hero-head
-  padding-top: 1rem
+  padding-top: 3.25rem
   padding-left: 0.8rem
   padding-right: 1rem
   padding-bottom: 1rem
@@ -36,11 +64,12 @@ div.has-navbar-fixed-top
   padding-bottom: 0.5rem
 
 //custom:
-.container.is-full-width
-  max-width: none
-  width: 100%
+// .container.is-full-width
+//   max-width: none
+//   width: 100%
 
 // setting custom color for the hero banners to make it more wintery
+
 .hero.is-primary
   background-color: #042709
   color: #fff
@@ -53,7 +82,7 @@ div.has-navbar-fixed-top
 
 //may use later
 .hero.is-maroon
-  background-color: #084d11
+  background-color: #700202
   color: #fff
 .hero.is-maroon.is-bold
   background-image: linear-gradient(141deg, #700202 0%, #8d0505 71%, #990707 100%)
@@ -63,3 +92,32 @@ div.has-navbar-fixed-top
 
 .hero.is-maroon .subtitle
   color: #fff
+
+//For animating the text when entering the VP
+.in-view
+  animation: animate-in-view .6s ease-out forwards
+  opacity: 1
+
+@keyframes animate-in-view
+  0%
+    transform: translate3d(0) scale(1.1)
+    opacity: 0
+
+  35%
+    transform: translate3d(0) scale(1.1)
+    opacity: 0
+
+  100%
+    opacity: 1
+
+  //by default not visible. If not set, it blinked when applying in-view class because resetting the opacity to 0 before setting it up to 1
+.observedElement
+  opacity: 0
+
+.card
+  border-radius: 15px
+
+.card-image
+  figure
+    img
+      border-radius: 15px 15px 0 0
