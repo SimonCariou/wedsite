@@ -40,7 +40,7 @@ export default {
               entry.target.classList.add("in-view");
             } else {
               console.log("entry.isIntersecting: " + entry.isIntersecting);
-              if (entry.target.classList.contains("observedCarousel")) {
+              if (entry.target.classList.contains("observedSectionBody")) {
                 entry.target.classList.remove("in-view");
               } else {
                 console.log(

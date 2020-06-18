@@ -4,7 +4,7 @@
       <h1 class="title is-size-3-mobile is-size-1-tablet">Photos</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
     </div>
-    <div class="hero-body observedElement observedCarousel">
+    <div class="hero-body observedElement observedSectionBody">
       <div class="container">
         <div class="columns is-mobile">
           <div

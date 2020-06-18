@@ -6,7 +6,7 @@
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Liste des endroits ou dormir dans le coin.</h2>
     </div>
-    <div class="hero-body observedElement observedCarousel">
+    <div class="hero-body observedElement observedSectionBody">
       <div class="container">
         <div class="columns is-mobile">
           <div v-for="card in cards" :key="card.name" class="column is-11-mobile is-6-tablet">
