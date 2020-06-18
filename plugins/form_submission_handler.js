@@ -78,13 +78,21 @@
                 if (formElements) {
                     formElements.style.display = "none"; // hide form
                 }
-                var thankYouMessage = form.querySelector(".thankyou_message");
+                var thankYouMessage = form.querySelector("#thankyou_message");
 
                 if (thankYouMessage) {
                     thankYouMessage.style.display = "block";
                     document.querySelector("#idProgressBarMail").style.display = "none";
                     document.querySelector("#idBtnSubmit").style.display = "block";
                 }
+            } else if (xhr.status !== 200) {
+                console.log("Error when sending the mail")
+                //if sending the email fails, we restore the original layout
+                var errorMessage = form.querySelector("#error_message");
+                errorMessage.style.display = "block";
+                document.querySelector("#idProgressBarMail").style.display = "none";
+                document.querySelector("#idBtnSubmit").style.display = "block";
+
             }
         };
         // url encode form data for sending as post data

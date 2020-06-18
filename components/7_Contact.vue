@@ -42,10 +42,16 @@
           max="100"
           style="display:none"
         >15%</progress>
-        <div class="thankyou_message" style="display:none;">
+        <div id="thankyou_message" style="display:none;">
           <h2>
             <em>Merci</em> pour ton message nous te repondrons tres vite!
             <span class="bd-emoji">😉</span>
+          </h2>
+        </div>
+        <div id="error_message" style="display:none;">
+          <h2>
+            <em>Flûte</em> Il y a eu une erreur dans l'envoi de ton mail...
+            <span class="bd-emoji">😢</span> Regarde si tu as du réseau et rééssaye!
           </h2>
         </div>
       </form>
