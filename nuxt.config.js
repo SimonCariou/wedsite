@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -26,6 +25,12 @@ export default {
       { src: 'https://static.miniclipcdn.com/js/game-embed.js' },
       { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
       { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
+      {
+        rel: "preconnect",
+        src:
+          "https://polyfill.io/v3/polyfill.min.js?flags=gated&features=smoothscroll%2CIntersectionObserver%2CResizeObserver",
+        body: true
+      }
 
 
     ]
@@ -45,11 +50,10 @@ export default {
   */
   //we need to put the JS file externally because it needs to be intanciate in hte nuxtconfig.js as "no-ssr" to run on the clients'.
   plugins: [
-    { src: '@/plugins/hamburger.js', ssr: false },
+
     { src: '@/plugins/form_submission_handler.js', ssr: false },
     //{ src: '@/assets/js/game.js', ssr: false }
-    { src: '@/assets/js/scrollTo.js', ssr: false }
-
+    // { src: '@/assets/js/animateText.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -62,7 +66,7 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
+    // '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
