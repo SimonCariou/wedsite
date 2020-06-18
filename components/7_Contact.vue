@@ -10,7 +10,6 @@
       <form
         class="gform"
         method="POST"
-        data-email="yo@yo.yo"
         action="https://script.google.com/macros/s/AKfycbyIbxGfvt7LvtEtgy96hA6JV7mjIJoGbl319h3srvqcUs1dPEvq/exec"
       >
         <div class="field">
@@ -35,8 +34,14 @@
         </div>
 
         <div>
-          <input type="submit" value="Envoyer" class="button is-primary" />
+          <input id="idBtnSubmit" type="submit" value="Envoyer" class="button is-primary" />
         </div>
+        <progress
+          id="idProgressBarMail"
+          class="progress is-small is-primary"
+          max="100"
+          style="display:none"
+        >15%</progress>
         <div class="thankyou_message" style="display:none;">
           <h2>
             <em>Merci</em> pour ton message nous te repondrons tres vite!
@@ -47,13 +52,7 @@
     </div>
   </section>
 </template>
-<script>
-export default {
-  methods: {
-    sendForm() {}
-  }
-};
-</script>
+
 <style lang="sass" scoped>
 .gform
   width: 100%

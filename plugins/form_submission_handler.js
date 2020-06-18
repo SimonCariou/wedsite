@@ -1,6 +1,8 @@
 (function () {
+
     // get all data in form and return object
     function getFormData(form) {
+
         var elements = form.elements;
         var honeypot;
 
@@ -51,6 +53,8 @@
     }
 
     function handleFormSubmit(event) {  // handles form submit without any jquery
+        document.querySelector("#idProgressBarMail").style.display = "block";
+        document.querySelector("#idBtnSubmit").style.display = "none";
         event.preventDefault();           // we are submitting via xhr below
         var form = event.target;
         var formData = getFormData(form);
@@ -75,8 +79,11 @@
                     formElements.style.display = "none"; // hide form
                 }
                 var thankYouMessage = form.querySelector(".thankyou_message");
+
                 if (thankYouMessage) {
                     thankYouMessage.style.display = "block";
+                    document.querySelector("#idProgressBarMail").style.display = "none";
+                    document.querySelector("#idBtnSubmit").style.display = "block";
                 }
             }
         };
