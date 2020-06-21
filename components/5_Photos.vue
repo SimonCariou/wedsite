@@ -39,7 +39,6 @@
 </template>
 
 <script>
-var i = 0;
 export default {
   data: () => {
     return {

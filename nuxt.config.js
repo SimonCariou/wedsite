@@ -65,12 +65,20 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    // '@nuxtjs/bulma',
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
+    [
+      'nuxt-fontawesome', {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+        ]
+      }
+    ]
   ],
   /*
   ** Axios module configuration
