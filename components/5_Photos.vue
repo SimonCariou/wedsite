@@ -6,13 +6,13 @@
     </div>
     <div class="hero-body observedElement observedSectionBody">
       <div class="container">
-        <div class="columns is-mobile">
+        <div class="columns is-mobile" ref="img-container">
           <div
             v-for="card in cards"
             :key="card.description"
             class="column is-11-mobile is-5-tablet"
           >
-            <div class="card observedElement">
+            <div class="card observedElement" ref="carousel-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
@@ -29,14 +29,19 @@
             </div>
           </div>
         </div>
+        <div class="buttons has-addons is-centered">
+          <button @click="moveCarousel(-1)" class="button is-info is-rounded">Left</button>
+          <button @click="moveCarousel(1)" class="button is-danger is-rounded">Right</button>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+var i = 0;
 export default {
-  data() {
+  data: () => {
     return {
       cards: [
         {
@@ -93,6 +98,14 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    moveCarousel(direction) {
+      this.$refs["img-container"].scrollBy({
+        left: direction * this.$refs["carousel-element"][0].clientWidth,
+        behavior: "smooth"
+      });
+    }
   }
 };
 </script>
