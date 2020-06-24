@@ -4,7 +4,7 @@
       <h1 class="title is-size-3-mobile is-size-1-tablet">Liste de Mariage</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
-    <div class="hero-body observedElement observedSectionBody">
+    <div class="hero-body observedElement">
       <div class="container">
         <div class="columns is-mobile" ref="ldm-container">
           <div
@@ -54,7 +54,7 @@
         </nav>
       </div>
     </div>
-    <div class="container observedElement observedSectionBody">
+    <div class="container observedElement">
       <Paypal />
     </div>
   </section>
