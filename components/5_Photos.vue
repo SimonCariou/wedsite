@@ -4,15 +4,16 @@
       <h1 class="title is-size-3-mobile is-size-1-tablet">Photos</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
     </div>
+
     <div class="hero-body observedElement observedSectionBody">
       <div class="container">
-        <div class="columns is-mobile" ref="img-container">
+        <div class="columns is-mobile" ref="photos-container">
           <div
             v-for="card in cards"
             :key="card.description"
-            class="column is-11-mobile is-5-tablet"
+            class="column is-10-mobile is-5-tablet"
           >
-            <div class="card observedElement" ref="carousel-element">
+            <div class="card observedElement" ref="carousel-photos-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
@@ -29,10 +30,30 @@
             </div>
           </div>
         </div>
-        <div class="buttons has-addons is-centered">
-          <button @click="moveCarousel(-1)" class="button is-info is-rounded">Left</button>
-          <button @click="moveCarousel(1)" class="button is-danger is-rounded">Right</button>
-        </div>
+        <nav class="level is-mobile is-overlay is-hidden-mobile">
+          <div class="level-left">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(-1)"
+                  :icon="['fas', 'chevron-left']"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(1)"
+                  :icon="['fas', 'chevron-right']"
+                />
+              </span>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </section>
@@ -100,8 +121,8 @@ export default {
   },
   methods: {
     moveCarousel(direction) {
-      this.$refs["img-container"].scrollBy({
-        left: direction * this.$refs["carousel-element"][0].clientWidth,
+      this.$refs["photos-container"].scrollBy({
+        left: direction * this.$refs["carousel-photos-element"][0].clientWidth,
         behavior: "smooth"
       });
     }
