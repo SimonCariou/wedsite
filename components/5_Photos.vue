@@ -13,7 +13,7 @@
             :key="card.description"
             class="column is-10-mobile is-5-tablet"
           >
-            <div class="card observedElement" ref="carousel-photos-element">
+            <div class="card" ref="carousel-photos-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
