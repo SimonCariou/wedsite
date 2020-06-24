@@ -14,16 +14,22 @@
       >
         <div class="field">
           <label class="label">Nom/Prenom</label>
-          <div class="control">
+          <p class="control has-icons-left">
             <input class="is-fullwidth input" type="text" placeholder="Nom" name="name" required />
-          </div>
+            <span class="icon is-small is-left">
+              <font-awesome-icon :icon="['fas', 'user']" />
+            </span>
+          </p>
         </div>
 
         <div class="field">
           <label class="label">Email</label>
-          <div class="control">
+          <p class="control has-icons-left has-icons-right">
             <input class="input" type="email" placeholder="email" name="email" required />
-          </div>
+            <span class="icon is-small is-left">
+              <font-awesome-icon :icon="['fas', 'envelope']" />
+            </span>
+          </p>
         </div>
 
         <div class="field">

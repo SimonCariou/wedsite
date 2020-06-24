@@ -6,13 +6,13 @@
     </div>
     <div class="hero-body observedElement observedSectionBody">
       <div class="container">
-        <div class="columns is-mobile">
+        <div class="columns is-mobile" ref="ldm-container">
           <div
             v-for="card in cards"
             :key="card.description"
-            class="column is-11-mobile is-5-tablet"
+            class="column is-10-mobile is-5-tablet"
           >
-            <div class="card observedElement">
+            <div class="card observedElement" ref="carousel-ldm-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
@@ -28,6 +28,30 @@
             </div>
           </div>
         </div>
+        <nav class="level is-mobile is-overlay is-hidden-mobile">
+          <div class="level-left">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(-1)"
+                  :icon="['fas', 'chevron-left']"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(1)"
+                  :icon="['fas', 'chevron-right']"
+                />
+              </span>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
     <div class="container observedElement observedSectionBody">
@@ -88,6 +112,14 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    moveCarousel(direction) {
+      this.$refs["ldm-container"].scrollBy({
+        left: direction * this.$refs["carousel-ldm-element"][0].clientWidth,
+        behavior: "smooth"
+      });
+    }
   }
 };
 </script>
