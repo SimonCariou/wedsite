@@ -39,14 +39,7 @@ export default {
               console.log("entry.isIntersecting: " + entry.isIntersecting);
               entry.target.classList.add("in-view");
             } else {
-              console.log("entry.isIntersecting: " + entry.isIntersecting);
-              if (entry.target.classList.contains("observedSectionBody")) {
-                entry.target.classList.remove("in-view");
-              } else {
-                console.log(
-                  "Here we leave the class in-view because we don't want to hide the photos once they are displayed"
-                );
-              }
+              entry.target.classList.remove("in-view");
             }
           });
         }

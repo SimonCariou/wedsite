@@ -5,7 +5,7 @@
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
     </div>
 
-    <div class="hero-body observedElement observedSectionBody">
+    <div class="hero-body observedElement">
       <div class="container">
         <div class="columns is-mobile" ref="photos-container">
           <div
@@ -13,7 +13,7 @@
             :key="card.description"
             class="column is-10-mobile is-5-tablet"
           >
-            <div class="card observedElement" ref="carousel-photos-element">
+            <div class="card" ref="carousel-photos-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
