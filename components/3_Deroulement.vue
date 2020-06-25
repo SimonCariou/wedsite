@@ -11,17 +11,7 @@
         transform="translate(100 100)"
       />
     </svg>
-    <svg
-      viewBox="0 0 200 200"
-      xmlns="http://www.w3.org/2000/svg"
-      style="position: absolute; top: calc(230vh);  width:40%;"
-    >
-      <path
-        fill="#fff"
-        d="M30.2,-32.3C40.7,-27.2,51.8,-19.2,56.2,-7.9C60.7,3.4,58.5,18,52.5,32.2C46.6,46.4,36.8,60.4,22.4,68.7C8,77.1,-11,79.9,-21,70.6C-31,61.4,-31.9,40.2,-40,24.1C-48.2,8,-63.6,-3,-61.6,-10.2C-59.5,-17.4,-40,-20.9,-26.8,-25.5C-13.6,-30,-6.8,-35.6,1.5,-37.4C9.9,-39.3,19.7,-37.3,30.2,-32.3Z"
-        transform="translate(100 100)"
-      />
-    </svg>
+
     <div class="hero-head observedElement">
       <h1 class="title is-size-3-mobile is-size-1-tablet">Déroulement</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Tout ce que vous avez besoin de savoir</h2>
