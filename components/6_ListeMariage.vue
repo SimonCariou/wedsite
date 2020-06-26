@@ -81,32 +81,32 @@ export default {
             "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level."
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "1"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "2"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "3"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "4"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "5"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "6"
         }

@@ -20,11 +20,9 @@ export default {
       }
     ],
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' },
-      { src: 'https://code.jquery.com/ui/1.12.0/jquery-ui.min.js' },
-      { src: 'https://static.miniclipcdn.com/js/game-embed.js' },
+
       { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
-      { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
+      // { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
       {
         rel: "preconnect",
         src:
@@ -52,8 +50,7 @@ export default {
   plugins: [
 
     { src: '@/plugins/form_submission_handler.js', ssr: false },
-    //{ src: '@/assets/js/game.js', ssr: false }
-    // { src: '@/assets/js/animateText.js', ssr: false }
+
   ],
   /*
   ** Nuxt.js dev-modules
