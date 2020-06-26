@@ -1,7 +1,7 @@
 <template>
   <section id="hebergements" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-3-mobile is-size-1-tablet">Hébergements</h1>
+      <h1 class="title is-size-2-mobile is-size-1-tablet">Hébergements</h1>
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Liste des endroits ou dormir dans le coin.</h2>
