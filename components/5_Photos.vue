@@ -3,6 +3,7 @@
     <div class="hero-head observedElement">
       <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
+      <p>Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...</p>
     </div>
 
     <div class="hero-body observedElement">
@@ -68,7 +69,7 @@ export default {
           image: require("@/assets/images/scrollsnap_photos/2013.jpg"),
           alternative_description: "CDMGE",
           date: "6 Juin 2013",
-          description: "Premiere CDMGE pour encourager Roxane aux pompom girls."
+          description: "Première CDMGE pour encourager Roxane aux pompom girls."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2014.jpg"),
@@ -98,9 +99,9 @@ export default {
         {
           image: require("@/assets/images/scrollsnap_photos/2018.jpg"),
           alternative_description: "Opera Garnier",
-          date: "28 Aout 2018",
+          date: "28 Août 2018",
           description:
-            "Avec un style fantome pendant l'escape game de l'Opera Garnier."
+            "Avec un style fantôme pendant l'escape game de l'Opera Garnier."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2019.jpg"),
@@ -112,9 +113,9 @@ export default {
         {
           image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
           alternative_description: "Saint Valentin 2020",
-          date: "14 Fevrier 2020",
+          date: "14 Février 2020",
           description:
-            "Apéro à l'appartement pour la Saint Valentin. Encore jeunes et innoncents, prets à être confinés pendant 3 mois."
+            "Apéro à l'appartement pour la Saint Valentin. Prets à être confinés pendant 3 mois."
         }
       ]
     };
