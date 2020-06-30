@@ -1,4 +1,6 @@
-// $tablet: 568px
+$tablet: 568px
+$primary: #042709
+$danger: #700202
 
 @import "~/node_modules/bulma/bulma.sass"
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
@@ -66,36 +68,6 @@ div.has-navbar-fixed-top
   padding-top: 0
   padding-bottom: 0.5rem
 
-//custom:
-// .container.is-full-width
-//   max-width: none
-//   width: 100%
-
-// setting custom color for the hero banners to make it more wintery
-
-.hero.is-primary
-  background-color: #042709
-  color: #fff
-
-.hero.is-primary.is-bold
-  background-image: linear-gradient(141deg, #031a06 0%, #07380d 71%, #05490e 100%)
-
-.hero.is-primary label
-  color: #ffffff
-
-//may use later
-.hero.is-maroon
-  background-color: #700202
-  color: #fff
-.hero.is-maroon.is-bold
-  background-image: linear-gradient(141deg, #700202 0%, #8d0505 71%, #990707 100%)
-
-.hero.is-maroon .title
-  color: #fff
-
-.hero.is-maroon .subtitle
-  color: #fff
-
 //For animating the text when entering the VP
 .in-view
   animation: animate-in-view .6s ease-out forwards
@@ -120,10 +92,10 @@ div.has-navbar-fixed-top
 .card
   border-radius: 15px
 
-.card-image
-  figure
-    img
-      border-radius: 15px 15px 0 0
+  .card-image
+    figure
+      img
+        border-radius: 15px 15px 0 0
 
 //carousel right arrow
 .level-right
