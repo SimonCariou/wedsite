@@ -5,6 +5,11 @@
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Tout ce que vous avez besoin de savoir sur le lieu</h2>
+    </div>
+    <div
+      class="container is-fluid has-text-centered observedElement"
+      style="padding-bottom: 1.5rem; "
+    >
       <p>Infos diverses sur le lieu et comment vous y rendre !</p>
     </div>
     <div class="hero-body observedElement">

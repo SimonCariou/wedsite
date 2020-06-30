@@ -3,6 +3,11 @@
     <div class="hero-head observedElement">
       <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
+    </div>
+    <div
+      class="container is-fluid has-text-centered observedElement"
+      style="padding-bottom: 1.5rem; "
+    >
       <p>Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...</p>
     </div>
 
