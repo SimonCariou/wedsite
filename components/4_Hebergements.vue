@@ -30,8 +30,8 @@
               </div>
               <div class="card-content">
                 <div class="content">
+                  <h3 class="is-size-5">{{ card.name }}</h3>
                   <p>
-                    <strong>{{ card.name }}</strong>
                     <br />
                     {{ card.address }}
                   </p>

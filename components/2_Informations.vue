@@ -17,8 +17,8 @@
             <div class="card">
               <div class="card-content">
                 <div class="content">
+                  <h3 class="is-size-5">ADRESSE</h3>
                   <p>
-                    <strong>ADRESSE</strong>
                     <br />78710 Jouy-Mauvoisin dans les Yvelines
                   </p>
                   <p>Petit village Francais privatise avec ses commerces et son lavoir</p>
@@ -36,8 +36,8 @@
             <div class="card">
               <div class="card-content">
                 <div class="content">
+                  <h3 class="is-size-5 subsubtitle">COMMENT S'Y RENDRE</h3>
                   <p>
-                    <strong>COMMENT S'Y RENDRE</strong>
                     <br />Directement sortie A13
                   </p>
                   <p>
