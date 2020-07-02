@@ -1,10 +1,11 @@
 <template>
-  <section id="hebergements" class="hero is-fullheight-with-navbar">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+  <section id="hebergements" class="hero is-fullheight-with-navbar is-danger">
+    <!--SEPARATOR-->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180">
       <path
         fill="#f5f5f5"
         fill-opacity="1"
-        d="M0,64L40,58.7C80,53,160,43,240,58.7C320,75,400,117,480,128C560,139,640,117,720,90.7C800,64,880,32,960,16C1040,0,1120,0,1200,16C1280,32,1360,64,1400,80L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        d="M0,64L120,64C240,64,480,64,720,80C960,96,1200,128,1320,144L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
       />
     </svg>
     <div class="hero-head observedElement">
@@ -52,11 +53,7 @@
     </div>
     <!--SEPARATOR-->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#f5f5f5"
-        fill-opacity="1"
-        d="M0,32L80,53.3C160,75,320,117,480,138.7C640,160,800,160,960,186.7C1120,213,1280,267,1360,293.3L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-      />
+      <path fill="#fff" fill-opacity="1" d="M0,160L1440,256L1440,320L0,320Z" />
     </svg>
   </section>
 </template>
