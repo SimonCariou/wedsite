@@ -1,18 +1,22 @@
 <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-3-mobile is-size-1-tablet">Liste de Mariage</h1>
+      <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
-    <div class="hero-body observedElement observedSectionBody">
+
+    <div class="hero-body observedElement">
       <div class="container">
-        <div class="columns is-mobile">
+        <div class="explications">
+          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent!</p>
+        </div>
+        <div class="columns is-mobile scroll-ctn" ref="ldm-container">
           <div
             v-for="card in cards"
             :key="card.description"
-            class="column is-11-mobile is-5-tablet"
+            class="column is-10-mobile is-5-tablet"
           >
-            <div class="card observedElement">
+            <div class="card" ref="carousel-ldm-element">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img :src="card.image" :alt="card.alternative_description" />
@@ -28,10 +32,38 @@
             </div>
           </div>
         </div>
+        <nav class="level is-mobile is-overlay is-hidden-mobile">
+          <div class="level-left">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(-1)"
+                  :icon="['fas', 'chevron-left']"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <span class="icon is-large">
+                <font-awesome-icon
+                  class="fas fa-3x arrow"
+                  @click="moveCarousel(1)"
+                  :icon="['fas', 'chevron-right']"
+                />
+              </span>
+            </div>
+          </div>
+        </nav>
+        <div class="explications">
+          <p>
+            Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
+            <span>🤗</span>
+          </p>
+        </div>
+        <Paypal />
       </div>
-    </div>
-    <div class="container observedElement observedSectionBody">
-      <Paypal />
     </div>
   </section>
 </template>
@@ -57,37 +89,45 @@ export default {
             "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level."
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "1"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "2"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "3"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "4"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "5"
         },
         {
-          image: "https://bulma.io/images/placeholders/1280x960.png",
+          image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
           description: "6"
         }
       ]
     };
+  },
+  methods: {
+    moveCarousel(direction) {
+      this.$refs["ldm-container"].scrollBy({
+        left: direction * this.$refs["carousel-ldm-element"][0].clientWidth,
+        behavior: "smooth"
+      });
+    }
   }
 };
 </script>

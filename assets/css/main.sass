@@ -1,4 +1,6 @@
-// $tablet: 568px
+$tablet: 568px
+$primary: #042709
+$danger: #700202
 
 @import "~/node_modules/bulma/bulma.sass"
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
@@ -22,18 +24,21 @@
   font-family: "Work Sans bold"
   src: url("~assets/fonts/Work_Sans/work-sans-v7-latin-600.ttf") format("truetype")
 
-html
-  overflow-y: scroll
-  -webkit-overflow-scrolling: touch
-  scroll-snap-type: y proximity
+// html
+//   overflow-y: scroll
+//   -webkit-overflow-scrolling: touch
+//   scroll-snap-type: y proximity
 
-  section
-    scroll-snap-align: end
+//   section
+//     scroll-snap-align: end
 
 body, input, textarea,  button
-  font-family: "Work Sans regular", sans-serif
+  font-family: "Lato", sans-serif
 
 h1
+  font-family: "Work Sans regular", sans-serif
+
+.grand-title
   font-family: "Work Sans bold", sans-serif
 
 @media screen and (min-width: 1024px)
@@ -44,8 +49,14 @@ h1
   .is-size-0-tablet
     font-size: 5rem !important
 
-div.has-navbar-fixed-top
-  padding-top: 3.25rem
+div
+  .has-navbar-fixed-top
+    padding-top: 3.25rem
+
+div
+  .explications
+    padding-bottom: 1.5rem
+    padding-right: 1.5rem
 
 .label
   color: #363636
@@ -62,36 +73,6 @@ div.has-navbar-fixed-top
 .hero-body
   padding-top: 0
   padding-bottom: 0.5rem
-
-//custom:
-// .container.is-full-width
-//   max-width: none
-//   width: 100%
-
-// setting custom color for the hero banners to make it more wintery
-
-.hero.is-primary
-  background-color: #042709
-  color: #fff
-
-.hero.is-primary.is-bold
-  background-image: linear-gradient(141deg, #031a06 0%, #07380d 71%, #05490e 100%)
-
-.hero.is-primary label
-  color: #ffffff
-
-//may use later
-.hero.is-maroon
-  background-color: #700202
-  color: #fff
-.hero.is-maroon.is-bold
-  background-image: linear-gradient(141deg, #700202 0%, #8d0505 71%, #990707 100%)
-
-.hero.is-maroon .title
-  color: #fff
-
-.hero.is-maroon .subtitle
-  color: #fff
 
 //For animating the text when entering the VP
 .in-view
@@ -117,7 +98,24 @@ div.has-navbar-fixed-top
 .card
   border-radius: 15px
 
-.card-image
-  figure
-    img
-      border-radius: 15px 15px 0 0
+  .card-image
+    figure
+      img
+        border-radius: 15px 15px 0 0
+
+//carousel 
+.level-right
+  padding-right: 1.5rem
+
+.arrow
+  color: rgba(255, 255, 255, 0.60)
+  cursor: pointer
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-ctn::-webkit-scrollbar
+  display: none
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-ctn
+  -ms-overflow-style: none  //IE and Edge */
+  scrollbar-width: none  //Firefox */

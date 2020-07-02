@@ -1,12 +1,12 @@
 <template>
   <section id="contact" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-3-mobile is-size-1-tablet">Contact</h1>
+      <h1 class="title is-size-2-mobile is-size-1-tablet">Contact</h1>
       <h2
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Envoyez nous un mail si vous avez des questions.</h2>
     </div>
-    <div class="hero-body observedElement observedSectionBody">
+    <div class="hero-body observedElement">
       <form
         class="gform"
         method="POST"
@@ -14,16 +14,22 @@
       >
         <div class="field">
           <label class="label">Nom/Prenom</label>
-          <div class="control">
+          <p class="control has-icons-left">
             <input class="is-fullwidth input" type="text" placeholder="Nom" name="name" required />
-          </div>
+            <span class="icon is-small is-left">
+              <font-awesome-icon :icon="['fas', 'user']" />
+            </span>
+          </p>
         </div>
 
         <div class="field">
           <label class="label">Email</label>
-          <div class="control">
+          <p class="control has-icons-left has-icons-right">
             <input class="input" type="email" placeholder="email" name="email" required />
-          </div>
+            <span class="icon is-small is-left">
+              <font-awesome-icon :icon="['fas', 'envelope']" />
+            </span>
+          </p>
         </div>
 
         <div class="field">
@@ -50,13 +56,13 @@
         <div id="thankyou_message" style="display:none;">
           <h2>
             <em>Merci</em> pour ton message nous te repondrons tres vite!
-            <span class="bd-emoji">😉</span>
+            <span>😉</span>
           </h2>
         </div>
         <div id="error_message" style="display:none;">
           <h2>
             <em>Flûte</em> Il y a eu une erreur dans l'envoi de ton mail...
-            <span class="bd-emoji">😢</span> Regarde si tu as du réseau et rééssaye!
+            <span>😢</span> Regarde si tu as du réseau et rééssaye!
           </h2>
         </div>
       </form>

@@ -53,12 +53,22 @@
     }
 
     function handleFormSubmit(event) {  // handles form submit without any jquery
-        document.querySelector("#idProgressBarMail").style.display = "block";
-        document.querySelector("#idBtnSubmit").style.display = "none";
+
         event.preventDefault();           // we are submitting via xhr below
         var form = event.target;
         var formData = getFormData(form);
         var data = formData.data;
+
+        var thankYouMessage = form.querySelector("#thankyou_message");
+        var errorMessage = form.querySelector("#error_message");
+        var progressBar = document.querySelector("#idProgressBarMail");
+        var btnSubmit = document.querySelector("#idBtnSubmit")
+
+        //initial layout
+        progressBar.style.display = "block";
+        btnSubmit.style.display = "none";
+        errorMessage.style.display = "none"
+        thankYouMessage.style.display = "none"
 
         // If a honeypot field is filled, assume it was done so by a spam bot.
         if (formData.honeypot) {
@@ -69,29 +79,31 @@
         var url = form.action;
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
+
         // xhr.withCredentials = true;
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log("Success when sending the mail")
                 form.reset();
                 var formElements = form.querySelector(".form-elements")
                 if (formElements) {
                     formElements.style.display = "none"; // hide form
                 }
-                var thankYouMessage = form.querySelector("#thankyou_message");
 
                 if (thankYouMessage) {
+                    errorMessage.style.display = "none"
                     thankYouMessage.style.display = "block";
-                    document.querySelector("#idProgressBarMail").style.display = "none";
-                    document.querySelector("#idBtnSubmit").style.display = "block";
+                    progressBar.style.display = "none";
+                    btnSubmit.style.display = "block";
                 }
             } else if (xhr.status !== 200) {
                 console.log("Error when sending the mail")
                 //if sending the email fails, we restore the original layout
-                var errorMessage = form.querySelector("#error_message");
+                thankYouMessage.style.display = "none"
                 errorMessage.style.display = "block";
-                document.querySelector("#idProgressBarMail").style.display = "none";
-                document.querySelector("#idBtnSubmit").style.display = "block";
+                progressBar.style.display = "none";
+                btnSubmit.style.display = "block";
 
             }
         };

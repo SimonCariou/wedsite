@@ -1,11 +1,14 @@
 <template>
   <section id="deroulement" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-3-mobile is-size-1-tablet">Déroulement</h1>
+      <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Tout ce que vous avez besoin de savoir</h2>
     </div>
-    <div class="hero-body observedElement observedSectionBody">
+    <div class="hero-body observedElement">
       <div class="container">
+        <div class="explications">
+          <p>blabla</p>
+        </div>
         <div class="timeline is-centered">
           <header class="timeline-header">
             <span class="tag is-medium is-primary">Start</span>

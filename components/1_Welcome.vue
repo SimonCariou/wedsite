@@ -1,5 +1,5 @@
 <template>
-  <section id="welcome" class="hero is-fullheight-with-navbar is-primary observedElement">
+  <section id="welcome" class="hero is-fullheight-with-navbar is-primary">
     <div class="hero-body columns is-centered">
       <div
         class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"
@@ -19,15 +19,15 @@
 
           <div class="is-overlaying-lottie">
             <h1
-              class="title is-size-1-mobile is-size-0-desktop is-size-0-tablet animate__animated animate__fadeInRight"
+              class="title is-size-1-mobile is-size-0-desktop is-size-0-tablet grand-title animate__animated animate__fadeInRight"
             >Bienvenue.</h1>
             <h2
               class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
-            >On se marie le 5 decembre 2020 !</h2>
+            >On se marie le 5 decembre 2020</h2>
 
             <h3
-              class="is-size-5-mobile is-size-4-desktop animate__animated animate__fadeInRight animate__delay-2s"
-            >Scrollez pour en savoir plus</h3>
+              class="is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
+            >Scrollez pour en savoir plus!</h3>
           </div>
         </div>
       </div>
