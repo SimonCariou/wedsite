@@ -4,15 +4,13 @@
       <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
     </div>
-    <div
-      class="container is-fluid has-text-centered observedElement"
-      style="padding-bottom: 1.5rem"
-    >
-      <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent!</p>
-    </div>
+
     <div class="hero-body observedElement">
       <div class="container">
-        <div class="columns is-mobile" ref="ldm-container">
+        <div class="explications">
+          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent!</p>
+        </div>
+        <div class="columns is-mobile scroll-ctn" ref="ldm-container">
           <div
             v-for="card in cards"
             :key="card.description"
@@ -58,18 +56,14 @@
             </div>
           </div>
         </nav>
+        <div class="explications">
+          <p>
+            Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
+            <span>🤗</span>
+          </p>
+          <Paypal />
+        </div>
       </div>
-    </div>
-
-    <div
-      class="container is-fluid has-text-centered observedElement"
-      style="padding-bottom: 1.5rem"
-    >
-      <p style="padding-bottom: 1.5rem">
-        Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
-        <span>🤗</span>
-      </p>
-      <Paypal />
     </div>
   </section>
 </template>

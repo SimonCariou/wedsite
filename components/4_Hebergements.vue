@@ -4,26 +4,23 @@
       <h1 class="title is-size-2-mobile is-size-1-tablet">Hébergements</h1>
       <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Où dormir dans le coin?</h2>
     </div>
-    <div
-      class="container is-fluid has-text-centered observedElement"
-      style="padding-bottom: 1.5rem;"
-    >
-      <p>
-        La fête est toujours plus cool quand on peut dormir sur place
-        <span class="bd-emoji">😉</span>. Il y a des chambres disponibles au Village de Sully et dans un village juste à côté pour tout le monde.
-      </p>
-      <p>---</p>
 
-      <p style="padding-bottom: 1.5rem">
-        Nous contacter via le
-        <em>
-          <a href="#contact">formulaire</a>
-        </em> en bas de page.
-      </p>
-    </div>
     <div class="hero-body observedElement">
       <div class="container">
-        <div class="columns is-mobile">
+        <div class="explications">
+          <p>
+            La fête est toujours plus cool quand on peut dormir sur place
+            <span class="bd-emoji">😉</span>. Il y a des chambres disponibles au Village de Sully et dans un village juste à côté pour tout le monde.
+          </p>
+
+          <p>
+            Nous contacter via le
+            <em>
+              <a href="#contact">formulaire</a>
+            </em> en bas de page.
+          </p>
+        </div>
+        <div class="columns is-mobile scroll-ctn">
           <div v-for="card in cards" :key="card.name" class="column is-11-mobile is-6-tablet">
             <div class="card">
               <div class="card-image">

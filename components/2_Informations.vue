@@ -6,15 +6,13 @@
         class="subtitle is-size-5-mobile is-size-4-tablet"
       >Tout ce que vous avez besoin de savoir sur le lieu</h2>
     </div>
-    <div
-      class="container is-fluid has-text-centered observedElement"
-      style="padding-bottom: 1.5rem; "
-    >
-      <p>Infos diverses sur le lieu et comment vous y rendre !</p>
-    </div>
+
     <div class="hero-body observedElement">
       <div class="container">
-        <div class="columns is-mobile">
+        <div class="explications">
+          <p>Infos diverses sur le lieu et comment vous y rendre !</p>
+        </div>
+        <div class="columns is-mobile scroll-ctn">
           <div class="column is-11-mobile is-6-tablet">
             <div class="card">
               <div class="card-content">

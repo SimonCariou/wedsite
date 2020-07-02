@@ -49,8 +49,13 @@ h1
   .is-size-0-tablet
     font-size: 5rem !important
 
-div.has-navbar-fixed-top
-  padding-top: 3.25rem
+div
+  .has-navbar-fixed-top
+    padding-top: 3.25rem
+
+div
+  .explications
+    padding-bottom: 1.5rem
 
 .label
   color: #363636
@@ -97,10 +102,19 @@ div.has-navbar-fixed-top
       img
         border-radius: 15px 15px 0 0
 
-//carousel right arrow
+//carousel 
 .level-right
   padding-right: 1.5rem
 
 .arrow
   color: rgba(255, 255, 255, 0.60)
   cursor: pointer
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-ctn::-webkit-scrollbar
+  display: none
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-ctn
+  -ms-overflow-style: none  //IE and Edge */
+  scrollbar-width: none  //Firefox */

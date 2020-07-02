@@ -6,6 +6,9 @@
     </div>
     <div class="hero-body observedElement">
       <div class="container">
+        <div class="explications">
+          <p>blabla</p>
+        </div>
         <div class="timeline is-centered">
           <header class="timeline-header">
             <span class="tag is-medium is-primary">Start</span>
