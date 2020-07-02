@@ -10,6 +10,7 @@
         <div class="explications">
           <p>Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...</p>
         </div>
+
         <div class="columns is-mobile scroll-ctn" ref="photos-container">
           <div
             v-for="card in cards"
