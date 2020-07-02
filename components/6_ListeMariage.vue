@@ -1,5 +1,17 @@
 <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
+    <!-- BLOB -->
+    <svg
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+      style="position: absolute; top: calc(530vh); left:15%; width:50%;"
+    >
+      <path
+        fill="#F5F5F5"
+        d="M67.6,-42.6C78.8,-19.6,73,9.6,58.9,27.1C44.8,44.6,22.4,50.4,-2.2,51.6C-26.8,52.9,-53.5,49.6,-64,34.2C-74.5,18.8,-68.7,-8.7,-55.3,-33C-41.9,-57.3,-20.9,-78.3,3.6,-80.4C28.2,-82.4,56.4,-65.6,67.6,-42.6Z"
+        transform="translate(100 100)"
+      />
+    </svg>
     <!-- SEPARATOR -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
