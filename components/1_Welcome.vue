@@ -34,7 +34,7 @@
     </div>
     <div class="hero-foot is-hidden-touch">
       <span class="scroll-next" @click="scrollTo()">
-        <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
+        <div id="arrow-scroll-welcome" class="animate__animated animate__fadeIn animate__delay-3s"></div>
       </span>
     </div>
   </section>
@@ -95,12 +95,13 @@ export default {
     right: 0
     top: 0
 
-  .arrow,
-  .arrow:before
+  #arrow-scroll-welcome,
+  #arrow-scroll-welcome:before
     position: absolute
     left: 50%
+    cursor: pointer
 
-  .arrow
+  #arrow-scroll-welcome
     width: 24px
     height: 24px
     bottom: 40px
@@ -111,7 +112,7 @@ export default {
     border-right: 2px #fff solid
     border-bottom: 2px #fff solid
 
-  .arrow:before
+  #arrow-scroll-welcome:before
     content: ''
     width: 20px
     height: 20px
