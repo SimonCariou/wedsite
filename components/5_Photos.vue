@@ -33,30 +33,20 @@
             </div>
           </div>
         </div>
-        <nav class="level is-mobile is-overlay is-hidden-mobile">
-          <div class="level-left">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(-1)"
-                  :icon="['fas', 'chevron-left']"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="level-right">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(1)"
-                  :icon="['fas', 'chevron-right']"
-                />
-              </span>
-            </div>
-          </div>
-        </nav>
+        <span class="icon is-large is-hidden-mobile arrow arrow-left">
+          <font-awesome-icon
+            class="fas fa-3x"
+            @click="moveCarousel(-1)"
+            :icon="['fas', 'chevron-left']"
+          />
+        </span>
+        <span class="icon is-large is-hidden-mobile arrow arrow-right">
+          <font-awesome-icon
+            class="fas fa-3x"
+            @click="moveCarousel(1)"
+            :icon="['fas', 'chevron-right']"
+          />
+        </span>
       </div>
     </div>
   </section>

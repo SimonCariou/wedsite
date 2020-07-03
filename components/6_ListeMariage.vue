@@ -32,38 +32,31 @@
             </div>
           </div>
         </div>
-        <nav class="level is-mobile is-overlay is-hidden-mobile">
-          <div class="level-left">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(-1)"
-                  :icon="['fas', 'chevron-left']"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="level-right">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(1)"
-                  :icon="['fas', 'chevron-right']"
-                />
-              </span>
-            </div>
-          </div>
-        </nav>
-        <div class="explications">
-          <p>
-            Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
-            <span>🤗</span>
-          </p>
-        </div>
-        <Paypal />
+        <span class="icon is-large is-hidden-mobile arrow arrow-left">
+          <font-awesome-icon
+            class="fas fa-3x"
+            @click="moveCarousel(-1)"
+            :icon="['fas', 'chevron-left']"
+          />
+        </span>
+        <span class="icon is-large is-hidden-mobile arrow arrow-right">
+          <font-awesome-icon
+            class="fas fa-3x"
+            @click="moveCarousel(1)"
+            :icon="['fas', 'chevron-right']"
+          />
+        </span>
       </div>
+    </div>
+
+    <div class="container is-fluid-hero">
+      <div class="explications">
+        <p>
+          Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
+          <span>🤗</span>
+        </p>
+      </div>
+      <Paypal />
     </div>
   </section>
 </template>
