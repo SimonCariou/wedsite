@@ -48,15 +48,16 @@
         </span>
       </div>
     </div>
-
-    <div class="container is-fluid-hero">
-      <div class="explications">
-        <p>
-          Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
-          <span>🤗</span>
-        </p>
+    <div class="hero-body">
+      <div class="container">
+        <div class="explications">
+          <p>
+            Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
+            <span>🤗</span>
+          </p>
+        </div>
+        <Paypal />
       </div>
-      <Paypal />
     </div>
   </section>
 </template>
