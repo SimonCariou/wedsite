@@ -35,14 +35,14 @@
         </div>
         <span class="icon is-large is-hidden-mobile arrow arrow-left">
           <font-awesome-icon
-            class="fas fa-3x"
+            class="fas fa-2x"
             @click="moveCarousel(-1)"
             :icon="['fas', 'chevron-left']"
           />
         </span>
         <span class="icon is-large is-hidden-mobile arrow arrow-right">
           <font-awesome-icon
-            class="fas fa-3x"
+            class="fas fa-2x"
             @click="moveCarousel(1)"
             :icon="['fas', 'chevron-right']"
           />
