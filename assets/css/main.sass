@@ -2,6 +2,8 @@ $tablet: 568px
 $primary: #042709
 $danger: rgb(112, 2, 2)
 $link: rgba(141, 4, 4, 0.8)
+$hero-padding-left: 1.5rem
+$hero-padding-right: 1.5rem
 
 @import "~/node_modules/bulma/bulma.sass"
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
@@ -66,7 +68,7 @@ div
 div
   .explications
     padding-bottom: 1.5rem
-    padding-right: 1.5rem
+    padding-right: $hero-padding-right
 
 .label
   color: #363636
@@ -76,13 +78,15 @@ div
 
 .hero-head
   padding-top: 3.25rem
-  padding-left: 0.8rem
-  padding-right: 1rem
+  padding-left: $hero-padding-left
+  padding-right: $hero-padding-right
   padding-bottom: 1rem
 
 .hero-body
   padding-top: 0
   padding-bottom: 0.5rem
+  padding-left: $hero-padding-left
+  padding-right: $hero-padding-right
 
 //For animating the text when entering the VP
 .in-view
