@@ -50,7 +50,7 @@
         </span>
       </div>
     </div>
-    <div class="hero-body">
+    <div class="hero-body observedElement">
       <div class="container">
         <div class="explications">
           <p>
