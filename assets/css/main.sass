@@ -11,7 +11,15 @@ $hero-padding-right: 1.5rem
 //titles
 @font-face
   font-family: "Kano"
-  src: url("~assets/fonts/Kano.otf") format("truetype")
+  src: url("~assets/fonts/Kano/Kano.otf") format("truetype")
+
+@font-face
+  font-family: "GTSuperDisplaySuper"
+  src: url("~assets/fonts/GT/GT-Super-Display-Super.woff2") format("woff2")
+
+@font-face
+  font-family: "GTSuperTextBook"
+  src: url("~assets/fonts/GT/GT-Super-Text-Book.woff2") format("woff2")
 
 // rest of the page
 @font-face
@@ -39,7 +47,7 @@ body, input, textarea,  button
   font-family: "Lato", sans-serif
 
 h1
-  font-family: "Work Sans regular", sans-serif
+  font-family: "GTSuperDisplaySuper", "Work Sans regular", sans-serif
 
 .title
   color: #042709
@@ -51,13 +59,10 @@ h1
     color: rgba(4, 39, 9, 0.9)
 
 .grand-title
-  font-family: "Work Sans bold", sans-serif
+  font-family: "GTSuperDisplaySuper", "Work Sans bold", sans-serif
+  // font-weight: 900
 
-@media screen and (min-width: 1024px)
-  .is-size-0-desktop
-    font-size: 5rem !important
-
-@media screen and (min-width: 769px) and (max-width: 1023px)
+@media screen and (min-width: $tablet)
   .is-size-0-tablet
     font-size: 5rem !important
 
