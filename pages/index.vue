@@ -1,6 +1,7 @@
 <template>
   <div>
     <Welcome />
+    <News />
     <Informations />
     <Deroulement />
     <Hebergements />
@@ -11,7 +12,8 @@
 </template>
 
 <script>
-import Welcome from "~/components/1_Welcome.vue";
+import Welcome from "~/components/1_1_Welcome.vue";
+import News from "~/components/1_2_News.vue";
 import Informations from "~/components/2_Informations.vue";
 import Deroulement from "~/components/3_Deroulement.vue";
 import Hebergements from "~/components/4_Hebergements.vue";
@@ -22,6 +24,7 @@ import Contact from "~/components/7_Contact.vue";
 export default {
   components: {
     Welcome,
+    News,
     Informations,
     Deroulement,
     Hebergements,
