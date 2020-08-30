@@ -14,12 +14,14 @@
         <div class="explications">
           <p>Infos diverses sur le lieu et comment vous y rendre !</p>
         </div>
-        <div class="columns is-mobile scroll-ctn is-centered is-variable is-8">
+        <div class="columns is-mobile scroll-ctn is-centered-tablet is-variable is-8-tablet">
           <div class="column is-11-mobile is-4-tablet">
             <div class="card">
               <div class="card-content">
                 <div class="content">
-                  <h3 class="is-size-5">ADRESSE</h3>
+                  <h3 class="is-size-5">
+                    <span class="highlight">Adresse</span>
+                  </h3>
                   <p>
                     <br />78710 Jouy-Mauvoisin dans les Yvelines
                   </p>
@@ -38,7 +40,9 @@
             <div class="card">
               <div class="card-content">
                 <div class="content">
-                  <h3 class="is-size-5 subsubtitle">COMMENT S'Y RENDRE</h3>
+                  <h3 class="is-size-5 subsubtitle">
+                    <span class="highlight">Comment s'y rendre ?</span>
+                  </h3>
                   <p>
                     <br />Directement sortie A13
                   </p>
@@ -103,6 +107,7 @@
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
   max-width: 100vw
+  width: 100%
 
   .column
     scroll-snap-align: center

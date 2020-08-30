@@ -20,6 +20,9 @@
     <div id="navWedsite" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
+          <a @click="toggleMenu()" href="/#news">🔔NEWS</a>
+        </div>
+        <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="/#informations">Informations</a>
         </div>
         <div class="navbar-item is-hoverable">
