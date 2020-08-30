@@ -25,7 +25,6 @@
                   <p>
                     <br />78710 Jouy-Mauvoisin dans les Yvelines
                   </p>
-                  <p>Unique et atypique, le Village de Sully est un ancien village authentique revisité dans un style "Vintage Chic".</p>
                   <p>Vous êtes libres d'aller voir sur internet de quoi il s'agit tout comme vous pouvez vous laisser surprendre... 😉</p>
                 </div>
               </div>
