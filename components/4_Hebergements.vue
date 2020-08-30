@@ -10,13 +10,15 @@
     <div class="hero-body observedElement">
       <div class="container">
         <div class="explications">
-          <p>
+          <!-- <p>
             La fête est toujours plus cool quand on peut dormir sur place
             <span class="bd-emoji">😉</span>. Il y a des chambres disponibles au Village de Sully et dans un village juste à côté pour tout le monde.
-          </p>
+          </p>-->
+          <p>Le Village est situé juste à côté de Mantes-la-Jolie, proche d'un Ibis Budget et les Uber et taxis sont à moins de 10€ par voiture.</p>
+          <p></p>
 
           <p>
-            Nous contacter via le
+            Pour toutes questions, nous contacter via le
             <em>
               <a href="#contact">formulaire</a>
             </em> en bas de page.
