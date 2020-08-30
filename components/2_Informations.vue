@@ -14,7 +14,7 @@
         <div class="explications">
           <p>Infos diverses sur le lieu et comment vous y rendre !</p>
         </div>
-        <div class="columns is-mobile scroll-ctn is-centered is-variable is-8">
+        <div class="columns is-mobile scroll-ctn is-centered-tablet is-variable is-8-tablet">
           <div class="column is-11-mobile is-4-tablet">
             <div class="card">
               <div class="card-content">
@@ -103,6 +103,7 @@
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
   max-width: 100vw
+  width: 100%
 
   .column
     scroll-snap-align: center

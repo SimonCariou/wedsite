@@ -134,7 +134,7 @@ div
   &-left
     left: 0
   &-right
-    right: 0
+    right: $hero-padding-right
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scroll-ctn::-webkit-scrollbar
@@ -144,3 +144,8 @@ div
 .scroll-ctn
   -ms-overflow-style: none  //IE and Edge */
   scrollbar-width: none  //Firefox */
+
+//Columns
+@media screen and (min-width: $tablet)
+  .is-centered-tablet
+    justify-content: center
