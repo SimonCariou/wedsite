@@ -11,9 +11,9 @@
     <div class="hero-body observedElement">
       <div class="container">
         <div class="explications">
-          <p>blabla</p>
+          <p></p>
         </div>
-        <div class="timeline is-centered">
+        <!-- <div class="timeline is-centered">
           <header class="timeline-header">
             <span class="tag is-medium is-primary">Start</span>
           </header>
@@ -48,6 +48,9 @@
           <header class="timeline-header">
             <span class="tag is-medium is-primary">End</span>
           </header>
+        </div>-->
+        <div class="has-text-centered" style="transform: rotate(20deg); width:auto">
+          <p class="is-size-4-mobile is-size-1-tablet">On planche dessus 😉</p>
         </div>
       </div>
     </div>
