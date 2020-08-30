@@ -22,8 +22,8 @@
             </em> en bas de page.
           </p>
         </div>
-        <div class="columns is-mobile scroll-ctn">
-          <div v-for="card in cards" :key="card.name" class="column is-11-mobile is-6-tablet">
+        <div class="columns is-centered">
+          <div v-for="card in cards" :key="card.name" class="column is-full-mobile is-4-tablet">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -38,6 +38,14 @@
                     {{ card.address }}
                   </p>
                   <p>{{ card.description }}</p>
+                  <p>
+                    <em>{{ card.distance }}</em>
+                  </p>
+                  <button class="button is-primary">
+                    <a
+                      href="https://all.accor.com/ssr/app/accor/rates/7404/index.en.shtml?dateIn=2020-12-05&nights=1&compositions=2&stayplus=false"
+                    >Reserver</a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -54,21 +62,11 @@ export default {
     return {
       cards: [
         {
-          image:
-            "https://cdn.kactus.com/pictures/000/163/601/large/le_village_de_sully_chambre.jpg?1574676985",
-          name: "Village de Sully",
-          address: "D110 78710 Jouy-Mauvoisin",
-          beds: "50 couchages",
-          description:
-            "58e par personne, salle de bain et toilettes sur le palier"
-        },
-        {
-          image:
-            "https://cdn.kactus.com/pictures/000/163/601/large/le_village_de_sully_chambre.jpg?1574676985",
-          name: "Domaine de l'oree du bois",
-          address: "Chemin de la Cote Blanche 78710 Rosny-sur-Seine",
-          beds: "50 couchages",
-          description: "68e par personne, salle de bain et toilettes prives."
+          image: "https://www.ahstatic.com/photos/7404_ho_00_p_1024x768.jpg",
+          name: "Ibis Budget Mantes-la-Jolie",
+          address: "19 Boulevard De Sully, 78200 Mantes-la-Jolie",
+          description: "A partir de 60€/chambre double.",
+          distance: "Situé à 4.5km du Village de Sully"
         }
       ]
     };
@@ -77,15 +75,10 @@ export default {
 </script>
 
 <style scoped lang="sass">
-.columns
-  overflow-x: scroll
-  -webkit-overflow-scrolling: touch
-  scroll-snap-type: x mandatory
-  width: 100%
-  max-width: 100vw
+.button
+  a
+    color: #fff
 
-  .column
-    scroll-snap-align: center
 .card
   display: flex
   flex-direction: column
