@@ -34,7 +34,9 @@
               </div>
               <div class="card-content">
                 <div class="content">
-                  <h3 class="is-size-5">{{ card.name }}</h3>
+                  <h3 class="is-size-5">
+                    <span class="highlight">{{ card.name }}</span>
+                  </h3>
                   <p>{{ card.address }}</p>
                   <p style="margin-bottom:0">{{ card.description }}</p>
                   <p>

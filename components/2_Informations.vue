@@ -19,7 +19,9 @@
             <div class="card">
               <div class="card-content">
                 <div class="content">
-                  <h3 class="is-size-5">ADRESSE</h3>
+                  <h3 class="is-size-5">
+                    <span class="highlight">Adresse</span>
+                  </h3>
                   <p>
                     <br />78710 Jouy-Mauvoisin dans les Yvelines
                   </p>
@@ -38,7 +40,9 @@
             <div class="card">
               <div class="card-content">
                 <div class="content">
-                  <h3 class="is-size-5 subsubtitle">COMMENT S'Y RENDRE</h3>
+                  <h3 class="is-size-5 subsubtitle">
+                    <span class="highlight">Comment s'y rendre ?</span>
+                  </h3>
                   <p>
                     <br />Directement sortie A13
                   </p>

@@ -27,9 +27,9 @@
               <div class="card-content">
                 <div class="content">
                   <div>
-                    <p>
+                    <h3 class="is-size-5">
                       <span class="highlight">{{ card.date }}</span>
-                    </p>
+                    </h3>
                     <p>{{ card.description }}</p>
                   </div>
                 </div>
