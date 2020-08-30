@@ -35,11 +35,8 @@
               <div class="card-content">
                 <div class="content">
                   <h3 class="is-size-5">{{ card.name }}</h3>
-                  <p>
-                    <br />
-                    {{ card.address }}
-                  </p>
-                  <p>{{ card.description }}</p>
+                  <p>{{ card.address }}</p>
+                  <p style="margin-bottom:0">{{ card.description }}</p>
                   <p>
                     <em>{{ card.distance }}</em>
                   </p>

@@ -3,7 +3,7 @@
     <div class="hero-head observedElement">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
-        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">7 ans d'histoire en images.</h2>
       </div>
     </div>
 
@@ -27,7 +27,9 @@
               <div class="card-content">
                 <div class="content">
                   <div>
-                    <p>{{ card.date }}</p>
+                    <p>
+                      <span class="highlight">{{ card.date }}</span>
+                    </p>
                     <p>{{ card.description }}</p>
                   </div>
                 </div>
@@ -76,13 +78,13 @@ export default {
           image: require("@/assets/images/scrollsnap_photos/2015.jpg"),
           alternative_description: "Soirée EPF",
           date: "18 Avril 2015",
-          description: "Soiree Versus EPF - Campagne BDE."
+          description: "Soirée Versus EPF - Campagne BDE."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2016.jpg"),
           alternative_description: "Tour Eiffel",
           date: "14 Septembre 2016",
-          description: "A l'assaut de la tour Eiffel."
+          description: "A l'assaut de la tour Eiffel!"
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2017.jpg"),
@@ -95,21 +97,21 @@ export default {
           alternative_description: "Opera Garnier",
           date: "28 Août 2018",
           description:
-            "Avec un style fantôme pendant l'escape game de l'Opera Garnier."
+            "Avec un style fantôme pendant l'escape game de l'Opéra Garnier."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2019.jpg"),
-          alternative_description: "Paris - Hotel de Ville",
+          alternative_description: "Paris - Hôtel de Ville",
           date: "20 Avril 2019",
           description:
-            "Sortie champêtre à Paris sur la place de l'hotel de ville."
+            "Sortie champêtre à Paris sur la place de l'hôtel de ville."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
           alternative_description: "Saint Valentin 2020",
           date: "14 Février 2020",
           description:
-            "Apéro à l'appartement pour la Saint Valentin. Prets à être confinés pendant 3 mois."
+            'Apéro à l\'appartement pour la Saint Valentin. "Prêts" à être confinés pendant 3 mois...'
         }
       ]
     };
