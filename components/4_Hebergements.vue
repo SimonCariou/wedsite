@@ -45,6 +45,8 @@
                   <button class="button is-primary">
                     <a
                       href="https://all.accor.com/ssr/app/accor/rates/7404/index.en.shtml?dateIn=2020-12-05&nights=1&compositions=2&stayplus=false"
+                      target="_blank"
+                      rel="noopener"
                     >Reserver</a>
                   </button>
                 </div>

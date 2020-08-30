@@ -5,7 +5,7 @@
         <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
         <h2
           class="subtitle is-size-5-mobile is-size-4-tablet"
-        >Tout ce que vous avez besoin de savoir</h2>
+        >Tout ce que vous avez besoin de savoir sur le plan des festivités.</h2>
       </div>
     </div>
     <div class="hero-body observedElement">
