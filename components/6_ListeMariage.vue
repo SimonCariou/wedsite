@@ -29,6 +29,9 @@
                   <div>
                     <p>{{ card.description }}</p>
                   </div>
+                  <div class="price">
+                    <p>Prix: {{ card.price }}</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -76,43 +79,52 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
-          description: "Voyage de noce a Hawaii !!"
+          description: "Participation au voyage de noce a Hawaii !!",
+          price: "3000€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
           alternative_description: "Batterie de cuisine.",
           description:
-            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level."
+            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
+          price: "330€"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/vin.jpg"),
+          alternative_description: "Bouteilles de vin",
+          description: "Des bouteilles de vin à garder et faire vieillir.",
+          price: "Variable"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/raclette.jpg"),
+          alternative_description: "Appareil à raclette Téfal",
+          description:
+            "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
+          price: "~50€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
-          description: "1"
+          description: "3",
+          price: "€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
-          description: "2"
+          description: "4",
+          price: "€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
-          description: "3"
+          description: "5",
+          price: "€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
-          description: "4"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "5"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "6"
+          description: "6",
+          price: "€"
         }
       ]
     };
@@ -142,4 +154,9 @@ export default {
   display: flex
   flex-direction: column
   height: 100%
+
+.price
+  padding-top: 1rem
+  font-style: italic
+  color: rgba(141, 4, 4, 0.6)
 </style>
