@@ -79,8 +79,8 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
-          description: "Participation au voyage de noce a Hawaii !!",
-          price: "3000€"
+          description: "3 semaines d'hotel à Hawaii !!",
+          price: "4500€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
@@ -92,8 +92,8 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/vin.jpg"),
           alternative_description: "Bouteilles de vin",
-          description: "Des bouteilles de vin à garder et faire vieillir.",
-          price: "Variable"
+          description: "Quelques bonnes bouteilles de vin.",
+          price: "variable"
         },
         {
           image: require("@/assets/images/liste_de_mariage/raclette.jpg"),
@@ -103,22 +103,24 @@ export default {
           price: "~50€"
         },
         {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "3",
-          price: "€"
+          image: require("@/assets/images/liste_de_mariage/table_basse.jpg"),
+          alternative_description: "Table basse",
+          description:
+            "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
+          price: "240€"
         },
         {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "4",
-          price: "€"
+          image: require("@/assets/images/liste_de_mariage/resto_etoile.jpg"),
+          alternative_description: "Restaurant étoilé",
+          description:
+            "Un dîner pour 2 au Jules Verne de Frédéric Anton en haut de la tour Eiffel",
+          price: "460€"
         },
         {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "5",
-          price: "€"
+          image: require("@/assets/images/liste_de_mariage/tapis.jpg"),
+          alternative_description: "Tapis",
+          description: "Tapis en laisse tressée blanc écru La Redoute.",
+          price: "200€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
