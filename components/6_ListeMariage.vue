@@ -1,14 +1,16 @@
 <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
-      <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Explications</h2>
+      <div class="container">
+        <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Notre liste au père Noël 🎄</h2>
+      </div>
     </div>
 
     <div class="hero-body observedElement">
       <div class="container">
-        <div class="explications">
-          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent!</p>
+        <div class="explications-overflowing-content">
+          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à développer notre foyer vous pouvez trouver des inspirations en dessous 😉</p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="ldm-container">
           <div
@@ -27,35 +29,32 @@
                   <div>
                     <p>{{ card.description }}</p>
                   </div>
+                  <div class="price">
+                    <p>Prix: {{ card.price }}</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <nav class="level is-mobile is-overlay is-hidden-mobile">
-          <div class="level-left">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(-1)"
-                  :icon="['fas', 'chevron-left']"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="level-right">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(1)"
-                  :icon="['fas', 'chevron-right']"
-                />
-              </span>
-            </div>
-          </div>
-        </nav>
+        <span class="icon is-large is-hidden-mobile arrow arrow-left">
+          <font-awesome-icon
+            class="fas fa-2x"
+            @click="moveCarousel(-1)"
+            :icon="['fas', 'chevron-left']"
+          />
+        </span>
+        <span class="icon is-large is-hidden-mobile arrow arrow-right">
+          <font-awesome-icon
+            class="fas fa-2x"
+            @click="moveCarousel(1)"
+            :icon="['fas', 'chevron-right']"
+          />
+        </span>
+      </div>
+    </div>
+    <div class="hero-body observedElement">
+      <div class="container">
         <div class="explications">
           <p>
             Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
@@ -80,43 +79,54 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
-          description: "Voyage de noce a Hawaii !!"
+          description: "3 semaines d'hotel à Hawaii !!",
+          price: "4500€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
           alternative_description: "Batterie de cuisine.",
           description:
-            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level."
+            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
+          price: "330€"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/vin.jpg"),
+          alternative_description: "Bouteilles de vin",
+          description: "Quelques bonnes bouteilles de vin.",
+          price: "variable"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/raclette.jpg"),
+          alternative_description: "Appareil à raclette Téfal",
+          description:
+            "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
+          price: "~50€"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/table_basse.jpg"),
+          alternative_description: "Table basse",
+          description:
+            "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
+          price: "240€"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/resto_etoile.jpg"),
+          alternative_description: "Restaurant étoilé",
+          description:
+            "Un dîner pour 2 au Jules Verne de Frédéric Anton en haut de la tour Eiffel",
+          price: "460€"
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/tapis.jpg"),
+          alternative_description: "Tapis",
+          description: "Tapis en laisse tressée blanc écru La Redoute.",
+          price: "200€"
         },
         {
           image: require("@/assets/images/liste_de_mariage/32.jpg"),
           alternative_description: "xx",
-          description: "1"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "2"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "3"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "4"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "5"
-        },
-        {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "6"
+          description: "6",
+          price: "€"
         }
       ]
     };
@@ -137,8 +147,8 @@ export default {
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
-  width: 100%
   max-width: 100vw
+  width: 100%
 
   .column
     scroll-snap-align: center
@@ -146,4 +156,9 @@ export default {
   display: flex
   flex-direction: column
   height: 100%
+
+.price
+  padding-top: 1rem
+  font-style: italic
+  color: rgba(141, 4, 4, 0.6)
 </style>

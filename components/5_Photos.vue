@@ -1,13 +1,15 @@
 <template>
   <section id="photos" class="hero is-fullheight-with-navbar">
     <div class="hero-head observedElement">
-      <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
-      <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Récapitulatif de nos 7 ans de couple.</h2>
+      <div class="container">
+        <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">7 ans d'histoire en images.</h2>
+      </div>
     </div>
 
     <div class="hero-body observedElement">
       <div class="container">
-        <div class="explications">
+        <div class="explications-overflowing-content">
           <p>Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...</p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="photos-container">
@@ -25,7 +27,9 @@
               <div class="card-content">
                 <div class="content">
                   <div>
-                    <p>{{ card.date }}</p>
+                    <h3 class="is-size-5">
+                      <span class="highlight">{{ card.date }}</span>
+                    </h3>
                     <p>{{ card.description }}</p>
                   </div>
                 </div>
@@ -33,30 +37,20 @@
             </div>
           </div>
         </div>
-        <nav class="level is-mobile is-overlay is-hidden-mobile">
-          <div class="level-left">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(-1)"
-                  :icon="['fas', 'chevron-left']"
-                />
-              </span>
-            </div>
-          </div>
-          <div class="level-right">
-            <div class="level-item">
-              <span class="icon is-large">
-                <font-awesome-icon
-                  class="fas fa-3x arrow"
-                  @click="moveCarousel(1)"
-                  :icon="['fas', 'chevron-right']"
-                />
-              </span>
-            </div>
-          </div>
-        </nav>
+        <span class="icon is-large is-hidden-mobile arrow arrow-left">
+          <font-awesome-icon
+            class="fas fa-2x"
+            @click="moveCarousel(-1)"
+            :icon="['fas', 'chevron-left']"
+          />
+        </span>
+        <span class="icon is-large is-hidden-mobile arrow arrow-right">
+          <font-awesome-icon
+            class="fas fa-2x"
+            @click="moveCarousel(1)"
+            :icon="['fas', 'chevron-right']"
+          />
+        </span>
       </div>
     </div>
   </section>
@@ -84,13 +78,13 @@ export default {
           image: require("@/assets/images/scrollsnap_photos/2015.jpg"),
           alternative_description: "Soirée EPF",
           date: "18 Avril 2015",
-          description: "Soiree Versus EPF - Campagne BDE."
+          description: "Soirée Versus EPF - Campagne BDE."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2016.jpg"),
           alternative_description: "Tour Eiffel",
           date: "14 Septembre 2016",
-          description: "A l'assaut de la tour Eiffel."
+          description: "A l'assaut de la tour Eiffel!"
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2017.jpg"),
@@ -103,21 +97,21 @@ export default {
           alternative_description: "Opera Garnier",
           date: "28 Août 2018",
           description:
-            "Avec un style fantôme pendant l'escape game de l'Opera Garnier."
+            "Avec un style fantôme pendant l'escape game de l'Opéra Garnier."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2019.jpg"),
-          alternative_description: "Paris - Hotel de Ville",
+          alternative_description: "Paris - Hôtel de Ville",
           date: "20 Avril 2019",
           description:
-            "Sortie champêtre à Paris sur la place de l'hotel de ville."
+            "Sortie champêtre à Paris sur la place de l'hôtel de ville."
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
           alternative_description: "Saint Valentin 2020",
           date: "14 Février 2020",
           description:
-            "Apéro à l'appartement pour la Saint Valentin. Prets à être confinés pendant 3 mois."
+            'Apéro à l\'appartement pour la Saint Valentin. "Prêts" à être confinés pendant 3 mois...'
         }
       ]
     };
@@ -138,8 +132,8 @@ export default {
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
-  width: 100%
   max-width: 100vw
+  width: 100%
 
   .column
     scroll-snap-align: center
