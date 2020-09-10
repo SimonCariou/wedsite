@@ -3,7 +3,10 @@
   		<div class="hero-body has-text-centered">
   			<div class="container">
 				<footer >
-	   				<div class="footerItem"> 
+	   				<div class="footerItem toTop">
+	   					<span class="scroll-next" @click="scrollTo()">
+        					<div id="arrow-scroll-footer"></div>
+      					</span>
 	  					<p class="footerTitle">TO TOP</p>
 	  				</div>
 	  				<div class="footerItem">
@@ -36,7 +39,14 @@
 
 <script>
 export default {
-  name: "AppFooter"
+  name: "AppFooter",
+  mounted() {
+  },
+  methods: {
+    scrollTo() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
 };
 </script>
 
@@ -49,5 +59,43 @@ export default {
       font-size: 1.25rem
     .footerBugReport
       font-size: 0.75rem
+  .toTop
+    padding-bottom: 2rem
+  #arrow-scroll-footer,
+  #arrow-scroll-footer:before
+    position: absolute
+    left: 50%
+    cursor: pointer
 
+  #arrow-scroll-footer
+    width: 24px
+    height: 24px
+    top: -30px
+    margin: -12px 0 0 -12px
+    -webkit-transform: rotate(225deg)
+    border-left: none
+    border-top: none
+    border-right: 2px #231E solid
+    border-bottom: 2px #231E solid
+
+  #arrow-scroll-footer:before
+    content: ''
+    width: 20px
+    height: 20px
+    top: 50%
+    margin: -10px 0 0 -10px
+    border-left: none
+    border-top: none
+    border-right: 1px #231E solid
+    border-bottom: 1px #231E solid
+    animation-duration: 2s
+    animation-iteration-count: infinite
+    animation-name: arrow
+
+  @keyframes arrow
+    0%
+      opacity: 1
+    100%
+      opacity: 0
+      transform: translate(-10px, -10px)
 </style>
