@@ -8,7 +8,7 @@
     </div>
     <div class="hero-body">
       <div class="container">
-        <div class="game_win_p">Envoie nous un screenshot de ton score par mail et le meilleur gagnera une bouteille de champagne 😉</div>
+        <div class="game_win_p">Envoie nous un screenshot de ton score par mail et le meilleur gagnera une bouteille de champagne 😉 <em>(le jeu marche sur mobile et desktop)</em></div>
         <iframe src="//cdn.witchhut.com/html5/games/tog-jungle-runner/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem); width:100%"></iframe>
       </div>
     </div>
