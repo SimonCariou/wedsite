@@ -1,5 +1,5 @@
 <template>
-  <section id="welcome" class="hero is-fullheight-with-navbar is-primary observedElement">
+  <section id="welcome" class="hero is-fullheight-with-navbar is-primary">
     <div class="hero-body columns is-centered">
       <div
         class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"
@@ -19,22 +19,22 @@
 
           <div class="is-overlaying-lottie">
             <h1
-              class="title is-size-1-mobile is-size-0-desktop is-size-0-tablet animate__animated animate__fadeInRight"
+              class="title is-size-1-mobile is-size-0-tablet grand-title animate__animated animate__fadeInRight"
             >Bienvenue.</h1>
             <h2
               class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
-            >On se marie le 5 decembre 2020 !</h2>
+            >On se marie le 5 decembre 2020</h2>
 
             <h3
-              class="is-size-5-mobile is-size-4-desktop animate__animated animate__fadeInRight animate__delay-2s"
-            >Scrollez pour en savoir plus</h3>
+              class="is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
+            >Scrollez pour en savoir plus!</h3>
           </div>
         </div>
       </div>
     </div>
     <div class="hero-foot is-hidden-touch">
       <span class="scroll-next" @click="scrollTo()">
-        <div class="arrow animate__animated animate__fadeIn animate__delay-3s"></div>
+        <div id="arrow-scroll-welcome" class="animate__animated animate__fadeIn animate__delay-3s"></div>
       </span>
     </div>
   </section>
@@ -95,12 +95,13 @@ export default {
     right: 0
     top: 0
 
-  .arrow,
-  .arrow:before
+  #arrow-scroll-welcome,
+  #arrow-scroll-welcome:before
     position: absolute
     left: 50%
+    cursor: pointer
 
-  .arrow
+  #arrow-scroll-welcome
     width: 24px
     height: 24px
     bottom: 40px
@@ -111,7 +112,7 @@ export default {
     border-right: 2px #fff solid
     border-bottom: 2px #fff solid
 
-  .arrow:before
+  #arrow-scroll-welcome:before
     content: ''
     width: 20px
     height: 20px
