@@ -1,7 +1,8 @@
 <template>
   <div class="hero is-fullheight-with-navbar">
 <!--  <iframe src="//cdn.witchhut.com/html5/games/pocket-wings-ww2/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe> -->
- <iframe src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition//" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>
+<!--  <iframe src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition//" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>-->
+ <iframe src="//cdn.witchhut.com/html5/games/tog-jungle-runner/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>
   
   </div>
 </template>

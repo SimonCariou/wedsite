@@ -61,6 +61,7 @@ export default {
       font-size: 0.75rem
   .toTop
     padding-bottom: 2rem
+    padding-top: 3rem
   #arrow-scroll-footer,
   #arrow-scroll-footer:before
     position: absolute
@@ -70,7 +71,7 @@ export default {
   #arrow-scroll-footer
     width: 24px
     height: 24px
-    top: -30px
+    top: 30px
     margin: -12px 0 0 -12px
     -webkit-transform: rotate(225deg)
     border-left: none
