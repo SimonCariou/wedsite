@@ -40,14 +40,10 @@
         <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="/#contact">Contact</a>
         </div>
-        <!--
         <div class="navbar-item is-hoverable">
-          <nuxt-link
-            to="/Jeu"
-
-             @click="toggleMenu()">Jeu</nuxt-link>
+          <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
         </div>
-        -->
+      
       </div>
     </div>
   </nav>
