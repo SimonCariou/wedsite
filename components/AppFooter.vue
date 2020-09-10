@@ -16,7 +16,7 @@
 	  					<p class="footerTitle">CONTACT</p>
 		  				<p>40 rue Daguerre</p>
 		  				<p>75014 Paris</p>
-		  				<p><a mailTo="cariou.leval@orange.fr">cariou.leval@orange.fr</a></p>
+		  				<p><a href="mailto:cariou.leval@orange.fr">cariou.leval@orange.fr</a></p>
 		  				<p>+33 6 67 83 64 41</p>
 		  				<p>+33 6 79 01 31 46</p>
 	  				</div>
