@@ -1,17 +1,8 @@
 <template>
   <div class="hero is-fullheight-with-navbar">
-    <!-- Place this code where you'd like the game to appear 
-        <iframe
-          src="//www.miniclip.com/games/penguin-push/fr/webgame.php?bodybg=5&amp;width=100%&amp;height=408&amp;forcecredits=null"
-          width="100%"
-          height="408"
-          frameborder="0"
-          scrolling="no"
-          style="border:none;"
-          allowfullscreen
-        ></iframe>
-    -->
-    <canvas></canvas>
+<!--  <iframe src="//cdn.witchhut.com/html5/games/pocket-wings-ww2/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe> -->
+ <iframe src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition//" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>
+  
   </div>
 </template>
 
@@ -29,7 +20,10 @@ canvas {
 </style>
 
 <script>
+
 export default {
+  mounted() {
+  },
   head: {
     meta: [
       { charset: "utf-8" },
