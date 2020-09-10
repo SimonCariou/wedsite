@@ -1,8 +1,20 @@
 <template>
   <div class="hero is-fullheight-with-navbar">
+    <div class="hero-head">
+      <div class="container">
+        <h1 class="title is-size-2-mobile is-size-1-tablet">Jeu</h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Pour la compèt'</h2>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="game_win_p">Envoie nous un screenshot de ton score par mail et le meilleur gagnera une bouteille de champagne 😉</div>
+        <iframe src="//cdn.witchhut.com/html5/games/tog-jungle-runner/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem); width:100%"></iframe>
+      </div>
+    </div>
 <!--  <iframe src="//cdn.witchhut.com/html5/games/pocket-wings-ww2/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe> -->
 <!--  <iframe src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition//" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>-->
- <iframe src="//cdn.witchhut.com/html5/games/tog-jungle-runner/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>
+ 
   
   </div>
 </template>
@@ -48,3 +60,10 @@ export default {
   }
 };
 </script>
+
+<style lang="sass" scoped>
+.hero-head
+  padding-top: 0
+.game_win_p
+  padding-bottom: 1rem
+</style>

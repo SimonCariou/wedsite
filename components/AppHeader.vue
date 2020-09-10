@@ -41,7 +41,7 @@
           <a @click="toggleMenu()" href="/#contact">Contact</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/Jeu" class="is-size-7">Jeu</a>
+          <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
         </div>
       
       </div>
