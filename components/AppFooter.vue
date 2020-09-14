@@ -10,7 +10,11 @@
             <p class="footerTitle">TO TOP</p>
           </div>
           <div class="footerItem">
-            <p>------- svg rox -------</p>
+            <img
+              src="@/assets/images/global_design/Monogram-Black.png"
+              alt="monogram Sim et Rox"
+              class="monogram"
+            />
           </div>
           <div class="footerItem">
             <p class="footerTitle">CONTACT</p>
@@ -22,9 +26,7 @@
             <p>+33 6 67 83 64 41</p>
             <p>+33 6 79 01 31 46</p>
           </div>
-          <div class="footerItem">
-            <p>------- svg rox -------</p>
-          </div>
+          <div class="footerItem"></div>
           <div class="footerItem">
             <p>Site fait par Simon avec ❤️</p>
             <p>Copyright Simon Cariou - 2020</p>
@@ -55,6 +57,9 @@ export default {
 
 <style lang="sass" scoped>
 #footer
+  .monogram
+    width: 5rem
+
   .footerItem
     padding-bottom: 1rem
     .footerTitle
