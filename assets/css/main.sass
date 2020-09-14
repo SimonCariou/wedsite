@@ -98,13 +98,24 @@ div
   padding-right: $hero-padding-right
 
 //For animating the text when entering the VP
-.in-view-body
-  animation: animate-in-view-fadeIn .6s ease-out forwards
-  opacity: 1
 
-.in-view-title
+.in-view.section-title
   animation: animate-in-view-title-fadeInUp .6s ease-out forwards
-  opacity: 1
+
+.in-view.section-body
+  animation: animate-in-view-fadeIn .6s ease-out forwards
+
+@keyframes animate-in-view-title-fadeInUp
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(0, 100%, 0)
+    transform: translate3d(0, 100%, 0)
+  70%
+    opacity: 0
+  100%
+    opacity: 1
+    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
 
 @keyframes animate-in-view-fadeIn
   0%
@@ -118,23 +129,10 @@ div
   100%
     opacity: 1
 
-@keyframes animate-in-view-title-fadeInUp
-  0%
-    opacity: 0
-    -webkit-transform: translate3d(0, 100%, 0)
-    transform: translate3d(0, 100%, 0)
-
-  to
-    opacity: 1
-    -webkit-transform: translateZ(0)
-    transform: translateZ(0)
-
   //by default not visible. If not set, it blinked when applying in-view class because resetting the opacity to 0 before setting it up to 1
-.observedElementBody
+.observedElement
   opacity: 0
 
-.observedElementTitle
-  opacity: 0
 .card
   border-radius: 15px
 

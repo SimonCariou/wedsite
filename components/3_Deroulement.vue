@@ -1,6 +1,6 @@
 <template>
   <section id="deroulement" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElementTitle">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
         <h2
@@ -8,7 +8,7 @@
         >Tout ce dont vous avez besoin de savoir sur le plan des festivités.</h2>
       </div>
     </div>
-    <div class="hero-body observedElementBody">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <p></p>

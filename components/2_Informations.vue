@@ -1,6 +1,6 @@
 <template>
   <section id="informations" class="hero is-fullheight-with-navbar is-light">
-    <div class="hero-head observedElementTitle">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Informations</h1>
         <h2
@@ -8,8 +8,7 @@
         >Infos pratiques pour égayer votre curiosité...</h2>
       </div>
     </div>
-
-    <div class="hero-body observedElementBody">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <!-- <div class="explications">
           <p>Vous trouverez ici plein de choses sur comment vous rendre au village de Sully</p>
@@ -126,7 +125,6 @@
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
   max-width: 100vw
-  width: 100%
 
   .column
     scroll-snap-align: center

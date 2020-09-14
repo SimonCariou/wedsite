@@ -1,13 +1,13 @@
 <template>
   <section id="hebergements" class="hero is-fullheight-with-navbar is-light">
-    <div class="hero-head observedElementTitle">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Hébergements</h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Où dormir dans le coin?</h2>
       </div>
     </div>
 
-    <div class="hero-body observedElementBody">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <!-- <p>
