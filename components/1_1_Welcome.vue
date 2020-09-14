@@ -41,14 +41,12 @@
 </template>
 <script>
 export default {
-  mounted() {
-    console.log(this.$refs);
-  },
+  mounted() {},
   methods: {
     scrollTo() {
       window.scrollTo({ top: window.innerHeight - 52, behavior: "smooth" });
-    }
-  }
+    },
+  },
 };
 </script>
 <!--

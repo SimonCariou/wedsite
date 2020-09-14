@@ -1,6 +1,6 @@
 <template>
   <section id="informations" class="hero is-fullheight-with-navbar is-light">
-    <div class="hero-head observedElement">
+    <div class="hero-head observedElementTitle">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Informations</h1>
         <h2
@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElementBody">
       <div class="container">
         <!-- <div class="explications">
           <p>Vous trouverez ici plein de choses sur comment vous rendre au village de Sully</p>
