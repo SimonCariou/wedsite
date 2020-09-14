@@ -1,5 +1,5 @@
 <template>
-  <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
+  <section id="listeDeMariage" class="hero is-fullheight-with-navbar is-light">
     <div class="hero-head observedElement">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
@@ -126,13 +126,13 @@ export default {
           image: require("@/assets/images/liste_de_mariage/bilig.jpg"),
           alternative_description: "Bilig Krampouz",
           description:
-            "Pour faire des belles galettes bretones, pas de choix il faut une Bilig.",
+            "Pour faire des belles galettes bretonnes, pas de choix il faut une Bilig.",
           price: "250€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/fou_de_patisserie.jpg"),
           alternative_description: "Abonnement fou de patisserie",
-          description: "Abonnement d'1 an à Fou De Patisserie",
+          description: "Abonnement d'un an à Fou De Patisserie",
           price: "35€",
         },
         {
@@ -158,7 +158,7 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/tea_time_meurice.jpg"),
           alternative_description: "tea time meurice",
-          description: "Tea Time au Champagne, au Meurice",
+          description: "Tea Time au Meurice",
           price: "83€ x 2",
         },
         {
@@ -167,6 +167,12 @@ export default {
           description:
             "Un beau lave vaisselle pour quand on aura de la place...",
           price: "250€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/etc.jpg"),
+          alternative_description: "...",
+          description: "Plus d'idées à venir bientôt 😉",
+          price: "à venir",
         },
       ],
     };
