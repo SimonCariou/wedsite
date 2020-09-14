@@ -47,12 +47,12 @@ export default {
     ],
   },
   mounted() {
-    this.observerTitle = new IntersectionObserver(
+    this.observer = new IntersectionObserver(
       (entries) => {
         for (var i in entries) {
           entries.forEach(function (entry) {
             if (entry.isIntersecting) {
-              entry.target.classList.add("in-view-title");
+              entry.target.classList.add("in-view");
             } else {
               //entry.target.classList.remove("in-view");
             }
@@ -64,38 +64,13 @@ export default {
       }
     );
 
-    this.observerBody = new IntersectionObserver(
-      (entries) => {
-        for (var i in entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("in-view-body");
-            } else {
-              //entry.target.classList.remove("in-view");
-            }
-          });
-        }
-      },
-      {
-        threshold: 0.25,
-      }
-    );
-
-    var itemsTitle = this.$el.querySelectorAll(".observedElementTitle");
-    for (var i in itemsTitle) {
-      if (!itemsTitle.hasOwnProperty(i)) {
+    var items = this.$el.querySelectorAll(".observedElement");
+    for (var i in items) {
+      if (!items.hasOwnProperty(i)) {
         continue;
       }
 
-      this.observerTitle.observe(itemsTitle[i]);
-    }
-
-    var itemsBody = this.$el.querySelectorAll(".observedElementBody");
-    for (var i in itemsBody) {
-      if (!itemsBody.hasOwnProperty(i)) {
-        continue;
-      }
-      this.observerBody.observe(itemsBody[i]);
+      this.observer.observe(items[i]);
     }
   },
 };

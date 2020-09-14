@@ -1,6 +1,6 @@
 <template>
   <section id="news" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElementTitle">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">News</h1>
         <h2
@@ -8,7 +8,7 @@
         >Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!</h2>
       </div>
     </div>
-    <div class="hero-body observedElementBody">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <p>
