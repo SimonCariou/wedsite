@@ -1,6 +1,6 @@
 <template>
   <section id="contact" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElement">
+    <div class="hero-head observedElementTitle">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Contact</h1>
         <h2
@@ -8,7 +8,7 @@
         >Envoyez nous un mail si vous avez des questions.</h2>
       </div>
     </div>
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElementBody">
       <div class="container">
         <form
           class="gform"

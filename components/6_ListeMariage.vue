@@ -1,13 +1,13 @@
 <template>
   <section id="listeDeMariage" class="hero is-fullheight-with-navbar is-light">
-    <div class="hero-head observedElement">
+    <div class="hero-head observedElementTitle">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Notre liste au père Noël 🎄</h2>
       </div>
     </div>
 
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElementBody">
       <div class="container">
         <div class="explications-overflowing-content">
           <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à développer notre foyer vous pouvez trouver des inspirations en dessous 😉</p>
@@ -53,7 +53,7 @@
         </span>
       </div>
     </div>
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElementBody">
       <div class="container">
         <div class="explications">
           <p>

@@ -32,7 +32,7 @@ export default {
     ListeMariage,
     Contact,
   },
-  data: () => ({ observer: null, intersected: false }),
+  data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
   head: {
     title: "R&S - Wedsite",
     meta: [
@@ -47,12 +47,12 @@ export default {
     ],
   },
   mounted() {
-    this.observer = new IntersectionObserver(
+    this.observerTitle = new IntersectionObserver(
       (entries) => {
         for (var i in entries) {
           entries.forEach(function (entry) {
             if (entry.isIntersecting) {
-              entry.target.classList.add("in-view");
+              entry.target.classList.add("in-view-title");
             } else {
               //entry.target.classList.remove("in-view");
             }
@@ -64,14 +64,38 @@ export default {
       }
     );
 
-    var items = this.$el.querySelectorAll(".observedElement");
+    this.observerBody = new IntersectionObserver(
+      (entries) => {
+        for (var i in entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view-body");
+            } else {
+              //entry.target.classList.remove("in-view");
+            }
+          });
+        }
+      },
+      {
+        threshold: 0.25,
+      }
+    );
 
-    for (var i in items) {
-      if (!items.hasOwnProperty(i)) {
+    var itemsTitle = this.$el.querySelectorAll(".observedElementTitle");
+    for (var i in itemsTitle) {
+      if (!itemsTitle.hasOwnProperty(i)) {
         continue;
       }
 
-      this.observer.observe(items[i]);
+      this.observerTitle.observe(itemsTitle[i]);
+    }
+
+    var itemsBody = this.$el.querySelectorAll(".observedElementBody");
+    for (var i in itemsBody) {
+      if (!itemsBody.hasOwnProperty(i)) {
+        continue;
+      }
+      this.observerBody.observe(itemsBody[i]);
     }
   },
 };
