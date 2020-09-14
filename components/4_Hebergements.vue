@@ -1,5 +1,5 @@
 <template>
-  <section id="hebergements" class="hero is-fullheight-with-navbar">
+  <section id="hebergements" class="hero is-fullheight-with-navbar is-light">
     <div class="hero-head observedElement">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Hébergements</h1>
@@ -69,11 +69,11 @@ export default {
           name: "Ibis Budget Mantes-la-Jolie",
           address: "19 Boulevard De Sully, 78200 Mantes-la-Jolie",
           description: "A partir de 60€/chambre double.",
-          distance: "Situé à 4.5km du Village de Sully"
-        }
-      ]
+          distance: "Situé à 4.5km du Village de Sully",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
