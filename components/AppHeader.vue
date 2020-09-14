@@ -43,7 +43,6 @@
         <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
         </div>
-      
       </div>
     </div>
   </nav>
@@ -54,13 +53,12 @@ export default {
   name: "AppHeader",
   data() {
     return {
-      isMenuOpen: false
+      isMenuOpen: false,
     };
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
-      console.log("toggle");
     },
     closeMenu() {
       if (this.isMenuOpen) {
@@ -71,9 +69,9 @@ export default {
     clickOnBrand() {
       this.closeMenu();
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }
+    },
   },
-  mounted() {}
+  mounted() {},
 };
 </script>
 

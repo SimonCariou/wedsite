@@ -30,16 +30,28 @@ export default {
     Hebergements,
     Photos,
     ListeMariage,
-    Contact
+    Contact,
   },
   data: () => ({ observer: null, intersected: false }),
+  head: {
+    title: "R&S - Wedsite",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Bienvenue sur notre wedsite, toutes les infos sur le fameux 5 décembre 2020. Le site sera mis à jour très souvent au fur et à mesures des préparatifs. Bisous à tous!",
+      },
+    ],
+  },
   mounted() {
     this.observer = new IntersectionObserver(
-      entries => {
+      (entries) => {
         for (var i in entries) {
-          entries.forEach(function(entry) {
+          entries.forEach(function (entry) {
             if (entry.isIntersecting) {
-              console.log("entry.isIntersecting: " + entry.isIntersecting);
               entry.target.classList.add("in-view");
             } else {
               //entry.target.classList.remove("in-view");
@@ -48,7 +60,7 @@ export default {
         }
       },
       {
-        threshold: 0.25
+        threshold: 0.25,
       }
     );
 
@@ -61,7 +73,7 @@ export default {
 
       this.observer.observe(items[i]);
     }
-  }
+  },
 };
 </script>
 
