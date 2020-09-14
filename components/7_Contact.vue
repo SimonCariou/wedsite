@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="hero is-fullheight-with-navbar">
+  <section id="contact" class="hero is-fullheight">
     <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Contact</h1>
@@ -69,6 +69,13 @@
             </h2>
           </div>
         </form>
+      </div>
+      <div class="wrap-design stuck-right in-background">
+        <img
+          src="@/assets/images/global_design/boules_or_tilted.png"
+          alt="boules or"
+          class="boules-or-info-bottom-right"
+        />
       </div>
     </div>
   </section>

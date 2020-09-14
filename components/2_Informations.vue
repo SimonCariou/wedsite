@@ -1,11 +1,11 @@
 <template>
-  <section id="informations" class="hero is-fullheight-with-navbar is-light">
+  <section id="informations" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Informations</h1>
         <h2
           class="subtitle is-size-5-mobile is-size-4-tablet"
-        >Infos pratiques pour égayer votre curiosité...</h2>
+        >Infos pratiques pour titiller votre curiosité...</h2>
       </div>
     </div>
     <div class="hero-body observedElement section-body">
@@ -34,7 +34,6 @@
               </div>
             </div>
           </div>
-
           <div class="column is-11-mobile is-4-tablet">
             <div class="card">
               <div class="card-content">
