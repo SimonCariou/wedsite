@@ -1,5 +1,5 @@
 <template>
-  <section id="hebergements" class="hero is-fullheight-with-navbar is-light">
+  <section id="hebergements" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Hébergements</h1>

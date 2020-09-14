@@ -1,5 +1,5 @@
 <template>
-  <section id="photos" class="hero is-fullheight-with-navbar">
+  <section id="photos" class="hero is-fullheight">
     <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
