@@ -1,13 +1,6 @@
 <template>
   <section id="deroulement" class="hero is-fullheight">
     <div class="hero-head observedElement section-title">
-      <div class="wrap-design stuck-right in-background">
-        <img
-          src="@/assets/images/global_design/boules_or_tilted.png"
-          alt="boules or"
-          class="boules-or-info-top-right"
-        />
-      </div>
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
         <h2
@@ -58,6 +51,15 @@
         </div>-->
         <div class="has-text-centered" style="transform: rotate(20deg); width:auto">
           <p class="is-size-4-mobile is-size-1-tablet">On planche dessus 😉</p>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="wrap-design stuck-left in-background">
+          <img
+            src="@/assets/images/global_design/boules_or_tilted.png"
+            alt="boules or"
+            class="boules-or-info-bottom-left"
+          />
         </div>
       </div>
     </div>

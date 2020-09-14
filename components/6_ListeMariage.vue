@@ -63,13 +63,6 @@
         </div>
         <Paypal />
       </div>
-      <div class="wrap-design stuck-left in-background">
-        <img
-          src="@/assets/images/global_design/boules_or_tilted.png"
-          alt="boules or"
-          class="boules-or-info-bottom-left"
-        />
-      </div>
     </div>
   </section>
 </template>
