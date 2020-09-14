@@ -34,7 +34,6 @@
               </div>
             </div>
           </div>
-
           <div class="column is-11-mobile is-4-tablet">
             <div class="card">
               <div class="card-content">
