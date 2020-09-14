@@ -8,7 +8,6 @@
         >Infos pratiques pour égayer votre curiosité...</h2>
       </div>
     </div>
-
     <div class="hero-body observedElement section-body">
       <div class="container">
         <!-- <div class="explications">
@@ -126,7 +125,6 @@
   -webkit-overflow-scrolling: touch
   scroll-snap-type: x mandatory
   max-width: 100vw
-  width: 100%
 
   .column
     scroll-snap-align: center
