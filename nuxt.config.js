@@ -14,10 +14,10 @@ export default {
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
-      }
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
+      // }
     ],
     script: [
 
@@ -41,7 +41,8 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/main.sass'
+    '@/assets/css/main.sass',
+    '@/assets/css/animate-text.css'
   ],
   /*
   ** Plugins to load before mounting the App
