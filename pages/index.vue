@@ -30,16 +30,15 @@ export default {
     Hebergements,
     Photos,
     ListeMariage,
-    Contact
+    Contact,
   },
-  data: () => ({ observer: null, intersected: false }),
+  data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
   mounted() {
     this.observer = new IntersectionObserver(
-      entries => {
+      (entries) => {
         for (var i in entries) {
-          entries.forEach(function(entry) {
+          entries.forEach(function (entry) {
             if (entry.isIntersecting) {
-              console.log("entry.isIntersecting: " + entry.isIntersecting);
               entry.target.classList.add("in-view");
             } else {
               //entry.target.classList.remove("in-view");
@@ -48,12 +47,11 @@ export default {
         }
       },
       {
-        threshold: 0.25
+        threshold: 0.25,
       }
     );
 
     var items = this.$el.querySelectorAll(".observedElement");
-
     for (var i in items) {
       if (!items.hasOwnProperty(i)) {
         continue;
@@ -61,7 +59,7 @@ export default {
 
       this.observer.observe(items[i]);
     }
-  }
+  },
 };
 </script>
 

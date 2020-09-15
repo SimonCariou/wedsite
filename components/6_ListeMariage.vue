@@ -1,13 +1,13 @@
 <template>
-  <section id="listeDeMariage" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElement">
+  <section id="listeDeMariage" class="hero is-fullheight is-light">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Notre liste au père Noël 🎄</h2>
       </div>
     </div>
 
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
           <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à développer notre foyer vous pouvez trouver des inspirations en dessous 😉</p>
@@ -53,7 +53,7 @@
         </span>
       </div>
     </div>
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <p>
@@ -71,7 +71,7 @@
 import Paypal from "~/components/Paypal.vue";
 export default {
   components: {
-    Paypal
+    Paypal,
   },
   data() {
     return {
@@ -80,65 +80,111 @@ export default {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
           description: "3 semaines d'hotel à Hawaii !!",
-          price: "4500€"
+          price: "4500€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
           alternative_description: "Batterie de cuisine.",
           description:
             "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
-          price: "330€"
+          price: "330€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/vin.jpg"),
           alternative_description: "Bouteilles de vin",
           description: "Quelques bonnes bouteilles de vin.",
-          price: "variable"
+          price: "variable",
         },
         {
           image: require("@/assets/images/liste_de_mariage/raclette.jpg"),
           alternative_description: "Appareil à raclette Téfal",
           description:
             "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
-          price: "~50€"
+          price: "~50€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/table_basse.jpg"),
           alternative_description: "Table basse",
           description:
             "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
-          price: "240€"
+          price: "240€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/resto_etoile.jpg"),
           alternative_description: "Restaurant étoilé",
           description:
             "Un dîner pour 2 au Jules Verne de Frédéric Anton en haut de la tour Eiffel",
-          price: "460€"
+          price: "230€ x 2",
         },
         {
           image: require("@/assets/images/liste_de_mariage/tapis.jpg"),
           alternative_description: "Tapis",
           description: "Tapis en laisse tressée blanc écru La Redoute.",
-          price: "200€"
+          price: "200€",
         },
         {
-          image: require("@/assets/images/liste_de_mariage/32.jpg"),
-          alternative_description: "xx",
-          description: "6",
-          price: "€"
-        }
-      ]
+          image: require("@/assets/images/liste_de_mariage/bilig.jpg"),
+          alternative_description: "Bilig Krampouz",
+          description:
+            "Pour faire des belles galettes bretonnes, pas de choix il faut une Bilig.",
+          price: "250€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/fou_de_patisserie.jpg"),
+          alternative_description: "Abonnement fou de patisserie",
+          description: "Abonnement d'un an à Fou De Patisserie",
+          price: "35€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/hue.jpg"),
+          alternative_description: "Lampes connectées Philips Hue",
+          description: "Lampes connectées Philips Hue",
+          price: "??€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/ustensiles_patisserie.jpg"),
+          alternative_description: "ustensiles de patisserie",
+          description: "Ustensiles de patisserie",
+          price: "~100€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/impression_photos_cadres.jpg"),
+          alternative_description: "impression photos cadres",
+          description:
+            "Impression de plusieurs photos avec leur cadre pour tapisser les murs!",
+          price: "~100€",
+        },
+
+        {
+          image: require("@/assets/images/liste_de_mariage/tea_time_meurice.jpg"),
+          alternative_description: "tea time meurice",
+          description: "Tea Time au Meurice",
+          price: "83€ x 2",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/lave_vaisselle.jpg"),
+          alternative_description: "Lave vaisselle",
+          description:
+            "Un beau lave vaisselle pour quand on aura de la place...",
+          price: "250€",
+        },
+        {
+          image: require("@/assets/images/liste_de_mariage/etc.jpg"),
+          alternative_description: "...",
+          description: "Plus d'idées à venir bientôt 😉",
+          price: "à venir",
+        },
+      ],
     };
   },
   methods: {
     moveCarousel(direction) {
       this.$refs["ldm-container"].scrollBy({
         left: direction * this.$refs["carousel-ldm-element"][0].clientWidth,
-        behavior: "smooth"
+        behavior: "smooth",
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

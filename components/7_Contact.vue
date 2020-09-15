@@ -1,6 +1,15 @@
 <template>
-  <section id="contact" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElement">
+  <section id="contact" class="hero is-fullheight">
+    <div class="hero-head observedElement section-title">
+            <div>
+        <div class="wrap-design stuck-left in-background">
+          <img
+            src="@/assets/images/global_design/boules_or_tilted.png"
+            alt="boules or"
+            class="boules-or-info-top-left"
+          />
+        </div>
+      </div>
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Contact</h1>
         <h2
@@ -8,7 +17,7 @@
         >Envoyez nous un mail si vous avez des questions.</h2>
       </div>
     </div>
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <form
           class="gform"
@@ -71,6 +80,7 @@
         </form>
       </div>
     </div>
+    
   </section>
 </template>
 

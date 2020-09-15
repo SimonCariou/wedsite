@@ -1,17 +1,26 @@
 <template>
-  <div class="hero is-fullheight-with-navbar">
-    <!-- Place this code where you'd like the game to appear 
+  <div class="hero is-fullheight">
+    <div class="hero-head">
+      <div class="container">
+        <h1 class="title is-size-2-mobile is-size-1-tablet">Gaming</h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Pour la compèt'</h2>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="game_win_p">
+          Envoie nous un screenshot de ton score par mail et le meilleur gagnera une bouteille de champagne 😉
+          <em>(le jeu marche sur mobile et desktop)</em>
+        </div>
         <iframe
-          src="//www.miniclip.com/games/penguin-push/fr/webgame.php?bodybg=5&amp;width=100%&amp;height=408&amp;forcecredits=null"
-          width="100%"
-          height="408"
-          frameborder="0"
+          src="//cdn.witchhut.com/html5/games/tog-jungle-runner/"
           scrolling="no"
-          style="border:none;"
-          allowfullscreen
+          style="border:0; height:calc(100vh - 3.25rem); width:100%"
         ></iframe>
-    -->
-    <canvas></canvas>
+      </div>
+    </div>
+    <!--  <iframe src="//cdn.witchhut.com/html5/games/pocket-wings-ww2/" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe> -->
+    <!--  <iframe src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition//" scrolling="no" style="border:0; height:calc(100vh - 3.25rem)"></iframe>-->
   </div>
 </template>
 
@@ -30,26 +39,34 @@ canvas {
 
 <script>
 export default {
+  mounted() {},
   head: {
     meta: [
       { charset: "utf-8" },
       {
         name: "viewport",
         content:
-          'width=device-width, initial-scale=1 user-scalable=no, maximum-scale=1, user-scalable=0" '
+          'width=device-width, initial-scale=1 user-scalable=no, maximum-scale=1, user-scalable=0" ',
       },
       {
         name: "apple-mobile-web-app-capable",
-        content: "yes"
+        content: "yes",
       },
       {
         name: "apple-mobile-web-app-status-bar-style",
-        content: "black-translucent"
+        content: "black-translucent",
       },
 
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-      { hid: "description", name: "description", content: "Meta description" }
-    ]
-  }
+      { hid: "description", name: "description", content: "Meta description" },
+    ],
+  },
 };
 </script>
+
+<style lang="sass" scoped>
+.hero-head
+  padding-top: 0
+.game_win_p
+  padding-bottom: 1rem
+</style>
