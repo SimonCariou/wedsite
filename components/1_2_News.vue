@@ -32,11 +32,11 @@
                 Des
                 <em>
                   <a href="#hebergements">hébergements</a>
-                </em> sont disponibles à 4.5km du lieu du mariage.
+                </em> sont disponibles à partir de 3.5km du lieu du mariage.
               </li>
-              <li>Les Uber sont à moins de 10 euros par voiture entre le Village de Sully et l'Ibis Budget de Mantes-la-Jolie.</li>
-              <li>Un service de covoit navette pourra se mettre en place le lendemain pour récupérer les voitures de ceux qui les auraient laissées sur place.</li>
-              <li>Le plan du déroulement de l'après-midi arrive vite !</li>
+              <li>Les Uber commencent à moins de 10 euros par voiture entre le Village de Sully et les différents lieux de couchages dans les environs.</li>
+              <li>Un service de covoit' navette (entre nous) pourra éventuellement se mettre en place le lendemain pour récupérer les voitures de ceux qui les auraient laissées sur place.</li>
+              <li>🔜 Le plan du déroulement de l'après-midi arrive vite !</li>
             </ul>
           </div>
         </div>
@@ -44,7 +44,3 @@
     </div>
   </section>
 </template>
-<style lang="sass" scoped>
-.timeline
-  margin: auto
-</style>
