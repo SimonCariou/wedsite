@@ -1,5 +1,5 @@
 <template>
-  <section id="footer" class="hero is-fullheight is-light">
+  <section id="footer" class="hero is-fullheight-with-navbar is-light">
     <div class="hero-body has-text-centered">
       <div class="container">
         <footer>
@@ -27,17 +27,19 @@
             <p>+33 6 79 01 31 46</p>
           </div>
           <div class="footerItem"></div>
-          <div class="footerItem">
-            <p>Site fait par Simon avec ❤️</p>
-            <p>Copyright Simon Cariou - 2020</p>
-          </div>
-          <div class="footerItem">
-            <p class="footerBugReport">
-              Pour tout report de bug:
-              <a href="https://github.com/SimonCariou/wedsite/issues">ici</a>
-            </p>
-          </div>
         </footer>
+      </div>
+    </div>
+    <div class="hero-foot has-text-centered">
+      <div class="footerItem is-size-7">
+        <p>Site fait avec ❤️ par Simon et Roxane</p>
+        <p>Copyright Simon Cariou & Roxane Léval - 2020</p>
+      </div>
+      <div class="footerItem">
+        <p class="is-size-8">
+          Pour tout report de bug:
+          <a href="https://github.com/SimonCariou/wedsite/issues">ici</a>
+        </p>
       </div>
     </div>
   </section>
