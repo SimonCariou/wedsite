@@ -8,16 +8,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: "Bienvenue sur notre wedsite, toutes les infos sur le fameux 5 décembre 2020. Le site sera mis à jour très souvent au fur et à mesures des préparatifs. Bisous à tous!" }
     ],
     link: [
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
-      }
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
+      // }
     ],
     script: [
 
@@ -41,7 +41,8 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/main.sass'
+    '@/assets/css/main.sass',
+    '@/assets/css/animate-text.css'
   ],
   /*
   ** Plugins to load before mounting the App

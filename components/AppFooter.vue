@@ -1,57 +1,67 @@
 <template>
-	<section id="footer" class="hero is-fullheight-with-navbar is-light">
-  		<div class="hero-body has-text-centered">
-  			<div class="container">
-				<footer >
-	   				<div class="footerItem toTop">
-	   					<span class="scroll-next" @click="scrollTo()">
-        					<div id="arrow-scroll-footer"></div>
-      					</span>
-	  					<p class="footerTitle">TO TOP</p>
-	  				</div>
-	  				<div class="footerItem">
-	  					<p>------- svg rox -------</p>
-	  				</div>
-	  				<div class="footerItem">
-	  					<p class="footerTitle">CONTACT</p>
-		  				<p>40 rue Daguerre</p>
-		  				<p>75014 Paris</p>
-		  				<p><a mailTo="cariou.leval@orange.fr">cariou.leval@orange.fr</a></p>
-		  				<p>+33 6 67 83 64 41</p>
-		  				<p>+33 6 79 01 31 46</p>
-	  				</div>
-	  				<div class="footerItem">
-	  					<p>------- svg rox -------</p>
-	  				</div>
-	  				<div class="footerItem">
-		  				<p>Site fait par Simon avec ❤️</p>
-		  				<p>Copyright Simon Cariou - 2020</p>
-	  				</div>
-					<div class="footerItem">
-						<p class="footerBugReport">Pour tout report de bug: <a href="https://github.com/SimonCariou/wedsite/issues">ici</a></p>	
-					</div>
-	  			</footer>
-  			</div>
-  			
-  		</div>
-	</section>
+  <section id="footer" class="hero is-fullheight-with-navbar is-light">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <footer>
+          <div class="footerItem toTop">
+            <span class="scroll-next" @click="scrollTo()">
+              <div id="arrow-scroll-footer"></div>
+            </span>
+            <p class="footerTitle">TO TOP</p>
+          </div>
+          <div class="footerItem">
+            <img
+              src="@/assets/images/global_design/Monogram-Black.png"
+              alt="monogram Sim et Rox"
+              class="monogram"
+            />
+          </div>
+          <div class="footerItem">
+            <p class="footerTitle">CONTACT</p>
+            <p>40 rue Daguerre</p>
+            <p>75014 Paris</p>
+            <p>
+              <a href="mailto:cariou.leval@orange.fr">cariou.leval@orange.fr</a>
+            </p>
+            <p>+33 6 67 83 64 41</p>
+            <p>+33 6 79 01 31 46</p>
+          </div>
+          <div class="footerItem"></div>
+        </footer>
+      </div>
+    </div>
+    <div class="hero-foot has-text-centered">
+      <div class="footerItem is-size-7">
+        <p>Site fait avec ❤️ par Simon et Roxane</p>
+        <p>Copyright Simon Cariou & Roxane Léval - 2020</p>
+      </div>
+      <div class="footerItem">
+        <p class="is-size-8">
+          Pour tout report de bug:
+          <a href="https://github.com/SimonCariou/wedsite/issues">ici</a>
+        </p>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
   name: "AppFooter",
-  mounted() {
-  },
+  mounted() {},
   methods: {
     scrollTo() {
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style lang="sass" scoped>
 #footer
+  .monogram
+    width: 5rem
+
   .footerItem
     padding-bottom: 1rem
     .footerTitle
@@ -61,6 +71,7 @@ export default {
       font-size: 0.75rem
   .toTop
     padding-bottom: 2rem
+    padding-top: 3rem
   #arrow-scroll-footer,
   #arrow-scroll-footer:before
     position: absolute
@@ -70,7 +81,7 @@ export default {
   #arrow-scroll-footer
     width: 24px
     height: 24px
-    top: -30px
+    top: 30px
     margin: -12px 0 0 -12px
     -webkit-transform: rotate(225deg)
     border-left: none

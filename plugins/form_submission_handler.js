@@ -84,7 +84,7 @@
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                console.log("Success when sending the mail")
+
                 form.reset();
                 var formElements = form.querySelector(".form-elements")
                 if (formElements) {
@@ -98,7 +98,7 @@
                     btnSubmit.style.display = "block";
                 }
             } else if (xhr.status !== 200) {
-                console.log("Error when sending the mail")
+
                 //if sending the email fails, we restore the original layout
                 thankYouMessage.style.display = "none"
                 errorMessage.style.display = "block";

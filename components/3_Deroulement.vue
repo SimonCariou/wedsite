@@ -1,6 +1,6 @@
 <template>
-  <section id="deroulement" class="hero is-fullheight-with-navbar">
-    <div class="hero-head observedElement">
+  <section id="deroulement" class="hero is-fullheight">
+    <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
         <h2
@@ -8,7 +8,7 @@
         >Tout ce dont vous avez besoin de savoir sur le plan des festivités.</h2>
       </div>
     </div>
-    <div class="hero-body observedElement">
+    <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <p></p>
@@ -51,6 +51,15 @@
         </div>-->
         <div class="has-text-centered" style="transform: rotate(20deg); width:auto">
           <p class="is-size-4-mobile is-size-1-tablet">On planche dessus 😉</p>
+        </div>
+      </div>
+      <div>
+        <div class="wrap-design stuck-left in-background">
+          <img
+            src="@/assets/images/global_design/boules_or_tilted.png"
+            alt="boules or"
+            class="boules-or-info-bottom-left"
+          />
         </div>
       </div>
     </div>
