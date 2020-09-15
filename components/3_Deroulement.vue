@@ -53,7 +53,7 @@
           <p class="is-size-4-mobile is-size-1-tablet">On planche dessus 😉</p>
         </div>
       </div>
-      <div class="hero-foot">
+      <div>
         <div class="wrap-design stuck-left in-background">
           <img
             src="@/assets/images/global_design/boules_or_tilted.png"
