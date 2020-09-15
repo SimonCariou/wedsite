@@ -33,19 +33,6 @@ export default {
     Contact,
   },
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
-  head: {
-    title: "R&S - Wedsite",
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        hid: "description",
-        name: "description",
-        content:
-          "Bienvenue sur notre wedsite, toutes les infos sur le fameux 5 décembre 2020. Le site sera mis à jour très souvent au fur et à mesures des préparatifs. Bisous à tous!",
-      },
-    ],
-  },
   mounted() {
     this.observer = new IntersectionObserver(
       (entries) => {
