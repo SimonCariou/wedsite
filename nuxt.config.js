@@ -51,6 +51,7 @@ export default {
   plugins: [
 
     { src: '@/plugins/form_submission_handler.js', ssr: false },
+    { src: '~plugins/ga.js', mode: 'client' }
 
   ],
   /*
