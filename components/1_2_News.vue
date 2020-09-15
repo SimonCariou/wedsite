@@ -44,7 +44,3 @@
     </div>
   </section>
 </template>
-<style lang="sass" scoped>
-.timeline
-  margin: auto
-</style>
