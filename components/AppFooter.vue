@@ -32,7 +32,8 @@
     </div>
     <div class="hero-foot has-text-centered">
       <div class="footerItem is-size-7">
-        <p>Site fait avec ❤️ par Simon et Roxane</p>
+        <p>Site fait avec ❤️ par Simon</p>
+        <p>Logo et designs faits avec ❤️ par Roxane</p>
         <p>Copyright Simon Cariou & Roxane Léval - 2020</p>
       </div>
       <div class="footerItem">
