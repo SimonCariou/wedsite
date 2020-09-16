@@ -19,14 +19,18 @@
       <div class="container">
         <div class="explications">
           <p>
-            <span class="is-size-3 has-text-weight-semibold highlight">14 Septembre</span>
+            <span class="is-size-3 has-text-weight-semibold highlight has-text-primary">14 Septembre</span>
           </p>
           <div class="content">
             <ul>
               <li>
                 A cause du Covid nous ne pouvons être que 30 personnes maximum dans la mairie... Nous vous donnons donc
-                <strong>rendez-vous au Village de Sully à 16h</strong> pour une séance photo (pour profiter des derniers rayons du soleil) et une
-                <strong>Cérémonie Laïque</strong> avant de commencer le cocktail.
+                <strong
+                  class="has-text-primary"
+                >rendez-vous au Village de Sully à 16h</strong> pour une séance photo (pour profiter des derniers rayons du soleil) et une
+                <strong
+                  class="has-text-primary"
+                >Cérémonie Laïque</strong> avant de commencer le cocktail.
               </li>
               <li>
                 Des
@@ -36,7 +40,12 @@
               </li>
               <li>Les Uber commencent à moins de 10 euros par voiture entre le Village de Sully et les différents lieux de couchages dans les environs.</li>
               <li>Un service de covoit' navette (entre nous) pourra éventuellement se mettre en place le lendemain pour récupérer les voitures de ceux qui les auraient laissées sur place.</li>
-              <li>🔜 Le plan du déroulement de l'après-midi arrive vite !</li>
+              <li>
+                🔜 Le plan du déroulement de l'après-midi
+                <strong
+                  class="has-text-primary"
+                >et les faire-part</strong> arrivent vite !
+              </li>
             </ul>
           </div>
         </div>
