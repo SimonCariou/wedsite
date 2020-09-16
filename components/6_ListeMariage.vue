@@ -79,8 +79,8 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
-          description: "3 semaines d'hotel à Hawaii !!",
-          price: "4500€",
+          description: "3 semaines à Hawaii",
+          price: "Pas budgetté encore",
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
@@ -139,7 +139,7 @@ export default {
           image: require("@/assets/images/liste_de_mariage/hue.jpg"),
           alternative_description: "Lampes connectées Philips Hue",
           description: "Lampes connectées Philips Hue",
-          price: "??€",
+          price: "~150€",
         },
         {
           image: require("@/assets/images/liste_de_mariage/ustensiles_patisserie.jpg"),
