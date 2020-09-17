@@ -19,6 +19,7 @@
               <a href="#contact">formulaire</a>
             </em> en bas de page.
           </p>
+          <p>Les logements ci-dessous sont classés par distance par rapport au Village de Sully.</p>
         </div>
 
         <div class="columns is-mobile scroll-ctn" ref="hebergements-container">
