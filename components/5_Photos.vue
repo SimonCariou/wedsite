@@ -73,14 +73,14 @@ export default {
           alternative_description: "CDMGE",
           date: "6 Juin 2013",
           description:
-            "Première CDMGE pour encourager Roxane aux pompom girls.",
+            "Premier CDMGE (Challenge du Monde des Grandes Écoles et Universités) pour encourager Roxane aux pompom girls.",
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2014.jpg"),
           alternative_description: "Match de football americain au Texas",
           date: "27 Novembre 2014",
           description:
-            "Visite de Roxane au Texas pour voir un match de football americain universitaire.",
+            "Visite de Roxane au Texas pour voir un match de football americain universitaire pour thanksgiving.",
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2015.jpg"),
