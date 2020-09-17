@@ -44,7 +44,7 @@
                   <p>
                     <br />Situé à 40 minutes de Paris par l’A13
                   </p>
-                  <p>
+                  <div style="padding-bottom: 1rem">
                     <a href="https://waze.com/ul/hu09ntssch" target="_blank" rel="noopener">
                       Ouvrir sur Waze
                       <figure
@@ -54,8 +54,8 @@
                         <img src="@/assets/images/waze_logo.png" alt="Logo Waze" />
                       </figure>
                     </a>
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     <a href="https://goo.gl/maps/QEs6qQ1i8HA3p9YT9" target="_blank" rel="noopener">
                       Ouvrir sur Google
                       <figure
@@ -65,13 +65,13 @@
                         <img src="@/assets/images/google-maps_logo.png" alt="Logo Google Maps" />
                       </figure>
                     </a>
-                  </p>
+                  </div>
                 </div>
               </div>
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <!-- <img src="@/assets/images/informations/map_sully.jpg" alt="Sully carte" /> -->
-                  <iframe
+                  <img src="@/assets/images/informations/map_sully.jpg" alt="Sully carte" />
+                  <!-- <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.607569389974!2d1.6524822155735763!3d48.97999420009076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6b9b378c1c355%3A0x56036d031fc3031e!2sLE%20VILLAGE%20DE%20SULLY!5e0!3m2!1sen!2sfr!4v1598804770258!5m2!1sen!2sfr"
                     frameborder="0"
                     style="border:0;"
@@ -79,7 +79,7 @@
                     tabindex="0"
                     allowfullscreen
                     class="has-ratio"
-                  ></iframe>
+                  ></iframe>-->
                 </figure>
               </div>
             </div>

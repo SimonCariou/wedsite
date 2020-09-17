@@ -10,11 +10,7 @@
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
-          <!-- <p>
-            La fête est toujours plus cool quand on peut dormir sur place
-            <span class="bd-emoji">😉</span>. Il y a des chambres disponibles au Village de Sully et dans un village juste à côté pour tout le monde.
-          </p>-->
-          <p>Le lieu de réception est situé juste à côté de Mantes-la-Jolie, proche de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.</p>
+          <p>Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.</p>
           <p></p>
 
           <p>
@@ -23,14 +19,15 @@
               <a href="#contact">formulaire</a>
             </em> en bas de page.
           </p>
+          <p>Les logements ci-dessous sont classés par distance par rapport au Village de Sully.</p>
         </div>
 
         <div class="columns is-mobile scroll-ctn" ref="hebergements-container">
-          <div v-for="card in cards" :key="card.name" class="column is-10-mobile is-5-tablet">
+          <div v-for="card in cards" :key="card.name" class="column is-10-mobile is-3-tablet">
             <div class="card" ref="carousel-hebergements-element">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img :src="card.image" alt="Sully" />
+                  <img :src="card.image" :alt="card.alt" />
                 </figure>
               </div>
               <div class="card-content">
@@ -38,7 +35,12 @@
                   <h3 class="is-size-5">
                     <span class="highlight">{{ card.name }}</span>
                   </h3>
-                  <p><em>{{ card.type }}</em></p>
+                  <p style="margin-bottom:0"><em>{{ card.type }}</em></p>
+                  <div style="margin-bottom:1rem">
+                      <span style="padding-right:5px"> {{card.ratings}}</span>
+                      <img :src="card.nb_stars" class="rates"></span>
+                  </div>
+                  
                   <p style="margin-bottom:0">{{ card.address }}</p>
                   <p>{{ card.city }}</p>
                   <p style="margin-bottom:0">{{ card.description }}</p>
@@ -87,8 +89,11 @@ export default {
       cards: [
         {
           image: require("@/assets/images/hebergements/hotel_eclipse.jpg"),
+          alt: "Hotel Eclipse",
           name: "Hotel Eclipse",
           type: "Hôtel",
+          nb_stars: require("@/assets/images/hebergements/ratings/three_stars.png"),
+          ratings: "3.0",
           address: "Rue des Pierrettes",
           city: "78200, Magnanville",
           description: "A partir de 70€/chambre double.",
@@ -97,8 +102,11 @@ export default {
         },
         {
           image: require("@/assets/images/hebergements/ibis.jpg"),
+          alt: "Ibis Budget",
           name: "Ibis Budget",
           type: "Hôtel",
+          nb_stars: require("@/assets/images/hebergements/ratings/three_stars.png"),
+          ratings: "3.0",
           address: "19 Boulevard De Sully,",
           city: "78200, Mantes-la-Jolie",
           description: "A partir de 60€/chambre double.",
@@ -107,8 +115,11 @@ export default {
         },
         {
           image: require("@/assets/images/hebergements/ferme_des_vallees.jpg"),
+          alt: "Ferme des Vallées",
           name: "Ferme des Vallées",
           type: "Gîte/Maison d'Hôtes",
+          nb_stars: require("@/assets/images/hebergements/ratings/five_stars.png"),
+          ratings: "5.0",
           address: "20 Bis Rue Henri Duverdin",
           city: "78200, Soindres",
           description: "A partir de 70€/chambre double.",
@@ -117,8 +128,11 @@ export default {
         },
         {
           image: require("@/assets/images/hebergements/la_ruche.jpg"),
+          alt: "La Ruche",
           name: "La Ruche",
           type: "Hôtel",
+          nb_stars: require("@/assets/images/hebergements/ratings/four_stars.png"),
+          ratings: "4.0",
           address: "2 route Nationale,",
           city: "78270, Rolleboise",
           description: "A partir de 115€/chambre double.",
@@ -127,6 +141,7 @@ export default {
         },
         {
           image: require("@/assets/images/liste_de_mariage/etc.jpg"),
+          alt: "Autres",
           name: "Autres",
           type: "Différents types de logements: Hôtel/Maison d'Hôtes",
           description: "Couchages à proximité du lieu de réception:",
@@ -166,4 +181,9 @@ export default {
   .column
     scroll-snap-align: center
 
+  span.rates
+    background-size: 14px 13px
+    height: 13px
+    top: 1px
+    width: 70px
 </style>
