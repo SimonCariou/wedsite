@@ -44,7 +44,7 @@
                   <p>
                     <br />Situé à 40 minutes de Paris par l’A13
                   </p>
-                  <p>
+                  <div style="padding-bottom: 1rem">
                     <a href="https://waze.com/ul/hu09ntssch" target="_blank" rel="noopener">
                       Ouvrir sur Waze
                       <figure
@@ -54,8 +54,8 @@
                         <img src="@/assets/images/waze_logo.png" alt="Logo Waze" />
                       </figure>
                     </a>
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     <a href="https://goo.gl/maps/QEs6qQ1i8HA3p9YT9" target="_blank" rel="noopener">
                       Ouvrir sur Google
                       <figure
@@ -65,7 +65,7 @@
                         <img src="@/assets/images/google-maps_logo.png" alt="Logo Google Maps" />
                       </figure>
                     </a>
-                  </p>
+                  </div>
                 </div>
               </div>
               <div class="card-image">
