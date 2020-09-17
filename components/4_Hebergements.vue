@@ -14,7 +14,7 @@
             La fête est toujours plus cool quand on peut dormir sur place
             <span class="bd-emoji">😉</span>. Il y a des chambres disponibles au Village de Sully et dans un village juste à côté pour tout le monde.
           </p>-->
-          <p>Le lieu de réception est situé juste à côté de Mantes-la-Jolie, proche de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.</p>
+          <p>Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.</p>
           <p></p>
 
           <p>

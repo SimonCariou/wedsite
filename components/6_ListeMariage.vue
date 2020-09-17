@@ -10,7 +10,7 @@
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
-          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à développer notre foyer vous pouvez trouver des inspirations en dessous 😉</p>
+          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉</p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="ldm-container">
           <div
