@@ -13,28 +13,37 @@
               autoplay
               loop
               src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
-              style="height:100%; position: relative;margin:auto"
+              style="height: 100%; position: relative; margin: auto"
             ></lottie-player>
           </div>
 
           <div class="is-overlaying-lottie">
             <h1
               class="title is-size-1-mobile is-size-0-tablet grand-title animate__animated animate__fadeInRight"
-            >Bienvenue.</h1>
+            >
+              Bienvenue.
+            </h1>
             <h2
               class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
-            >On se marie le 5 décembre 2020</h2>
+            >
+              On se marie le 5 décembre 2020 🤞
+            </h2>
 
             <h3
               class="is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
-            >Scrollez pour en savoir plus!</h3>
+            >
+              Scrollez pour en savoir plus!
+            </h3>
           </div>
         </div>
       </div>
     </div>
     <div class="hero-foot is-hidden-touch">
       <span class="scroll-next" @click="scrollTo()">
-        <div id="arrow-scroll-welcome" class="animate__animated animate__fadeIn animate__delay-3s"></div>
+        <div
+          id="arrow-scroll-welcome"
+          class="animate__animated animate__fadeIn animate__delay-3s"
+        ></div>
       </span>
     </div>
   </section>

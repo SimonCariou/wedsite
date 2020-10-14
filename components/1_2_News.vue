@@ -10,41 +10,95 @@
       </div>
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">News</h1>
-        <h2
-          class="subtitle is-size-5-mobile is-size-4-tablet"
-        >Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!</h2>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
+          Ici vous pouvez suivre et avoir les dernières nouvelles toutes
+          chaudes!
+        </h2>
       </div>
     </div>
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications">
           <p>
-            <span class="is-size-3 has-text-weight-semibold highlight has-text-primary">14 Septembre</span>
+            <span
+              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              >15 Octobre</span
+            >
           </p>
           <div class="content">
             <ul>
               <li>
-                A cause du Covid nous ne pouvons être que 30 personnes maximum dans la mairie... Nous vous donnons donc
-                <strong
-                  class="has-text-primary"
-                >rendez-vous au Village de Sully à 16h</strong> pour une séance photo (pour profiter des derniers rayons du soleil) et une
-                <strong
-                  class="has-text-primary"
-                >Cérémonie Laïque</strong> avant de commencer le cocktail.
+                LES FAIRE-PART ONT ÉTÉ ENVOYÉ! 🎉🎉🎉 ➡️ RSVP avant le
+                <em>31 Octobre.</em>
+              </li>
+
+              <li>
+                Déroulement de la journée fixé ! Voir le
+                <em>
+                  <a href="#deroulement">déroulement</a>
+                </em>
+              </li>
+            </ul>
+            <strong class="has-text-primary">Parenthèse Covid:</strong>
+            <ul>
+              <li>
+                Comme dit dans notre mail, si nous jugeons que le risque est
+                trop grand ou que nous n'avons tout simplement pas le droit
+                d'organiser de tels évènements, le mariage sera malheureusement
+                décalé.
+              </li>
+              <li>
+                Sachez que nous ne souhaitons mettre personne en danger, ni
+                aller contre les lois et recommandations gouvernementales et
+                nous aimerions que vous soyez tous auprès de nous. Si nous
+                devons décaler pour la santé de tous, nous le ferons 1 mois à
+                l'avance.
+              </li>
+              <li>🤞</li>
+            </ul>
+          </div>
+        </div>
+        <div class="explications old">
+          <p>
+            <span
+              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              >14 Septembre</span
+            >
+          </p>
+          <div class="content">
+            <ul>
+              <li>
+                A cause du Covid nous ne pouvons être que 30 personnes maximum
+                dans la mairie... Nous vous donnons donc
+                <strong class="has-text-primary"
+                  >rendez-vous au Village de Sully à 16h</strong
+                >
+                pour une séance photo (pour profiter des derniers rayons du
+                soleil) et une
+                <strong class="has-text-primary">Cérémonie Laïque</strong> avant
+                de commencer le cocktail.
               </li>
               <li>
                 Des
                 <em>
                   <a href="#hebergements">hébergements</a>
-                </em> sont disponibles à partir de 3.5km du lieu du mariage.
+                </em>
+                sont disponibles à partir de 3.5km du lieu du mariage.
               </li>
-              <li>Les Uber commencent à moins de 10 euros par voiture entre le Village de Sully et les différents lieux de couchages dans les environs.</li>
-              <li>Un service de covoit' navette (entre nous) pourra éventuellement se mettre en place le lendemain pour récupérer les voitures de ceux qui les auraient laissées sur place.</li>
+              <li>
+                Les Uber commencent à moins de 10 euros par voiture entre le
+                Village de Sully et les différents lieux de couchages dans les
+                environs.
+              </li>
+              <li>
+                Un service de covoit' navette (entre nous) pourra éventuellement
+                se mettre en place le lendemain pour récupérer les voitures de
+                ceux qui les auraient laissées sur place.
+              </li>
               <li>
                 🔜 Le plan du déroulement de l'après-midi
-                <strong
-                  class="has-text-primary"
-                >et les faire-part</strong> arrivent vite !
+                <strong class="has-text-primary">et les faire-part</strong>
+                arrivent vite !
               </li>
             </ul>
           </div>
@@ -53,3 +107,10 @@
     </div>
   </section>
 </template>
+
+
+<style lang="sass">
+div.old
+  & > *
+    opacity: 0.2
+</style>
