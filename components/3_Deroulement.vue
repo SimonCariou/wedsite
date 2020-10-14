@@ -30,14 +30,13 @@
             <div class="timeline-content">
               <p class="heading">17H</p>
               <p><strong>CÉRÉMONIE LAÏQUE</strong> 💏</p>
-              <p>Échange de vœux et surprises...</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker is-danger"></div>
             <div class="timeline-content">
-              <p class="heading">18H</p>
+              <p class="heading">18H - 4H</p>
               <p>🎉 <strong>COCKTAIL</strong></p>
               <p>
                 Début des festivités! Suivi d'un diner assis et d'une soirée
@@ -46,7 +45,7 @@
             </div>
           </div>
           <header class="timeline-header">
-            <span class="tag is-medium is-primary">Fin de la journée</span>
+            <span class="tag is-medium is-primary">A bientôt 👋</span>
           </header>
         </div>
         <!-- <div
