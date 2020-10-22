@@ -2,15 +2,25 @@
   <section id="listeDeMariage" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">Liste de Mariage</h1>
-        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">Notre liste au père Noël 🎄</h2>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          Liste de Mariage
+        </h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
+          Notre liste au père Noël 🎄
+        </h2>
       </div>
     </div>
 
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
-          <p>Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉</p>
+          <p>
+            Voici une liste de toutes les choses qu'on a envie de s'offrir dans
+            les années qui arrivent. Votre présence est déjà un merveilleux
+            cadeau mais si vous cherchez à nous aider à équiper notre logement
+            et profiter de beaux moments à deux, vous pouvez trouver des
+            inspirations en dessous 😉
+          </p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="ldm-container">
           <div
@@ -57,7 +67,9 @@
       <div class="container">
         <div class="explications">
           <p>
-            Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre
+            Si vous voulez participer à l'achat d'un des cadeaux des images du
+            dessus vous pouvez donner un petit quelque chose dans la cagnotte
+            Paypal ou dans l'urne qui sera présente sur place le 5 décembre
             <span>🤗</span>
           </p>
         </div>
@@ -108,27 +120,27 @@ export default {
           description:
             "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
           price: "240€",
-        },
+        } /*
         {
           image: require("@/assets/images/liste_de_mariage/resto_etoile.jpg"),
           alternative_description: "Restaurant étoilé",
           description:
             "Un dîner pour 2 au Jules Verne de Frédéric Anton en haut de la tour Eiffel",
           price: "230€ x 2",
-        },
+        },*/,
         {
           image: require("@/assets/images/liste_de_mariage/tapis.jpg"),
           alternative_description: "Tapis",
           description: "Tapis en laisse tressée blanc écru La Redoute.",
           price: "200€",
-        },
+        } /*
         {
           image: require("@/assets/images/liste_de_mariage/bilig.jpg"),
           alternative_description: "Bilig Krampouz",
           description:
             "Pour faire des belles galettes bretonnes, pas de choix il faut une Bilig.",
           price: "250€",
-        },
+        },*/,
         {
           image: require("@/assets/images/liste_de_mariage/fou_de_patisserie.jpg"),
           alternative_description: "Abonnement fou de patisserie",
