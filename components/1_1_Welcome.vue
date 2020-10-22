@@ -26,7 +26,16 @@
             <h2
               class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
             >
-              On se marie le 5 décembre 2020 🤞
+              On se marie le 5 décembre 2020
+              <figure
+                class="image is-24x24"
+                style="display: inline-block; vertical-align: baseline"
+              >
+                <img
+                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/hand-with-index-and-middle-fingers-crossed_1f91e.png"
+                  alt="fingers crossed"
+                />
+              </figure>
             </h2>
 
             <h3

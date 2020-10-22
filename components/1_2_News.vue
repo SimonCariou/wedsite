@@ -54,7 +54,14 @@
                 devons décaler pour la santé de tous, nous le ferons 1 mois à
                 l'avance.
               </li>
-              <li>🤞</li>
+              <li>
+                <figure class="image is-16x16">
+                  <img
+                    src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/hand-with-index-and-middle-fingers-crossed_1f91e.png"
+                    alt="fingers crossed"
+                  />
+                </figure>
+              </li>
             </ul>
           </div>
         </div>
@@ -113,4 +120,7 @@
 div.old
   & > *
     opacity: 0.2
+.content
+  figure
+    margin-left: 0
 </style>
