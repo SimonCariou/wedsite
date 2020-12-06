@@ -12,8 +12,8 @@
               mode="normal"
               autoplay
               loop
-              src="https://assets4.lottiefiles.com/packages/lf20_I9GBQj.json"
-              style="height: 100%; position: relative; margin: auto"
+              src="https://assets1.lottiefiles.com/private_files/lf30_qblxo1zt.json"
+              style="width: 80%; height: auto; position: relative; margin: auto"
             ></lottie-player>
           </div>
 
@@ -26,16 +26,7 @@
             <h2
               class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
             >
-              On se marie le 5 décembre 2020
-              <figure
-                class="image is-24x24"
-                style="display: inline-block; vertical-align: baseline"
-              >
-                <img
-                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/hand-with-index-and-middle-fingers-crossed_1f91e.png"
-                  alt="fingers crossed"
-                />
-              </figure>
+              On se marie le <strong>16 octobre 2021</strong>
             </h2>
 
             <h3
