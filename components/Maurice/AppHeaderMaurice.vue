@@ -2,13 +2,18 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <a class="navbar-item" @click="clickOnBrand()">
-        <img src="@/assets/images/roxetsim.png" alt="mariage rox et simon" width="112" height="28" />
+        <img
+          src="@/assets/images/roxetsim.png"
+          alt="mariage rox et simon"
+          width="112"
+          height="28"
+        />
       </a>
 
       <div
         @click="toggleMenu()"
         class="navbar-burger burger"
-        :class="{'is-active': isMenuOpen}"
+        :class="{ 'is-active': isMenuOpen }"
         data-target="navWedsite"
       >
         <span></span>
@@ -17,31 +22,26 @@
       </div>
     </div>
 
-    <div id="navWedsite" class="navbar-menu" :class="{'is-active': isMenuOpen}">
+    <div
+      id="navWedsite"
+      class="navbar-menu"
+      :class="{ 'is-active': isMenuOpen }"
+    >
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#news">🔔NEWS</a>
+          <a @click="toggleMenu()" href="/">item1</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#informations">Informations</a>
+          <a @click="toggleMenu()" href="/">item2</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#deroulement">Deroulement</a>
+          <a @click="toggleMenu()" href="/">item3</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#hebergements">Hebergements</a>
+          <a @click="toggleMenu()" href="/">item4</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#photos">Photos</a>
-        </div>
-        <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#listeDeMariage">Liste de Mariage</a>
-        </div>
-        <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/#contact">Contact</a>
-        </div>
-        <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
+          <a @click="toggleMenu()" href="/">item5</a>
         </div>
       </div>
     </div>

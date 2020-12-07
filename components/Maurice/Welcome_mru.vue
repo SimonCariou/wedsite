@@ -3,6 +3,3 @@
     <div class="hero-body is-centered">Salut Maurice</div>
   </section>
 </template>
-
-
-
