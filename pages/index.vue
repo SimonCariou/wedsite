@@ -1,36 +1,18 @@
 <template>
   <div>
-    <Welcome />
-    <News />
-    <Informations />
-    <Deroulement />
-    <Hebergements />
-    <Photos />
-    <ListeMariage />
-    <Contact />
+    <!-- <Maurice />
+    <France /> -->
   </div>
 </template>
 
 <script>
-import Welcome from "~/components/1_1_Welcome.vue";
-import News from "~/components/1_2_News.vue";
-import Informations from "~/components/2_Informations.vue";
-import Deroulement from "~/components/3_Deroulement.vue";
-import Hebergements from "~/components/4_Hebergements.vue";
-import Photos from "~/components/5_Photos.vue";
-import ListeMariage from "~/components/6_ListeMariage.vue";
-import Contact from "~/components/7_Contact.vue";
+import France from "~/components/France.vue";
+import Maurice from "~/components/Maurice.vue";
 
 export default {
   components: {
-    Welcome,
-    News,
-    Informations,
-    Deroulement,
-    Hebergements,
-    Photos,
-    ListeMariage,
-    Contact,
+    France,
+    Maurice,
   },
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
   mounted() {
