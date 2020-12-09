@@ -1,7 +1,5 @@
 <template>
   <div>
-    <AppHeaderFrance />
-    <!---->
     <Welcome />
     <News />
     <Informations />
@@ -10,13 +8,10 @@
     <Photos />
     <ListeMariage />
     <Contact />
-    <!---->
-    <AppFooter />
   </div>
 </template>
 
 <script>
-import AppHeaderFrance from "~/components/France/AppHeaderFrance.vue"; //the france header is different than the maurice one
 import Welcome from "~/components/France/1_1_Welcome.vue";
 import News from "~/components/France/1_2_News.vue";
 import Informations from "~/components/France/2_Informations.vue";
@@ -25,11 +20,10 @@ import Hebergements from "~/components/France/4_Hebergements.vue";
 import Photos from "~/components/France/5_Photos.vue";
 import ListeMariage from "~/components/France/6_ListeMariage.vue";
 import Contact from "~/components/France/7_Contact.vue";
-import AppFooter from "~/components/AppFooter.vue"; //only one footer common to all the pages
+import france_layoutVue from "../layouts/france_layout.vue";
 
 export default {
   components: {
-    AppHeaderFrance,
     Welcome,
     News,
     Informations,
@@ -38,8 +32,8 @@ export default {
     Photos,
     ListeMariage,
     Contact,
-    AppFooter,
   },
+  layout: "france_layout",
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
   mounted() {
     this.observer = new IntersectionObserver(

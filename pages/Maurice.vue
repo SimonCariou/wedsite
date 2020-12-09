@@ -1,22 +1,17 @@
 <template>
   <div>
-    <AppHeaderMaurice />
     <WelcomeMru />
-    <AppFooter />
   </div>
 </template>
 
 <script>
-import AppHeaderMaurice from "~/components/Maurice/AppHeaderMaurice.vue"; //the maurice header is different than the france one
 import WelcomeMru from "~/components/Maurice/Welcome_mru.vue";
-import AppFooter from "~/components/AppFooter.vue"; //only one footer common to all the pages
 
 export default {
   components: {
-    AppHeaderMaurice,
     WelcomeMru,
-    AppFooter,
   },
+  layout: "maurice_layout",
 };
 </script>
 
