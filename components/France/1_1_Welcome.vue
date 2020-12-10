@@ -1,14 +1,11 @@
 <template>
-  <section
-    id="welcome"
-    class="hero is-fullheight-with-navbar is-primary is-bold"
-  >
+  <section id="welcome" class="hero is-fullheight-with-navbar has-bg-img">
     <div class="hero-body columns is-centered">
       <div
         class="column has-text-centered-tablet has-text-left-mobile is-half-desktop is-full-mobile is-two-fifths-tablet"
       >
         <div id="lottie-container">
-          <div class="animate__animated animate__fadeIn animate__delay-3s">
+          <!-- <div class="animate__animated animate__fadeIn animate__delay-3s">
             <lottie-player
               id="firstLottie"
               ref="myRef"
@@ -18,22 +15,22 @@
               src="https://assets1.lottiefiles.com/private_files/lf30_qblxo1zt.json"
               style="width: 80%; height: auto; position: relative; margin: auto"
             ></lottie-player>
-          </div>
-
+          </div> -->
           <div class="is-overlaying-lottie">
             <h1
-              class="title is-size-1-mobile is-size-0-tablet grand-title animate__animated animate__fadeInRight"
+              class="grand-title is-size-1-mobile is-size-0-tablet animate__animated animate__fadeInRight"
             >
               Bienvenue.
             </h1>
             <h2
-              class="subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
+              class="grand-subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
             >
-              On se marie le <strong>16 octobre 2021</strong>
+              On se marie le
+              <strong class="grand-subtitle">16 octobre 2021</strong>
             </h2>
 
             <h3
-              class="is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
+              class="grand-subtitle is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
             >
               Scrollez pour en savoir plus!
             </h3>
@@ -142,5 +139,10 @@ export default {
     100%
       opacity: 0
       transform: translate(-10px, -10px)
+
+.has-bg-img
+  background: url('~assets/images/landing-page-bkg/roxetsim-engagement-lucie-web.jpg')
+  background-size: cover
+  background-position: center center
 </style>
 
