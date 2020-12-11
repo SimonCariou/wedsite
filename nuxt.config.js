@@ -42,7 +42,8 @@ export default {
   */
   css: [
     '@/assets/css/main.sass',
-    '@/assets/css/Global/animate-text.css'
+    '@/assets/css/Global/animate-text.css',
+    '@/assets/css/Global/transitions.sass'
   ],
   /*
   ** Plugins to load before mounting the App
