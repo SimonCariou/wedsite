@@ -3,7 +3,7 @@
     <div class="hero-body columns is-multiline">
       <div class="column is-half-tablet is-hidden-mobile"></div>
       <div
-        class="column is-full-mobile is-half-tablet is-colored-pane animate__animated animate__fadeInRight"
+        class="column has-text-centered-mobile is-full-mobile is-half-tablet is-colored-pane animate__animated animate__fadeInRight"
       >
         <div class="container">
           <div class="animate__animated animate__fadeInRight">
@@ -92,7 +92,7 @@ export default {
 <style lang="sass" scoped>
 .has-bg-img
   // background: url('~assets/images/landing-page-bkg/roxetsim-engagement-lucie-web.jpg')
-  background: url('~assets/images/landing-page-bkg/roxetsim-engagement-lucie-alone-web.jpg')
+  background: url('~assets/images/landing-page-bkg/fr/roxetsim-engagement-lucie-alone-web.jpg')
   background-size: cover
   background-position: center left
 #welcome

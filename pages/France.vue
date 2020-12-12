@@ -20,7 +20,6 @@ import Hebergements from "~/components/France/4_Hebergements.vue";
 import Photos from "~/components/France/5_Photos.vue";
 import ListeMariage from "~/components/France/6_ListeMariage.vue";
 import Contact from "~/components/France/7_Contact.vue";
-import france_layoutVue from "../layouts/france_layout.vue";
 
 export default {
   components: {
