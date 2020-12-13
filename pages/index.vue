@@ -20,9 +20,13 @@
       </button>
     </div>
     <div>
-      <p></p>
+      <p>{{ $t("hello") }}</p>
     </div>
   </div>
 </template>
 
 
+<style scoped lang="sass">
+*
+  font-family: "Work Sans regular","Lato", sans-serif
+</style>

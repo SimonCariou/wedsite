@@ -95,6 +95,8 @@ export default {
       ],
       langDir: 'lang/',
       defaultLocale: 'fr',
+      strategy: 'prefix',
+      lazy: true,
     }]
   ],
 
