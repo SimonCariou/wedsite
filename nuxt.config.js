@@ -78,8 +78,26 @@ export default {
           }
         ]
       }
-    ]
+    ], ['nuxt-i18n', {
+      locales: [
+        {
+          name: 'Français',
+          code: 'fr',
+          iso: 'fr-FR',
+          file: 'fr-FR.js'
+        },
+        {
+          name: 'English',
+          code: 'en',
+          iso: 'en-US',
+          file: 'en-US.js'
+        },
+      ],
+      langDir: 'lang/',
+      defaultLocale: 'fr',
+    }]
   ],
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
