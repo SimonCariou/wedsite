@@ -45,8 +45,11 @@
         </div>
       </div>
       <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <LanguageSelectionSlider />
+        </div>
         <div class="navbar-item is-hoverable" @click="bounce">
-          <nuxt-link to="/France">
+          <nuxt-link :to="localePath('France')">
             <figure
               class="image is-24x24"
               style="display: inline-block; vertical-align: middle"
@@ -64,7 +67,10 @@
 </template>
 
 <script>
+import LanguageSelectionSlider from "~/components/Slider.vue";
+
 export default {
+  components: { LanguageSelectionSlider },
   name: "AppHeader",
   data() {
     return {
