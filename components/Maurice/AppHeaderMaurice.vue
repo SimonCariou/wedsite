@@ -45,11 +45,12 @@
         </div>
       </div>
       <div class="navbar-end">
-        <div class="navbar-item is-hoverable">
+        <div class="navbar-item is-hoverable" @click="bounce">
           <nuxt-link to="/France">
             <figure
               class="image is-24x24"
               style="display: inline-block; vertical-align: middle"
+              id="flag-fr"
             >
               <img
                 src="https://flagdownload.com/wp-content/uploads/Flag_of_France_Flat_Round-64x64.png"
@@ -84,21 +85,13 @@ export default {
       this.closeMenu();
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
+    bounce: function (event) {
+      event.target.classList.toggle("bouncy");
+    },
   },
   mounted() {},
 };
 </script>
 
-<style scoped>
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px dotted #ccc;
-}
-.header ul {
-  display: flex;
-} */
+<style scoped lang="sass">
 </style>
