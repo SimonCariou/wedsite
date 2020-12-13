@@ -44,6 +44,20 @@
           <a @click="toggleMenu()" href="/">item5</a>
         </div>
       </div>
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <nuxt-link to="/France">
+            <figure
+              class="image is-24x24"
+              style="display: inline-block; vertical-align: middle"
+            >
+              <img
+                src="https://flagdownload.com/wp-content/uploads/Flag_of_France_Flat_Round-64x64.png"
+                alt="French flag"
+              /></figure
+          ></nuxt-link>
+        </div>
+      </div>
     </div>
   </nav>
 </template>

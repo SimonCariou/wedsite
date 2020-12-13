@@ -53,6 +53,20 @@
           <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
         </div> -->
       </div>
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <nuxt-link to="/Maurice">
+            <figure
+              class="image is-24x24"
+              style="display: inline-block; vertical-align: middle"
+            >
+              <img
+                src="https://flagdownload.com/wp-content/uploads/Flag_of_Mauritius_Flat_Round-64x64.png"
+                alt="Mauritian flag"
+              /></figure
+          ></nuxt-link>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
