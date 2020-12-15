@@ -17,8 +17,8 @@ export default {
 .switch
   position: relative
   display: inline-block
-  width: 55px
-  height: 32px
+  width: 42px
+  height: 24px
   & input
     opacity: 0
     width: 0
@@ -31,7 +31,8 @@ export default {
   left: 0
   right: 0
   bottom: 0
-  background-color: #ccc
+  background: url('~assets/images/language_selection_slider/switch-fr.png')
+  background-size: cover
   -webkit-transition: .4s
   transition: .4s
 
@@ -40,22 +41,24 @@ export default {
     content: ""
     height: 24px
     width: 24px
-    left: 4px
-    bottom: 4px
+    left: 0px
+    bottom: 0px
     background-color: white
     -webkit-transition: .4s
     transition: .4s
+    border: 1px solid #ccc
 
 input:checked + .slider
-  background-color: #ccc
+  background: url('~assets/images/language_selection_slider/switch-en.png')
+  background-size: cover
 
 input:focus + .slider
   box-shadow: 0 0 1px #ccc
 
 input:checked + .slider:before
-  -webkit-transform: translateX(23px)
-  -ms-transform: translateX(23px)
-  transform: translateX(23px)
+  -webkit-transform: translateX(19px)
+  -ms-transform: translateX(19px)
+  transform: translateX(19px)
 .slider.round
   border-radius: 34px
 
