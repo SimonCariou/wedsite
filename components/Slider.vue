@@ -1,9 +1,26 @@
 <template>
-  <div>
-    <label class="switch">
+  <div style="padding-left: 10px">
+    <nuxt-link
+      v-for="locale in $i18n.locales"
+      v-if="locale.code !== $i18n.locale"
+      :key="locale.code"
+      :to="switchLocalePath(locale.code)"
+    >
+      <figure class="image is-24x24">
+        <img
+          v-show="locale.code === 'fr'"
+          src="https://flagdownload.com/wp-content/uploads/Flag_of_France_Flat_Round_Corner-64x64.png"
+        />
+        <img
+          v-show="locale.code === 'en'"
+          src="https://flagdownload.com/wp-content/uploads/Flag_of_United_Kingdom_Flat_Round_Corner-64x64.png"
+        />
+      </figure>
+    </nuxt-link>
+    <!-- <label class="switch">
       <input type="checkbox" />
       <span class="slider round"></span>
-    </label>
+    </label> -->
   </div>
 </template>
 

@@ -69,6 +69,7 @@
       </div>
       <div class="navbar-end">
         <div class="navbar-item is-hoverable">
+          <p>Lang.</p>
           <LanguageSelectionSlider />
         </div>
         <div class="navbar-item is-hoverable" @click="bounce">
