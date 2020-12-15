@@ -29,25 +29,39 @@
     >
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#news">🔔NEWS</a>
+          <a @click="toggleMenu()" href="#news">{{
+            $t("pages.france.navbar.news")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#informations">Informations</a>
+          <a @click="toggleMenu()" href="#informations">{{
+            $t("pages.france.navbar.infos")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#deroulement">Deroulement</a>
+          <a @click="toggleMenu()" href="#deroulement">{{
+            $t("pages.france.navbar.schedule")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#hebergements">Hebergements</a>
+          <a @click="toggleMenu()" href="#hebergements">{{
+            $t("pages.france.navbar.accommodations")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#photos">Photos</a>
+          <a @click="toggleMenu()" href="#photos">{{
+            $t("pages.france.navbar.photos")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#listeDeMariage">Liste de Mariage</a>
+          <a @click="toggleMenu()" href="#listeDeMariage">{{
+            $t("pages.france.navbar.registry")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#contact">Contact</a>
+          <a @click="toggleMenu()" href="#contact">{{
+            $t("pages.france.navbar.contact")
+          }}</a>
         </div>
         <!-- <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
