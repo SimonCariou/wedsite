@@ -35,7 +35,33 @@ export default {
                         google: "Ouvrir sur Google"
                     }
                 }
+            },
+            flow: {
+                title: "Déroulement",
+                subtitle: "Tout ce que vous avez besoin de savoir sur le plan des festivités.",
+                timeline: {
+                    start: "Début de la journée",
+                    events: {
+                        first: {
+                            time: "16H",
+                            title: "📸 CHEESE!",
+                            description: "Pour profiter des derniers rayons du soleil d'hiver."
+                        },
+                        second: {
+                            time: "17H",
+                            title: "CÉRÉMONIE LAÏQUE 💏",
+                            description: ""
+                        },
+                        third: {
+                            time: "18H - 4H",
+                            title: "🎉 COCKTAIL",
+                            description: "Début des festivités! Suivi d'un diner assis et d'une soirée dansante."
+                        },
 
+                    },
+
+                    end: "A bientôt 👋"
+                }
             }
         }
     },

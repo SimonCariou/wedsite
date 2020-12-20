@@ -33,10 +33,33 @@ export default {
                         content: "40 minutes away from Paris via the A13",
                         waze: "Open with Waze",
                         google: "Open with Maps"
-                    }
-
+                    },
                 },
+            }, flow: {
+                title: "Day flow",
+                subtitle: "Everything you need to know about how the day's going to be.",
+                timeline: {
+                    start: "Let's start !",
+                    events: {
+                        first: {
+                            time: "4PM",
+                            title: "📸 CHEESE!",
+                            description: "To catch the last sun rays."
+                        },
+                        second: {
+                            time: "5PM",
+                            title: "SECULAR CEREMONY 💏",
+                            description: ""
+                        },
+                        third: {
+                            time: "6PM - 4AM",
+                            title: "🎉 COCKTAIL",
+                            description: "Let's party ! Followed by a sitted dinner and a dancing party"
+                        },
 
+                    },
+                    end: "See y'all soon 👋"
+                }
             }
         }
     },
