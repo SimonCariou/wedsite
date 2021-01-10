@@ -219,6 +219,31 @@ export default {
                 },
                 description_bottom: "Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner \
                 un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre 🤗",
+            },
+            contact: {
+                title: "Contact",
+                subtitle: "Envoyez nous un message si vous avez des questions.",
+                form: {
+                    name_surname_label: "Nom/Prénom",
+                    email_label: "Adresse mail",
+                    message: {
+                        label: "Message",
+                        placeholder: "Message à nous faire parvenir..."
+                    },
+                    send: "Envoyer",
+                    response: {
+                        success: {
+                            thanks: "Merci",
+                            sentence: "pour ton message nous te répondrons très vite! 😉"
+                        },
+                        failure: {
+                            oupsie: "Flûte",
+                            sentence: "Il y a eu une erreur dans l'envoi de ton \
+                            mail... 😢 Regarde si tu as du réseau et rééssaye!"
+                        }
+                    }
+
+                }
             }
         }
     },
