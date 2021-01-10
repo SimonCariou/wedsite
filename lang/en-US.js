@@ -1,6 +1,5 @@
 // en-US.js with English translations
 export default {
-    hello: 'Salut, le site est en Français maintenant, bienvenue!',
     pages: {
         france: {
             navbar: {
@@ -242,6 +241,12 @@ export default {
         },
         mauritius: {},
         global: {
+            index: {
+                btn_fr: "France",
+                btn_mru: "Mauritius",
+                lang_selection: "Language selection:",
+                hello: 'Hi! The website is now in English, happy browsing.',
+            },
             footer: {
                 top: {
                     to_top: "TO TOP",

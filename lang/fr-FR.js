@@ -1,6 +1,5 @@
 // fr-FR.js with English translations
 export default {
-    hello: 'Salut, le site est en Français maintenant, bienvenue!',
     pages: {
         france: {
             navbar: {
@@ -248,6 +247,12 @@ export default {
         },
         mauritius: {},
         global: {
+            index: {
+                btn_fr: "France",
+                btn_mru: "Maurice",
+                lang_selection: "Changer de langue:",
+                hello: 'Salut, le site est en Français maintenant, bienvenue!',
+            },
             footer: {
                 top: {
                     to_top: "HAUT DE PAGE",
