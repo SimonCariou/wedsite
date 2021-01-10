@@ -2,9 +2,11 @@
   <section id="deroulement" class="hero is-fullheight">
     <div class="hero-head observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">Déroulement</h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.france.flow.title") }}
+        </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Tout ce que vous avez besoin de savoir sur le plan des festivités.
+          {{ $t("pages.france.flow.subtitle") }}
         </h2>
       </div>
     </div>
@@ -15,37 +17,60 @@
         </div>
         <div class="timeline is-centered">
           <header class="timeline-header">
-            <span class="tag is-medium is-primary">Début de la journée</span>
+            <span class="tag is-medium is-primary">
+              {{ $t("pages.france.flow.timeline.start") }}</span
+            >
           </header>
           <div class="timeline-item">
             <div class="timeline-marker is-danger"></div>
             <div class="timeline-content">
-              <p class="heading">16H</p>
-              <p>📸 <strong>CHEESE!</strong></p>
-              <p>Pour profiter des derniers rayons du soleil d'hiver.</p>
+              <p class="heading">
+                {{ $t("pages.france.flow.timeline.events.first.time") }}
+              </p>
+              <p>
+                <strong>{{
+                  $t("pages.france.flow.timeline.events.first.title")
+                }}</strong>
+              </p>
+              <p>
+                {{ $t("pages.france.flow.timeline.events.first.description") }}
+              </p>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-marker is-danger"></div>
             <div class="timeline-content">
-              <p class="heading">17H</p>
-              <p><strong>CÉRÉMONIE LAÏQUE</strong> 💏</p>
+              <p class="heading">
+                {{ $t("pages.france.flow.timeline.events.second.time") }}
+              </p>
+              <p>
+                <strong>{{
+                  $t("pages.france.flow.timeline.events.second.title")
+                }}</strong>
+              </p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker is-danger"></div>
             <div class="timeline-content">
-              <p class="heading">18H - 4H</p>
-              <p>🎉 <strong>COCKTAIL</strong></p>
+              <p class="heading">
+                {{ $t("pages.france.flow.timeline.events.third.time") }}
+              </p>
               <p>
-                Début des festivités! Suivi d'un diner assis et d'une soirée
-                dansante.
+                <strong>{{
+                  $t("pages.france.flow.timeline.events.third.title")
+                }}</strong>
+              </p>
+              <p>
+                {{ $t("pages.france.flow.timeline.events.third.description") }}
               </p>
             </div>
           </div>
           <header class="timeline-header">
-            <span class="tag is-medium is-primary">A bientôt 👋</span>
+            <span class="tag is-medium is-primary">
+              {{ $t("pages.france.flow.timeline.end") }}</span
+            >
           </header>
         </div>
         <!-- <div
