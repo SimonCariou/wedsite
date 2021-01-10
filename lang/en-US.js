@@ -167,7 +167,7 @@ export default {
                 cards: {
                     hawaii: {
                         description: "3 weeks in Hawaii",
-                        price: "Unkown yet."
+                        price: "Unknown yet."
                     },
                     cuisine: {
                         description: "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
