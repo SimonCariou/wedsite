@@ -9,20 +9,26 @@
         />
       </div>
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">Photos</h1>
-        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">7 ans d'histoire en images.</h2>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.france.photos.title") }}
+        </h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
+          {{ $t("pages.france.photos.subtitle") }}
+        </h2>
       </div>
     </div>
 
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
-          <p>Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...</p>
+          <p>
+            {{ $t("pages.france.photos.description") }}
+          </p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="photos-container">
           <div
             v-for="card in cards"
-            :key="card.description"
+            :key="card.date"
             class="column is-10-mobile is-5-tablet"
           >
             <div class="card" ref="carousel-photos-element">
@@ -65,61 +71,62 @@
 
 <script>
 export default {
-  data: () => {
+  data() {
     return {
       cards: [
         {
           image: require("@/assets/images/scrollsnap_photos/2013.jpg"),
           alternative_description: "CDMGE",
-          date: "6 Juin 2013",
-          description:
-            "Premier CDMGE (Challenge du Monde des Grandes Écoles et Universités) pour encourager Roxane aux pompom girls.",
+          date: this.$t("pages.france.photos.cards._2013.date"),
+          description: this.$t("pages.france.photos.cards._2013.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2014.jpg"),
           alternative_description: "Match de football americain au Texas",
-          date: "27 Novembre 2014",
-          description:
-            "Visite de Roxane au Texas pour voir un match de football americain universitaire pour thanksgiving.",
+          date: this.$t("pages.france.photos.cards._2014.date"),
+          description: this.$t("pages.france.photos.cards._2014.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2015.jpg"),
           alternative_description: "Soirée EPF",
-          date: "18 Avril 2015",
-          description: "Soirée Versus EPF - Campagne BDE.",
+          date: this.$t("pages.france.photos.cards._2015.date"),
+          description: this.$t("pages.france.photos.cards._2015.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2016.jpg"),
           alternative_description: "Tour Eiffel",
-          date: "14 Septembre 2016",
-          description: "A l'assaut de la tour Eiffel!",
+          date: this.$t("pages.france.photos.cards._2016.date"),
+          description: this.$t("pages.france.photos.cards._2016.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2017.jpg"),
           alternative_description: "Mariage Pierre-Yves et Elodie",
-          date: "13 Mai 2017",
-          description: "Mariage de Pierre-Yves et Elodie Cariou.",
+          date: this.$t("pages.france.photos.cards._2017.date"),
+          description: this.$t("pages.france.photos.cards._2017.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2018.jpg"),
           alternative_description: "Opera Garnier",
-          date: "28 Août 2018",
-          description:
-            "Avec un style fantôme pendant l'escape game de l'Opéra Garnier.",
+          date: this.$t("pages.france.photos.cards._2018.date"),
+          description: this.$t("pages.france.photos.cards._2018.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2019.jpg"),
           alternative_description: "Paris - Hôtel de Ville",
-          date: "20 Avril 2019",
-          description:
-            "Sortie champêtre à Paris sur la place de l'hôtel de ville.",
+          date: this.$t("pages.france.photos.cards._2019.date"),
+          description: this.$t("pages.france.photos.cards._2019.description"),
         },
         {
           image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
           alternative_description: "Saint Valentin 2020",
-          date: "14 Février 2020",
-          description:
-            'Apéro à l\'appartement pour la Saint Valentin. "Prêts" à être confinés pendant 3 mois...',
+          date: this.$t("pages.france.photos.cards._2020.date"),
+          description: this.$t("pages.france.photos.cards._2020.description"),
+        },
+        {
+          image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
+          alternative_description: "Saint Valentin 2020",
+          date: this.$t("pages.france.photos.cards._2021.date"),
+          description: this.$t("pages.france.photos.cards._2021.description"),
         },
       ],
     };

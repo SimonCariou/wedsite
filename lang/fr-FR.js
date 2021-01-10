@@ -117,7 +117,50 @@ export default {
                         price: "Couchages à proximité du lieu de réception:",
                     },
                 }
-            }
+            },
+            photos: {
+                title: "Photos",
+                subtitle: "7 ans d'histoire en images.",
+                description: "Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...",
+                cards: {
+                    _2013: {
+                        date: "fr1",
+                        description: "fr"
+                    },
+                    _2014: {
+                        date: "fr2",
+                        description: "fr"
+                    },
+                    _2015: {
+                        date: "fr3",
+                        description: "fr"
+                    },
+                    _2016: {
+                        date: "fr4",
+                        description: "fr"
+                    },
+                    _2017: {
+                        date: "fr5",
+                        description: "fr"
+                    },
+                    _2018: {
+                        date: "fr6",
+                        description: "fr"
+                    },
+                    _2019: {
+                        date: "fr7",
+                        description: "fr"
+                    },
+                    _2020: {
+                        date: "fr8",
+                        description: "fr"
+                    },
+                    _2021: {
+                        date: "fr9",
+                        description: "fr"
+                    },
+                }
+            },
         }
     },
 }

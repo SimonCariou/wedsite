@@ -2,27 +2,36 @@
   <section id="hebergements" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">{{ $t("pages.france.accommodations.title") }}</h1>
-        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">{{ $t("pages.france.accommodations.subtitle") }}</h2>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.france.accommodations.title") }}
+        </h1>
+        <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
+          {{ $t("pages.france.accommodations.subtitle") }}
+        </h2>
       </div>
     </div>
 
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="explications-overflowing-content">
-          <p>{{ $t("pages.france.accommodations.description.one") }}
-           </p>
+          <p>{{ $t("pages.france.accommodations.description.one") }}</p>
           <p>
             {{ $t("pages.france.accommodations.description.two") }}
             <em>
-              <a href="#contact">{{ $t("pages.france.accommodations.description.three") }}</a>
-            </em>{{ $t("pages.france.accommodations.description.four") }}
+              <a href="#contact">{{
+                $t("pages.france.accommodations.description.three")
+              }}</a> </em
+            >{{ $t("pages.france.accommodations.description.four") }}
           </p>
           <p>{{ $t("pages.france.accommodations.description.five") }}</p>
         </div>
 
         <div class="columns is-mobile scroll-ctn" ref="hebergements-container">
-          <div v-for="card in cards" :key="card.name" class="column is-10-mobile is-3-tablet">
+          <div
+            v-for="card in cards"
+            :key="card.name"
+            class="column is-10-mobile is-3-tablet"
+          >
             <div class="card" ref="carousel-hebergements-element">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -34,25 +43,28 @@
                   <h3 class="is-size-5">
                     <span class="highlight">{{ card.name }}</span>
                   </h3>
-                  <p style="margin-bottom:0"><em>{{ card.type }}</em></p>
-                  <div style="margin-bottom:1rem">
-                      <span style="padding-right:5px"> {{card.ratings}}</span>
-                      <img :src="card.nb_stars" class="rates"></span>
+                  <p style="margin-bottom: 0">
+                    <em>{{ card.type }}</em>
+                  </p>
+                  <div style="margin-bottom: 1rem">
+                    <span style="padding-right: 5px"> {{ card.ratings }}</span>
+                    <img :src="card.nb_stars" class="rates" />
                   </div>
-                  
-                  <p style="margin-bottom:0">{{ card.address }}</p>
+
+                  <p style="margin-bottom: 0">{{ card.address }}</p>
                   <p>{{ card.city }}</p>
-                  <p style="margin-bottom:0">{{ card.description }}</p>
+                  <p style="margin-bottom: 0">{{ card.description }}</p>
                   <p>
                     <em>{{ card.distance }}</em>
                   </p>
                   <footer class="card-footer">
                     <button class="button is-primary">
                       <a
-                        :href= "card.resa_link"
+                        :href="card.resa_link"
                         target="_blank"
                         rel="noopener"
-                      >{{ $t("pages.france.accommodations.cards.book") }}</a>
+                        >{{ $t("pages.france.accommodations.cards.book") }}</a
+                      >
                     </button>
                   </footer>
                 </div>
@@ -74,8 +86,6 @@
             :icon="['fas', 'chevron-right']"
           />
         </span>
-
-      
       </div>
     </div>
   </section>

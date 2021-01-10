@@ -59,62 +59,105 @@ export default {
 
                     },
                     end: "See y'all soon 👋"
-                }, accommodations: {
-                    title: "Hébergements",
-                    subtitle: "Où dormir dans le coin ?",
-                    description: {
-                        one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.",
-                        two: "Pour toutes questions, nous contacter via le",
-                        three: "formulaire",
-                        four: " en bas de page.",
-                        five: "Les logements ci-dessous sont classés par distance par rapport au Village de Sully.",
+                },
+            }, accommodations: {
+                title: "Hébergements",
+                subtitle: "Où dormir dans le coin ?",
+                description: {
+                    one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.",
+                    two: "Pour toutes questions, nous contacter via le",
+                    three: "formulaire",
+                    four: " en bas de page.",
+                    five: "Les logements ci-dessous sont classés par distance par rapport au Village de Sully.",
+                },
+                cards: {
+                    book: "Réserver",
+                    eclipse: {
+                        title: "Hotel Éclipse",
+                        type: "Hôtel",
+                        ratings: "3.0",
+                        street: "Rue des Pierrettes",
+                        city: "78200, Magnanville",
+                        price: "A partir de 70€/chambre double.",
+                        distance: "Situé à 3.5km du Village de Sully"
                     },
-                    cards: {
-                        book: "Réserver",
-                        eclipse: {
-                            title: "Hotel Éclipse",
-                            type: "Hôtel",
-                            ratings: "3.0",
-                            street: "Rue des Pierrettes",
-                            city: "78200, Magnanville",
-                            price: "A partir de 70€/chambre double.",
-                            distance: "Situé à 3.5km du Village de Sully"
-                        },
-                        ibis: {
-                            title: "Ibis Budget",
-                            type: "Hôtel",
-                            ratings: "3.0",
-                            street: "19 Boulevard De Sully",
-                            city: "78200, Mantes-la-Jolie",
-                            price: "A partir de 60€/chambre double.",
-                            distance: "Situé à 4.5km du Village de Sully."
-                        },
-                        ferme_vallee: {
-                            title: "Ferme des Vallées",
-                            type: "Gîte/Maison d'Hôtes",
-                            ratings: "5.0",
-                            street: "20 Bis Rue Henri Duverdin",
-                            city: "78200, Soindres",
-                            price: "A partir de 70€/chambre double.",
-                            distance: "Situé à 6.1km du Village de Sully"
-                        },
-                        ruche: {
-                            title: "La Ruche",
-                            type: "Hôtel",
-                            ratings: "4.0",
-                            street: "2 route Nationale",
-                            city: "78270, Rolleboise",
-                            price: "A partir de 115€/chambre double.",
-                            distance: "Situé à 6.6km du Village de Sully"
-                        },
-                        other: {
-                            title: "Autres",
-                            type: "Différents types de logements: Hôtel/Maison d'Hôtes",
-                            price: "Couchages à proximité du lieu de réception:",
-                        },
-                    }
+                    ibis: {
+                        title: "Ibis Budget",
+                        type: "Hôtel",
+                        ratings: "3.0",
+                        street: "19 Boulevard De Sully",
+                        city: "78200, Mantes-la-Jolie",
+                        price: "A partir de 60€/chambre double.",
+                        distance: "Situé à 4.5km du Village de Sully."
+                    },
+                    ferme_vallee: {
+                        title: "Ferme des Vallées",
+                        type: "Gîte/Maison d'Hôtes",
+                        ratings: "5.0",
+                        street: "20 Bis Rue Henri Duverdin",
+                        city: "78200, Soindres",
+                        price: "A partir de 70€/chambre double.",
+                        distance: "Situé à 6.1km du Village de Sully"
+                    },
+                    ruche: {
+                        title: "La Ruche",
+                        type: "Hôtel",
+                        ratings: "4.0",
+                        street: "2 route Nationale",
+                        city: "78270, Rolleboise",
+                        price: "A partir de 115€/chambre double.",
+                        distance: "Situé à 6.6km du Village de Sully"
+                    },
+                    other: {
+                        title: "Autres",
+                        type: "Différents types de logements: Hôtel/Maison d'Hôtes",
+                        price: "Couchages à proximité du lieu de réception:",
+                    },
                 }
-            }
+            },
+            photos: {
+                title: "Pictures",
+                subtitle: "7 years of love history in images.",
+                description: "So many things have changed since we met seven years ago in 2nd year of engineering school. Here's to seven year of growth together!",
+                cards: {
+                    _2013: {
+                        date: "en1",
+                        description: "en"
+                    },
+                    _2014: {
+                        date: "en2",
+                        description: "en"
+                    },
+                    _2015: {
+                        date: "en3",
+                        description: "en"
+                    },
+                    _2016: {
+                        date: "en4",
+                        description: "en"
+                    },
+                    _2017: {
+                        date: "en5",
+                        description: "en"
+                    },
+                    _2018: {
+                        date: "en6",
+                        description: "en"
+                    },
+                    _2019: {
+                        date: "en7",
+                        description: "en"
+                    },
+                    _2020: {
+                        date: "en8",
+                        description: "en"
+                    },
+                    _2021: {
+                        date: "en9",
+                        description: "en"
+                    },
+                }
+            },
         }
     },
 }
