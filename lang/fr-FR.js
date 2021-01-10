@@ -245,6 +245,24 @@ export default {
 
                 }
             }
+        },
+        mauritius: {},
+        global: {
+            footer: {
+                top: {
+                    to_top: "HAUT DE PAGE",
+                    street: "40 rue Daguerre",
+                },
+                bottom: {
+                    with_love_website: "Site fait avec ❤️ par Simon",
+                    with_love_design: "Logo et designs faits avec ❤️ par Roxane",
+                    copyright: "Copyright Simon Cariou & Roxane Léval - 2021",
+                    bug_report: {
+                        text: "Pour tout report de bug:",
+                        here: "ici"
+                    }
+                }
+            }
         }
-    },
+    }
 }

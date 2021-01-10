@@ -239,6 +239,25 @@ export default {
                     }
                 }
             }
+        },
+        mauritius: {},
+        global: {
+            footer: {
+                top: {
+                    to_top: "TO TOP",
+                    street: "40 Daguerre street",
+                },
+                bottom: {
+                    with_love_website: "Website made by Simon with ❤️",
+                    with_love_design: "Logo and designs made by Roxane with ❤️",
+                    copyright: "Copyright Simon Cariou & Roxane Léval - 2021",
+                    bug_report: {
+                        text: "To report a bug:",
+                        here: "here"
+                    }
+                }
+            }
         }
+
     }
 }
