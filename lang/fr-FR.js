@@ -161,6 +161,65 @@ export default {
                     },
                 }
             },
+            registry: {
+                title: "Liste de Mariage",
+                subtitle: "Notre liste au père Noël 🎄",
+                description_top: "Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. \
+                Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et\
+                profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉",
+                cards: {
+                    hawaii: {
+                        description: "3 semaines à Hawaii",
+                        price: "Pas budgetté encore."
+                    },
+                    cuisine: {
+                        description: "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
+                        price: "330€"
+                    },
+                    vin: {
+                        description: "Quelques bonnes bouteilles de vin.",
+                        price: "variable"
+                    },
+                    raclette: {
+                        description: "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
+                        price: "~50€"
+                    },
+                    tapis: {
+                        description: "Tapis en laisse tressée blanc écru La Redoute.",
+                        price: "200€"
+                    },
+                    fdp: {
+                        description: "Abonnement d'un an à Fou De Patisserie",
+                        price: "35€"
+                    },
+                    lampes: {
+                        description: "Lampes connectées Philips Hue",
+                        price: "~150€"
+                    },
+                    ustensiles: {
+                        description: "Ustensiles de patisseri",
+                        price: "~100€"
+                    },
+                    impressions: {
+                        description: "Impression de plusieurs photos avec leur cadre pour tapisser les murs!",
+                        price: "~100€"
+                    },
+                    tea_time: {
+                        description: "Tea Time au Meurice",
+                        price: "83€ x 2"
+                    },
+                    lave_vaisselle: {
+                        description: "Un beau lave vaisselle pour quand on aura de la place...",
+                        price: "250€"
+                    },
+                    autres: {
+                        description: "Plus d'idées à venir bientôt 😉",
+                        price: "à venir"
+                    },
+                },
+                description_bottom: "Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner \
+                un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre 🤗",
+            }
         }
     },
 }

@@ -3,10 +3,10 @@
     <div class="hero-head observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">
-          Liste de Mariage
+          {{ $t("pages.france.registry.title") }}
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Notre liste au père Noël 🎄
+          {{ $t("pages.france.registry.subtitle") }}
         </h2>
       </div>
     </div>
@@ -15,11 +15,7 @@
       <div class="container">
         <div class="explications-overflowing-content">
           <p>
-            Voici une liste de toutes les choses qu'on a envie de s'offrir dans
-            les années qui arrivent. Votre présence est déjà un merveilleux
-            cadeau mais si vous cherchez à nous aider à équiper notre logement
-            et profiter de beaux moments à deux, vous pouvez trouver des
-            inspirations en dessous 😉
+            {{ $t("pages.france.registry.description_top") }}
           </p>
         </div>
         <div class="columns is-mobile scroll-ctn" ref="ldm-container">
@@ -67,10 +63,7 @@
       <div class="container">
         <div class="explications">
           <p>
-            Si vous voulez participer à l'achat d'un des cadeaux des images du
-            dessus vous pouvez donner un petit quelque chose dans la cagnotte
-            Paypal ou dans l'urne qui sera présente sur place le 5 décembre
-            <span>🤗</span>
+            {{ $t("pages.france.registry.description_bottom") }}
           </p>
         </div>
         <Paypal />
@@ -91,48 +84,52 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/hawaii.jpg"),
           alternative_description: "Hawaii",
-          description: "3 semaines à Hawaii",
-          price: "Pas budgetté encore",
+          description: this.$t(
+            "pages.france.registry.cards.hawaii.description"
+          ),
+          price: this.$t("pages.france.registry.cards.hawaii.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/batterie-cuisine-professionnelle.jpg"),
           alternative_description: "Batterie de cuisine.",
-          description:
-            "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
-          price: "330€",
+          description: this.$t(
+            "pages.france.registry.cards.cuisine.description"
+          ),
+          price: this.$t("pages.france.registry.cards.cuisine.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/vin.jpg"),
           alternative_description: "Bouteilles de vin",
-          description: "Quelques bonnes bouteilles de vin.",
-          price: "variable",
+          description: this.$t("pages.france.registry.cards.vin.description"),
+          price: this.$t("pages.france.registry.cards.vin.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/raclette.jpg"),
           alternative_description: "Appareil à raclette Téfal",
-          description:
-            "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
-          price: "~50€",
+          description: this.$t(
+            "pages.france.registry.cards.raclette.description"
+          ),
+          price: this.$t("pages.france.registry.cards.raclette.price"),
         },
-        {
-          image: require("@/assets/images/liste_de_mariage/table_basse.jpg"),
-          alternative_description: "Table basse",
-          description:
-            "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
-          price: "240€",
-        } /*
+        // {
+        //   image: require("@/assets/images/liste_de_mariage/table_basse.jpg"),
+        //   alternative_description: "Table basse",
+        //   description:
+        //     "Une table basse parce que même après 3 ans de vie commune nous n'en avons toujours pas...",
+        //   price: "240€",
+        // }
+        /*
         {
           image: require("@/assets/images/liste_de_mariage/resto_etoile.jpg"),
           alternative_description: "Restaurant étoilé",
           description:
             "Un dîner pour 2 au Jules Verne de Frédéric Anton en haut de la tour Eiffel",
           price: "230€ x 2",
-        },*/,
-        {
+        },*/ {
           image: require("@/assets/images/liste_de_mariage/tapis.jpg"),
           alternative_description: "Tapis",
-          description: "Tapis en laisse tressée blanc écru La Redoute.",
-          price: "200€",
+          description: this.$t("pages.france.registry.cards.tapis.description"),
+          price: this.$t("pages.france.registry.cards.tapis.price"),
         } /*
         {
           image: require("@/assets/images/liste_de_mariage/bilig.jpg"),
@@ -144,47 +141,57 @@ export default {
         {
           image: require("@/assets/images/liste_de_mariage/fou_de_patisserie.jpg"),
           alternative_description: "Abonnement fou de patisserie",
-          description: "Abonnement d'un an à Fou De Patisserie",
-          price: "35€",
+          description: this.$t("pages.france.registry.cards.fdp.description"),
+          price: this.$t("pages.france.registry.cards.fdp.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/hue.jpg"),
           alternative_description: "Lampes connectées Philips Hue",
-          description: "Lampes connectées Philips Hue",
-          price: "~150€",
+          description: this.$t(
+            "pages.france.registry.cards.lampes.description"
+          ),
+          price: this.$t("pages.france.registry.cards.lampes.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/ustensiles_patisserie.jpg"),
           alternative_description: "ustensiles de patisserie",
-          description: "Ustensiles de patisserie",
-          price: "~100€",
+          description: this.$t(
+            "pages.france.registry.cards.ustensiles.description"
+          ),
+          price: this.$t("pages.france.registry.cards.ustensiles.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/impression_photos_cadres.jpg"),
           alternative_description: "impression photos cadres",
-          description:
-            "Impression de plusieurs photos avec leur cadre pour tapisser les murs!",
-          price: "~100€",
+          description: this.$t(
+            "pages.france.registry.cards.impressions.description"
+          ),
+          price: this.$t("pages.france.registry.cards.impressions.price"),
         },
 
         {
           image: require("@/assets/images/liste_de_mariage/tea_time_meurice.jpg"),
           alternative_description: "tea time meurice",
-          description: "Tea Time au Meurice",
-          price: "83€ x 2",
+          description: this.$t(
+            "pages.france.registry.cards.tea_time.description"
+          ),
+          price: this.$t("pages.france.registry.cards.tea_time.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/lave_vaisselle.jpg"),
           alternative_description: "Lave vaisselle",
-          description:
-            "Un beau lave vaisselle pour quand on aura de la place...",
-          price: "250€",
+          description: this.$t(
+            "pages.france.registry.cards.lave_vaisselle.description"
+          ),
+          price: this.$t("pages.france.registry.cards.lave_vaisselle.price"),
         },
         {
           image: require("@/assets/images/liste_de_mariage/etc.jpg"),
           alternative_description: "...",
-          description: "Plus d'idées à venir bientôt 😉",
-          price: "à venir",
+          description: this.$t(
+            "pages.france.registry.cards.autres.description"
+          ),
+          price: this.$t("pages.france.registry.cards.autres.price"),
         },
       ],
     };
