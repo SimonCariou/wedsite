@@ -52,13 +52,13 @@ export default {
                     events: {
                         first: {
                             time: "16H",
-                            title: "📸 CHEESE!",
-                            description: "Pour profiter des derniers rayons du soleil d'hiver."
+                            title: "CÉRÉMONIE LAÏQUE 💏",
+                            description: ""
                         },
                         second: {
                             time: "17H",
-                            title: "CÉRÉMONIE LAÏQUE 💏",
-                            description: ""
+                            title: "📸 CHEESE!",
+                            description: "Pour profiter des jolis rayons de soleil automnaux."
                         },
                         third: {
                             time: "18H - 4H",

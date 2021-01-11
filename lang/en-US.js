@@ -51,13 +51,13 @@ export default {
                     events: {
                         first: {
                             time: "4PM",
-                            title: "📸 CHEESE!",
-                            description: "To catch the last sun rays."
+                            title: "SECULAR CEREMONY 💏",
+                            description: ""
                         },
                         second: {
                             time: "5PM",
-                            title: "SECULAR CEREMONY 💏",
-                            description: ""
+                            title: "📸 CHEESE!",
+                            description: "To catch the nice autumnal sun rays."
                         },
                         third: {
                             time: "6PM - 4AM",

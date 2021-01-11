@@ -32,9 +32,6 @@
                   $t("pages.france.flow.timeline.events.first.title")
                 }}</strong>
               </p>
-              <p>
-                {{ $t("pages.france.flow.timeline.events.first.description") }}
-              </p>
             </div>
           </div>
           <div class="timeline-item">
@@ -47,6 +44,9 @@
                 <strong>{{
                   $t("pages.france.flow.timeline.events.second.title")
                 }}</strong>
+              </p>
+              <p>
+                {{ $t("pages.france.flow.timeline.events.second.description") }}
               </p>
             </div>
           </div>
