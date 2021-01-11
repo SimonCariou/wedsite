@@ -9,7 +9,8 @@ export default {
                 accommodations: "Hébergements",
                 photos: "Photos",
                 registry: "Liste de Mariage",
-                contact: "Contact"
+                contact: "Contact",
+                lang_selection: "Translate into "
             },
             welcome: {
                 grand_title: "Bienvenue.",

@@ -1,27 +1,29 @@
 <template>
-  <div style="padding-left: 10px">
-    <nuxt-link
-      v-for="locale in $i18n.locales"
-      v-if="locale.code !== $i18n.locale"
-      :key="locale.code"
-      :to="switchLocalePath(locale.code)"
+  <span style="padding-left: 5px">
+    <figure
+      class="image is-24x24"
+      style="display: inline-block; vertical-align: middle"
     >
-      <figure class="image is-24x24">
+      <nuxt-link
+        v-for="locale in $i18n.locales"
+        v-if="locale.code !== $i18n.locale"
+        :key="locale.code"
+        :to="switchLocalePath(locale.code)"
+      >
         <img
           v-show="locale.code === 'fr'"
-          src="https://flagdownload.com/wp-content/uploads/Flag_of_France_Flat_Round_Corner-64x64.png"
-        />
+          src="https://flagdownload.com/wp-content/uploads/Flag_of_France_Flat_Round_Corner-64x64.png" />
         <img
           v-show="locale.code === 'en'"
           src="https://flagdownload.com/wp-content/uploads/Flag_of_United_Kingdom_Flat_Round_Corner-64x64.png"
-        />
-      </figure>
-    </nuxt-link>
+      /></nuxt-link>
+    </figure>
+
     <!-- <label class="switch">
       <input type="checkbox" />
       <span class="slider round"></span>
     </label> -->
-  </div>
+  </span>
 </template>
 
 <script >

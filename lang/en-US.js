@@ -9,7 +9,8 @@ export default {
                 accommodations: "Accommodations",
                 photos: "Photos",
                 registry: "Registry",
-                contact: "Contact us"
+                contact: "Contact us",
+                lang_selection: "Traduire en "
             },
             welcome: {
                 grand_title: "Welcome.",

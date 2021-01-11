@@ -66,12 +66,6 @@
         <!-- <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="/Jeu" class="is-size-8">Jeu</a>
         </div> -->
-      </div>
-      <div class="navbar-end">
-        <div class="navbar-item is-hoverable">
-          <p>Lang.</p>
-          <LanguageSelectionSlider />
-        </div>
         <div class="navbar-item is-hoverable" @click="bounce">
           <nuxt-link :to="localePath('Maurice')">
             <figure
@@ -84,6 +78,14 @@
                 alt="Mauritian flag"
               /></figure
           ></nuxt-link>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable" @click="toggleMenu()">
+          <p>
+            {{ $t("pages.france.navbar.lang_selection") }}
+            <LanguageSelectionSlider />
+          </p>
         </div>
       </div>
     </div>
