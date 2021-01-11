@@ -16,8 +16,17 @@ export default {
                 we_gettin: "On se marie le ",
                 date: "16 octobre 2021",
                 scroll: "Scrollez pour en savoir plus!"
-            }, news: {
-                title: "title"
+            },
+            news: {
+                title: "News",
+                subtitle: "Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!",
+                contents: {
+                    jan11: {
+                        date: "11 janvier",
+                        li1: "Aller on prend les mêmes et on recommence !",
+                        li2: "Planning de la journée en construction "
+                    }
+                }
             }, information: {
                 title: "Informations",
                 subtitle: "Infos pratiques pour titiller votre curiosité...",

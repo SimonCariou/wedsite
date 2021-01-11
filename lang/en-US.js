@@ -16,8 +16,17 @@ export default {
                 we_gettin: "We're getting married on ",
                 date: "October 16th 2021",
                 scroll: "Scroll down to know more!"
-            }, news: {
-                title: "title"
+            },
+            news: {
+                title: "News",
+                subtitle: "Here, you can get the latest information available.",
+                contents: {
+                    jan11: {
+                        date: "January 11th",
+                        li1: "Alright, second one's a charm!",
+                        li2: "Schedule in progress "
+                    }
+                }
             }, information: {
                 title: "Information",
                 subtitle: "Practical information made to tickle your curiosity...",

@@ -9,16 +9,17 @@
         />
       </div>
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">News</h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.france.news.title") }}
+        </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Ici vous pouvez suivre et avoir les dernières nouvelles toutes
-          chaudes!
+          {{ $t("pages.france.news.subtitle") }}
         </h2>
       </div>
     </div>
     <div class="hero-body observedElement section-body">
       <div class="container">
-        <div class="explications">
+        <!-- <div class="explications">
           <p>
             <span
               class="is-size-3 has-text-weight-semibold highlight has-text-primary"
@@ -64,8 +65,8 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="explications old">
+        </div> -->
+        <!-- <div class="explications old">
           <p>
             <span
               class="is-size-3 has-text-weight-semibold highlight has-text-primary"
@@ -106,6 +107,28 @@
                 🔜 Le plan du déroulement de l'après-midi
                 <strong class="has-text-primary">et les faire-part</strong>
                 arrivent vite !
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="explications">
+          <p>
+            <span
+              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              >{{ $t("pages.france.news.contents.jan11.date") }}</span
+            >
+          </p>
+          <div class="content">
+            <ul>
+              <li>{{ $t("pages.france.news.contents.jan11.li1") }}</li>
+
+              <li>
+                {{ $t("pages.france.news.contents.jan11.li2") }}
+                <img
+                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/construction_1f6a7.png"
+                  alt="construction"
+                  style="height: 16px; width: auto"
+                />
               </li>
             </ul>
           </div>
