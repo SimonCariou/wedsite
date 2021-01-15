@@ -130,40 +130,39 @@ export default {
                 description: "So many things have changed since we met seven years ago in 2nd year of engineering school. Here's to seven year of growth together!",
                 cards: {
                     _2013: {
-                        date: "en1",
-                        description: "en"
+                        date: "June 6th, 2013",
+                        description: "\"Challenge du monde des grandes écoles\", to cheer Roxane during her Cheerleading performance!"
                     },
                     _2014: {
-                        date: "en2",
-                        description: "en"
+                        date: "June 19th, 2014",
+                        description: "EPF Fluo party, let's rock!"
                     },
                     _2015: {
-                        date: "en3",
-                        description: "en"
+                        date: "July 13th, 2015",
+                        description: "First time in Mauritius for Simon... Picture taken at \"l'île aux Cerfs\""
                     },
                     _2016: {
-                        date: "en4",
-                        description: "en"
+                        date: "December 13th, 2016",
+                        description: "Finally graduated ! I was about time, after 5 years of hard work..."
                     },
                     _2017: {
-                        date: "en5",
-                        description: "en"
+                        date: "July 2017",
+                        description: "Mauritius #2: Buoy battle, it was a tie."
                     },
                     _2018: {
-                        date: "en6",
-                        description: "en"
+                        date: "May 19th 2018",
+                        description: "\"Taste of Paris\" 2018. French gastronomy fair at the Grand Palais. We were able to savour many Michelin Star Chef signature dishes, unforgettable."
                     },
                     _2019: {
-                        date: "en7",
-                        description: "en"
+                        date: "November 10th 2019",
                     },
                     _2020: {
-                        date: "en8",
-                        description: "en"
+                        date: "August 16th, 2020",
+                        description: "Vacation in Greece between 2 confinement. Chill in the Cyclades for 2 weeks..."
                     },
                     _2021: {
-                        date: "en9",
-                        description: "en"
+                        date: "2021",
+                        description: "TBD"
                     },
                 }
             },

@@ -133,36 +133,36 @@ export default {
                 description: "Parce qu'en 7 ans il s'est passé beaucoup de choses et qu'on a beaucoup changé depuis la 2ème année d'école d'ingénieurs. Une photo par an depuis 2013, pour la nostalgie...",
                 cards: {
                     _2013: {
-                        date: "fr1",
-                        description: "fr"
+                        date: "6 Juin 2013",
+                        description: "Challenge du monde des grandes écoles, pour encourager Roxane aux pompom girls!"
                     },
                     _2014: {
-                        date: "fr2",
-                        description: "fr"
+                        date: "19 Juin 2014",
+                        description: "Soirée EPF Fluo, let's party!"
                     },
                     _2015: {
-                        date: "fr3",
-                        description: "fr"
+                        date: "13 Juillet 2015",
+                        description: "Découverte de Maurice... La première de nombreuses fois!"
                     },
                     _2016: {
-                        date: "fr4",
-                        description: "fr"
+                        date: "13 Décembre 2016",
+                        description: "Ca y'est, enfin diplômés après 5 ans de durs labeurs..."
                     },
                     _2017: {
-                        date: "fr5",
-                        description: "fr"
+                        date: "Juillet 2017",
+                        description: "Maurice #2: Bataille de bouées, ex aequo."
                     },
                     _2018: {
-                        date: "fr6",
-                        description: "fr"
+                        date: "19 Mai 2018",
+                        description: "Taste of Paris 2018. Festival de haute gastronomie au grand Palais où nous avons pu déguster plein de plats de chefs étoilés."
                     },
                     _2019: {
-                        date: "fr7",
-                        description: "fr"
+                        date: "10 Novembre 2019",
+                        description: "Toussaint en Ecosse à l'île de Skye. A l'assaut du Old man of Storr pour le lever du soleil."
                     },
                     _2020: {
-                        date: "fr8",
-                        description: "fr"
+                        date: "16 Août 2020",
+                        description: "Vacances en Grèce entre 2 confinements! Visite des Cyclades pendant 2 semaines."
                     },
                     _2021: {
                         date: "fr9",
