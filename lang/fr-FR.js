@@ -18,6 +18,13 @@ export default {
                 date: "16 octobre 2021",
                 scroll: "Scrollez pour en savoir plus!"
             },
+            engagementPics: {
+                title: "Séance d'Engagement",
+                subtitle: "Séance photo orchestrée par Lucie Atlan dans la forêt de Fontainebleau.",
+                description: "Nous avons fait une petite séance photo en Octobre dernier pour profiter des couleurs automnales. Très jolies couleurs et premier contact avec notre photographe Lucie 😉",
+                link: "Pour voir la galerie complète avec les photos en HD avec la possibilité d'en acheter, allez sur ce lien: ",
+                gallery: "Gallerie"
+            },
             news: {
                 title: "News",
                 subtitle: "Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!",

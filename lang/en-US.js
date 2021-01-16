@@ -18,6 +18,13 @@ export default {
                 date: "October 16th 2021",
                 scroll: "Scroll down to know more!"
             },
+            engagementPics: {
+                title: "Engagement Photo shoot",
+                subtitle: "Orchestrated by Lucie Atlan in the Fontainebleau forest.",
+                description: "We did a photo shoot to celebrate our engagement last October, amazing vibes and beautiful colors for our first time with Lucie 😉",
+                link: "You can go see the complete photo gallery with HD pictures with the possibility to buy some by clicking here: ",
+                gallery: "Gallery"
+            },
             news: {
                 title: "News",
                 subtitle: "Here, you can get the latest information available.",

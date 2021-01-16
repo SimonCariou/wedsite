@@ -1,6 +1,7 @@
 <template>
   <div>
     <Welcome />
+    <EngagementPics />
     <News />
     <Informations />
     <Deroulement />
@@ -13,6 +14,7 @@
 
 <script>
 import Welcome from "~/components/France/1_1_Welcome.vue";
+import EngagementPics from "~/components/France/1_3_EngagementPhotos.vue";
 import News from "~/components/France/1_2_News.vue";
 import Informations from "~/components/France/2_Informations.vue";
 import Deroulement from "~/components/France/3_Deroulement.vue";
@@ -24,6 +26,7 @@ import Contact from "~/components/France/7_Contact.vue";
 export default {
   components: {
     Welcome,
+    EngagementPics,
     News,
     Informations,
     Deroulement,
