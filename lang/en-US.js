@@ -77,8 +77,8 @@ export default {
                     end: "See y'all soon 👋"
                 },
             }, accommodations: {
-                title: "Hébergements",
-                subtitle: "Où dormir dans le coin ?",
+                title: "Accommodations",
+                subtitle: "Places where you can stay in the surroundings",
                 description: {
                     one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.",
                     two: "Pour toutes questions, nous contacter via le",
