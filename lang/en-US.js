@@ -3,6 +3,7 @@ export default {
     pages: {
         france: {
             navbar: {
+                engagementPics: "Engagement",
                 news: "News 🔔",
                 infos: "Information",
                 schedule: "Schedule",
