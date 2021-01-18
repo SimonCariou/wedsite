@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight-with-navbar">
+  <!-- <section class="hero is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
         <div class="is-grouped buttons is-centered">
@@ -36,11 +36,68 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-4-tablet is-12-mobile">
+            <nuxt-link :to="localePath('France')">
+              <div id="france" class="badge has-bg-image hoverable is-animated">
+                <div
+                  class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
+                >
+                  {{ $t("pages.global.index.btn_fr") }}
+                </div>
+              </div></nuxt-link
+            >
+          </div>
+
+          <div class="column is-4-tablet is-12-mobile">
+            <nuxt-link :to="localePath('Maurice')">
+              <div
+                id="mauritius"
+                class="badge has-bg-image hoverable is-animated"
+              >
+                <div
+                  class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
+                >
+                  {{ $t("pages.global.index.btn_mru") }}
+                </div>
+              </div></nuxt-link
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 
 <style scoped lang="sass">
-*
-  font-family: "Work Sans regular","Lato", sans-serif
+.country
+  &.selection
+    font-family: "GTSuperDisplaySuper", "Work Sans bold", sans-serif
+    color: #fff
+    padding-top: 25%
+.badge
+  width: 250px
+  height: 250px
+  border-radius: 50%
+  margin: auto
+  &.has-bg-image
+    background-size: cover
+    background-position: center center
+  &.is-animated
+    transition: opacity 0.2s
+    -webkit-transition: opacity 0.2s
+    opacity: 1
+  &.hoverable:hover
+    opacity: 0.7
+
+#mauritius
+  background-image: url("https://i1.wp.com/www.lechotouristique.com/wp-content/uploads/2020/06/xavier-coiffic-byahlritqjo-unsplash-scaled.jpg?fit=2560%2C1707&ssl=1")
+#france
+  background-image: url("https://www.fne.asso.fr/sites/default/files/styles/article/public/field/image/woods-1072819_1920.jpeg?itok=EoE5pzd0")
 </style>
