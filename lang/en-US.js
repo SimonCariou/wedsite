@@ -261,7 +261,7 @@ export default {
             index: {
                 btn_fr: "France",
                 btn_mru: "Mauritius",
-                lang_selection: "Language selection:",
+                lang_selection: "Changer de langue:",
                 hello: 'Hi! The website is now in English, happy browsing.',
             },
             footer: {

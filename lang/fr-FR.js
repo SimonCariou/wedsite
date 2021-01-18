@@ -268,7 +268,7 @@ export default {
             index: {
                 btn_fr: "France",
                 btn_mru: "Maurice",
-                lang_selection: "Changer de langue:",
+                lang_selection: "Language selection:",
                 hello: 'Salut, le site est en Français maintenant, bienvenue!',
             },
             footer: {

@@ -31,14 +31,16 @@
           </button>
         </div>
 
-        <div class="has-text-centered">
-          <p>{{ $t("pages.global.index.hello") }}</p>
-        </div>
+        
       </div>
     </div>
   </section> -->
 
   <section class="hero is-fullheight">
+    <span class="lang_sticky">
+      {{ $t("pages.global.index.lang_selection") }}
+      <LanguageSelectionSlider />
+    </span>
     <div class="hero-body">
       <div class="container">
         <div class="columns is-centered is-vcentered">
@@ -69,6 +71,9 @@
             >
           </div>
         </div>
+        <!-- <div class="has-text-centered">
+          <p>{{ $t("pages.global.index.hello") }}</p>
+        </div> -->
       </div>
     </div>
   </section>
@@ -76,6 +81,15 @@
 
 
 <style scoped lang="sass">
+.lang_sticky
+  position: absolute
+  bottom: 0
+  padding-bottom: 5px
+  padding-top: 5px
+  padding-left: 10px
+  width: 100%
+  // background-color: rgba(222, 222, 222, 0.3)
+  // box-shadow: 0px 0px 10px 10px rgba(222, 222, 222, 0.3)
 .country
   &.selection
     font-family: "GTSuperDisplaySuper", "Work Sans bold", sans-serif
@@ -101,3 +115,11 @@
 #france
   background-image: url("https://www.fne.asso.fr/sites/default/files/styles/article/public/field/image/woods-1072819_1920.jpeg?itok=EoE5pzd0")
 </style>
+
+<script>
+import LanguageSelectionSlider from "~/components/Slider.vue";
+
+export default {
+  components: { LanguageSelectionSlider },
+};
+</script>
