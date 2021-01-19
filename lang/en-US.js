@@ -163,6 +163,8 @@ export default {
                     },
                     _2019: {
                         date: "November 10th 2019",
+                        description: "All Saints in Scotland at the Isle of Skye. We went hiking to the Old man of Storr for sunrise."
+
                     },
                     _2020: {
                         date: "August 16th, 2020",
