@@ -94,7 +94,7 @@
   &.selection
     font-family: "GTSuperDisplaySuper", "Work Sans bold", sans-serif
     color: #fff
-    padding-top: 25%
+    padding-top: 20%
 .badge
   width: 250px
   height: 250px
@@ -104,11 +104,12 @@
     background-size: cover
     background-position: center center
   &.is-animated
-    transition: opacity 0.2s
-    -webkit-transition: opacity 0.2s
+    transition: all 0.2s ease-in-out
+    -webkit-transition: all 0.2s ease-in-out
     opacity: 1
   &.hoverable:hover
-    opacity: 0.7
+    opacity: 0.8
+    transform: scale(1.1,1.1)
 
 #mauritius
   background-image: url("https://i1.wp.com/www.lechotouristique.com/wp-content/uploads/2020/06/xavier-coiffic-byahlritqjo-unsplash-scaled.jpg?fit=2560%2C1707&ssl=1")
