@@ -27,7 +27,11 @@
             <div class="card" ref="carousel-ldm-element">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img :src="card.image" :alt="card.alternative_description" />
+                  <img
+                    :data-src="card.image"
+                    :alt="card.alternative_description"
+                    class="lazyload"
+                  />
                 </figure>
               </div>
               <div class="card-content">

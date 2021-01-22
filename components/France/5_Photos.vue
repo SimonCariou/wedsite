@@ -3,9 +3,11 @@
     <div class="hero-head observedElement section-title">
       <div class="wrap-design stuck-right in-background">
         <img
-          src="@/assets/images/global_design/boules_or_tilted.png"
+          :data-src="
+            require('~/assets/images/global_design/boules_or_tilted.png')
+          "
           alt="boules or"
-          class="boules-or-info-top-right"
+          class="boules-or-info-top-right lazyload"
         />
       </div>
       <div class="container">
@@ -34,7 +36,11 @@
             <div class="card" ref="carousel-photos-element">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img :src="card.image" :alt="card.alternative_description" />
+                  <img
+                    :data-src="card.image"
+                    :alt="card.alternative_description"
+                    class="lazyload"
+                  />
                 </figure>
               </div>
               <div class="card-content">

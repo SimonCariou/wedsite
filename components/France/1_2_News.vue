@@ -3,9 +3,11 @@
     <div class="hero-head observedElement section-title">
       <div class="wrap-design stuck-right in-background">
         <img
-          src="@/assets/images/global_design/boules_or_tilted.png"
+          :data-src="
+            require('~/assets/images/global_design/boules_or_tilted.png')
+          "
           alt="boules or"
-          class="boules-or-info-top-right"
+          class="boules-or-info-top-right lazyload"
         />
       </div>
       <div class="container">

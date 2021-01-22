@@ -3,9 +3,11 @@
     <div class="hero-head observedElement section-title">
       <!-- <div class="wrap-design stuck-right in-background">
         <img
-          src="@/assets/images/global_design/boules_or_tilted.png"
+          :data-src="
+              require('~/assets/images/global_design/boules_or_tilted.png')
+            "
           alt="boules or"
-          class="boules-or-info-top-right"
+          class="boules-or-info-top-right lazyload"
         />
       </div> -->
       <div class="container">
@@ -43,9 +45,9 @@
             <div class="img_sc" ref="carousel-engagementPics-element">
               <figure class="image is-4by3">
                 <img
-                  :src="img.src"
+                  :data-src="img.src"
                   :alt="img.alternative_description"
-                  class="engageImg"
+                  class="engageImg lazyload"
                 />
               </figure>
 

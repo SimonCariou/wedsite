@@ -15,6 +15,7 @@
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/dotenv": "^1.4.0",
     "bulma-timeline": "^3.0.4",
+    "lazysizes": "^5.3.0",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-i18n": "^6.16.0"
@@ -24,6 +25,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@nuxtjs/fontawesome": "^1.1.2",
     "node-sass": "^4.14.1",
+    "nuxt-lazysizes": "^1.2.0",
     "sass-loader": "^8.0.2"
   }
 }

@@ -35,7 +35,11 @@
             <div class="card" ref="carousel-hebergements-element">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img :src="card.image" :alt="card.alt" />
+                  <img
+                    :data-src="card.image"
+                    :alt="card.alt"
+                    class="lazyload"
+                  />
                 </figure>
               </div>
               <div class="card-content">

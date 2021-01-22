@@ -58,9 +58,16 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
+  buildModules: ['nuxt-lazysizes'],
 
-  ],
+  lazySizes: {
+    extendAssetUrls: {
+      img: 'data-src',
+    },
+    plugins: {
+      blurUp: true,
+    }
+  },
   /*
   ** Nuxt.js modules
   */

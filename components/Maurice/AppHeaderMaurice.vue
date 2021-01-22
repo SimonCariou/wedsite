@@ -3,7 +3,8 @@
     <div class="navbar-brand">
       <a class="navbar-item" @click="clickOnBrand()">
         <img
-          src="@/assets/images/roxetsim.png"
+          :data-src="require('~/assets/images/roxetsim.png')"
+          class="lazyload"
           alt="mariage rox et simon"
           width="112"
           height="28"

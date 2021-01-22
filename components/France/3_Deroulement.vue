@@ -83,9 +83,11 @@
       <div>
         <div class="wrap-design stuck-left in-background">
           <img
-            src="@/assets/images/global_design/boules_or_tilted.png"
+            :data-src="
+              require('~/assets/images/global_design/boules_or_tilted.png')
+            "
             alt="boules or"
-            class="boules-or-info-bottom-left"
+            class="boules-or-info-bottom-left lazyload"
           />
         </div>
       </div>

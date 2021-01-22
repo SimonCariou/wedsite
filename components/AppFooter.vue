@@ -13,9 +13,11 @@
           </div>
           <div class="footerItem">
             <img
-              src="@/assets/images/global_design/Monogram-Black.png"
+              :data-src="
+                require('~/assets/images/global_design/Monogram-Black.png')
+              "
               alt="monogram Sim et Rox"
-              class="monogram"
+              class="monogram lazyload"
             />
           </div>
           <div class="footerItem">
