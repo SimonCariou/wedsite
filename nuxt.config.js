@@ -14,10 +14,10 @@ export default {
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
-      // }
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css'
+      }
     ],
     script: [
 
@@ -28,7 +28,11 @@ export default {
         src:
           "https://polyfill.io/v3/polyfill.min.js?flags=gated&features=smoothscroll%2CIntersectionObserver%2CResizeObserver",
         body: true
+      },
+      {
+        src: "https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"
       }
+
 
 
     ]
@@ -43,7 +47,7 @@ export default {
   css: [
     '@/assets/css/main.sass',
     '@/assets/css/Global/animate-text.css',
-    '@/assets/css/Global/transitions.sass'
+    '@/assets/css/Global/transitions.sass',
   ],
   /*
   ** Plugins to load before mounting the App
