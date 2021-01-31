@@ -16,7 +16,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css'
+        // href: 'https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css'
       }
     ],
     script: [
@@ -30,7 +30,7 @@ export default {
         body: true
       },
       {
-        src: "https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"
+        // src: "https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"
       }
 
 
@@ -121,6 +121,7 @@ export default {
   ** Build configuration
   */
   build: {
+    analyze: true,
     postcss: {
       preset: {
         features: {
