@@ -12,7 +12,7 @@
     </div>
     <div class="hero-body observedElement section-body">
       <div class="container">
-        <div class="columns is-centered">
+        <div class="columns is-centered is-variable is-8-tablet is-3-mobile">
           <div class="column is-6-tablet is-12-mobile">
             <div class="explications">
               <p>
@@ -24,6 +24,17 @@
           </div>
           <div class="column is-6-tablet is-12-mobile">
             <!-- <div id="panorama"></div> -->
+            <figure class="image is-3by2">
+              <img
+                :data-src="require('~/assets/images/maurice/flic-en-flac.jpg')"
+                alt="Flic en Flac"
+                class="lazyload"
+                style="
+                  background-size: cover;
+                  background-position: center center;
+                "
+              />
+            </figure>
           </div>
         </div>
       </div>

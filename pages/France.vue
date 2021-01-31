@@ -83,5 +83,4 @@ export default {
 // @import "~/assets/css/cards.sass"
 // @import "~/assets/css/carousel.sass"
 // @import "~/assets/css/designs.sass"
-@import "~/assets/css/France/fr_font_styling.sass"
 </style>
