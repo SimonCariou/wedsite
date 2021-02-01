@@ -14,12 +14,10 @@
       <div class="container">
         <div class="columns is-centered is-variable is-8-tablet is-3-mobile">
           <div class="column is-6-tablet is-12-mobile">
-            <div class="explications">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus blandit erat ac nibh consectetur interdum. Praesent
-                sed massa massa. Praesent eu tellus neque. Duis aliquet eros eu.
-              </p>
+            <div class="box explications">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              blandit erat ac nibh consectetur interdum. Praesent sed massa
+              massa. Praesent eu tellus neque. Duis aliquet eros eu.
             </div>
           </div>
           <div class="column is-6-tablet is-12-mobile">
@@ -32,6 +30,7 @@
                 style="
                   background-size: cover;
                   background-position: center center;
+                  border-radius: 0.75rem;
                 "
               />
             </figure>

@@ -2,17 +2,20 @@
   <div>
     <WelcomeMru />
     <InfosMru />
+    <WhatToDo />
   </div>
 </template>
 
 <script>
 import WelcomeMru from "~/components/Maurice/Welcome_mru.vue";
 import InfosMru from "~/components/Maurice/Infos_mru.vue";
+import WhatToDo from "~/components/Maurice/WhatToDo_mru.vue";
 
 export default {
   components: {
     WelcomeMru,
     InfosMru,
+    WhatToDo,
   },
   layout: "maurice_layout",
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
