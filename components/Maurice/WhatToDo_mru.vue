@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-light">
+  <section class="hero is-success has-text-dark">
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">
@@ -44,12 +44,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="columns is-mobile is-multiline">
-          <div class="column is-6-mobile">1</div>
-          <div class="column is-6-mobile">2</div>
-          <div class="column is-6-mobile">3</div>
-          <div class="column is-6-mobile">4</div>
         </div>
       </div>
     </div>
