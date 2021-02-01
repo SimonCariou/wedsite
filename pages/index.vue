@@ -92,9 +92,10 @@
   // box-shadow: 0px 0px 10px 10px rgba(222, 222, 222, 0.3)
 .country
   &.selection
-    font-family: "GTSuperDisplaySuper", "Work Sans bold", sans-serif
+    font-family: "Bodoni Moda","GTSuperDisplaySuper", "Work Sans bold", sans-serif
     color: #fff
     padding-top: 20%
+    font-weight: 700
 .badge
   width: 250px
   height: 250px
