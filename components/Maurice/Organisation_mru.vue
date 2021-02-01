@@ -13,32 +13,13 @@
         <div
           class="columns is-centered is-variable is-8-tablet is-3-mobile is-multiline"
         >
-          <div class="column is-5-tablet is-12-mobile">
+          <div
+            class="column is-5-tablet is-12-mobile"
+            v-for="box in boxes"
+            :key="box.title"
+          >
             <div class="box explications">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit erat ac nibh consectetur interdum. Praesent sed massa
-              massa. Praesent eu tellus neque. Duis aliquet eros eu.
-            </div>
-          </div>
-          <div class="column is-5-tablet is-12-mobile">
-            <div class="box explications">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit erat ac nibh consectetur interdum. Praesent sed massa
-              massa. Praesent eu tellus neque. Duis aliquet eros eu.
-            </div>
-          </div>
-          <div class="column is-5-tablet is-12-mobile">
-            <div class="box explications">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit erat ac nibh consectetur interdum. Praesent sed massa
-              massa. Praesent eu tellus neque. Duis aliquet eros eu.
-            </div>
-          </div>
-          <div class="column is-5-tablet is-12-mobile">
-            <div class="box explications">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit erat ac nibh consectetur interdum. Praesent sed massa
-              massa. Praesent eu tellus neque. Duis aliquet eros eu.
+              {{ box.content }}
             </div>
           </div>
         </div>
@@ -48,6 +29,33 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      boxes: [
+        {
+          title: "Plane",
+          content:
+            "Pour les billets d'avion, nous vous suggerons AirFrance car ils  remboursent sous forme d'avoir",
+        },
+        {
+          title: "Cap Malheureux",
+          content:
+            "On se marie à l'église de Cap Malheurex qui est dans le nord donc cherchez dans ce coin pour vos Hotels ;)",
+        },
+        {
+          title: "Driving",
+          content: "On conduit à gauche ici donc Attention!",
+        },
+        {
+          title: "Hiking",
+          content:
+            "Il existe de très nombreusese randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler.",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped lang="sass">
