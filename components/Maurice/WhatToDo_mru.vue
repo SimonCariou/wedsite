@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-success has-text-dark">
+  <section class="hero is-info">
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">
