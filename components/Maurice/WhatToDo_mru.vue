@@ -13,7 +13,7 @@
     <div class="hero-body">
       <div class="container">
         <div
-          class="columns is-mobile is-multiline is-variable is-8-tablet is-3-mobile is-centered"
+          class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered"
         >
           <div
             class="column is-4-tablet is-6-mobile observedElement section-body"
@@ -35,13 +35,11 @@
                 </figure>
               </div>
               <div class="card-content">
-                <div class="content">
-                  <div>
-                    <p>{{ card.title }}</p>
-                  </div>
-                  <div class="price">
-                    <p>{{ card.description }}</p>
-                  </div>
+                <div class="content has-text-centered">
+                  <p>
+                    {{ card.title }}
+                    <!-- <p>{{ card.description }}</p> -->
+                  </p>
                 </div>
               </div>
             </div>
@@ -64,58 +62,52 @@ export default {
     return {
       cards: [
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/flic-en-flac.jpg"),
           alternative_description: "",
           title: "Flic en Flac",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/le-morne.jpg"),
           alternative_description: "",
           title: "Le Morne",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/rhumerie-chamarel.jpg"),
           alternative_description: "",
-          title: "Cap Malheureux",
+          title: "Rhumerie de Chamarel",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/pamplemousses.jpg"),
           alternative_description: "",
-          title: "Gris-Gris",
+          title: "Jardin de Pamplemousses",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/chamarel-7-colors.jpg"),
           alternative_description: "",
-          title: "Chamarel",
+          title: "La terre des 7 couleurs",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
         {
-          image: require("@/assets/images/maurice/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/port-louis.jpg"),
           alternative_description: "",
-          title: "Blue Bay",
+          title: "Port Louis",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
-          description: "Trop stylé et trop joli",
         },
       ],
     };
@@ -124,4 +116,10 @@ export default {
 </script>
 
 <style scoped lang="sass">
+p
+    hyphens: manual
+    -webkit-hyphens: auto
+    -moz-hyphens: auto
+    -ms-hyphens: auto
+    word-break: break-word
 </style>

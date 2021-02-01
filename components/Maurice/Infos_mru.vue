@@ -24,7 +24,9 @@
             <!-- <div id="panorama"></div> -->
             <figure class="image is-3by2">
               <img
-                :data-src="require('~/assets/images/maurice/flic-en-flac.jpg')"
+                :data-src="
+                  require('~/assets/images/maurice/places/cap-malheureux.jpg')
+                "
                 alt="Flic en Flac"
                 class="lazyload"
                 style="
