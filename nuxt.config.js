@@ -16,25 +16,16 @@ export default {
       },
       {
         rel: 'stylesheet',
-        // href: 'https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css'
+
       }
     ],
     script: [
-
-      { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
-      // { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
       {
         rel: "preconnect",
         src:
           "https://polyfill.io/v3/polyfill.min.js?flags=gated&features=smoothscroll%2CIntersectionObserver%2CResizeObserver",
         body: true
       },
-      {
-        // src: "https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"
-      }
-
-
-
     ]
   },
   /*

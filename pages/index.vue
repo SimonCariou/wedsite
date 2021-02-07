@@ -113,9 +113,9 @@
     transform: scale(1.1,1.1)
 
 #mauritius
-  background-image: url("https://i1.wp.com/www.lechotouristique.com/wp-content/uploads/2020/06/xavier-coiffic-byahlritqjo-unsplash-scaled.jpg?fit=2560%2C1707&ssl=1")
+  background-image: url('~assets/images/index/maurice.jpg')
 #france
-  background-image: url("https://www.fne.asso.fr/sites/default/files/styles/article/public/field/image/woods-1072819_1920.jpeg?itok=EoE5pzd0")
+  background-image: url('~assets/images/index/france.jpg')
 </style>
 
 <script>
