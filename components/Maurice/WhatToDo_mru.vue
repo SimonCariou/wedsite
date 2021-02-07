@@ -1,5 +1,6 @@
 <template>
-  <section class="hero is-info">
+  <section class="hero">
+    <!-- <section class="hero is-info"> -->
     <svg
       viewBox="0 0 1440 121"
       xmlns="http://www.w3.org/2000/svg"
