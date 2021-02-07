@@ -1,5 +1,21 @@
 <template>
   <section class="hero is-info">
+    <svg
+      viewBox="0 0 1440 121"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        fill="rgba(233, 240, 251, 1)"
+        d="M 0 79 C 365.5 79 365.5 110 731 110 L 731 110 L 731 0 L 0 0 Z"
+        stroke-width="0"
+      ></path>
+      <path
+        fill="rgba(233, 240, 251, 1)"
+        d="M 730 110 C 1085 110 1085 43 1440 43 L 1440 43 L 1440 0 L 730 0 Z"
+        stroke-width="0"
+      ></path>
+    </svg>
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">
