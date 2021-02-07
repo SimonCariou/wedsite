@@ -77,18 +77,30 @@
           </div>
         </div>
         <span class="icon is-large is-hidden-mobile arrow arrow-left">
-          <font-awesome-icon
-            class="fas fa-2x"
-            @click="moveCarousel(-1)"
-            :icon="['fas', 'chevron-left']"
-          />
-        </span>
+          <figure class="image is-32x32" @click="moveCarousel(-1)">
+            <svg
+              viewBox="0 0 32 32"
+              aria-hidden="true"
+              fill="rgba(255,255,255,0.9)"
+            >
+              <path
+                d="M26.025 14.496l-14.286-.001 6.366-6.366L15.979 6 5.975 16.003 15.971 26l2.129-2.129-6.367-6.366h14.29z"
+              />
+            </svg></figure
+        ></span>
+
         <span class="icon is-large is-hidden-mobile arrow arrow-right">
-          <font-awesome-icon
-            class="fas fa-2x"
-            @click="moveCarousel(1)"
-            :icon="['fas', 'chevron-right']"
-          />
+          <figure class="image is-32x32" @click="moveCarousel(1)">
+            <svg
+              viewBox="0 0 32 32"
+              aria-hidden="true"
+              fill="rgba(255,255,255,0.9)"
+            >
+              <path
+                d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"
+              />
+            </svg>
+          </figure>
         </span>
       </div>
     </div>

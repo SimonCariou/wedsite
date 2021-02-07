@@ -77,38 +77,26 @@ export default {
   */
   modules: [
     [
-      'nuxt-fontawesome', {
-        imports: [
+      'nuxt-i18n', {
+        locales: [
           {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
+            name: 'Français',
+            code: 'fr',
+            iso: 'fr-FR',
+            file: 'fr-FR.js'
           },
           {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
-        ]
-      }
-    ], ['nuxt-i18n', {
-      locales: [
-        {
-          name: 'Français',
-          code: 'fr',
-          iso: 'fr-FR',
-          file: 'fr-FR.js'
-        },
-        {
-          name: 'English',
-          code: 'en',
-          iso: 'en-US',
-          file: 'en-US.js'
-        },
-      ],
-      langDir: 'lang/',
-      defaultLocale: 'fr',
-      strategy: 'prefix',
-      lazy: true,
-    }]
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en-US.js'
+          },
+        ],
+        langDir: 'lang/',
+        defaultLocale: 'fr',
+        strategy: 'prefix',
+        lazy: true,
+      }]
   ],
 
   /*
