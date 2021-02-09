@@ -26,21 +26,6 @@
           </div>
           <div class="column is-half-tablet is-hidden-mobile"></div>
         </div>
-
-        <!-- <div id="lottie-container">
-          <div class="animate__animated animate__fadeIn animate__delay-3s">
-            <lottie-player
-              id="firstLottie"
-              ref="myRef"
-              mode="normal"
-              autoplay
-              loop
-              src="https://assets1.lottiefiles.com/private_files/lf30_qblxo1zt.json"
-              style="width: 80%; height: auto; position: relative; margin: auto"
-            ></lottie-player>
-          </div>
-          <div class="is-overlaying-lottie"></div>
-        </div> -->
       </div>
       <div class="column is-half-tablet is-flex-mobile is-hidden-tablet"></div>
     </div>
@@ -64,31 +49,7 @@ export default {
   },
 };
 </script>
-<!--
-<script>
-import { create } from "@lottiefiles/lottie-interactivity";
 
-export default {
-  name: "app",
-  mounted() {
-    this.$refs.myRef.addEventListener("load", function() {
-      create({
-        mode: "scroll",
-        player: "#firstLottie",
-        container: "#lottie-container",
-        actions: [
-          {
-            visibility: [0, 1],
-            type: "seek",
-            frames: [0, 300]
-          }
-        ]
-      });
-    });
-  }
-};
-</script>
--->
 <style lang="sass" scoped>
 .has-bg-img
   background: url('~assets/images/landing-page-bkg/mru/ld-pg-mru.jpg')

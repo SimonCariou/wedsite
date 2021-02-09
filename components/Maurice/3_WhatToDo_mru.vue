@@ -55,7 +55,6 @@
                 <div class="content has-text-centered">
                   <p>
                     {{ card.title }}
-                    <!-- <p>{{ card.description }}</p> -->
                   </p>
                 </div>
               </div>

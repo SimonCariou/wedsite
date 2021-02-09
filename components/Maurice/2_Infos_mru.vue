@@ -21,7 +21,6 @@
             </div>
           </div>
           <div class="column is-6-tablet is-12-mobile">
-            <!-- <div id="panorama"></div> -->
             <figure class="image is-3by2">
               <img
                 :data-src="
@@ -45,15 +44,7 @@
 
 <script>
 export default {
-  mounted() {
-    //Go get images here: https://www.flickr.com/search/?orientation=panorama&media=photos&text=mauritius&advanced=1&dimension_search_mode=min&height=1024&width=1024
-    // pannellum.viewer("panorama", {
-    //   type: "equirectangular",
-    //   panorama:
-    //     "https://live.staticflickr.com/718/21499976951_1e702cff33_o_d.jpg",
-    //   autoLoad: true,
-    // });
-  },
+  mounted() {},
 };
 </script>
 
