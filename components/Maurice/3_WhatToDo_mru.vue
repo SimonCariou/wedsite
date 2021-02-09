@@ -128,9 +128,9 @@ export default {
 
 <style scoped lang="sass">
 p
-    hyphens: manual
-    -webkit-hyphens: auto
-    -moz-hyphens: auto
-    -ms-hyphens: auto
-    word-break: break-word
+  hyphens: manual
+  -webkit-hyphens: auto
+  -moz-hyphens: auto
+  -ms-hyphens: auto
+  word-break: break-word
 </style>

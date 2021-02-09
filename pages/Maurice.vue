@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import WelcomeMru from "~/components/Maurice/Welcome_mru.vue";
-import InfosMru from "~/components/Maurice/Infos_mru.vue";
-import WhatToDoMru from "~/components/Maurice/WhatToDo_mru.vue";
-import OrganisationMru from "~/components/Maurice/Organisation_mru.vue";
+import WelcomeMru from "~/components/Maurice/1_Welcome_mru.vue";
+import InfosMru from "~/components/Maurice/2_Infos_mru.vue";
+import WhatToDoMru from "~/components/Maurice/3_WhatToDo_mru.vue";
+import OrganisationMru from "~/components/Maurice/4_Organisation_mru.vue";
 
 export default {
   components: {
