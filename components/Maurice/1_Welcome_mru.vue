@@ -37,6 +37,13 @@
         ></div>
       </span>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="rgba(32,51,199, 1)"
+        fill-opacity="1"
+        d="M0,224L120,240C240,256,480,288,720,282.7C960,277,1200,235,1320,213.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+      ></path>
+    </svg>
   </section>
 </template>
 <script>
@@ -90,7 +97,7 @@ export default {
   #arrow-scroll-welcome
     width: 24px
     height: 24px
-    bottom: 40px
+    bottom: 60px
     margin: -12px 0 0 -12px
     -webkit-transform: rotate(45deg)
     border-left: none

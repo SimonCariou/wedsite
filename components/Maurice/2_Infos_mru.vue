@@ -15,9 +15,20 @@
         <div class="columns is-centered is-variable is-8-tablet is-3-mobile">
           <div class="column is-6-tablet is-12-mobile">
             <div class="box explications">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit erat ac nibh consectetur interdum. Praesent sed massa
-              massa. Praesent eu tellus neque. Duis aliquet eros eu.
+              <p class="block">
+                Comme vous le savez sûrement tous, on a décidé de se marier à
+                Maurice quelques jours après la France. Vous êtes bien entendu
+                tous invités pour venir célébrer avec nous le mariage religieux
+                qui aura lieu à Cap Malheureux le 27 Octobre 2021.
+              </p>
+              <p class="block">
+                Le programme là bas n'est pas encore défini mais le sera sous
+                peu. Nous nous doutons que nomnbre d'entre vous vous demandez
+                encore comment la situation va évoluer mais par chance les
+                compagnies aériennes allant à Maurice proposent des assurances
+                annulation assez efficaces (Air France notamment). A l'heure
+                actuelle on trouve des billets à 800-900 euros
+              </p>
             </div>
           </div>
           <div class="column is-6-tablet is-12-mobile">
