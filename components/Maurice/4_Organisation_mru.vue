@@ -9,21 +9,21 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <path
-        fill="#ffe358"
+        fill="#ffd400"
         d="M 0 64 C 347.20000000000005 64 520.8 5 868 5 L 868 5 L 868 0 L 0 0 Z"
         stroke-width="0"
       ></path>
       <path
-        fill="#ffe358"
+        fill="#ffd400"
         d="M 867 5 C 1096.2 5 1210.8 38 1440 38 L 1440 38 L 1440 0 L 867 0 Z"
         stroke-width="0"
       ></path>
     </svg>
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">Organisation</h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">Divers</h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          On vous propose des choses.
+          Foire à informations
         </h2>
       </div>
     </div>
@@ -64,21 +64,22 @@ export default {
         {
           title: "Plane",
           content:
-            "Pour les billets d'avion, nous vous suggerons AirFrance car ils remboursent sous forme d'avoir",
+            "Pour les billets d'avion, nous vous suggerons de prendre une compagnie assez réputée pour bénéfier de remboursement au cas où on soit encore coincé...",
         },
         {
           title: "Cap Malheureux",
           content:
-            "On se marie à l'église de Cap Malheurex qui est dans le nord donc cherchez dans ce coin pour vos Hotels ;)",
+            "On se marie à l'église de Cap Malheureux qui est dans le nord donc vous pouvez cherchez dans ce coin pour vos Hotels.",
         },
         {
           title: "Driving",
-          content: "On conduit à gauche ici donc Attention!",
+          content:
+            'La conduite peut être sportive ("peut") et on conduit à gauche ici donc attention!',
         },
         {
           title: "Hiking",
           content:
-            "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler.",
+            "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres.",
         },
       ],
     };

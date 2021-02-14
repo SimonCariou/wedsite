@@ -6,7 +6,7 @@
           Bienvenue à Maurice!
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Jolis panoramas
+          Un brin d'explications 😉
         </h2>
       </div>
     </div>
@@ -23,11 +23,11 @@
               </p>
               <p class="block">
                 Le programme là bas n'est pas encore défini mais le sera sous
-                peu. Nous nous doutons que nomnbre d'entre vous vous demandez
-                encore comment la situation va évoluer mais par chance les
-                compagnies aériennes allant à Maurice proposent des assurances
-                annulation assez efficaces (Air France notamment). A l'heure
-                actuelle on trouve des billets à 800-900 euros
+                peu. Nous nous doutons que nombre d'entre vous demandez encore
+                comment la situation va évoluer mais par chance les compagnies
+                aériennes allant à Maurice proposent des assurances annulation
+                assez efficaces (Air France notamment). A l'heure actuelle on
+                peut trouver des billets à 800-900 euros.
               </p>
             </div>
           </div>

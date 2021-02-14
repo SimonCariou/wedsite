@@ -19,12 +19,16 @@
     </svg>
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">
-          Que faire à Maurice ??
-        </h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">l'Île en bref</h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Indice: Plein de trucs.
+          Comment rentabiliser votre visite à Maurice.
         </h2>
+        <div class="box explications">
+          <p class="block">
+            Que vous restiez 1, 2 ou 3 semaines voici quelques petites choses à
+            faire sur l'Île. Testé et recommandé 😉
+          </p>
+        </div>
       </div>
     </div>
     <div class="hero-body">
