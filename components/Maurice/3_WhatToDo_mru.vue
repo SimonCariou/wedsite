@@ -30,7 +30,7 @@
     <div class="hero-body">
       <div class="container">
         <div
-          class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered"
+          class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
           <div
             class="column is-4-tablet is-6-mobile observedElement section-body"
@@ -51,12 +51,10 @@
                   />
                 </figure>
               </div>
-              <div class="card-content">
-                <div class="content has-text-centered">
-                  <p>
-                    {{ card.title }}
-                  </p>
-                </div>
+              <div class="card-content is-overlay has-text-centered">
+                <p class="is-size-4-tablet is-size-6-mobile">
+                  {{ card.title }}
+                </p>
               </div>
             </div>
           </div>
@@ -90,7 +88,7 @@ export default {
         {
           image: require("@/assets/images/maurice/places/rhumerie-chamarel.jpg"),
           alternative_description: "",
-          title: "Rhumerie de Chamarel",
+          title: "Chamarel",
           //   description: this.$t(
           //     "pages.france.registry.cards.hawaii.description"
           //   ),
@@ -132,4 +130,11 @@ p
   -moz-hyphens: auto
   -ms-hyphens: auto
   word-break: break-word
+
+.card-content
+  p
+    font-family: "Libre Baskerville", "Bodoni Moda"
+    color: white
+    font-weight: 700
+    text-shadow: 2px 2px 4px black
 </style>

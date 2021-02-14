@@ -1,5 +1,8 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-warning">
+  <section
+    class="hero is-fullheight-with-navbar is-success"
+    style="overflow: hidden"
+  >
     <svg
       viewBox="0 0 1440 121"
       xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +42,15 @@
             </div>
           </div>
         </div>
+        <img
+          class="airPlane lazyload"
+          :data-src="require('~/assets/images/maurice/plane_anim/plane.png')"
+        />
+
+        <img
+          class="cloud cloud1 lazyload"
+          :data-src="require('~/assets/images/maurice/plane_anim/cloud.png')"
+        />
       </div>
     </div>
   </section>
@@ -52,7 +64,7 @@ export default {
         {
           title: "Plane",
           content:
-            "Pour les billets d'avion, nous vous suggerons AirFrance car ils  remboursent sous forme d'avoir",
+            "Pour les billets d'avion, nous vous suggerons AirFrance car ils remboursent sous forme d'avoir",
         },
         {
           title: "Cap Malheureux",
@@ -66,7 +78,7 @@ export default {
         {
           title: "Hiking",
           content:
-            "Il existe de très nombreusese randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler.",
+            "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler.",
         },
       ],
     };
@@ -75,4 +87,37 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.airPlane
+  animation: fly 800ms ease-in-out 0s infinite alternate
+  transition: top 1s
+  top: 0
+  position: relative
+  margin: 0 auto
+  margin-top: 50px
+  z-index: 9999
+  display: block
+  width: 200px
+
+@keyframes fly
+  0%
+    top: 0
+
+  100%
+    top: 15px
+
+.cloud
+  position: absolute
+  bottom: 0px
+  right: -500px
+  opacity: 0.8
+  animation: cloud 2s linear 0s infinite reverse
+  z-index: 99
+  width: 400px
+
+@keyframes cloud
+  from
+    right: -500px
+
+  to
+    right: 102%
 </style>

@@ -13,7 +13,7 @@
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div class="columns is-centered is-variable is-8-tablet is-3-mobile">
-          <div class="column is-6-tablet is-12-mobile">
+          <div class="column is-6-tablet is-12-mobile" style="height: 100%">
             <div class="box explications">
               <p class="block">
                 Comme vous le savez sûrement tous, on a décidé de se marier à
