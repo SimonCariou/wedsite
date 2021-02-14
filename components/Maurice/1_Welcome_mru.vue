@@ -9,19 +9,21 @@
             <h1
               class="grand-title is-size-1-mobile is-size-0-tablet animate__animated animate__fadeInRight"
             >
-              Bienvenue.
+              {{ $t("pages.mauritius.welcome.grand_title") }}
             </h1>
             <h2
               class="grand-subtitle is-size-4-mobile is-size-3-tablet animate__animated animate__fadeInRight animate__delay-1s"
             >
-              On se marie à Maurice le
-              <strong class="grand-subtitle">27 octobre 2021</strong>
+              {{ $t("pages.mauritius.welcome.we_gettin") }}
+              <strong class="grand-subtitle">
+                {{ $t("pages.mauritius.welcome.date") }}</strong
+              >
             </h2>
 
             <h3
               class="grand-subtitle is-size-5-mobile is-size-4-tablet animate__animated animate__fadeInRight animate__delay-2s"
             >
-              Scrollez pour en savoir plus!
+              {{ $t("pages.mauritius.welcome.scroll") }}
             </h3>
           </div>
           <div class="column is-half-tablet is-hidden-mobile"></div>

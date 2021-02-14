@@ -30,20 +30,21 @@
     >
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/">item1</a>
+          <a @click="toggleMenu()" href="#introduction">{{
+            $t("pages.mauritius.navbar.introduction")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/">item2</a>
+          <a @click="toggleMenu()" href="#what_to_do">{{
+            $t("pages.mauritius.navbar.what_to_do")
+          }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/">item3</a>
+          <a @click="toggleMenu()" href="#various">{{
+            $t("pages.mauritius.navbar.information")
+          }}</a>
         </div>
-        <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/">item4</a>
-        </div>
-        <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="/">item5</a>
-        </div>
+
         <div class="navbar-item is-hoverable" @click="bounce">
           <nuxt-link :to="localePath('France')">
             <figure

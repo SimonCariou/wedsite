@@ -258,7 +258,50 @@ export default {
                 }
             }
         },
-        mauritius: {},
+        mauritius: {
+            navbar: {
+                introduction: "Welcome!",
+                what_to_do: "The Island",
+                information: "Various"
+            },
+            welcome: {
+                grand_title: "Welcome.",
+                we_gettin: "We are getting married religiously on",
+                date: "October 27th, 2021",
+                scroll: "Scroll down to know more!"
+            },
+            introduction: {
+                title: "Welcome to Mauritius!",
+                subtitle: "A piece of additional information 😉",
+                box: {
+                    first: "As some of you already know, we decided to get married religiously in Mauritius a coupel of days after the one in France. All of you are invited to celebrate with us this very special moment in this very special place. It will take place in Cap Malheureux on October 27th, 2021",
+                    second: "It's not clear yet what is planned for the D-Day but very soon will be! We are well aware of the current situation this is why we are strongly advising you to book refundable tickets (Air France does it as far as we know). At the current date, we can find 800-900€ tickets."
+                }
+            },
+            what_to_do: {
+                title: "This Island in a nutshell",
+                subtitle: "How to make the best of your stay",
+                introduction: "No matter what the duration of your holidays, you will still be able to fully enjoy your stay here. Here is a little selection of places that we have tested and recommend 😉",
+                cards: {
+                    flic_en_flac: "Flic en Flac",
+                    le_morne: "Le Morne",
+                    rhumerie_chamarel: "Chamarel",
+                    pamplemousses: "Pamplemousses Garden",
+                    _7_couleurs: "The seven colored earth",
+                    port_louis: "Port Louis",
+                }
+            },
+            various: {
+                title: "Various information",
+                subtitle: "Some useful tips you may need for your trip.",
+                boxes: {
+                    first: "For the plane tickets, we strongly advise you to choose a legit airline company. This would allow you to be refunded in the unfortunate event of yet another containment or border blockage...",
+                    second: "The celebration will take place in the Church of Cap Malheureux which is located in the north so if you want, you can start looking for a place to stay around it 😉",
+                    third: 'Driving is challenging and can be sportive. Plus, we drive on the left so keep that in mind!',
+                    fourth: "There are so many hikes to do in Mauritius so those who love hiking with exceptional views, you will be in for a treat."
+                }
+            }
+        },
         global: {
             index: {
                 btn_fr: "France",

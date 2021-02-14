@@ -17,16 +17,20 @@
         stroke-width="0"
       ></path>
     </svg>
-    <div class="hero-head has-text-centered observedElement section-title">
+    <div
+      class="hero-head has-text-centered observedElement section-title"
+      id="what_to_do"
+    >
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">l'Île en bref</h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.mauritius.what_to_do.title") }}
+        </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Comment rentabiliser votre visite à Maurice.
+          {{ $t("pages.mauritius.what_to_do.subtitle") }}
         </h2>
         <div class="box explications">
           <p class="block">
-            Que vous restiez 1, 2 ou 3 semaines voici quelques petites choses à
-            faire sur l'Île. Testé et recommandé 😉
+            {{ $t("pages.mauritius.what_to_do.introduction") }}
           </p>
         </div>
       </div>
@@ -76,50 +80,32 @@ export default {
         {
           image: require("@/assets/images/maurice/places/flic-en-flac.jpg"),
           alternative_description: "",
-          title: "Flic en Flac",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards.flic_en_flac"),
         },
         {
           image: require("@/assets/images/maurice/places/le-morne.jpg"),
           alternative_description: "",
-          title: "Le Morne",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards.le_morne"),
         },
         {
           image: require("@/assets/images/maurice/places/rhumerie-chamarel.jpg"),
           alternative_description: "",
-          title: "Chamarel",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards.rhumerie_chamarel"),
         },
         {
           image: require("@/assets/images/maurice/places/pamplemousses.jpg"),
           alternative_description: "",
-          title: "Jardin de Pamplemousses",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards.pamplemousses"),
         },
         {
           image: require("@/assets/images/maurice/places/chamarel-7-colors.jpg"),
           alternative_description: "",
-          title: "La terre des 7 couleurs",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards._7_couleurs"),
         },
         {
           image: require("@/assets/images/maurice/places/port-louis.jpg"),
           alternative_description: "",
-          title: "Port Louis",
-          //   description: this.$t(
-          //     "pages.france.registry.cards.hawaii.description"
-          //   ),
+          title: this.$t("pages.mauritius.what_to_do.cards.port_louis"),
         },
       ],
     };

@@ -2,6 +2,7 @@
   <section
     class="hero is-fullheight-with-navbar is-success"
     style="overflow: hidden"
+    id="various"
   >
     <svg
       viewBox="0 0 1440 121"
@@ -21,9 +22,11 @@
     </svg>
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">Divers</h1>
+        <h1 class="title is-size-2-mobile is-size-1-tablet">
+          {{ $t("pages.mauritius.various.title") }}
+        </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Foire à informations
+          {{ $t("pages.mauritius.various.subtitle") }}
         </h2>
       </div>
     </div>
@@ -63,23 +66,19 @@ export default {
       boxes: [
         {
           title: "Plane",
-          content:
-            "Pour les billets d'avion, nous vous suggerons de prendre une compagnie assez réputée pour bénéfier de remboursement au cas où on soit encore coincé...",
+          content: this.$t("pages.mauritius.various.boxes.first"),
         },
         {
           title: "Cap Malheureux",
-          content:
-            "On se marie à l'église de Cap Malheureux qui est dans le nord donc vous pouvez cherchez dans ce coin pour vos Hotels.",
+          content: this.$t("pages.mauritius.various.boxes.second"),
         },
         {
           title: "Driving",
-          content:
-            'La conduite peut être sportive ("peut") et on conduit à gauche ici donc attention!',
+          content: this.$t("pages.mauritius.various.boxes.third"),
         },
         {
           title: "Hiking",
-          content:
-            "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres.",
+          content: this.$t("pages.mauritius.various.boxes.fourth"),
         },
       ],
     };

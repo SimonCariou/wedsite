@@ -263,7 +263,50 @@ export default {
                 }
             }
         },
-        mauritius: {},
+        mauritius: {
+            navbar: {
+                introduction: "Bienvenue!",
+                what_to_do: "L'Île en bref",
+                information: "Infos diverses"
+            },
+            welcome: {
+                grand_title: "Bienvenue.",
+                we_gettin: "On se marie à Maurice le",
+                date: "27 octobre 2021",
+                scroll: "Scrollez pour en savoir plus!"
+            },
+            introduction: {
+                title: "Bienvenue à Maurice!",
+                subtitle: "Un brin d'explications 😉",
+                box: {
+                    first: "Comme vous le savez sûrement tous, on a décidé de se marier à Maurice quelques jours après la France. Vous êtes bien entendu tous invités pour venir célébrer avec nous le mariage religieux qui aura lieu à Cap Malheureux le 27 Octobre 2021.",
+                    second: "Le programme là bas n'est pas encore défini mais le sera sous peu. Nous nous doutons que nombre d'entre vous demandez encore comment la situation va évoluer mais par chance les compagnies aériennes allant à Maurice proposent des assurances annulation assez efficaces (Air France notamment). A l'heure actuelle on peut trouver des billets à 800-900€."
+                }
+            },
+            what_to_do: {
+                title: "l'Île en bref",
+                subtitle: "Comment rentabiliser votre visite à Maurice.",
+                introduction: "Que vous restiez 1, 2 ou 3 semaines voici quelques petites choses à faire sur l'Île. Testé et recommandé 😉",
+                cards: {
+                    flic_en_flac: "Flic en Flac",
+                    le_morne: "Le Morne",
+                    rhumerie_chamarel: "Chamarel",
+                    pamplemousses: "Jardin de Pamplemousses",
+                    _7_couleurs: "La terre des 7 couleurs",
+                    port_louis: "Port Louis",
+                }
+            },
+            various: {
+                title: "Divers",
+                subtitle: "Foire à informations",
+                boxes: {
+                    first: "Pour les billets d'avion, nous vous suggerons de prendre une compagnie assez réputée pour bénéfier de remboursement au cas où on soit encore coincé...",
+                    second: "On se marie à l'église de Cap Malheureux qui est dans le nord donc vous pouvez cherchez dans ce coin pour vos Hotels.",
+                    third: 'La conduite peut être sportive ("peut") et on conduit à gauche ici donc attention!',
+                    fourth: "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres."
+                }
+            }
+        },
         global: {
             index: {
                 btn_fr: "France",

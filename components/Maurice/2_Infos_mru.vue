@@ -1,12 +1,12 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-success">
+  <section class="hero is-fullheight-with-navbar is-success" id="introduction">
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet">
-          Bienvenue à Maurice!
+          {{ $t("pages.mauritius.introduction.title") }}
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
-          Un brin d'explications 😉
+          {{ $t("pages.mauritius.introduction.subtitle") }}
         </h2>
       </div>
     </div>
@@ -16,18 +16,10 @@
           <div class="column is-6-tablet is-12-mobile" style="height: 100%">
             <div class="box explications">
               <p class="block">
-                Comme vous le savez sûrement tous, on a décidé de se marier à
-                Maurice quelques jours après la France. Vous êtes bien entendu
-                tous invités pour venir célébrer avec nous le mariage religieux
-                qui aura lieu à Cap Malheureux le 27 Octobre 2021.
+                {{ $t("pages.mauritius.introduction.box.first") }}
               </p>
               <p class="block">
-                Le programme là bas n'est pas encore défini mais le sera sous
-                peu. Nous nous doutons que nombre d'entre vous demandez encore
-                comment la situation va évoluer mais par chance les compagnies
-                aériennes allant à Maurice proposent des assurances annulation
-                assez efficaces (Air France notamment). A l'heure actuelle on
-                peut trouver des billets à 800-900 euros.
+                {{ $t("pages.mauritius.introduction.box.second") }}
               </p>
             </div>
           </div>
