@@ -29,16 +29,21 @@
     </div>
     <div class="hero-body">
       <div class="container">
-        <div class="box explications has-text-centered">
-          <p class="block">
-            {{ $t("pages.mauritius.what_to_do.introduction") }}
-          </p>
+        <div class="columns is-centered">
+          <div class="column is-narrow">
+            <div class="box explications has-text-centered">
+              <p class="block">
+                {{ $t("pages.mauritius.what_to_do.introduction") }}
+              </p>
+            </div>
+          </div>
         </div>
+
         <div
           class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
           <div
-            class="column is-4-tablet is-6-mobile observedElement section-body is-animated hoverable"
+            class="column is-4-tablet is-half-mobile observedElement section-body is-animated hoverable"
             v-for="card in cards"
             :key="card.title"
           >
@@ -77,7 +82,7 @@
                 </div>
               </div>
               <div class="card-content is-overlay has-text-centered">
-                <p class="is-size-4-tablet is-size-7-mobile">
+                <p class="is-size-5-tablet is-size-7-mobile">
                   {{ card.title }}
                 </p>
               </div>
