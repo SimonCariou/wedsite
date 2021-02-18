@@ -77,7 +77,7 @@
                 </div>
               </div>
               <div class="card-content is-overlay has-text-centered">
-                <p class="is-size-3-tablet is-size-7-mobile">
+                <p class="is-size-4-tablet is-size-7-mobile">
                   {{ card.title }}
                 </p>
               </div>
