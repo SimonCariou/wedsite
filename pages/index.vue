@@ -104,13 +104,6 @@
   &.has-bg-image
     background-size: cover
     background-position: center center
-  &.is-animated
-    transition: all 0.2s ease-in-out
-    -webkit-transition: all 0.2s ease-in-out
-    opacity: 1
-  &.hoverable:hover
-    opacity: 0.8
-    transform: scale(1.1,1.1)
 
 #mauritius
   background-image: url('~assets/images/index/maurice.jpg')

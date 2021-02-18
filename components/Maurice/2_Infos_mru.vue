@@ -38,7 +38,7 @@
                 "
               />
             </figure> -->
-            <div class="floating-image">
+            <div class="floating-image is-animated hoverable">
               <svg
                 viewBox="0 0 20 18"
                 xmlns="http://www.w3.org/2000/svg"

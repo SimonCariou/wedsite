@@ -32,3 +32,12 @@
 
     100%
         opacity: 1
+
+//animations  on hover. Used in MRU what to do and in index.
+.is-animated
+    transition: all 0.2s ease-in-out
+    -webkit-transition: all 0.2s ease-in-out
+    opacity: 0.9
+    &.hoverable:hover
+        opacity: 1
+        transform: scale(1.1,1.1)

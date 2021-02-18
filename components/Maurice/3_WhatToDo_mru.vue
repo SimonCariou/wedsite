@@ -38,7 +38,7 @@
           class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
           <div
-            class="column is-4-tablet is-6-mobile observedElement section-body"
+            class="column is-4-tablet is-6-mobile observedElement section-body is-animated hoverable"
             v-for="card in cards"
             :key="card.title"
           >
