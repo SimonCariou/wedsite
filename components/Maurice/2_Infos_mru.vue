@@ -2,7 +2,7 @@
   <section class="hero is-fullheight-with-navbar is-success" id="introduction">
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">
+        <h1 class="title is-size-2-mobile is-size-1-tablet is-uppercase">
           {{ $t("pages.mauritius.introduction.title") }}
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">

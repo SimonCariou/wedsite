@@ -13,6 +13,12 @@
 
 //MAURICE:
 
-.hero.is-info .title,  .hero.is-info .subtitle
-    color: white
-    text-shadow: 1px 1px 5px #3835352f
+.hero
+    &.is-success
+        .title, .subtitle
+            color: $info
+
+    &.is-info
+        .title, .subtitle
+            color: $success
+            // text-shadow: 1px 1px 5px #3835352f

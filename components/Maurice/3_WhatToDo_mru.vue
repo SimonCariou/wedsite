@@ -19,21 +19,21 @@
     </svg>
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">
+        <h1 class="title is-size-2-mobile is-size-1-tablet is-uppercase">
           {{ $t("pages.mauritius.what_to_do.title") }}
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
           {{ $t("pages.mauritius.what_to_do.subtitle") }}
         </h2>
-        <div class="box explications">
-          <p class="block">
-            {{ $t("pages.mauritius.what_to_do.introduction") }}
-          </p>
-        </div>
       </div>
     </div>
     <div class="hero-body">
       <div class="container">
+        <div class="box explications has-text-centered">
+          <p class="block">
+            {{ $t("pages.mauritius.what_to_do.introduction") }}
+          </p>
+        </div>
         <div
           class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
