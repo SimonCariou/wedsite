@@ -2,7 +2,7 @@
   <section id="welcome" class="hero is-fullheight-with-navbar has-bg-img">
     <div class="hero-body columns is-multiline">
       <div
-        class="column has-text-centered-mobile is-full-mobile is-half-tablet is-colored-pane animate__animated animate__fadeInRight"
+        class="column has-text-centered-mobile is-full-mobile is-half-tablet is-colored-pane animate__animated animate__fadeInRight box"
       >
         <div class="container">
           <div class="animate__animated animate__fadeInRight">
@@ -39,13 +39,18 @@
         ></div>
       </span>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="rgba(32,51,199, 1)"
-        fill-opacity="1"
-        d="M0,224L120,240C240,256,480,288,720,282.7C960,277,1200,235,1320,213.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-      ></path>
-    </svg>
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M-4.51,110.03 C245.48,155.42 281.59,122.86 501.69,123.84 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #faf0d7"
+        ></path>
+      </svg>
+    </div>
   </section>
 </template>
 <script>
@@ -69,7 +74,8 @@ export default {
   max-width: 100vw
   overflow: hidden
   .is-colored-pane
-    background: rgba(32,51,199, 0.5)
+    // background: rgba(32,51,199, 0.5)
+    background: rgba(100, 184, 177, 0.7)
     margin-top: 1.5rem
     height: 100%
     background-size: cover

@@ -7,12 +7,12 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <path
-        fill="rgba(32,51,199, 1)"
+        fill="#faf0d7"
         d="M 0 79 C 365.5 79 365.5 110 731 110 L 731 110 L 731 0 L 0 0 Z"
         stroke-width="0"
       ></path>
       <path
-        fill="rgba(32,51,199, 1)"
+        fill="#faf0d7"
         d="M 730 110 C 1085 110 1085 43 1440 43 L 1440 43 L 1440 0 L 730 0 Z"
         stroke-width="0"
       ></path>
@@ -30,8 +30,10 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-narrow">
-            <div class="box explications has-text-centered">
+          <div class="column is-8-tablet is-full-mobile">
+            <div
+              class="box explications has-text-centered observedElement section-body"
+            >
               <p class="block">
                 {{ $t("pages.mauritius.what_to_do.introduction") }}
               </p>
@@ -43,7 +45,7 @@
           class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
           <div
-            class="column is-4-tablet is-half-mobile observedElement section-body is-animated hoverable"
+            class="column is-4-tablet is-half-mobile observedElement section-body"
             v-for="card in cards"
             :key="card.title"
           >
@@ -82,7 +84,7 @@
                 </div>
               </div>
               <div class="card-content is-overlay has-text-centered">
-                <p class="is-size-5-tablet is-size-7-mobile">
+                <p class="is-size-4-tablet is-size-7-mobile">
                   {{ card.title }}
                 </p>
               </div>
@@ -91,6 +93,18 @@
         </div>
       </div>
     </div>
+    <!-- <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M-1.12,78.45 C245.48,155.42 344.80,32.06 502.25,89.30 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ff3b4b"
+        ></path>
+      </svg>
+    </div> -->
   </section>
 </template>
 
@@ -131,7 +145,7 @@ export default {
           alternative_description: "",
           title: this.$t("pages.mauritius.what_to_do.cards.pamplemousses"),
           path:
-            "M45.8,-36.5C57.9,-21.5,65,-2.5,61.4,14.3C57.9,31.2,43.5,45.9,26,54.5C8.5,63.1,-12.1,65.6,-29,58.2C-45.9,50.9,-59.1,33.7,-65.1,13.2C-71.1,-7.4,-70.1,-31.2,-58,-46.3C-46,-61.4,-23,-67.7,-3.1,-65.3C16.9,-62.8,33.8,-51.6,45.8,-36.5Z",
+            "M52,-72.6C65.6,-61.7,73.5,-44.1,77.2,-26.5C80.9,-9,80.3,8.5,75.8,25.3C71.3,42.2,62.8,58.5,49.5,68.3C36.2,78.2,18.1,81.6,-0.6,82.4C-19.2,83.2,-38.5,81.3,-52.3,71.6C-66.1,61.9,-74.6,44.5,-73.4,28.5C-72.2,12.5,-61.3,-2,-53.7,-14.9C-46,-27.9,-41.4,-39.3,-33,-51.9C-24.6,-64.5,-12.3,-78.3,3.5,-83C19.2,-87.8,38.4,-83.6,52,-72.6Z",
           mask_name: "mask-blob4",
           mask_url: 'url("#mask-blob4")',
         },
