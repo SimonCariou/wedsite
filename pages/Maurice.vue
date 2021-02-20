@@ -4,6 +4,7 @@
     <InfosMru />
     <WhatToDoMru />
     <OrganisationMru />
+    <PollMru />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import WelcomeMru from "~/components/Maurice/1_Welcome_mru.vue";
 import InfosMru from "~/components/Maurice/2_Infos_mru.vue";
 import WhatToDoMru from "~/components/Maurice/3_WhatToDo_mru.vue";
 import OrganisationMru from "~/components/Maurice/4_Organisation_mru.vue";
+import PollMru from "~/components/Maurice/5_Poll_mru.vue";
 
 export default {
   components: {
@@ -19,6 +21,7 @@ export default {
     InfosMru,
     WhatToDoMru,
     OrganisationMru,
+    PollMru,
   },
   layout: "maurice_layout",
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
