@@ -267,7 +267,8 @@ export default {
             navbar: {
                 introduction: "Bienvenue!",
                 what_to_do: "L'Île en bref",
-                information: "Infos diverses"
+                information: "Infos diverses",
+                poll: "RSVP"
             },
             welcome: {
                 grand_title: "Bienvenue.",

@@ -262,7 +262,8 @@ export default {
             navbar: {
                 introduction: "Welcome!",
                 what_to_do: "The Island",
-                information: "Various"
+                information: "Various",
+                poll: "RSVP"
             },
             welcome: {
                 grand_title: "Welcome.",

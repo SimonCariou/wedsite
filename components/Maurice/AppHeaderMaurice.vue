@@ -44,6 +44,11 @@
             $t("pages.mauritius.navbar.information")
           }}</a>
         </div>
+        <div class="navbar-item is-hoverable">
+          <a @click="toggleMenu()" href="#poll">{{
+            $t("pages.mauritius.navbar.poll")
+          }}</a>
+        </div>
 
         <div class="navbar-item is-hoverable" @click="bounce">
           <nuxt-link :to="localePath('France')">
