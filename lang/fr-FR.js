@@ -268,7 +268,7 @@ export default {
                 introduction: "Bienvenue!",
                 what_to_do: "L'Île en bref",
                 information: "Infos diverses",
-                poll: "RSVP"
+                rsvp: "RSVP"
             },
             welcome: {
                 grand_title: "Bienvenue.",

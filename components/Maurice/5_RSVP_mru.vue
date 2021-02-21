@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-info" id="poll">
+  <section class="hero is-fullheight-with-navbar is-info" id="rsvp">
     <div style="height: 150px; overflow: hidden">
       <svg
         viewBox="0 0 500 150"

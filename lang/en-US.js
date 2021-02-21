@@ -263,7 +263,7 @@ export default {
                 introduction: "Welcome!",
                 what_to_do: "The Island",
                 information: "Various",
-                poll: "RSVP"
+                rsvp: "RSVP"
             },
             welcome: {
                 grand_title: "Welcome.",

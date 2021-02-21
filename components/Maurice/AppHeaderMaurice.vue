@@ -45,8 +45,8 @@
           }}</a>
         </div>
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#poll">{{
-            $t("pages.mauritius.navbar.poll")
+          <a @click="toggleMenu()" href="#rsvp">{{
+            $t("pages.mauritius.navbar.rsvp")
           }}</a>
         </div>
 
