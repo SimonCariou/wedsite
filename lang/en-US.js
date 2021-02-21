@@ -300,6 +300,14 @@ export default {
                     third: 'Driving is challenging and can be sportive. Plus, we drive on the left so keep that in mind!',
                     fourth: "There are so many hikes to do in Mauritius so those who love hiking with exceptional views, you will be in for a treat."
                 }
+            }, poll: {
+                title: "RSVP",
+                subtitle: "Please answer before May 5th, 2021.",
+                form: {
+                    label: "RSVP: ",
+                    placeholder: "Name/Surname",
+                    submit: "Submit"
+                }
             }
         },
         global: {

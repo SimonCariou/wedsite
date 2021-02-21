@@ -305,6 +305,15 @@ export default {
                     third: 'La conduite peut être sportive ("peut") et on conduit à gauche ici donc attention!',
                     fourth: "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres."
                 }
+            },
+            poll: {
+                title: "RSVP",
+                subtitle: "Répondre avant le 1er Mai 2021.",
+                form: {
+                    label: "RSVP: ",
+                    placeholder: "Nom/Prénom",
+                    submit: "Envoyer"
+                }
             }
         },
         global: {
