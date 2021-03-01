@@ -1,10 +1,10 @@
 <template>
-  <section class="hero is-fullheight" style="overflow: hidden">
+  <section class="hero" style="overflow: hidden">
     <span class="lang_sticky">
       {{ $t("pages.global.index.lang_selection") }}
       <LanguageSelectionSlider />
     </span>
-    <div class="hero-body">
+    <div class="hero-body pt-6">
       <div class="container">
         <div class="columns is-centered is-vcentered">
           <div class="column is-4-tablet is-12-mobile">
@@ -67,7 +67,7 @@
 
 <style scoped lang="sass">
 .lang_sticky
-  position: absolute
+  position: sticky
   top: 0
   padding-bottom: 5px
   padding-top: 5px
