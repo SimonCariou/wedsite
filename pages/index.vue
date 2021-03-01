@@ -1,5 +1,5 @@
 <template>
-  <section class="hero" style="overflow: hidden">
+  <section class="hero is-fullheight-with-navbar" style="overflow: hidden">
     <span class="lang_sticky">
       {{ $t("pages.global.index.lang_selection") }}
       <LanguageSelectionSlider />
