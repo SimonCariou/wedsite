@@ -24,20 +24,6 @@
             </div>
           </div>
           <div class="column is-6-tablet is-12-mobile">
-            <!-- <figure class="image is-3by2">
-              <img
-                :data-src="
-                  require('~/assets/images/maurice/places/cap-malheureux.jpg')
-                "
-                alt="Flic en Flac"
-                class="lazyload"
-                style="
-                  background-size: cover;
-                  background-position: center center;
-                  border-radius: 0.75rem;
-                "
-              />
-            </figure> -->
             <div class="floating-image is-animated hoverable">
               <svg
                 viewBox="0 0 20 18"
@@ -56,7 +42,7 @@
                   height="100%"
                   clip-path="url(#mask)"
                   preserveAspectRatio="xMidYMid slice"
-                  href="https://instagram.flwo4-1.fna.fbcdn.net/v/t51.2885-15/e35/21042582_197917604079859_6795856486795837440_n.jpg?_nc_ht=instagram.flwo4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Ni3E0yvyZEsAX9kL4Ug&tp=1&oh=a3740699cdc6f328599dd72353a5f1ca&oe=6054DBDE"
+                  href="~/assets/images/maurice/places/cap-malheureux.jpg"
                 />
               </svg>
             </div>
