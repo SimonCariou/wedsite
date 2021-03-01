@@ -143,8 +143,8 @@ export default {
                         description: "\"Challenge du monde des grandes écoles\", to cheer Roxane during her Cheerleading performance!"
                     },
                     _2014: {
-                        date: "June 19th, 2014",
-                        description: "EPF Fluo party, let's rock!"
+                        date: "October 14th, 2014",
+                        description: "Visit in Chicago during our internship in the United States."
                     },
                     _2015: {
                         date: "July 13th, 2015",

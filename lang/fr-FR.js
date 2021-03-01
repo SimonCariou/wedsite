@@ -146,8 +146,8 @@ export default {
                         description: "Challenge du monde des grandes écoles, pour encourager Roxane aux pompom girls!"
                     },
                     _2014: {
-                        date: "19 Juin 2014",
-                        description: "Soirée EPF Fluo, let's party!"
+                        date: "14 Octobre 2014",
+                        description: "Visite à Chicago pendant le stage aux Etats-Unis."
                     },
                     _2015: {
                         date: "13 Juillet 2015",

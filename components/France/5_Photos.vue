@@ -140,12 +140,12 @@ export default {
           date: this.$t("pages.france.photos.cards._2020.date"),
           description: this.$t("pages.france.photos.cards._2020.description"),
         },
-        {
-          image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
-          alternative_description: "Saint Valentin 2020",
-          date: this.$t("pages.france.photos.cards._2021.date"),
-          description: this.$t("pages.france.photos.cards._2021.description"),
-        },
+        // {
+        //   image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
+        //   alternative_description: "Saint Valentin 2020",
+        //   date: this.$t("pages.france.photos.cards._2021.date"),
+        //   description: this.$t("pages.france.photos.cards._2021.description"),
+        // },
       ],
     };
   },
