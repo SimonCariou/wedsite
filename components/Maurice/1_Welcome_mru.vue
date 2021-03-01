@@ -43,7 +43,7 @@
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"
-        style="height: 100%; width: 100%"
+        style="height: 100%; width: 100%; display: block"
       >
         <path
           d="M-4.51,110.03 C245.48,155.42 281.59,122.86 501.69,123.84 L500.00,150.00 L0.00,150.00 Z"
