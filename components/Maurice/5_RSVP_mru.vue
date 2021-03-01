@@ -45,12 +45,12 @@
           </div>
         </div>
         <div class="columns is-centered">
-          <div class="column is-6-tablet is-12-mobile">
+          <div class="column is-5-tablet is-12-mobile">
             <form v-on:submit.prevent="add">
-              <label class="label has-text-success">{{
+              <label class="label has-text-white">{{
                 $t("pages.mauritius.poll.form.label")
               }}</label>
-              <div class="field is-grouped">
+              <div class="field">
                 <p class="control is-expanded">
                   <input
                     class="input is-success"
@@ -59,6 +59,8 @@
                     v-model="text.text"
                   />
                 </p>
+              </div>
+              <div class="field">
                 <p class="control">
                   <button type="submit" class="button is-success">
                     {{ $t("pages.mauritius.poll.form.submit") }}
