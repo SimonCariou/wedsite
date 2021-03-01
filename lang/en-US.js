@@ -284,12 +284,15 @@ export default {
                 subtitle: "How to make the best of your stay",
                 introduction: "No matter what the duration of your holidays, you will still be able to fully enjoy your stay here. Here is a little selection of places that we have tested and recommend 😉",
                 cards: {
-                    flic_en_flac: "Flic en Flac",
+                    grand_bassin: "Grand Bassin",
                     le_morne: "Le Morne",
                     rhumerie_chamarel: "Chamarel",
                     pamplemousses: "Pamplemousses Garden",
                     _7_couleurs: "The seven colored earth",
                     port_louis: "Port Louis",
+                    casela: "Casela",
+                    ile_aux_cerfs: "L'Île aux cerfs",
+                    pieter_both: "Pieter Both"
                 }
             },
             various: {

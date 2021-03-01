@@ -114,16 +114,16 @@ export default {
     return {
       cards: [
         {
-          image: require("@/assets/images/maurice/places/flic-en-flac.jpg"),
+          image: require("@/assets/images/maurice/places/grand_bassin.jpg"),
           alternative_description: "",
-          title: this.$t("pages.mauritius.what_to_do.cards.flic_en_flac"),
+          title: this.$t("pages.mauritius.what_to_do.cards.grand_bassin"),
           path:
             "M41.9,-47.8C55.8,-38.2,69.7,-26.5,76,-10.5C82.3,5.5,80.9,25.7,71.2,39.8C61.5,53.9,43.5,61.9,24.8,69.1C6.1,76.4,-13.2,82.8,-31.7,79.4C-50.1,76,-67.7,62.6,-78.1,44.9C-88.4,27.3,-91.5,5.3,-85.2,-12.4C-78.9,-30,-63.3,-43.4,-47.5,-52.6C-31.7,-61.8,-15.9,-66.9,-0.9,-65.7C14,-64.6,28,-57.3,41.9,-47.8Z",
           mask_name: "mask-blob1",
           mask_url: 'url("#mask-blob1")',
         },
         {
-          image: require("@/assets/images/maurice/places/le-morne.jpg"),
+          image: require("@/assets/images/maurice/places/le_morne.jpg"),
           alternative_description: "",
           title: this.$t("pages.mauritius.what_to_do.cards.le_morne"),
           path:
@@ -132,7 +132,7 @@ export default {
           mask_url: 'url("#mask-blob2")',
         },
         {
-          image: require("@/assets/images/maurice/places/rhumerie-chamarel.jpg"),
+          image: require("@/assets/images/maurice/places/rhumerie_chamarel.jpg"),
           alternative_description: "",
           title: this.$t("pages.mauritius.what_to_do.cards.rhumerie_chamarel"),
           path:
@@ -150,7 +150,7 @@ export default {
           mask_url: 'url("#mask-blob4")',
         },
         {
-          image: require("@/assets/images/maurice/places/chamarel-7-colors.jpg"),
+          image: require("@/assets/images/maurice/places/chamarel_7_colors.jpg"),
           alternative_description: "",
           title: this.$t("pages.mauritius.what_to_do.cards._7_couleurs"),
           path:
@@ -159,13 +159,40 @@ export default {
           mask_url: 'url("#mask-blob5")',
         },
         {
-          image: require("@/assets/images/maurice/places/port-louis.jpg"),
+          image: require("@/assets/images/maurice/places/port_louis.jpg"),
           alternative_description: "",
           title: this.$t("pages.mauritius.what_to_do.cards.port_louis"),
           path:
             "M50.5,-71C63.7,-60,71.2,-42.8,77.3,-24.9C83.4,-7,88,11.5,82.2,25.9C76.5,40.4,60.4,50.6,44.9,57.9C29.5,65.2,14.7,69.6,-1.5,71.6C-17.7,73.6,-35.4,73.3,-44,63.8C-52.7,54.3,-52.3,35.6,-52.8,20.4C-53.2,5.2,-54.5,-6.4,-54.8,-21.6C-55.1,-36.8,-54.5,-55.5,-45.2,-67.7C-36,-80,-18,-85.7,0.4,-86.2C18.7,-86.7,37.4,-81.9,50.5,-71Z",
           mask_name: "mask-blob6",
           mask_url: 'url("#mask-blob6")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/casela.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.casela"),
+          path:
+            "M50.5,-67.8C63.2,-60.4,69.5,-42.5,72.5,-25.4C75.5,-8.3,75.2,8,70.4,22.9C65.6,37.8,56.3,51.2,43.8,61C31.3,70.8,15.7,77,-1.4,78.9C-18.5,80.9,-37,78.6,-52.2,69.7C-67.4,60.8,-79.2,45.2,-82.6,28.4C-86,11.5,-80.9,-6.5,-72.2,-20.5C-63.6,-34.4,-51.4,-44.2,-38.8,-51.6C-26.2,-59,-13.1,-64,2.9,-68.1C19,-72.1,37.9,-75.2,50.5,-67.8Z",
+          mask_name: "mask-blob7",
+          mask_url: 'url("#mask-blob7")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/pieter_both.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.pieter_both"),
+          path:
+            "M41.9,-47.8C55.8,-38.2,69.7,-26.5,76,-10.5C82.3,5.5,80.9,25.7,71.2,39.8C61.5,53.9,43.5,61.9,24.8,69.1C6.1,76.4,-13.2,82.8,-31.7,79.4C-50.1,76,-67.7,62.6,-78.1,44.9C-88.4,27.3,-91.5,5.3,-85.2,-12.4C-78.9,-30,-63.3,-43.4,-47.5,-52.6C-31.7,-61.8,-15.9,-66.9,-0.9,-65.7C14,-64.6,28,-57.3,41.9,-47.8Z",
+          mask_name: "mask-blob8",
+          mask_url: 'url("#mask-blob8")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/ile_aux_cerfs.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.ile_aux_cerfs"),
+          path:
+            "M35.2,-51.5C45.8,-40.7,54.8,-30.7,64.3,-17.2C73.8,-3.6,83.8,13.4,81.1,27.8C78.4,42.2,63.1,53.9,47.4,60.1C31.8,66.3,15.9,67,-0.2,67.3C-16.3,67.6,-32.6,67.5,-47.5,61C-62.3,54.5,-75.6,41.7,-81,26.1C-86.3,10.5,-83.6,-7.9,-76.4,-23.2C-69.2,-38.6,-57.6,-50.9,-44.1,-60.8C-30.6,-70.6,-15.3,-78,-1.5,-75.9C12.3,-73.8,24.6,-62.3,35.2,-51.5Z",
+          mask_name: "mask-blob9",
+          mask_url: 'url("#mask-blob9")',
         },
       ],
     };

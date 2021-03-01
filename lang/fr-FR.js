@@ -289,12 +289,15 @@ export default {
                 subtitle: "Comment rentabiliser votre visite à Maurice.",
                 introduction: "Que vous restiez 1, 2 ou 3 semaines voici quelques petites choses à faire sur l'Île. Testé et recommandé 😉",
                 cards: {
-                    flic_en_flac: "Flic en Flac",
+                    grand_bassin: "Grand Bassin",
                     le_morne: "Le Morne",
                     rhumerie_chamarel: "Chamarel",
                     pamplemousses: "Jardin de Pamplemousses",
                     _7_couleurs: "La terre des 7 couleurs",
                     port_louis: "Port Louis",
+                    casela: "Casela",
+                    ile_aux_cerfs: "L'Île aux cerfs",
+                    pieter_both: "Pieter Both"
                 }
             },
             various: {
