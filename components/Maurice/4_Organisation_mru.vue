@@ -4,7 +4,7 @@
     style="overflow: hidden"
     id="various"
   >
-    <div style="height: 70px; overflow: hidden">
+    <!-- <div style="height: 70px; overflow: hidden">
       <svg
         viewBox="0 0 1440 121"
         xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +20,23 @@
           fill="#64B8B1"
           d="M 867 5 C 1096.2 5 1210.8 38 1440 38 L 1440 38 L 1440 0 L 867 0 Z"
           stroke-width="0"
+        ></path>
+      </svg>
+    </div> -->
+    <div style="height: 80px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 80"
+        preserveAspectRatio="none"
+        style="
+          height: 100%;
+          width: 100%;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        "
+      >
+        <path
+          d="M-1.69,26.14 C265.79,93.25 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          fill="#64B8B1"
         ></path>
       </svg>
     </div>
