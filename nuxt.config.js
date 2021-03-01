@@ -84,6 +84,7 @@ export default {
           },
         ],
         langDir: 'lang/',
+        detectBrowserLanguage: true,
         defaultLocale: 'fr',
         strategy: 'prefix',
         lazy: true,
