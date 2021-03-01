@@ -5,7 +5,7 @@
       viewBox="0 0 1440 121"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      style="display: block"
+      style="-webkit-transform: scale(1); transform: scale(1)"
     >
       <path
         fill="#faf0d7"
@@ -70,7 +70,7 @@
                     fill-rule="evenodd"
                     clip-rule="evenodd"
                     stroke-linejoin="round"
-                    style="display: block"
+                    style="-webkit-transform: scale(1); transform: scale(1)"
                   >
                     <clipPath :id="card.mask_name">
                       <path :d="card.path" transform="translate(100 100)" />

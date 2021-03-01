@@ -34,7 +34,6 @@
                 fill-rule="evenodd"
                 clip-rule="evenodd"
                 stroke-linejoin="round"
-                style="display: block"
               >
                 <clipPath id="mask">
                   <path

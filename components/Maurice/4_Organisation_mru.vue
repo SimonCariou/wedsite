@@ -8,7 +8,7 @@
       viewBox="0 0 1440 121"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      style="display: block"
+      style="-webkit-transform: scale(1); transform: scale(1)"
     >
       <path
         fill="#64B8B1"
