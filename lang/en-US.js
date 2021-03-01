@@ -207,7 +207,7 @@ export default {
                         price: "35€"
                     },
                     lampes: {
-                        description: "Philips Hue connected lifght bulbs.",
+                        description: "Philips Hue connected light bulbs.",
                         price: "~150€"
                     },
                     ustensiles: {
