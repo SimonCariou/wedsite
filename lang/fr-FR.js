@@ -30,8 +30,8 @@ export default {
                 title: "News",
                 subtitle: "Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!",
                 contents: {
-                    jan11: {
-                        date: "11 janvier",
+                    feb: {
+                        date: "Février 2021",
                         li1: "Aller on prend les mêmes et on recommence !",
                         li2: "Planning de la journée en construction "
                     }

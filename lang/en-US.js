@@ -30,8 +30,8 @@ export default {
                 title: "News",
                 subtitle: "Here, you can get the latest information available.",
                 contents: {
-                    jan11: {
-                        date: "January 11th",
+                    feb: {
+                        date: "February 2021",
                         li1: "Alright, second one's a charm!",
                         li2: "Schedule in progress "
                     }

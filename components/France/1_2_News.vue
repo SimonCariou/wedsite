@@ -117,15 +117,15 @@
           <p>
             <span
               class="is-size-3 has-text-weight-semibold highlight has-text-primary"
-              >{{ $t("pages.france.news.contents.jan11.date") }}</span
+              >{{ $t("pages.france.news.contents.feb.date") }}</span
             >
           </p>
           <div class="content">
             <ul>
-              <li>{{ $t("pages.france.news.contents.jan11.li1") }}</li>
+              <li>{{ $t("pages.france.news.contents.feb.li1") }}</li>
 
               <li>
-                {{ $t("pages.france.news.contents.jan11.li2") }}
+                {{ $t("pages.france.news.contents.feb.li2") }}
                 <img
                   src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/construction_1f6a7.png"
                   alt="construction"
