@@ -26,11 +26,12 @@
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-7-tablet is-full-mobile">
-            <div
-              class="box explications has-text-centered observedElement section-body"
-            >
+            <div class="box explications observedElement section-body">
               <p class="block">
-                {{ $t("pages.mauritius.poll.explications") }}
+                {{ $t("pages.mauritius.poll.explications.first") }}
+              </p>
+              <p class="block">
+                {{ $t("pages.mauritius.poll.explications.second") }} 😉
               </p>
             </div>
           </div>

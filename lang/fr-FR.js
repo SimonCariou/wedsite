@@ -312,7 +312,11 @@ export default {
             },
             poll: {
                 title: "Vous êtes intéressés? ",
-                explications: "Afin de pouvoir estimer le nombre de personnes souhaitant faire part de notre aventure du bout du monde, indiquez nous avant le 1er Mai 2021 si vous pensez venir (ex: famille XXX (nb personnes)).",
+                explications: {
+                    first: "Afin de pouvoir estimer le nombre de personnes souhaitant faire part de notre aventure du bout du monde, indiquez nous avant le 1er Mai 2021 si vous pensez venir (ex: Famille XXX (nb personnes)).",
+                    second: "Pour les familles nombreuses, essayez de mettre un peu plus d'informations que le nom de famille seul "
+                },
+
                 form: {
                     label: "Intéressés ?",
                     placeholder: "Famille XXX (nb personnes)",
