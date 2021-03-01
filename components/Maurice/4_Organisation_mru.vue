@@ -4,25 +4,6 @@
     style="overflow: hidden"
     id="various"
   >
-    <!-- <div style="height: 70px; overflow: hidden">
-      <svg
-        viewBox="0 0 1440 121"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="-webkit-transform: scale(1); transform: scale(1)"
-      >
-        <path
-          fill="#64B8B1"
-          d="M 0 64 C 347.20000000000005 64 520.8 5 868 5 L 868 5 L 868 0 L 0 0 Z"
-          stroke-width="0"
-        ></path>
-        <path
-          fill="#64B8B1"
-          d="M 867 5 C 1096.2 5 1210.8 38 1440 38 L 1440 38 L 1440 0 L 867 0 Z"
-          stroke-width="0"
-        ></path>
-      </svg>
-    </div> -->
     <div style="height: 80px; overflow: hidden">
       <svg
         viewBox="0 0 500 80"

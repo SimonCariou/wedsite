@@ -17,7 +17,10 @@
         ></path>
       </svg>
     </div>
-    <div class="hero-head has-text-centered observedElement section-title">
+    <div
+      class="hero-head has-text-centered observedElement section-title"
+      style="padding-top: 0"
+    >
       <div class="container">
         <h1 class="title is-size-2-mobile is-size-1-tablet is-uppercase">
           {{ $t("pages.mauritius.poll.title") }}
