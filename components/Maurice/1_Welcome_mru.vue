@@ -73,7 +73,7 @@ export default {
 .has-bg-img
   background: url('~assets/images/landing-page-bkg/mru/flic-en-flac-bkg.jpg')
   background-size: cover
-  background-position: center left
+  background-position: center right
 #welcome
   max-width: 100vw
   overflow: hidden
