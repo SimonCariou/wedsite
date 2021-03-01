@@ -1,10 +1,10 @@
 <template>
-  <section class="hero is-large" style="overflow: hidden">
+  <section class="hero" style="overflow: hidden">
     <span class="lang_sticky">
       {{ $t("pages.global.index.lang_selection") }}
       <LanguageSelectionSlider />
     </span>
-    <div class="hero-body pt-6">
+    <div class="hero-body" style="padding-top: 10%">
       <div class="container">
         <div class="columns is-centered is-vcentered">
           <div class="column is-4-tablet is-12-mobile">
