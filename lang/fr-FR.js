@@ -15,20 +15,20 @@ export default {
             },
             welcome: {
                 grand_title: "Bienvenue.",
-                we_gettin: "On se marie le ",
+                we_gettin: "Nous nous marions le ",
                 date: "16 octobre 2021",
                 scroll: "Scrollez pour en savoir plus!"
             },
             engagementPics: {
                 title: "Séance d'Engagement",
                 subtitle: "Séance photo orchestrée par Lucie Atlan dans la forêt de Fontainebleau.",
-                description: "Nous avons fait une petite séance photo en Octobre dernier pour profiter des couleurs automnales. Très jolies couleurs et premier contact avec notre photographe Lucie 😉",
-                link: "Pour voir la galerie complète avec les photos en HD avec la possibilité d'en acheter, allez sur ce lien: ",
+                description: "Pour nous familiariser au feu des projecteurs, nous avons réalisé une séance photo avec Lucie Atlan notre photographe pour le mariage. Nous avons passé un très beau moment ensemble et pu profiter des belles couleurs d'automne!",
+                link: "Pour voir la galerie photos en HD et avoir la possibilité d'en acheter, cliquer sur ce lien: ",
                 gallery: "Gallerie"
             },
             news: {
-                title: "News",
-                subtitle: "Ici vous pouvez suivre et avoir les dernières nouvelles toutes chaudes!",
+                title: "Dernières nouvelles",
+                subtitle: "Ici vous pourrez avoir les dernières nouvelles toutes chaudes!",
                 contents: {
                     feb: {
                         date: "Février 2021",
@@ -55,7 +55,7 @@ export default {
             },
             flow: {
                 title: "Déroulement",
-                subtitle: "Tout ce que vous avez besoin de savoir sur le plan des festivités.",
+                subtitle: "Tout ce dont vous avez besoin de savoir sur le déroulement des festivités.",
                 timeline: {
                     start: "Début de la journée",
                     events: {
@@ -84,8 +84,8 @@ export default {
                 title: "Hébergements",
                 subtitle: "Où dormir dans le coin ?",
                 description: {
-                    one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.",
-                    two: "Pour toutes questions, nous contacter via le",
+                    one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels. Les tarifs des Uber/taxis commencent à moins de 10€ par voiture.",
+                    two: "Pour toute question, nous contacter via le",
                     three: "formulaire",
                     four: " en bas de page.",
                     five: "Les logements ci-dessous sont classés par distance par rapport au Village de Sully.",
@@ -180,7 +180,7 @@ export default {
             },
             registry: {
                 title: "Liste de Mariage",
-                subtitle: "Notre liste au père Noël 🎄",
+                subtitle: "Pour bien débuter notre vie de jeunes mariés.",
                 description_top: "Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. \
                 Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et\
                 profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉",
@@ -306,7 +306,7 @@ export default {
                 boxes: {
                     first: "Pour les billets d'avion, nous vous suggerons de prendre une compagnie assez réputée pour bénéfier de remboursement au cas où on soit encore coincé...",
                     second: "On se marie à l'église de Cap Malheureux qui est dans le nord donc vous pouvez cherchez dans ce coin pour vos Hotels.",
-                    third: 'La conduite peut être sportive ("peut") et on conduit à gauche ici donc attention!',
+                    third: 'La conduite peut être sportive (emphase sur le "peut") et on conduit à gauche ici donc attention!',
                     fourth: "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres."
                 }
             },

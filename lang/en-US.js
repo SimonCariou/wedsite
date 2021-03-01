@@ -17,13 +17,13 @@ export default {
                 grand_title: "Welcome.",
                 we_gettin: "We're getting married on ",
                 date: "October 16th 2021",
-                scroll: "Scroll down to know more!"
+                scroll: "Scroll down to see more!"
             },
             engagementPics: {
-                title: "Engagement session",
-                subtitle: "Orchestrated by Lucie Atlan in the Fontainebleau forest.",
-                description: "We did a photo shoot to celebrate our engagement last October, amazing vibes and beautiful colors for our first time with Lucie 😉",
-                link: "You can go see the complete photo gallery with HD pictures with the possibility to buy some by clicking here: ",
+                title: "Engagement photo session ",
+                subtitle: "Photo session orchestrated by Lucie Atlan in the Forest of Fontainebleau.",
+                description: "To get use to the spotlight, we did an engagement photo session with Lucie Atlan, our wedding's photographer. We had a lovely time together and we enjoyed the colors of the fall!",
+                link: "To see the photo gallery with HD picture and be able to buy some of them, click on this link: ",
                 gallery: "Gallery"
             },
             news: {
@@ -32,28 +32,28 @@ export default {
                 contents: {
                     feb: {
                         date: "February 2021",
-                        li1: "Alright, second one's a charm!",
+                        li1: "Alright, second time's a charm!",
                         li2: "Schedule in progress "
                     }
                 }
             }, information: {
                 title: "Information",
-                subtitle: "Practical information made to tickle your curiosity...",
+                subtitle: "Wedding venue's information to help you wait for the big day.",
                 cards: {
                     address: {
                         title: "Address",
                         content: "78710 Jouy-Mauvoisin in the Yvelines",
-                        description: "You're free to Google that out or you can wait and see... 😉"
+                        description: "Will you wait to discover what secrets the venue holds on D-Day or will you check them on Google right away? 😉"
                     },
                     directions: {
-                        title: "How do we get there ?",
+                        title: "How to get there?",
                         content: "40 minutes away from Paris via the A13",
                         waze: "Open with Waze",
                         google: "Open with Maps"
                     },
                 },
             }, flow: {
-                title: "Day flow",
+                title: "The Wedding Day Time Line",
                 subtitle: "Everything you need to know about how the day's going to be.",
                 timeline: {
                     start: "Let's start !",
@@ -79,63 +79,63 @@ export default {
                 },
             }, accommodations: {
                 title: "Accommodations",
-                subtitle: "Places where you can stay in the surroundings",
+                subtitle: "Recommanded accomodations around the wedding venue.",
                 description: {
-                    one: "Le lieu de réception est situé juste à côté de Mantes-la-Jolie, à proximité de nombreux hôtels et les Uber/taxis commencent à moins de 10€ par voiture.",
-                    two: "Pour toutes questions, nous contacter via le",
-                    three: "formulaire",
-                    four: " en bas de page.",
-                    five: "Les logements ci-dessous sont classés par distance par rapport au Village de Sully.",
+                    one: "The wedding venue is near Mantes-la-Jolie where you will be able to find hotels to stay the night. You will be able to find an Uber or a taxi for a starting price of around 10€ per car.",
+                    two: "If you have any question, you can contact us via the ",
+                    three: "form",
+                    four: " at the bottom of the page.",
+                    five: "The accommodations have been ordered by distance from the wedding venue.",
                 },
                 cards: {
-                    book: "Réserver",
+                    book: "Book",
                     eclipse: {
                         title: "Hotel Éclipse",
-                        type: "Hôtel",
+                        type: "Hotel",
                         ratings: "3.0",
                         street: "Rue des Pierrettes",
                         city: "78200, Magnanville",
-                        price: "A partir de 70€/chambre double.",
-                        distance: "Situé à 3.5km du Village de Sully"
+                        price: "From 70€/double bedroom.",
+                        distance: "Located 3.5km away from the wedding venue."
                     },
                     ibis: {
                         title: "Ibis Budget",
-                        type: "Hôtel",
+                        type: "Hotel",
                         ratings: "3.0",
                         street: "19 Boulevard De Sully",
                         city: "78200, Mantes-la-Jolie",
-                        price: "A partir de 60€/chambre double.",
-                        distance: "Situé à 4.5km du Village de Sully."
+                        price: "From 60€/double bedroom.",
+                        distance: "Located 4.5km away from the wedding venue."
                     },
                     ferme_vallee: {
                         title: "Ferme des Vallées",
-                        type: "Gîte/Maison d'Hôtes",
+                        type: "Guest House",
                         ratings: "5.0",
                         street: "20 Bis Rue Henri Duverdin",
                         city: "78200, Soindres",
-                        price: "A partir de 70€/chambre double.",
-                        distance: "Situé à 6.1km du Village de Sully"
+                        price: "From 70€/double bedroom.",
+                        distance: "Located 6.1km away from the wedding venue."
                     },
                     ruche: {
                         title: "La Ruche",
-                        type: "Hôtel",
+                        type: "Hotel",
                         ratings: "4.0",
                         street: "2 route Nationale",
                         city: "78270, Rolleboise",
-                        price: "A partir de 115€/chambre double.",
-                        distance: "Situé à 6.6km du Village de Sully"
+                        price: "From 115€/double bedroom.",
+                        distance: "Located 6.6km away from the wedding venue."
                     },
                     other: {
-                        title: "Autres",
-                        type: "Différents types de logements: Hôtel/Maison d'Hôtes",
-                        price: "Couchages à proximité du lieu de réception:",
+                        title: "More",
+                        type: "Many different types of accommodations: Hotel, Guest house...",
+                        price: "Find a place to stay near the wedding venue:",
                     },
                 }
             },
             photos: {
                 title: "Pictures",
                 subtitle: "7 years of love history in images.",
-                description: "So many things have changed since we met seven years ago in 2nd year of engineering school. Here's to seven year of growth together!",
+                description: "Many things have changed since we met seven years ago during our 2nd year of engineering school.",
                 cards: {
                     _2013: {
                         date: "June 6th, 2013",
@@ -178,62 +178,59 @@ export default {
             },
             registry: {
                 title: "Registry",
-                subtitle: "Wish list blabla 🎄",
-                description_top: "Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. \
-                Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et\
-                profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉",
+                subtitle: "To start our life as newlyweds.",
+                description_top: "Here is a list of what we'd like to have in the near future. You being here for our wedding is already the best present we can ask for but if you'd like to help us get settled and enjoy some time off together, you will find some ideas in the list below 😉",
                 cards: {
                     hawaii: {
                         description: "3 weeks in Hawaii",
                         price: "Unknown yet."
                     },
                     cuisine: {
-                        description: "Batterie de cuisine professionnelle, pour emmener nos gateaux au next level.",
+                        description: "Professional cooking equipment. To take our cakes up to the next level.",
                         price: "330€"
                     },
                     vin: {
-                        description: "Quelques bonnes bouteilles de vin.",
-                        price: "variable"
+                        description: "A couple of good wine bottles.",
+                        price: "Variable"
                     },
                     raclette: {
-                        description: "Un appareil à raclette pour se réchauffer la panse lors de dures soirées d'hiver.",
+                        description: "A raclette set to get cozy during the winter.",
                         price: "~50€"
                     },
                     tapis: {
-                        description: "Tapis en laisse tressée blanc écru La Redoute.",
+                        description: "Nice carpet for our living-room.",
                         price: "200€"
                     },
                     fdp: {
-                        description: "Abonnement d'un an à Fou De Patisserie",
+                        description: 'A one year subscription to "Fou De Patisserie"',
                         price: "35€"
                     },
                     lampes: {
-                        description: "Lampes connectées Philips Hue",
+                        description: "Philips Hue connected lifght bulbs.",
                         price: "~150€"
                     },
                     ustensiles: {
-                        description: "Ustensiles de patisseri",
+                        description: "Pastry molds & tools",
                         price: "~100€"
                     },
                     impressions: {
-                        description: "Impression de plusieurs photos avec leur cadre pour tapisser les murs!",
+                        description: "A couple of photo prints",
                         price: "~100€"
                     },
                     tea_time: {
-                        description: "Tea Time au Meurice",
+                        description: "Tea Time @ Le Meurice",
                         price: "83€ x 2"
                     },
                     lave_vaisselle: {
-                        description: "Un beau lave vaisselle pour quand on aura de la place...",
+                        description: "A nice dish washer (for when we'll have the space)",
                         price: "250€"
                     },
                     autres: {
-                        description: "Plus d'idées à venir bientôt 😉",
-                        price: "à venir"
+                        description: "More to come 😉",
+                        price: "..."
                     },
                 },
-                description_bottom: "Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner \
-                un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre 🤗",
+                description_bottom: "If you'd like to participate to one of the items in the registry, you can give a little something directly on Paypal or in the money box 🤗",
             }, contact: {
                 title: "Contact",
                 subtitle: "Send us a message if you have any question!",
@@ -301,7 +298,7 @@ export default {
                 boxes: {
                     first: "For the plane tickets, we strongly advise you to choose a legit airline company. This would allow you to be refunded in the unfortunate event of yet another containment or border blockage...",
                     second: "The celebration will take place in the Church of Cap Malheureux which is located in the north so if you want, you can start looking for a place to stay around it 😉",
-                    third: 'Driving is challenging and can be sportive. Plus, we drive on the left so keep that in mind!',
+                    third: 'Driving is challenging and can be sportive (emphasis on "can"). Plus, we drive on the left so keep that in mind!',
                     fourth: "There are so many hikes to do in Mauritius so those who love hiking with exceptional views, you will be in for a treat."
                 }
             }, poll: {
