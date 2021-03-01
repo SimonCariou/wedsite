@@ -1,8 +1,8 @@
 <template>
   <div>
     <Welcome />
-    <EngagementPics />
     <News />
+    <EngagementPics />
     <Informations />
     <Deroulement />
     <Hebergements />

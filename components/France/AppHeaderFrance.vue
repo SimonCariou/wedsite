@@ -30,15 +30,16 @@
     >
       <div class="navbar-start">
         <div class="navbar-item is-hoverable">
-          <a @click="toggleMenu()" href="#engagementPics">{{
-            $t("pages.france.navbar.engagementPics")
-          }}</a>
-        </div>
-        <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="#news">{{
             $t("pages.france.navbar.news")
           }}</a>
         </div>
+        <div class="navbar-item is-hoverable">
+          <a @click="toggleMenu()" href="#engagementPics">{{
+            $t("pages.france.navbar.engagementPics")
+          }}</a>
+        </div>
+
         <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="#informations">{{
             $t("pages.france.navbar.infos")

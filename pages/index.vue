@@ -51,9 +51,20 @@
                   class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
                 >
                   {{ $t("pages.global.index.btn_fr") }}
-                </div>
-              </div></nuxt-link
-            >
+                  <div>
+                    <figure
+                      class="image is-32x32"
+                      style="display: inline-block; vertical-align: middle"
+                      id="flag-fr"
+                    >
+                      <img
+                        src="https://flagdownload.com/wp-content/uploads/Flag_of_France-64x43.png"
+                        alt="French flag"
+                      />
+                    </figure>
+                  </div>
+                </div></div
+            ></nuxt-link>
           </div>
 
           <div class="column is-4-tablet is-12-mobile">
@@ -66,9 +77,20 @@
                   class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
                 >
                   {{ $t("pages.global.index.btn_mru") }}
-                </div>
-              </div></nuxt-link
-            >
+                  <div>
+                    <figure
+                      class="image is-32x32"
+                      style="display: inline-block; vertical-align: middle"
+                      id="flag-fr"
+                    >
+                      <img
+                        src="https://flagdownload.com/wp-content/uploads/Flag_of_Mauritius-64x43.png"
+                        alt="French flag"
+                      />
+                    </figure>
+                  </div>
+                </div></div
+            ></nuxt-link>
           </div>
         </div>
         <!-- <div class="has-text-centered">
