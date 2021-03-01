@@ -1,5 +1,5 @@
 <template>
-  <section id="engagementPics" class="hero is-fullheight">
+  <section id="engagementPics" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <!-- <div class="wrap-design stuck-right in-background">
         <img
