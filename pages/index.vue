@@ -67,8 +67,9 @@
 
 <style scoped lang="sass">
 .lang_sticky
-  position: absolute
-  bottom: 0
+  position: sticky
+  top: 0
+
   padding-bottom: 5px
   padding-top: 5px
   padding-left: 10px
