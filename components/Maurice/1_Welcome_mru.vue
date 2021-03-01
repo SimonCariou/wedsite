@@ -66,8 +66,7 @@ export default {
 
 <style lang="sass" scoped>
 .has-bg-img
-  background: url('~assets/images/landing-page-bkg/mru/ld-pg-mru.jpg')
-  // background: url('~assets/images/landing-page-bkg/mru/ld-pg-mru-2.jpg')
+  background: url('~assets/images/landing-page-bkg/mru/flic-en-flac-bkg.jpg')
   background-size: cover
   background-position: center left
 #welcome
