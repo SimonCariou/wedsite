@@ -21,6 +21,9 @@
               <p class="block">
                 {{ $t("pages.mauritius.introduction.box.second") }}
               </p>
+              <p class="block">
+                {{ $t("pages.mauritius.introduction.box.third") }}
+              </p>
             </div>
           </div>
           <div class="column is-6-tablet is-12-mobile">

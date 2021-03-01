@@ -68,20 +68,12 @@ export default {
     return {
       boxes: [
         {
-          title: "Plane",
+          title: "Cap Malheureux",
           content: this.$t("pages.mauritius.various.boxes.first"),
         },
         {
-          title: "Cap Malheureux",
-          content: this.$t("pages.mauritius.various.boxes.second"),
-        },
-        {
-          title: "Driving",
-          content: this.$t("pages.mauritius.various.boxes.third"),
-        },
-        {
           title: "Hiking",
-          content: this.$t("pages.mauritius.various.boxes.fourth"),
+          content: this.$t("pages.mauritius.various.boxes.second"),
         },
       ],
     };

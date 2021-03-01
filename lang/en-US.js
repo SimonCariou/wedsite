@@ -259,27 +259,28 @@ export default {
             navbar: {
                 introduction: "Welcome!",
                 what_to_do: "The Island",
-                information: "Various",
-                rsvp: "RSVP"
+                information: "Miscellaneous",
+                poll: "Interested ?"
             },
             welcome: {
                 grand_title: "Welcome.",
-                we_gettin: "We are getting married religiously on",
+                we_gettin: "We are getting married on",
                 date: "October 27th, 2021",
-                scroll: "Scroll down to know more!"
+                scroll: "Scroll down to learn more!"
             },
             introduction: {
                 title: "Welcome to Mauritius!",
-                subtitle: "A piece of additional information 😉",
+                subtitle: "",
                 box: {
-                    first: "As some of you already know, we decided to get married religiously in Mauritius a coupel of days after the one in France. All of you are invited to celebrate with us this very special moment in this very special place. It will take place in Cap Malheureux on October 27th, 2021",
-                    second: "It's not clear yet what is planned for the D-Day but very soon will be! We are well aware of the current situation this is why we are strongly advising you to book refundable tickets (Air France does it as far as we know). At the current date, we can find 800-900€ tickets."
+                    first: "Mauritius holds a special place in our hearts and we thought it important to celebrate this big step in our lives there. This is why you are invited to join us on this paradise island to witness our religious wedding that will take place on Wednesday the 27th of October 2021 at Cap Malheureux.",
+                    second: "As you can guess, the programme is not entirely set yet as it depends on our dear friend Corona.",
+                    third: "We can just suggest you start booking your flights being careful on the airline you're going to choose regarding cancellations due to covid (Air France refunds all tickets till december 2021 for example)."
                 }
             },
             what_to_do: {
-                title: "This Island in a nutshell",
-                subtitle: "How to make the best of your stay",
-                introduction: "No matter what the duration of your holidays, you will still be able to fully enjoy your stay here. Here is a little selection of places that we have tested and recommend 😉",
+                title: "Little sneak peak of the island",
+                subtitle: "Some ideas of what you can do during your stay in Mauritius",
+                introduction: "We will update this section with suggestions of activities whether you stay 1, 2 or 3 weeks! 😉",
                 cards: {
                     grand_bassin: "Grand Bassin",
                     le_morne: "Le Morne",
@@ -293,20 +294,19 @@ export default {
                 }
             },
             various: {
-                title: "Various information",
-                subtitle: "Some useful tips you may need for your trip.",
+                title: "Miscellaneous",
+                subtitle: "Some random information.",
                 boxes: {
-                    first: "For the plane tickets, we strongly advise you to choose a legit airline company. This would allow you to be refunded in the unfortunate event of yet another containment or border blockage...",
-                    second: "The celebration will take place in the Church of Cap Malheureux which is located in the north so if you want, you can start looking for a place to stay around it 😉",
-                    third: 'Driving is challenging and can be sportive (emphasis on "can"). Plus, we drive on the left so keep that in mind!',
-                    fourth: "There are so many hikes to do in Mauritius so those who love hiking with exceptional views, you will be in for a treat."
+                    first: "We are getting married in the church of Cap Malheureux located in the north of the island. This can help you find accomodations near the wedding ceremony.",
+                    second: "If you like hiking, you'll be served! We will soon create a dedicated section on this website regarding the nicest hikes around the island.",
+
                 }
             }, poll: {
-                title: "RSVP",
-                subtitle: "Please answer before May 5th, 2021.",
+                title: "Would you like to come?",
+                explications: "In order for us to estimate who'd like to come to this exciting adventure, please let us know before the 1st of May if you're thinking about joining us! (ex: XXX family (nb of people))",
                 form: {
-                    label: "RSVP: ",
-                    placeholder: "Name/Surname",
+                    label: "Interested ?",
+                    placeholder: "XXX family (nb of people)",
                     submit: "Submit"
                 }
             }

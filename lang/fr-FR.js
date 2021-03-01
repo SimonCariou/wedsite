@@ -266,28 +266,29 @@ export default {
         mauritius: {
             navbar: {
                 introduction: "Bienvenue!",
-                what_to_do: "L'Île en bref",
-                information: "Infos diverses",
-                rsvp: "RSVP"
+                what_to_do: "L'Île",
+                information: "Divers",
+                poll: "Interessés ?"
             },
             welcome: {
                 grand_title: "Bienvenue.",
-                we_gettin: "On se marie à Maurice le",
+                we_gettin: "Nous nous marions à l'île Maurice le",
                 date: "27 octobre 2021",
                 scroll: "Scrollez pour en savoir plus!"
             },
             introduction: {
-                title: "Bienvenue à Maurice!",
-                subtitle: "Un brin d'explications 😉",
+                title: "Bienvenue à l'Île Maurice!",
+                subtitle: "",
                 box: {
-                    first: "Comme vous le savez sûrement tous, on a décidé de se marier à Maurice quelques jours après la France. Vous êtes bien entendu tous invités pour venir célébrer avec nous le mariage religieux qui aura lieu à Cap Malheureux le 27 Octobre 2021.",
-                    second: "Le programme là bas n'est pas encore défini mais le sera sous peu. Nous nous doutons que nombre d'entre vous demandez encore comment la situation va évoluer mais par chance les compagnies aériennes allant à Maurice proposent des assurances annulation assez efficaces (Air France notamment). A l'heure actuelle on peut trouver des billets à 800-900€."
+                    first: "L'île Maurice tient une place toute particulière dans nos coeurs et il nous semblait important de pouvoir y célébrer un moment fort de nos vies. C'est pour cela que nous vous invitons à nous rejoindre sur cette île paradisiaque afin d'assiter à notre mariage religieux qui aura lieu le Merecredi 27 octobre 2021 à l'Église de Cap Malheureux.",
+                    second: "Le programme sur place n'est pas encore tout à fait défini car comme vous pouvez vous en douter, il dépend de notre ami Covid...",
+                    third: "Pour l'instant, nous pouvons vous conseiller de commencer à réserver les billets d'avion pour y aller en privilégiant les compagnies aériennes proposant de bonnes assurances annulations (Air France rembourse tous les billets jusqu'en décembre 2021 par exemple)."
                 }
             },
             what_to_do: {
-                title: "l'Île en bref",
-                subtitle: "Comment rentabiliser votre visite à Maurice.",
-                introduction: "Que vous restiez 1, 2 ou 3 semaines voici quelques petites choses à faire sur l'Île. Testé et recommandé 😉",
+                title: "Petit aperçu de l'Île",
+                subtitle: "Voici quelques idées de sortie à Maurice.",
+                introduction: "Que vous restiez 1, 2 ou 3 semaines, nous mettrons à jour cette section pour vous suggérer des activités à faire sur place 😉",
                 cards: {
                     grand_bassin: "Grand Bassin",
                     le_morne: "Le Morne",
@@ -302,20 +303,18 @@ export default {
             },
             various: {
                 title: "Divers",
-                subtitle: "Foire à informations",
+                subtitle: "Quelques informations en vrac",
                 boxes: {
-                    first: "Pour les billets d'avion, nous vous suggerons de prendre une compagnie assez réputée pour bénéfier de remboursement au cas où on soit encore coincé...",
-                    second: "On se marie à l'église de Cap Malheureux qui est dans le nord donc vous pouvez cherchez dans ce coin pour vos Hotels.",
-                    third: 'La conduite peut être sportive (emphase sur le "peut") et on conduit à gauche ici donc attention!',
-                    fourth: "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades et encore un tas d'autres."
+                    first: "Nous nous marions à l'Eglise de Cap Malheureux qui se situe au nord de l'île. Cela vous aidera à choisir votre hôtel ou votre location pour la semaine du mariage.",
+                    second: "Il existe de très nombreuses randonnées à l'Île Maurice donc pour les amateurs vous allez vous régaler. Vous pouvez déjà regarder les gorges de la rivière noire, les 7 cascades... nous créerons bientôt une section dédiée aux randonnées.",
                 }
             },
             poll: {
-                title: "RSVP",
-                subtitle: "Répondre avant le 1er Mai 2021.",
+                title: "Vous êtes intéressés? ",
+                explications: "Afin de pouvoir estimer le nombre de personnes souhaitant faire part de notre aventure du bout du monde, indiquez nous avant le 1er Mai 2021 si vous pensez venir (ex: famille XXX (nb personnes)).",
                 form: {
-                    label: "RSVP: ",
-                    placeholder: "Nom/Prénom",
+                    label: "Intéressés ?",
+                    placeholder: "Famille XXX (nb personnes)",
                     submit: "Envoyer"
                 }
             }
