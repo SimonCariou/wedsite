@@ -1,8 +1,8 @@
 export default {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
+  target: "static",
   head: {
     title: "Wedsite Rox & Sim",
     meta: [
@@ -100,7 +100,7 @@ export default {
   ** Build configuration
   */
   build: {
-    analyze: true,
+    analyze: false,
     postcss: {
       preset: {
         features: {
