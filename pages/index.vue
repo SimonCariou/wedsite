@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight">
+  <section class="hero is-fullheight" style="overflow: hidden">
     <span class="lang_sticky">
       {{ $t("pages.global.index.lang_selection") }}
       <LanguageSelectionSlider />
@@ -67,15 +67,13 @@
 
 <style scoped lang="sass">
 .lang_sticky
-  position: sticky
+  position: absolute
   top: 0
-
   padding-bottom: 5px
   padding-top: 5px
   padding-left: 10px
   width: 100%
-  // background-color: rgba(222, 222, 222, 0.3)
-  // box-shadow: 0px 0px 10px 10px rgba(222, 222, 222, 0.3)
+
 .country
   &.selection
     font-family: "Bodoni Moda","GTSuperDisplaySuper", "Work Sans bold", sans-serif
