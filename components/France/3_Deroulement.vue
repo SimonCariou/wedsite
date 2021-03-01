@@ -15,7 +15,7 @@
         <div class="explications">
           <p></p>
         </div>
-        <div class="timeline is-centered">
+        <!-- <div class="timeline is-centered">
           <header class="timeline-header">
             <span class="tag is-medium is-primary">
               {{ $t("pages.france.flow.timeline.start") }}</span
@@ -72,13 +72,15 @@
               {{ $t("pages.france.flow.timeline.end") }}</span
             >
           </header>
-        </div>
-        <!-- <div
+        </div> -->
+        <div
           class="has-text-centered"
           style="transform: rotate(20deg); width: auto"
         >
-          <p class="is-size-4-mobile is-size-1-tablet">On planche dessus 😉</p>
-        </div> -->
+          <p class="is-size-4-mobile is-size-1-tablet">
+            {{ $t("pages.france.flow.wip") }} 😉
+          </p>
+        </div>
       </div>
       <div>
         <div class="wrap-design stuck-left in-background">

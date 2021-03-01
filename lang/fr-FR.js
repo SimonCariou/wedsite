@@ -56,6 +56,7 @@ export default {
             flow: {
                 title: "Déroulement",
                 subtitle: "Tout ce dont vous avez besoin de savoir sur le déroulement des festivités.",
+                wip: "On planche dessus ",
                 timeline: {
                     start: "Début de la journée",
                     events: {

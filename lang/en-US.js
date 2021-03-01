@@ -55,6 +55,7 @@ export default {
             }, flow: {
                 title: "The Wedding Day Time Line",
                 subtitle: "Everything you need to know about how the day's going to be.",
+                wip: "Work in progress ",
                 timeline: {
                     start: "Let's start !",
                     events: {
