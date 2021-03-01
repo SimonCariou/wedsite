@@ -25,7 +25,9 @@
             <p>{{ $t("pages.global.footer.top.street") }}</p>
             <p>75014 Paris</p>
             <p>
-              <a href="mailto:cariou.leval@orange.fr">cariou.leval@orange.fr</a>
+              <a href="mailto:cariou.leval@orange.fr" class="is-link-in-section"
+                >cariou.leval@orange.fr</a
+              >
             </p>
             <p>+33 6 67 83 64 41</p>
             <p>+33 6 79 01 31 46</p>
@@ -43,9 +45,11 @@
       <div class="footerItem">
         <p class="is-size-8">
           {{ $t("pages.global.footer.bottom.bug_report.text") }}
-          <a href="https://github.com/SimonCariou/wedsite/issues">{{
-            $t("pages.global.footer.bottom.bug_report.here")
-          }}</a>
+          <a
+            href="https://github.com/SimonCariou/wedsite/issues"
+            class="is-link-in-section"
+            >{{ $t("pages.global.footer.bottom.bug_report.here") }}</a
+          >
         </p>
       </div>
     </div>

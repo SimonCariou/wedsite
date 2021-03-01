@@ -28,9 +28,12 @@
           </p>
           <p>
             {{ $t("pages.france.engagementPics.link") }}
-            <a href="https://picti.net/t6it1" target="_blank">{{
-              $t("pages.france.engagementPics.gallery")
-            }}</a>
+            <a
+              href="https://picti.net/t6it1"
+              target="_blank"
+              class="is-link-in-section"
+              >{{ $t("pages.france.engagementPics.gallery") }}</a
+            >
           </p>
         </div>
         <div

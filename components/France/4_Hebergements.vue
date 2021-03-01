@@ -17,10 +17,10 @@
           <p>{{ $t("pages.france.accommodations.description.one") }}</p>
           <p>
             {{ $t("pages.france.accommodations.description.two") }}
-            <em>
-              <a href="#contact">{{
-                $t("pages.france.accommodations.description.three")
-              }}</a> </em
+
+            <a href="#contact" class="is-link-in-section">{{
+              $t("pages.france.accommodations.description.three")
+            }}</a
             >{{ $t("pages.france.accommodations.description.four") }}
           </p>
           <p>{{ $t("pages.france.accommodations.description.five") }}</p>
