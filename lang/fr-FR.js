@@ -284,7 +284,7 @@ export default {
                 title: "Bienvenue à l'Île Maurice!",
                 subtitle: "",
                 box: {
-                    first: "L'île Maurice tient une place toute particulière dans nos coeurs et il nous semblait important de pouvoir y célébrer un moment fort de nos vies. C'est pour cela que nous vous invitons à nous rejoindre sur cette île paradisiaque afin d'assiter à notre mariage religieux qui aura lieu le Merecredi 27 octobre 2021 à l'Église de Cap Malheureux.",
+                    first: "L'île Maurice tient une place toute particulière dans nos coeurs et il nous semblait important de pouvoir y célébrer un moment fort de nos vies. C'est pour cela que nous vous invitons à nous rejoindre sur cette île paradisiaque afin d'assiter à notre mariage religieux qui aura lieu le Mercredi 27 octobre 2021 à l'Église de Cap Malheureux.",
                     second: "Le programme sur place n'est pas encore tout à fait défini car comme vous pouvez vous en douter, il dépend de notre ami Covid...",
                     third: "Pour l'instant, nous pouvons vous conseiller de commencer à réserver les billets d'avion pour y aller en privilégiant les compagnies aériennes proposant de bonnes assurances annulations (Air France rembourse tous les billets jusqu'en décembre 2021 par exemple)."
                 }
