@@ -284,18 +284,22 @@ export default {
                 introduction: "We will update this section with suggestions of activities whether you stay 1, 2 or 3 weeks! 😉",
                 cards: {
                     grand_bassin: "Grand Bassin",
-                    le_morne: "Le Morne",
+                    le_morne: "Morne Brabant",
                     rhumerie_chamarel: "Chamarel",
-                    pamplemousses: "Pamplemousses Garden",
-                    _7_couleurs: "The seven colored earth",
+                    aigrettes: "Île aux Aigrettes",
+                    _7_couleurs: "Seven colored earth",
                     port_louis: "Port Louis",
                     casela: "Casela",
                     ile_aux_cerfs: "L'Île aux cerfs",
-                    pieter_both: "Pieter Both"
+                    pieter_both: "Pieter Both",
+                    souffleur: "Le Souffleur",
+                    riviere_noire: "Black river gorge",
+                    pont_naturel: "Natural bridge"
+
                 }
             },
             various: {
-                title: "Miscellaneous",
+                title: "Misc.",
                 subtitle: "Some random information.",
                 boxes: {
                     first: "We are getting married in the church of Cap Malheureux located in the north of the island. This can help you find accomodations near the wedding ceremony.",

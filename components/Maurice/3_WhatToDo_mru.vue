@@ -48,7 +48,7 @@
           class="columns is-mobile is-multiline is-variable is-6-tablet is-3-mobile is-centered is-vcentered"
         >
           <div
-            class="column is-4-tablet is-half-mobile observedElement section-body"
+            class="column is-3-tablet is-half-mobile observedElement section-body"
             v-for="card in cards"
             :key="card.title"
           >
@@ -133,9 +133,9 @@ export default {
           mask_url: 'url("#mask-blob3")',
         },
         {
-          image: require("@/assets/images/maurice/places/pamplemousses.jpg"),
+          image: require("@/assets/images/maurice/places/ile_aux_aigrettes.jpg"),
           alternative_description: "",
-          title: this.$t("pages.mauritius.what_to_do.cards.pamplemousses"),
+          title: this.$t("pages.mauritius.what_to_do.cards.aigrettes"),
           path:
             "M52,-72.6C65.6,-61.7,73.5,-44.1,77.2,-26.5C80.9,-9,80.3,8.5,75.8,25.3C71.3,42.2,62.8,58.5,49.5,68.3C36.2,78.2,18.1,81.6,-0.6,82.4C-19.2,83.2,-38.5,81.3,-52.3,71.6C-66.1,61.9,-74.6,44.5,-73.4,28.5C-72.2,12.5,-61.3,-2,-53.7,-14.9C-46,-27.9,-41.4,-39.3,-33,-51.9C-24.6,-64.5,-12.3,-78.3,3.5,-83C19.2,-87.8,38.4,-83.6,52,-72.6Z",
           mask_name: "mask-blob4",
@@ -185,6 +185,33 @@ export default {
             "M35.2,-51.5C45.8,-40.7,54.8,-30.7,64.3,-17.2C73.8,-3.6,83.8,13.4,81.1,27.8C78.4,42.2,63.1,53.9,47.4,60.1C31.8,66.3,15.9,67,-0.2,67.3C-16.3,67.6,-32.6,67.5,-47.5,61C-62.3,54.5,-75.6,41.7,-81,26.1C-86.3,10.5,-83.6,-7.9,-76.4,-23.2C-69.2,-38.6,-57.6,-50.9,-44.1,-60.8C-30.6,-70.6,-15.3,-78,-1.5,-75.9C12.3,-73.8,24.6,-62.3,35.2,-51.5Z",
           mask_name: "mask-blob9",
           mask_url: 'url("#mask-blob9")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/souffleur.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.souffleur"),
+          path:
+            "M53.2,-69.3C67.8,-62.6,77.7,-45.5,82.7,-27.5C87.8,-9.4,88.1,9.6,81.8,25.8C75.5,42.1,62.7,55.4,48,62C33.3,68.6,16.7,68.5,0.4,68C-16,67.5,-31.9,66.7,-45,59.6C-58.1,52.4,-68.4,39,-69.3,25.2C-70.2,11.3,-61.6,-3,-55.9,-17.5C-50.2,-31.9,-47.4,-46.7,-38.6,-55.2C-29.7,-63.8,-14.9,-66.2,2.2,-69.3C19.3,-72.3,38.6,-76,53.2,-69.3Z",
+          mask_name: "mask-blob10",
+          mask_url: 'url("#mask-blob10")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/gorges_riviere_noire.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.riviere_noire"),
+          path:
+            "M35.2,-51.5C45.8,-40.7,54.8,-30.7,64.3,-17.2C73.8,-3.6,83.8,13.4,81.1,27.8C78.4,42.2,63.1,53.9,47.4,60.1C31.8,66.3,15.9,67,-0.2,67.3C-16.3,67.6,-32.6,67.5,-47.5,61C-62.3,54.5,-75.6,41.7,-81,26.1C-86.3,10.5,-83.6,-7.9,-76.4,-23.2C-69.2,-38.6,-57.6,-50.9,-44.1,-60.8C-30.6,-70.6,-15.3,-78,-1.5,-75.9C12.3,-73.8,24.6,-62.3,35.2,-51.5Z",
+          mask_name: "mask-blob11",
+          mask_url: 'url("#mask-blob11")',
+        },
+        {
+          image: require("@/assets/images/maurice/places/pont_naturel.jpg"),
+          alternative_description: "",
+          title: this.$t("pages.mauritius.what_to_do.cards.pont_naturel"),
+          path:
+            "M35.7,-48.5C51.1,-37.9,71.9,-34,81.1,-22.4C90.4,-10.7,88.2,8.6,82,26.3C75.8,44,65.5,60,51.2,68.4C36.9,76.7,18.4,77.3,3.6,72.4C-11.3,67.5,-22.6,57,-32.2,47.2C-41.7,37.3,-49.5,28,-55.7,16.4C-61.8,4.8,-66.2,-9.1,-66,-25.1C-65.9,-41.1,-61.1,-59.3,-49.3,-71.1C-37.5,-82.9,-18.8,-88.4,-4.3,-82.4C10.1,-76.5,20.2,-59.1,35.7,-48.5Z",
+          mask_name: "mask-blob12",
+          mask_url: 'url("#mask-blob12")',
         },
       ],
     };

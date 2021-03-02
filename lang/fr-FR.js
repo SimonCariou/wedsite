@@ -292,14 +292,17 @@ export default {
                 introduction: "Que vous restiez 1, 2 ou 3 semaines, nous mettrons à jour cette section pour vous suggérer des activités à faire sur place 😉",
                 cards: {
                     grand_bassin: "Grand Bassin",
-                    le_morne: "Le Morne",
+                    le_morne: "Morne Brabant",
                     rhumerie_chamarel: "Chamarel",
-                    pamplemousses: "Jardin de Pamplemousses",
-                    _7_couleurs: "La terre des 7 couleurs",
+                    aigrettes: "Île aux Aigrettes",
+                    _7_couleurs: "Terre des 7 couleurs",
                     port_louis: "Port Louis",
                     casela: "Casela",
                     ile_aux_cerfs: "L'Île aux cerfs",
-                    pieter_both: "Pieter Both"
+                    pieter_both: "Pieter Both",
+                    souffleur: "Le Souffleur",
+                    riviere_noire: "Les gorges de la rivière noire",
+                    pont_naturel: "Pont naturel"
                 }
             },
             various: {
