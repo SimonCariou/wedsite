@@ -290,7 +290,7 @@ export default {
             },
             what_to_do: {
                 title: "Petit aperçu de l'Île",
-                subtitle: "Voici quelques idées de sortie à Maurice.",
+                subtitle: "Voici quelques idées de sorties à Maurice.",
                 introduction: "Que vous restiez 1, 2 ou 3 semaines, nous mettrons à jour cette section pour vous suggérer des activités à faire sur place 😉",
                 cards: {
                     grand_bassin: "Grand Bassin",
