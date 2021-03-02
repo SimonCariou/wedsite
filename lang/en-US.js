@@ -183,6 +183,7 @@ export default {
                 title: "Registry",
                 subtitle: "To start our life as newlyweds.",
                 description_top: "Here is a list of what we'd like to have in the near future. You being here for our wedding is already the best present we can ask for but if you'd like to help us get settled and enjoy some time off together, you will find some ideas in the list below 😉",
+                price_str: "Price",
                 cards: {
                     hawaii: {
                         description: "3 weeks in Hawaii",

@@ -187,6 +187,7 @@ export default {
                 description_top: "Voici une liste de toutes les choses qu'on a envie de s'offrir dans les années qui arrivent. \
                 Votre présence est déjà un merveilleux cadeau mais si vous cherchez à nous aider à équiper notre logement et\
                 profiter de beaux moments à deux, vous pouvez trouver des inspirations en dessous 😉",
+                price_str: "Prix",
                 cards: {
                     hawaii: {
                         description: "3 semaines à Hawaii",

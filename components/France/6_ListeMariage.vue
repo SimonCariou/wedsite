@@ -40,7 +40,10 @@
                     <p>{{ card.description }}</p>
                   </div>
                   <div class="price">
-                    <p>Prix: {{ card.price }}</p>
+                    <p>
+                      {{ $t("pages.france.registry.price_str") }}:
+                      {{ card.price }}
+                    </p>
                   </div>
                 </div>
               </div>
