@@ -106,8 +106,10 @@ export default {
   },
   methods: {
     add() {
-      namesRef.push(this.text);
-      this.text.text = "";
+      if (this.text.text !== "") {
+        namesRef.push(this.text);
+        this.text.text = "";
+      }
     },
   },
 };
