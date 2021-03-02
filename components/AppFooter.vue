@@ -42,7 +42,7 @@
         <p>{{ $t("pages.global.footer.bottom.with_love_design") }}</p>
         <p>{{ $t("pages.global.footer.bottom.copyright") }}</p>
       </div>
-      <div class="footerItem">
+      <!-- <div class="footerItem">
         <p class="is-size-8">
           {{ $t("pages.global.footer.bottom.bug_report.text") }}
           <a
@@ -51,7 +51,7 @@
             >{{ $t("pages.global.footer.bottom.bug_report.here") }}</a
           >
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

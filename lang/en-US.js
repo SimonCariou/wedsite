@@ -22,7 +22,9 @@ export default {
             engagementPics: {
                 title: "Engagement photo session ",
                 subtitle: "Photo session orchestrated by Lucie Atlan in the Forest of Fontainebleau.",
-                description: "To get use to the spotlight, we did an engagement photo session with Lucie Atlan, our wedding's photographer. We had a lovely time together and we enjoyed the colors of the fall!",
+                description1: "To get use to the spotlight, we did an engagement photo session with ",
+                lucieatlanIG: "Lucie Atlan",
+                description2: " our wedding's photographer. We had a lovely time together and we enjoyed the colors of the fall!",
                 link: "To see the photo gallery with HD picture and be able to buy some of them, click on this link: ",
                 gallery: "Gallery"
             },

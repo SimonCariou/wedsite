@@ -22,7 +22,9 @@ export default {
             engagementPics: {
                 title: "Séance d'engagement",
                 subtitle: "Séance photo orchestrée par Lucie Atlan dans la forêt de Fontainebleau.",
-                description: "Pour nous familiariser au feu des projecteurs, nous avons réalisé une séance photo avec Lucie Atlan notre photographe pour le mariage. Nous avons passé un très beau moment ensemble et pu profiter des belles couleurs d'automne!",
+                description1: "Pour nous familiariser au feu des projecteurs, nous avons réalisé une séance photo avec ",
+                lucieatlanIG: "Lucie Atlan",
+                description2: " notre photographe pour le mariage. Nous avons passé un très beau moment ensemble et pu profiter des belles couleurs d'automne!",
                 link: "Pour voir la galerie photos en HD et avoir la possibilité d'en acheter, cliquer sur ce lien: ",
                 gallery: "Gallerie"
             },

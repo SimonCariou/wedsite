@@ -24,7 +24,14 @@
       <div class="container">
         <div class="explications-overflowing-content">
           <p>
-            {{ $t("pages.france.engagementPics.description") }}
+            {{ $t("pages.france.engagementPics.description1") }}
+            <a
+              href="https://www.instagram.com/lucieatlanphotographie"
+              target="_blank"
+              class="is-link-in-section"
+              >{{ $t("pages.france.engagementPics.lucieatlanIG") }}</a
+            >
+            {{ $t("pages.france.engagementPics.description2") }}
           </p>
           <p>
             {{ $t("pages.france.engagementPics.link") }}
