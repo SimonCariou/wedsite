@@ -238,7 +238,7 @@ export default {
                     },
                 },
                 description_bottom: "Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner \
-                un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place le 5 décembre 🤗",
+                un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place 🤗",
             },
             contact: {
                 title: "Contact",

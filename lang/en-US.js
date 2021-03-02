@@ -25,7 +25,7 @@ export default {
                 description1: "To get use to the spotlight, we did an engagement photo session with ",
                 lucieatlanIG: "Lucie Atlan",
                 description2: " our wedding's photographer. We had a lovely time together and we enjoyed the colors of the fall!",
-                link: "To see the photo gallery with HD picture and be able to buy some of them, click on this link: ",
+                link: "To see the photo gallery with HD pictures and be able to buy some of them, click on this link: ",
                 gallery: "Gallery"
             },
             news: {
@@ -146,7 +146,7 @@ export default {
                     },
                     _2014: {
                         date: "October 14th, 2014",
-                        description: "Visit in Chicago during our internship in the United States."
+                        description: "Visiting Chicago during our internship in the United States."
                     },
                     _2015: {
                         date: "July 13th, 2015",
@@ -166,12 +166,12 @@ export default {
                     },
                     _2019: {
                         date: "November 10th 2019",
-                        description: "All Saints in Scotland at the Isle of Skye. We went hiking to the Old man of Storr for sunrise."
+                        description: "All Saints in the Isle of Skye in Scotland. We hiked up the Old man of Storr for sunrise."
 
                     },
                     _2020: {
                         date: "August 16th, 2020",
-                        description: "Vacation in Greece between 2 confinement. Chill in the Cyclades for 2 weeks..."
+                        description: "Vacation in Greece between 2 lockdonws. Chill in the Cyclades for 2 weeks..."
                     },
                     _2021: {
                         date: "2021",
