@@ -306,7 +306,7 @@ export default {
                 title: "Would you like to come?",
                 explications: {
                     first: "In order for us to estimate who'd like to come to this exciting adventure, please let us know before the 1st of May if you're thinking about joining us!",
-                    second: "For the big families, try to be more specific than your name only"
+                    second: "For big families, try to be more specific than your name only"
                 },
                 form: {
                     label: "Interested ?",
