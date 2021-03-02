@@ -2,7 +2,7 @@
   <section id="hebergements" class="hero is-fullheight is-light">
     <div class="hero-head observedElement section-title">
       <div class="container">
-        <h1 class="title is-size-2-mobile is-size-1-tablet">
+        <h1 class="title is-size-2-mobile is-size-1-tablet hyphenize">
           {{ $t("pages.france.accommodations.title") }}
         </h1>
         <h2 class="subtitle is-size-5-mobile is-size-4-tablet">
