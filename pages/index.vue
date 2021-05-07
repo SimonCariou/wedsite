@@ -1,67 +1,104 @@
 <template>
-  <div>
-    <Welcome />
-    <News />
-    <Informations />
-    <Deroulement />
-    <Hebergements />
-    <Photos />
-    <ListeMariage />
-    <Contact />
-  </div>
+  <section class="hero" style="overflow: hidden">
+    <span class="lang_sticky">
+      {{ $t("pages.global.index.lang_selection") }}
+      <LanguageSelectionSlider />
+    </span>
+    <div class="hero-body" style="padding-top: 10%">
+      <div class="container">
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-4-tablet is-12-mobile">
+            <nuxt-link :to="localePath('France')">
+              <div id="france" class="badge has-bg-image hoverable is-animated">
+                <div
+                  class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
+                >
+                  {{ $t("pages.global.index.btn_fr") }}
+                  <div>
+                    <figure
+                      class="image is-32x32"
+                      style="display: inline-block; vertical-align: middle"
+                      id="flag-fr"
+                    >
+                      <img
+                        src="https://flagdownload.com/wp-content/uploads/Flag_of_France-64x43.png"
+                        alt="French flag"
+                      />
+                    </figure>
+                  </div>
+                </div></div
+            ></nuxt-link>
+          </div>
+
+          <div class="column is-4-tablet is-12-mobile">
+            <nuxt-link :to="localePath('Maurice')">
+              <div
+                id="mauritius"
+                class="badge has-bg-image hoverable is-animated"
+              >
+                <div
+                  class="has-text-centered country selection is-size-2-mobile is-size-2-tablet"
+                >
+                  {{ $t("pages.global.index.btn_mru") }}
+                  <div>
+                    <figure
+                      class="image is-32x32"
+                      style="display: inline-block; vertical-align: middle"
+                      id="flag-fr"
+                    >
+                      <img
+                        src="https://flagdownload.com/wp-content/uploads/Flag_of_Mauritius-64x43.png"
+                        alt="French flag"
+                      />
+                    </figure>
+                  </div>
+                </div></div
+            ></nuxt-link>
+          </div>
+        </div>
+        <!-- <div class="has-text-centered">
+          <p>{{ $t("pages.global.index.hello") }}</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
 </template>
 
+
+<style scoped lang="sass">
+.lang_sticky
+  position: sticky
+  top: 0
+  padding-bottom: 5px
+  padding-top: 5px
+  padding-left: 10px
+  width: 100%
+
+.country
+  &.selection
+    font-family: "Bodoni Moda","GTSuperDisplaySuper", "Work Sans bold", sans-serif
+    color: #fff
+    padding-top: 20%
+    font-weight: 700
+.badge
+  width: 250px
+  height: 250px
+  border-radius: 50%
+  margin: auto
+  &.has-bg-image
+    background-size: cover
+    background-position: center center
+
+#mauritius
+  background-image: url('~assets/images/index/maurice.jpg')
+#france
+  background-image: url('~assets/images/index/france.jpg')
+</style>
+
 <script>
-import Welcome from "~/components/1_1_Welcome.vue";
-import News from "~/components/1_2_News.vue";
-import Informations from "~/components/2_Informations.vue";
-import Deroulement from "~/components/3_Deroulement.vue";
-import Hebergements from "~/components/4_Hebergements.vue";
-import Photos from "~/components/5_Photos.vue";
-import ListeMariage from "~/components/6_ListeMariage.vue";
-import Contact from "~/components/7_Contact.vue";
+import LanguageSelectionSlider from "~/components/Slider.vue";
 
 export default {
-  components: {
-    Welcome,
-    News,
-    Informations,
-    Deroulement,
-    Hebergements,
-    Photos,
-    ListeMariage,
-    Contact,
-  },
-  data: () => ({ observerTitle: null, observerBody: null, intersected: false }),
-  mounted() {
-    this.observer = new IntersectionObserver(
-      (entries) => {
-        for (var i in entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("in-view");
-            } else {
-              //entry.target.classList.remove("in-view");
-            }
-          });
-        }
-      },
-      {
-        threshold: 0.25,
-      }
-    );
-
-    var items = this.$el.querySelectorAll(".observedElement");
-    for (var i in items) {
-      if (!items.hasOwnProperty(i)) {
-        continue;
-      }
-
-      this.observer.observe(items[i]);
-    }
-  },
+  components: { LanguageSelectionSlider },
 };
 </script>
-
-<style lang="sass">
-</style>

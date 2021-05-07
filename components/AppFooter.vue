@@ -7,21 +7,27 @@
             <span class="scroll-next" @click="scrollTo()">
               <div id="arrow-scroll-footer"></div>
             </span>
-            <p class="footerTitle">TO TOP</p>
+            <p class="footerTitle">
+              {{ $t("pages.global.footer.top.to_top") }}
+            </p>
           </div>
           <div class="footerItem">
             <img
-              src="@/assets/images/global_design/Monogram-Black.png"
+              :data-src="
+                require('~/assets/images/global_design/Monogram-Black.png')
+              "
               alt="monogram Sim et Rox"
-              class="monogram"
+              class="monogram lazyload"
             />
           </div>
           <div class="footerItem">
             <p class="footerTitle">CONTACT</p>
-            <p>40 rue Daguerre</p>
+            <p>{{ $t("pages.global.footer.top.street") }}</p>
             <p>75014 Paris</p>
             <p>
-              <a href="mailto:cariou.leval@orange.fr">cariou.leval@orange.fr</a>
+              <a href="mailto:cariou.leval@orange.fr" class="is-link-in-section"
+                >cariou.leval@orange.fr</a
+              >
             </p>
             <p>+33 6 67 83 64 41</p>
             <p>+33 6 79 01 31 46</p>
@@ -32,16 +38,20 @@
     </div>
     <div class="hero-foot has-text-centered">
       <div class="footerItem is-size-7">
-        <p>Site fait avec ❤️ par Simon</p>
-        <p>Logo et designs faits avec ❤️ par Roxane</p>
-        <p>Copyright Simon Cariou & Roxane Léval - 2020</p>
+        <p>{{ $t("pages.global.footer.bottom.with_love_website") }}</p>
+        <p>{{ $t("pages.global.footer.bottom.with_love_design") }}</p>
+        <p>{{ $t("pages.global.footer.bottom.copyright") }}</p>
       </div>
-      <div class="footerItem">
+      <!-- <div class="footerItem">
         <p class="is-size-8">
-          Pour tout report de bug:
-          <a href="https://github.com/SimonCariou/wedsite/issues">ici</a>
+          {{ $t("pages.global.footer.bottom.bug_report.text") }}
+          <a
+            href="https://github.com/SimonCariou/wedsite/issues"
+            class="is-link-in-section"
+            >{{ $t("pages.global.footer.bottom.bug_report.here") }}</a
+          >
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

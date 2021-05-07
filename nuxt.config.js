@@ -1,36 +1,31 @@
 export default {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
+  target: "static",
   head: {
     title: "Wedsite Rox & Sim",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Bienvenue sur notre wedsite, toutes les infos sur le fameux 5 décembre 2020. Le site sera mis à jour très souvent au fur et à mesure des préparatifs. Bisous à tous!" }
+      { hid: 'description', name: 'description', content: "Bienvenue sur notre wedsite, toutes les infos sur les fameux 16 et 27 Octobre 2021. Le site sera mis à jour très souvent au fur et à mesure des préparatifs. Bisous à tous!" }
     ],
     link: [
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
-      // }
+      {
+        rel: 'stylesheet',
+
+      }
     ],
     script: [
-
-      { src: 'https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js' },
-      // { src: 'https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js' },
       {
         rel: "preconnect",
         src:
           "https://polyfill.io/v3/polyfill.min.js?flags=gated&features=smoothscroll%2CIntersectionObserver%2CResizeObserver",
         body: true
-      }
-
-
+      },
     ]
   },
   /*
@@ -42,7 +37,8 @@ export default {
   */
   css: [
     '@/assets/css/main.sass',
-    '@/assets/css/animate-text.css'
+    '@/assets/css/Global/animate-text.css',
+    '@/assets/css/Global/transitions.sass',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -57,28 +53,44 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
+  buildModules: ['nuxt-lazysizes'],
 
-  ],
+  lazySizes: {
+    extendAssetUrls: {
+      img: 'data-src',
+    },
+    plugins: {
+      blurUp: true,
+    }
+  },
   /*
   ** Nuxt.js modules
   */
   modules: [
     [
-      'nuxt-fontawesome', {
-        imports: [
+      'nuxt-i18n', {
+        locales: [
           {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
+            name: 'Français',
+            code: 'fr',
+            iso: 'fr-FR',
+            file: 'fr-FR.js'
           },
           {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
-        ]
-      }
-    ]
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en-US.js'
+          },
+        ],
+        langDir: 'lang/',
+        detectBrowserLanguage: true,
+        defaultLocale: 'fr',
+        strategy: 'prefix',
+        lazy: true,
+      }],
   ],
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
@@ -89,6 +101,7 @@ export default {
   ** Build configuration
   */
   build: {
+    analyze: false,
     postcss: {
       preset: {
         features: {

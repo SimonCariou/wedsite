@@ -1,18 +1,56 @@
 $tablet: 568px
-$primary: #042709
-$danger: rgb(112, 2, 2)
-$link: rgba(141, 4, 4, 0.8)
+
 $hero-padding-left: 1.5rem
 $hero-padding-right: 1.5rem
 $card-footer-border-top: 0px
 
-@import "~/node_modules/bulma/bulma.sass"
+$card-radius: 0.75rem
+$box-radius: 0.75rem
+// $box-border: 1px solid black
+
+// @import "~/assets/css/variables_maurice.sass"
+@import "~/assets/css/France/variables_france.sass"
+
+//Bulma stuff
+// @import "~/node_modules/bulma/bulma.sass"
+
+@import "~/node_modules/bulma/sass/utilities/_all.sass"
+
+@import "~/node_modules/bulma/sass/base/generic.sass"
+@import "~/node_modules/bulma/sass/base/minireset.sass"
+
+@import "~/node_modules/bulma/sass/components/card.sass"
+@import "~/node_modules/bulma/sass/components/navbar.sass"
+@import "~/node_modules/bulma/sass/elements/box.sass"
+@import "~/node_modules/bulma/sass/elements/button.sass"
+@import "~/node_modules/bulma/sass/elements/container.sass"
+@import "~/node_modules/bulma/sass/elements/content.sass"
+@import "~/node_modules/bulma/sass/elements/box.sass"
+@import "~/node_modules/bulma/sass/elements/icon.sass"
+@import "~/node_modules/bulma/sass/elements/image.sass"
+@import "~/node_modules/bulma/sass/elements/other.sass"
+@import "~/node_modules/bulma/sass/elements/progress.sass"
+@import "~/node_modules/bulma/sass/elements/title.sass"
+@import "~/node_modules/bulma/sass/form/_all.sass"
+@import "~/node_modules/bulma/sass/grid/columns.sass"
+@import "~/node_modules/bulma/sass/helpers/_all.sass"
+@import "~/node_modules/bulma/sass/layout/_all.sass"
+
 @import "~/node_modules/bulma-timeline/src/sass/index.sass"
-@import "~/assets/css/fonts.sass"
-@import "~/assets/css/hero-custom.sass"
-@import "~/assets/css/display-components.sass"
-@import "~/assets/css/io-animations.sass"
-@import "~/assets/css/cards.sass"
-@import "~/assets/css/carousel.sass"
-@import "~/assets/css/designs.sass"
+
+@import "~/assets/css/Global/fonts.sass"
+@import "~/assets/css/France/fr_font_styling.sass"
+
+@import "~/assets/css/Global/hero-custom.sass"
+@import "~/assets/css/Global/display-components.sass"
+@import "~/assets/css/Global/io-animations.sass"
+// @import "~/assets/css/Global/cards.sass"
+@import "~/assets/css/Global/carousel.sass"
+@import "~/assets/css/Global/designs.sass"
+@import "~/assets/css/Global/boxes.sass"
 // @import "~/assets/css/scrollsnap.sass"
+
+//@import "~/assets/css/Global/transitions.sass"
+
+//global, for both fr, mru navbar-items and flags in navbar
+@import "~/assets/css/Global/animate-components-on-hover.sass"
