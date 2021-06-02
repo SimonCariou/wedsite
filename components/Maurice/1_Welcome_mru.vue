@@ -36,6 +36,7 @@
         <div
           id="arrow-scroll-welcome"
           class="animate__animated animate__fadeIn animate__delay-3s"
+          style="z-index:100000"
         ></div>
       </span>
     </div>
