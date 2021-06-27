@@ -91,7 +91,7 @@ export default {
                 },
             }, accommodations: {
                 title: "Accommodations",
-                subtitle: "Recommanded accomodations around the wedding venue.",
+                subtitle: "Recommended accomodations around the wedding venue.",
                 description: {
                     one: "The wedding venue is near Mantes-la-Jolie where you will be able to find hotels to stay the night. You will be able to find an Uber or a taxi for a starting price of around 10€ per car.",
                     two: "If you have any question, you can contact us via the ",

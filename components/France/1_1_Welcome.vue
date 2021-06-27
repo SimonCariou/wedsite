@@ -50,6 +50,7 @@
       <span class="scroll-next" @click="scrollTo()">
         <div
           id="arrow-scroll-welcome"
+          style="z-index:100000"
           class="animate__animated animate__fadeIn animate__delay-3s"
         ></div>
       </span>
