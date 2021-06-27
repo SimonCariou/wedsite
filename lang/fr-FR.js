@@ -63,19 +63,19 @@ export default {
                     start: "Début de la journée",
                     events: {
                         first: {
-                            time: "16H",
+                            time: "17H",
                             title: "CÉRÉMONIE LAÏQUE 💏",
                             description: ""
                         },
                         second: {
-                            time: "17H",
-                            title: "📸 CHEESE!",
-                            description: "Pour profiter des jolis rayons de soleil automnaux."
+                            time: "18H",
+                            title: "📸 + 🥂 COCKTAIL & PHOTOS!",
+                            description: "Pour profiter des jolis rayons de soleil automnaux et boire du Champagne."
                         },
                         third: {
-                            time: "18H - 4H",
-                            title: "🎉 COCKTAIL",
-                            description: "Début des festivités! Suivi d'un diner assis et d'une soirée dansante."
+                            time: "20H - 4H",
+                            title: "🎉 DÎNER & SOIRÉE",
+                            description: "Dîner à table suivi d'une soirée dansante."
                         },
 
                     },

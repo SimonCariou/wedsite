@@ -62,19 +62,19 @@ export default {
                     start: "Let's start !",
                     events: {
                         first: {
-                            time: "4PM",
+                            time: "5PM",
                             title: "SECULAR CEREMONY 💏",
                             description: ""
                         },
                         second: {
-                            time: "5PM",
-                            title: "📸 CHEESE!",
-                            description: "To catch the nice autumnal sun rays."
+                            time: "6PM",
+                            title: "📸 + 🥂 COCKTAIL & PHOTOS",
+                            description: "To catch the nice autumnal sun rays and drink some Champagne."
                         },
                         third: {
-                            time: "6PM - 4AM",
-                            title: "🎉 COCKTAIL",
-                            description: "Let's party ! Followed by a sitted dinner and a dancing party"
+                            time: "8PM - 4AM",
+                            title: "🎉 DINNER & PARTY",
+                            description: "Sitted dinner followed by a dancing party"
                         },
 
                     },
