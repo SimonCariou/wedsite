@@ -25,6 +25,27 @@
           <p>
             <span
               class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              >{{ $t("pages.france.news.contents.june.date") }}</span
+            >
+          </p>
+          <div class="content">
+            <ul>
+              <li>{{ $t("pages.france.news.contents.june.li1") }}</li>
+
+              <li>
+                {{ $t("pages.france.news.contents.june.li2.txt1") }}
+                <a href="#deroulement" class="is-link-in-section">
+                  {{ $t("pages.france.news.contents.june.li2.link") }}</a
+                >
+                {{ $t("pages.france.news.contents.june.li2.txt2") }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="explications old observedElement section-body">
+          <p>
+            <span
+              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
               >{{ $t("pages.france.news.contents.feb.date") }}</span
             >
           </p>

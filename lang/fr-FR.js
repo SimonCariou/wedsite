@@ -36,6 +36,15 @@ export default {
                         date: "Février 2021",
                         li1: "Aller on prend les mêmes et on recommence !",
                         li2: "Planning de la journée en construction "
+                    },
+                    june: {
+                        date: "27 Juin 2021",
+                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 21 Juillet.",
+                        li2: {
+                            txt1: "Déroulement de la journée acté ! Allez voir la section ",
+                            link: "Déroulement",
+                            txt2: ""
+                        }
                     }
                 }
             }, information: {
