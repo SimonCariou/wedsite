@@ -84,10 +84,16 @@ export default {
           },
         ],
         langDir: 'lang/',
-        detectBrowserLanguage: true,
         defaultLocale: 'fr',
         strategy: 'prefix',
         lazy: true,
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieDomain: null,
+          cookieKey: 'lang',
+          alwaysRedirect: true,
+          fallbackLocale: 'fr'
+        },
       }],
   ],
 
