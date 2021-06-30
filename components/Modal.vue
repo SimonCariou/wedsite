@@ -41,12 +41,10 @@ export default {
     }
   },
   mounted() {
-    //   if (!window.localStorage.popupFlag) {
-        if(true){
+      if (!window.localStorage.popupFlag) {
             this.$refs["modal_vaccine"].classList.toggle("is-active");
             window.localStorage.popupFlag = true;
             }
-      
   },
 };
 </script>
