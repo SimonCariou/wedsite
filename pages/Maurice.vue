@@ -1,5 +1,6 @@
 <template>
   <div>
+    <VaccineModal />
     <WelcomeMru />
     <InfosMru />
     <WhatToDoMru />
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import VaccineModal from "~/components/Modal.vue"
 import WelcomeMru from "~/components/Maurice/1_Welcome_mru.vue";
 import InfosMru from "~/components/Maurice/2_Infos_mru.vue";
 import WhatToDoMru from "~/components/Maurice/3_WhatToDo_mru.vue";
@@ -17,6 +19,7 @@ import RSVPMru from "~/components/Maurice/5_RSVP_mru.vue";
 
 export default {
   components: {
+    VaccineModal,
     WelcomeMru,
     InfosMru,
     WhatToDoMru,
