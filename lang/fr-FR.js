@@ -283,6 +283,16 @@ export default {
                 information: "Divers",
                 poll: "Interessés ?"
             },
+            modal:{
+                title:"Informations pratiques",
+                item1: "🔓 Ouverture des frontières le 1er Octobre sans quarantaine!",
+                item2:{
+                    first_part: "⚠️ Le vaccin est ",
+                    bold: "OBLIGATOIRE",
+                    second_part: " pour rentrer sur le territoire ! 💉"
+                },
+                button: "Compris 👌"
+            },
             welcome: {
                 grand_title: "Bienvenue.",
                 we_gettin: "Nous nous marions à l'île Maurice le",

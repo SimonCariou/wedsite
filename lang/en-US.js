@@ -275,6 +275,16 @@ export default {
                 information: "Miscellaneous",
                 poll: "Interested ?"
             },
+            modal:{
+                title:"Flash news",
+                item1: "🔓 The country fully opens on October 1st without the need to self-quarantine!",
+                item2: {
+                    first_part: "⚠️ Being fully vaccinated is ",
+                    bold: "MANDATORY",
+                    second_part:" to be able travel to Mauritius 💉"
+                },
+                button:"Understood 👌"
+            },
             welcome: {
                 grand_title: "Welcome.",
                 we_gettin: "We are getting married on",

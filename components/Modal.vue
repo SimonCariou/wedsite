@@ -4,11 +4,26 @@
             <div class="modal-background" @click="close_modal"></div>
             <div class="modal-content">
                 <div class="box modal-content-styling">
-                    <h1 class="title">Informations pratiques</h1>
-                    <ul>
-                        <li>🔓 Ouverture des frontières le 1er Octobre sans quarantaine!</li>
-                        <li>⚠️Vaccin Obligatoire pour rentrer sur le territoire ! 💉</li>
-                    </ul>
+                    <div class="block">
+                        <h1 class="title">{{$t("pages.mauritius.modal.title")}}</h1>
+                    </div>
+
+                    <div class="block">
+                        <ul>
+                            <li>{{$t("pages.mauritius.modal.item1")}}</li>
+                            <li>
+                                {{$t("pages.mauritius.modal.item2.first_part")}} 
+                                <strong> {{$t("pages.mauritius.modal.item2.bold")}} </strong>
+                                {{$t("pages.mauritius.modal.item2.second_part")}}
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="block">
+                        <button class="button is-dark is-outlined is-rounded" @click="close_modal">
+                            {{$t("pages.mauritius.modal.button")}}
+                        </button>
+                    </div>
                 </div>
             </div>
             <button class="modal-close is-large" aria-label="close" @click="close_modal"></button>
