@@ -39,7 +39,7 @@ export default {
                     },
                     june: {
                         date: "27 Juin 2021",
-                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 21 Juillet.",
+                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 31 Juillet.",
                         li2: {
                             txt1: "Déroulement de la journée acté ! Allez voir la section ",
                             link: "Déroulement",
