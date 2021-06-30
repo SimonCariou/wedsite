@@ -39,7 +39,7 @@ export default {
                     },
                     june: {
                         date: "27 Juin 2021",
-                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 21 Juillet.",
+                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 31 Juillet.",
                         li2: {
                             txt1: "Déroulement de la journée acté ! Allez voir la section ",
                             link: "Déroulement",
@@ -282,6 +282,16 @@ export default {
                 what_to_do: "L'Île",
                 information: "Divers",
                 poll: "Interessés ?"
+            },
+            modal:{
+                title:"Informations pratiques",
+                item1: "🔓 Ouverture des frontières le 1er Octobre sans quarantaine!",
+                item2:{
+                    first_part: "⚠️ Le vaccin est ",
+                    bold: "OBLIGATOIRE",
+                    second_part: " pour rentrer sur le territoire ! 💉"
+                },
+                button: "Compris 👌"
             },
             welcome: {
                 grand_title: "Bienvenue.",

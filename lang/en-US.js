@@ -39,7 +39,7 @@ export default {
                     },
                     june: {
                         date: "June 27th 2021",
-                        li1: "New RSVPs sent by email, Deadline: July 21st.",
+                        li1: "New RSVPs sent by email, Deadline: July 31st.",
                         li2: {
                             txt1: "Wedding day timeline updated. See the ",
                             link: "Schedule",
@@ -274,6 +274,16 @@ export default {
                 what_to_do: "The Island",
                 information: "Miscellaneous",
                 poll: "Interested ?"
+            },
+            modal:{
+                title:"Flash news",
+                item1: "🔓 The country fully opens on October 1st without the need to self-quarantine!",
+                item2: {
+                    first_part: "⚠️ Being fully vaccinated is ",
+                    bold: "MANDATORY",
+                    second_part:" to be able travel to Mauritius 💉"
+                },
+                button:"Understood 👌"
             },
             welcome: {
                 grand_title: "Welcome.",
