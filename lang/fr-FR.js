@@ -338,8 +338,7 @@ export default {
             poll: {
                 title: "Vous êtes intéressés? ",
                 explications: {
-                    first: "Afin de pouvoir estimer le nombre de personnes souhaitant faire part de notre aventure du bout du monde, indiquez nous avant le 1er Mai 2021 si vous pensez venir.",
-                    second: "Pour les familles nombreuses, essayez de mettre un peu plus d'informations que le nom de famille seul "
+                    first: "La date de RSVP est passée et la liste des invités figée. On a hâte de vous y retrouver 😉",
                 },
 
                 form: {

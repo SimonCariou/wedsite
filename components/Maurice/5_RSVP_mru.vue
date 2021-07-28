@@ -38,15 +38,15 @@
               <p class="block">
                 {{ $t("pages.mauritius.poll.explications.first") }}
               </p>
-              <p class="block">
-                {{ $t("pages.mauritius.poll.explications.second") }} 😉
-              </p>
+              <!-- <p class="block">
+                {{ $t("pages.mauritius.poll.explications.second") }} 
+              </p> -->
             </div>
           </div>
         </div>
         <div class="columns is-centered">
           <div class="column is-5-tablet is-12-mobile">
-            <form v-on:submit.prevent="add">
+            <!-- <form v-on:submit.prevent="add">
               <label class="label has-text-white">{{
                 $t("pages.mauritius.poll.form.label")
               }}</label>
@@ -67,7 +67,45 @@
                   </button>
                 </p>
               </div>
-            </form>
+            </form> -->
+            <div class="wrapper">
+              <div class="waves"></div>
+              <div class="sand"></div>
+              <div class="towel"></div>
+              <div class="ear"></div>
+              <div class="bear">
+                <div class="belly"></div>
+                <div class="arm"></div>
+                <div class="leg"></div>
+                <div class="leg right-leg"></div>
+                <div class="eye"></div>
+                <div class="nose"></div>
+              </div>
+              <div class="strawberry">
+                <div class="mark"></div>
+                <div class="mark mark-one"></div>
+                <div class="mark mark-two"></div>
+                <div class="leave"></div>
+                <div class="leave leave-one"></div>
+                <div class="leave leave-two"></div>
+              </div>
+              <div class="umbrella">
+                <div class="triangle"></div>
+                <div class="triangle triangle-one"></div>
+                <div class="triangle triangle-two"></div>
+                <div class="triangle triangle-three"></div>
+                <div class="triangle triangle-four"></div>
+              </div>
+              <div class="star"></div>
+              <div class="star star-one"></div>
+              <div class="star star-two"></div>
+              <div class="star star-three"></div>
+              <div class="star star-four"></div>
+              <div class="star-center"></div>
+              <div class="shovel">
+                <div class="shaft"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -114,3 +152,371 @@ export default {
   },
 };
 </script>
+
+<style scoped lang="scss">
+$background: #64b8b1;
+$sand: #fad89f;
+$dark-sand: darken($sand, 10%);
+$red: #eb5a4e;
+$lightgrey: #f5f5f5;
+$faded-green: #b6dba6;
+$bear: #f4b03f;
+$belly: #fcebcf;
+$ear: #791c16;
+$wave: lighten($background, 10%);
+$leave: #56a707;
+$shovel: #3397ec;
+
+$triangle: 4rem;
+$triangle-width: 5rem;
+$umbrella-radius: 4rem;
+$space: 71deg;
+
+body {
+  overflow: hidden;
+}
+
+*:before,
+*:after {
+  position: absolute;
+  content: "";
+}
+.wrapper {
+  position: relative;
+  //   margin: 5rem auto 0 auto;
+  margin: auto;
+  width: 20rem;
+  height: 20rem;
+  background: $background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waves {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background: transparent;
+  border: 0.5rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, $background 68%, transparent 68%),
+    conic-gradient(
+      $wave,
+      $wave 15%,
+      transparent 15%,
+      transparent 18%,
+      $wave 18%,
+      $wave 23%,
+      transparent 23%,
+      transparent 27%,
+      $wave 27%,
+      $wave 40%,
+      transparent 40%,
+      transparent 42%,
+      $wave 42%,
+      $wave 60%,
+      transparent 60%,
+      transparent 61%,
+      $wave 61%,
+      $wave 80%,
+      transparent 80%,
+      transparent 82%,
+      $wave 82%
+    );
+  animation: wave 2.5s ease-in infinite;
+}
+@keyframes wave {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.sand {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: $sand;
+  border-radius: 50%;
+}
+.umbrella {
+  position: absolute;
+  width: $umbrella-radius * 2;
+  height: $umbrella-radius * 2;
+  border-radius: 50%;
+  background: $lightgrey;
+  top: 0.4rem;
+  right: 5rem;
+  overflow: hidden;
+  box-shadow: 0.5rem 0.5rem hsla(0, 0, 0, 0.1);
+}
+.triangle {
+  position: absolute;
+  top: $umbrella-radius;
+  left: $umbrella-radius - $triangle-width/2;
+  width: $triangle-width;
+  height: $triangle;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: $red;
+  transform: rotate($space);
+  transform-origin: top;
+  &.triangle-one {
+    transform: rotate($space * 2);
+  }
+  &.triangle-two {
+    transform: rotate($space * 3);
+  }
+  &.triangle-three {
+    transform: rotate($space * 4);
+  }
+  &.triangle-four {
+    transform: rotate($space * 5);
+  }
+}
+.towel {
+  position: absolute;
+  top: 3.7rem;
+  left: 6.2rem;
+  width: 7.5rem;
+  height: 11rem;
+  border-radius: 0.1rem;
+  transform: rotate(-45deg);
+  background: repeating-linear-gradient(
+    $background,
+    $background 1rem,
+    $lightgrey 1rem,
+    $lightgrey 2rem,
+    $faded-green 2rem,
+    $faded-green 3rem,
+    $lightgrey 3rem,
+    $lightgrey 4rem
+  );
+  box-shadow: -3px 3px 1px $dark-sand;
+}
+.bear {
+  position: absolute;
+  top: 6rem;
+  left: 7.3rem;
+  width: 5.5rem;
+  height: 7rem;
+  background: $bear;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  transform: rotate(-45deg);
+  .belly {
+    position: absolute;
+    top: 2.6rem;
+    left: 1.2rem;
+    width: 3.1rem;
+    height: 3.7rem;
+    border-radius: 50%;
+    background: $belly;
+  }
+  .arm {
+    position: absolute;
+    top: 1.2rem;
+    width: 1.2rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background: $bear;
+    transform: rotate(45deg);
+  }
+  .leg {
+    position: absolute;
+    top: 4.4rem;
+    width: 1.1rem;
+    height: 2.9rem;
+    border-radius: 0.5rem;
+    background: $bear;
+    // right leg
+    box-shadow: 4.4rem 0rem 0 0 $bear;
+  }
+}
+.eye {
+  position: absolute;
+  top: 1.4rem;
+  left: 1rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: #fff;
+  &:before {
+    top: 0.3rem;
+    left: 0.3rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    border-top: 0.15rem solid black;
+    border-left: 0.15rem solid black;
+    border-right: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    transform: rotate(45deg);
+  }
+}
+.nose {
+  position: absolute;
+  top: 2.3rem;
+  left: 2.3rem;
+  width: 1rem;
+  height: 0.6rem;
+  background: black;
+  border-radius: 50%;
+}
+.ear {
+  position: absolute;
+  top: 8.5rem;
+  left: 5.8rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: $ear;
+}
+.strawberry {
+  position: absolute;
+  top: 6.8rem;
+  right: 4.2rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: $red;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2rem white;
+  .leave {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.7rem;
+    width: 0.4rem;
+    height: 0.8rem;
+    background: $leave;
+    border-radius: 50%;
+    &.leave-one {
+      transform: rotate(45deg);
+      transform-origin: bottom;
+      left: 0.65rem;
+      top: -0.45rem;
+    }
+    &.leave-two {
+      transform: rotate(90deg);
+      transform-origin: bottom;
+    }
+  }
+  .mark {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 0.1rem;
+    background: hsla(255, 255, 255, 0.4);
+    &.mark-one {
+      top: 0.7rem;
+      left: 0.2rem;
+      transform: rotate(25deg);
+    }
+    &.mark-two {
+      top: 0.5rem;
+      left: 0.8rem;
+      transform: rotate(40deg);
+    }
+  }
+}
+.star {
+  position: absolute;
+  left: 5rem;
+  top: 11rem;
+  width: 0.4rem;
+  height: 0.9rem;
+  border-radius: 50% 50% 0 0;
+  background: $red;
+  transform: rotate(30deg);
+  transform-origin: bottom;
+  &.star-one {
+    transform: rotate(102deg);
+    transform-origin: bottom;
+  }
+  &.star-two {
+    transform: rotate(174deg);
+    transform-origin: bottom;
+  }
+  &.star-three {
+    transform: rotate(246deg);
+    transform-origin: bottom;
+  }
+  &.star-four {
+    transform: rotate(318deg);
+    transform-origin: bottom;
+  }
+}
+.star-center {
+  position: absolute;
+  top: 11.4rem;
+  left: 4.7rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: $red;
+}
+.shovel {
+  $size: 0.5rem;
+  position: absolute;
+  left: 6rem;
+  top: 13rem;
+  width: $size * 2;
+  height: $size * 2;
+  border-top-left-radius: $size;
+  border-top-right-radius: $size;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: $shovel;
+  transform: rotate(10deg);
+  &:before {
+    // sand that covers shovel
+    top: 0.8rem;
+    left: 0rem;
+    width: $size * 3;
+    height: $size * 2;
+    background: $sand;
+    transform: rotate(-20deg);
+  }
+  .shaft {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.4rem;
+    width: 0.15rem;
+    height: 0.5rem;
+    background: black;
+    &:before {
+      top: -2.2rem;
+      left: -0.5rem;
+      width: 0.8rem;
+      height: 2rem;
+      border-radius: 50%;
+      border-top: 0.2rem solid transparent;
+      border-bottom: 0.15rem solid black;
+      border-left: 0.2rem solid transparent;
+      border-right: 0.2rem solid transparent;
+    }
+    &:after {
+      top: -0.3rem;
+      left: -0.5rem;
+      width: 0.8rem;
+      height: 2rem;
+      border-radius: 50%;
+      border-top: 0.15rem solid black;
+      border-bottom: 0.2rem solid transparent;
+      border-left: 0.2rem solid transparent;
+      border-right: 0.2rem solid transparent;
+    }
+  }
+}
+</style>

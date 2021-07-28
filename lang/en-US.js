@@ -331,8 +331,7 @@ export default {
             }, poll: {
                 title: "Would you like to come?",
                 explications: {
-                    first: "In order for us to estimate who'd like to come to this exciting adventure, please let us know before the 1st of May if you're thinking about joining us!",
-                    second: "For big families, try to be more specific than your name only"
+                    first: "The deadline has been reached and the guest list is now written in stone! Can't wait to see you there 😉",
                 },
                 form: {
                     label: "Interested ?",
