@@ -68,7 +68,7 @@
                 </p>
               </div>
             </form> -->
-            <div class="wrapper">
+            <div class="wrapper observedElement section-body">
               <div class="waves"></div>
               <div class="sand"></div>
               <div class="towel"></div>
