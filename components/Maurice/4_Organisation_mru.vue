@@ -37,7 +37,10 @@
     <div class="hero-body observedElement section-body">
       <div class="container">
         <div
-          class="columns is-centered is-variable is-8-tablet is-3-mobile is-multiline"
+          class="
+            columns
+            is-centered is-variable is-8-tablet is-3-mobile is-multiline
+          "
         >
           <div
             class="column is-5-tablet is-12-mobile"
@@ -106,7 +109,7 @@ export default {
   bottom: 0px
   right: -500px
   opacity: 0.8
-  animation: cloud 2s linear 0s infinite reverse
+  animation: cloud 2s linear 0s infinite
   z-index: 99
   width: 400px
 
