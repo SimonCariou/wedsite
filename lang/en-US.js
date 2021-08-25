@@ -183,8 +183,8 @@ export default {
                         description: "Vacation in Greece between 2 lockdonws. Chill in the Cyclades for 2 weeks..."
                     },
                     _2021: {
-                        date: "2021",
-                        description: "TBD"
+                        date: "August 2021",
+                        description: "Holidays in Aix-en-Provence with the Cariou family."
                     },
                 }
             },

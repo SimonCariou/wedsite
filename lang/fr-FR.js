@@ -185,8 +185,8 @@ export default {
                         description: "Vacances en Grèce entre 2 confinements! Visite des Cyclades pendant 2 semaines."
                     },
                     _2021: {
-                        date: "fr9",
-                        description: "fr"
+                        date: "Août 2021",
+                        description: "Vacances d'été à Aix-en-Provence avec les Cariou et les copains/copines de chacun."
                     },
                 }
             },
