@@ -294,8 +294,8 @@ export default {
                 subtitle: "",
                 box: {
                     first: "L'île Maurice tient une place toute particulière dans nos coeurs et il nous semblait important de pouvoir y célébrer un moment fort de nos vies. C'est pour cela que nous vous invitons à nous rejoindre sur cette île paradisiaque afin d'assiter à notre mariage religieux qui aura lieu le Mercredi 27 octobre 2021 à l'Église de Cap Malheureux.",
-                    second: "Le programme sur place n'est pas encore tout à fait défini car comme vous pouvez vous en douter, il dépend de notre ami Covid...",
-                    third: "Pour l'instant, nous pouvons vous conseiller de commencer à réserver les billets d'avion pour y aller en privilégiant les compagnies aériennes proposant de bonnes assurances annulations (Air France rembourse tous les billets jusqu'en décembre 2021 par exemple)."
+                    second: "Le programme sur place se peaufine et le mariage à l'église aura lieu à 15h pour 50 personnes que nous contacteront directement (Information au 21 septembre). Ensuite un apéritif sera servi sur la plage devant l'église et direction le Chateau de Labourdonnais pour les festivités qui commenceront à 19h.",
+                    third: "L'île réouvre ses portes à l'ensemble des personnes vaccinées et un communiqué du gouvernement quant à la limitation de 50 personnes à l'église doit être fait le 1er Octobre. Nous vous tiendrons au courant mais on commence à voir le bout 😉"
                 }
             },
             what_to_do: {

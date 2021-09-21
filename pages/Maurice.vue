@@ -2,6 +2,7 @@
   <div>
     <WelcomeMru />
     <InfosMru />
+    <WeddingDayMru />
     <WhatToDoMru />
     <OrganisationMru />
     <RSVPMru />
@@ -10,7 +11,8 @@
 
 <script>
 import WelcomeMru from "~/components/Maurice/1_Welcome_mru.vue";
-import InfosMru from "~/components/Maurice/2_Infos_mru.vue";
+import InfosMru from "~/components/Maurice/2_1_Infos_mru.vue";
+import WeddingDayMru from "~/components/Maurice/2_2_Wedding_Day_mru.vue";
 import WhatToDoMru from "~/components/Maurice/3_WhatToDo_mru.vue";
 import OrganisationMru from "~/components/Maurice/4_Organisation_mru.vue";
 import RSVPMru from "~/components/Maurice/5_RSVP_mru.vue";

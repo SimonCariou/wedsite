@@ -286,8 +286,8 @@ export default {
                 subtitle: "",
                 box: {
                     first: "Mauritius holds a special place in our hearts and we thought it important to celebrate this big step in our lives there. This is why you are invited to join us on this paradise island to witness our religious wedding that will take place on Wednesday the 27th of October 2021 at Cap Malheureux.",
-                    second: "As you can guess, the programme is not entirely set yet as it depends on our dear friend Corona.",
-                    third: "We can just suggest you start booking your flights being careful on the airline you're going to choose regarding cancellations due to covid (Air France refunds all tickets till december 2021 for example)."
+                    second: "The day program is currently almost finalized! The church wedding will take place at 3 p.m. for 50 people whom we will contact directly (Information as of September 21). Then after the ceremony, some drinks and some food will be served on the beach in front of the church. After spending quality time on the beach together we go to the Chateau de Labourdonnais where the festivities begin at 7 p.m.",
+                    third: "The island reopens its frontiers to all those who have been vaccinated and a government statement regarding the limit of 50 people in church, is due on October 1. We'll keep you posted but we're starting to see the light at the end of the tunnel 😉"
                 }
             },
             what_to_do: {
