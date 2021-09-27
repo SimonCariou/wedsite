@@ -8,7 +8,7 @@
         <figure class="image is-inline-block">
           <img
             src="https://blog.tricount.com/fr/lyf-pay-logo.png"
-            style="height: 3em"
+            style="height: 3em; width:auto:"
           />
         </figure>
       </div>
