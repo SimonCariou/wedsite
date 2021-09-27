@@ -35,11 +35,17 @@
           }}</a>
         </div>
         <div class="navbar-item is-hoverable">
+          <a @click="toggleMenu()" href="#wedding_day">{{
+            $t("pages.mauritius.navbar.wedding_day")
+          }}</a>
+        </div>
+        <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="#what_to_do">{{
             $t("pages.mauritius.navbar.what_to_do")
           }}</a>
         </div>
-        <div class="navbar-item is-hoverable">
+
+        <!-- <div class="navbar-item is-hoverable">
           <a @click="toggleMenu()" href="#various">{{
             $t("pages.mauritius.navbar.information")
           }}</a>
@@ -48,7 +54,7 @@
           <a @click="toggleMenu()" href="#poll">{{
             $t("pages.mauritius.navbar.poll")
           }}</a>
-        </div>
+        </div> -->
 
         <div class="navbar-item is-hoverable" @click="bounce">
           <nuxt-link :to="localePath('France')">

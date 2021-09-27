@@ -270,8 +270,9 @@ export default {
         },
         mauritius: {
             navbar: {
-                introduction: "Welcome!",
+                introduction: "Welcome",
                 what_to_do: "The Island",
+                wedding_day: "The Wedding Day",
                 information: "Miscellaneous",
                 poll: "Interested ?"
             },
@@ -291,13 +292,72 @@ export default {
                 date: "October 27th, 2021",
                 scroll: "Scroll down to learn more!"
             },
+            flow: {
+                title: "Wedding Day",
+                subtitle: "Here's what we have planned for you so far.",
+                wip: "Working on it...",
+                timeline: {
+                    start: "Wake up!",
+                    events: {
+                        first: {
+                            time: "3PM",
+                            title: "WEDDING AT CAP MALHEUREUX ⛪",
+                            description: ""
+                        },
+                        second: {
+                            time: "4PM-6:30PM",
+                            title: "🍹 + 📸 📹 CHILL & PICS !",
+                            description: "On the beach right in front of the church. (To be confirmed if we can organize such events with the Covid restrictions)"
+                        },
+                        third: {
+                            time: "7PM - 12AM",
+                            title: "🥳 COCKTAIL, DINNER & PARTY",
+                            description: "At le Chateau de Labourdonnais. Cocktail around the pond followed by a dinner, a dancing party a couple of surprises 😉"
+                        },
+
+                    },
+
+                    end: "Sleep tight 👋"
+                }
+            },
             introduction: {
                 title: "Welcome to Mauritius!",
                 subtitle: "",
                 box: {
-                    first: "Mauritius holds a special place in our hearts and we thought it important to celebrate this big step in our lives there. This is why you are invited to join us on this paradise island to witness our religious wedding that will take place on Wednesday the 27th of October 2021 at Cap Malheureux.",
+                    first: "",
                     second: "The day program is currently almost finalized! The church wedding will take place at 3 p.m. for 50 people whom we will contact directly (Information as of September 21). Then after the ceremony, some drinks and some food will be served on the beach in front of the church. After spending quality time on the beach together we go to the Chateau de Labourdonnais where the festivities begin at 7 p.m.",
                     third: "The island reopens its frontiers to all those who have been vaccinated and a government statement regarding the limit of 50 people in church, is due on October 1. We'll keep you posted but we're starting to see the light at the end of the tunnel 😉"
+                },
+                box: {
+                    first: "Mauritius holds a special place in our hearts and we thought it important to celebrate this big step in our lives there. This is why you are invited to join us on this paradise island to witness our religious wedding that will take place on Wednesday the 27th of October 2021 at Cap Malheureux.",
+                    second:
+                    {
+                        title: "Important Covid 🦠",
+                        introduction: "The island reopens for fully vaccinated people ! However here is what is required by the the Mauritian Health Authority:",
+                        content: {
+                            ul: {
+                                _1: "To enter the island, you will need a negative PCR test taken within 72 hours from the last point of embarkation. (Oropharyngeal is accepted for children aged 6yo and less)",
+                                _2: {
+                                    _1: "Take out a mandatory COVID-19 insurance health cover (Mauritian citizen are exempt). In order to find out the best deals, you can visit this insurance comparator website:",
+                                    _2: "insurly.fr",
+                                    _3: ". Play close attention that the fact that it covers the covid-19 need to be specified on the document. Our benchmark led us to the insurance company 'ACS' which seems to have the best value for money but don't hesitate to do your own research."
+                                },
+                                _3: {
+                                    beginning: "All travellers must fill out the following forms before or during your flight to Mauritius:",
+                                    links: {
+                                        id_form: "Passenger locator form,",
+                                        health_declaration_form: "Health self-declaration form ",
+                                        lab_form: "Health laboratory form"
+                                    },
+                                    end: "You will need to hand these completed forms to immigration and health officials on arrival at Mauritius airport."
+                                },
+                                _4: "You will be required to take a PCR test on arrival at the airport (day 0). This will be free of charge for all vaccinated guests.",
+                                _5: "You will be required to do a self administered antigen test on day 5 of your holiday."
+                            }
+                        }
+
+                    },
+                    third: "The schedule is getting clearer and clearer and from October 1st, there are no restrictions regarding the number of people in the church and during the reception. You can have a look at  the day we have planned for you in the next section 😉"
                 }
             },
             what_to_do: {

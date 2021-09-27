@@ -280,6 +280,7 @@ export default {
             navbar: {
                 introduction: "Bienvenue!",
                 what_to_do: "L'Île",
+                wedding_day: "Le jour J",
                 information: "Divers",
                 poll: "Interessés ?"
             },
@@ -304,8 +305,60 @@ export default {
                 subtitle: "",
                 box: {
                     first: "L'île Maurice tient une place toute particulière dans nos coeurs et il nous semblait important de pouvoir y célébrer un moment fort de nos vies. C'est pour cela que nous vous invitons à nous rejoindre sur cette île paradisiaque afin d'assiter à notre mariage religieux qui aura lieu le Mercredi 27 octobre 2021 à l'Église de Cap Malheureux.",
-                    second: "Le programme sur place se peaufine et le mariage à l'église aura lieu à 15h pour 50 personnes que nous contacteront directement (Information au 21 septembre). Ensuite un apéritif sera servi sur la plage devant l'église et direction le Chateau de Labourdonnais pour les festivités qui commenceront à 19h.",
-                    third: "L'île réouvre ses portes à l'ensemble des personnes vaccinées et un communiqué du gouvernement quant à la limitation de 50 personnes à l'église doit être fait le 1er Octobre. Nous vous tiendrons au courant mais on commence à voir le bout 😉"
+                    second:
+                    {
+                        title: "Important Covid 🦠",
+                        introduction: "L'île réouvre ses portes à l'ensemble des personnes vaccinées, néanmoins voici la liste de ce qui est demandé par les autorités de santé Mauricennes:",
+                        content: {
+                            ul: {
+                                _1: "Pour entrer sur l’île, vous aurez besoin d’un test PCR négatif effectué dans les 72 heures avant l’embarquement. (Oropharyngé autorisé pour les enfants de moins de 6 ans)",
+                                _2: {
+                                    _1: "Souscrire à une assurance voyage indiquant une prise en charge du Covid (Les citoyens mauriciens sont exemptés). Vous pouvez utiliser un site de comparatif d'assurances: ",
+                                    _2: "insurly.fr",
+                                    _3: "en faisant bien attention que la mention 'prise en charge Covid' figure sur le papier (mais c'est explicité par insurly lors du choix à la fin). Notre étude de marché nous fait pencher vers 'ACS' mais vous pouvez bien sur faire vos propres recherches."
+                                },
+                                _3: {
+                                    beginning: "Vous devrez remplir les formulaires de santé suivant, avant ou pendant votre vol vers l’île Maurice:",
+                                    links: {
+                                        id_form: "formulaire d’identification passager",
+                                        health_declaration_form: "formulaire de déclaration de santé",
+                                        lab_form: "formulaire de laboratoire de santé"
+                                    },
+                                    end: "Vous devrez remettre ces formulaires remplis aux responsables de l’immigration et de la santé à votre arrivée à l’aéroport de Maurice."
+                                },
+                                _4: "Vous devrez faire un test PCR à votre arrivée à l’aéroport (jour 0). Le test sera gratuit pour tous les passagés vaccinés.",
+                                _5: "Vous devrez effectuer de façon individuelle un test antigénique le cinquième jour."
+                            }
+                        }
+
+                    },
+                    third: "Le programme sur place se peaufine et nous allons pouvoir faire la fête tous ensemble sans restriction au niveau au nombre de personnes (information tout chaude, du 24 septembre). Vous pouvez voir le déroulement de la journée dans la section suivante 😉"
+                }
+            }, flow: {
+                title: "Le jour du Mariage",
+                subtitle: "Tout ce dont vous avez besoin de savoir sur le déroulement de la journée du 27 Octobre.",
+                wip: "On planche dessus ",
+                timeline: {
+                    start: "Aller debout!",
+                    events: {
+                        first: {
+                            time: "15H",
+                            title: "MARIAGE À L'ÉGLISE DE CAP MALHEUREUX ⛪",
+                            description: ""
+                        },
+                        second: {
+                            time: "16H-18h30",
+                            title: "🍹 + 📸 📹 APERO & PHOTOS !",
+                            description: "Sur la plage juste devant l'église de Cap Malheureux."
+                        },
+                        third: {
+                            time: "19H - 00H",
+                            title: "🥳 COCKTAIL, DÎNER & SOIRÉE",
+                            description: "Cocktail autour de l'étang du Domaine de Labourdonnais suivi d'un buffet créole, d'une soirée dansante et de plusieurs petites surprises 😉"
+                        },
+
+                    },
+                    end: "Bonne nuit 👋"
                 }
             },
             what_to_do: {

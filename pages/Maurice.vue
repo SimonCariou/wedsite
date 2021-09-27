@@ -5,28 +5,29 @@
     <InfosMru />
     <WeddingDayMru />
     <WhatToDoMru />
-    <OrganisationMru />
-    <RSVPMru />
+    <!-- <OrganisationMru /> -->
+    <!-- <RSVPMru /> -->
   </div>
 </template>
 
 <script>
-import VaccineModal from "~/components/Modal.vue"
+import VaccineModal from "~/components/Modal.vue";
 import WelcomeMru from "~/components/Maurice/1_Welcome_mru.vue";
 import InfosMru from "~/components/Maurice/2_1_Infos_mru.vue";
 import WeddingDayMru from "~/components/Maurice/2_2_Wedding_Day_mru.vue";
 import WhatToDoMru from "~/components/Maurice/3_WhatToDo_mru.vue";
-import OrganisationMru from "~/components/Maurice/4_Organisation_mru.vue";
-import RSVPMru from "~/components/Maurice/5_RSVP_mru.vue";
+// import OrganisationMru from "~/components/Maurice/4_Organisation_mru.vue";
+// import RSVPMru from "~/components/Maurice/5_RSVP_mru.vue";
 
 export default {
   components: {
     VaccineModal,
     WelcomeMru,
     InfosMru,
+    WeddingDayMru,
     WhatToDoMru,
-    OrganisationMru,
-    RSVPMru,
+    // OrganisationMru,
+    // RSVPMru,
   },
   layout: "maurice_layout",
   data: () => ({ observerTitle: null, observerBody: null, intersected: false }),

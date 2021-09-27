@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-success" id="introduction">
+  <section class="hero is-success" id="introduction">
     <div class="hero-head has-text-centered observedElement section-title">
       <div class="container pt-6">
         <h1 class="title is-size-2-mobile is-size-1-tablet is-uppercase">
@@ -12,21 +12,39 @@
     </div>
     <div class="hero-body observedElement section-body">
       <div class="container">
-        <div class="columns is-centered is-variable is-8-tablet is-3-mobile">
-          <div class="column is-6-tablet is-12-mobile" style="height: 100%">
+        <div class="columns is-centered is-variable is-8-tablet is-3-mobile is-multiline">
+          <div class="column is-12-tablet is-12-mobile" style="height: 100%">
             <div class="box explications">
               <p class="block">
                 {{ $t("pages.mauritius.introduction.box.first") }}
               </p>
-              <p class="block">
-                {{ $t("pages.mauritius.introduction.box.second") }}
+              <p class="block"><strong class="is-size-5">
+                  {{ $t("pages.mauritius.introduction.box.second.title") }}
+                </strong>
+              </p>
+              <p class="content">
+                <span>{{ $t("pages.mauritius.introduction.box.second.introduction") }}</span>
+                <ul>
+                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._1") }}</li>
+                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._2._1") }} <a class="is-link-in-section" target="_blank" href="https://insurly.fr/assurance-voyage-comparatif">{{ $t("pages.mauritius.introduction.box.second.content.ul._2._2") }}</a> {{ $t("pages.mauritius.introduction.box.second.content.ul._2._3") }} </li>
+                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._3.beginning") }}
+                    <ul>
+                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Passenger-Locator-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.id_form") }}</a></li>
+                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Covid-19-Passenger-Self-Declaration-form-003.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.health_declaration_form") }}</a></li>
+                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/MoHW-Airport-Health-Laboratory-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.lab_form") }}</a></li>
+                    </ul>
+                    {{ $t("pages.mauritius.introduction.box.second.content.ul._3.end") }}
+                  </li>
+                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._4") }}</li>
+                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._5") }}</li>
+                </ul>
               </p>
               <p class="block">
                 {{ $t("pages.mauritius.introduction.box.third") }}
               </p>
             </div>
           </div>
-          <div class="column is-6-tablet is-12-mobile">
+          <div class="column is-12-tablet is-12-mobile">
             <div class="floating-image is-animated hoverable">
               <svg
                 viewBox="0 0 20 18"
@@ -65,7 +83,7 @@ export default {
 <style scoped lang="sass">
 .floating-image
   svg
-    width: 80%
+    width: 20em
     position: relative
     left: 50%
     bottom: 0

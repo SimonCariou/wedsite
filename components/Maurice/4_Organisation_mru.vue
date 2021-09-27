@@ -1,6 +1,6 @@
 <template>
   <section
-    class="hero is-fullheight-with-navbar is-success"
+    class="hero is-fullheight-with-navbar is-hero"
     style="overflow: hidden"
     id="various"
   >

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight is-info" id="poll">
+  <section class="hero is-fullheight is-success" id="poll">
     <div style="height: 80px; overflow: hidden">
       <svg
         viewBox="0 0 500 80"
@@ -129,9 +129,7 @@
 
 <script>
 import { db } from "~/plugins/firebase.js";
-
 let namesRef = db.ref("names");
-
 export default {
   name: "app",
   firebase: { texts: namesRef },
@@ -166,16 +164,13 @@ $ear: #791c16;
 $wave: lighten($background, 10%);
 $leave: #56a707;
 $shovel: #3397ec;
-
 $triangle: 4rem;
 $triangle-width: 5rem;
 $umbrella-radius: 4rem;
 $space: 71deg;
-
 body {
   overflow: hidden;
 }
-
 *:before,
 *:after {
   position: absolute;
