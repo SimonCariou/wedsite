@@ -140,12 +140,12 @@ export default {
           date: this.$t("pages.france.photos.cards._2020.date"),
           description: this.$t("pages.france.photos.cards._2020.description"),
         },
-        // {
-        //   image: require("@/assets/images/scrollsnap_photos/2020.jpg"),
-        //   alternative_description: "Saint Valentin 2020",
-        //   date: this.$t("pages.france.photos.cards._2021.date"),
-        //   description: this.$t("pages.france.photos.cards._2021.description"),
-        // },
+        {
+          image: require("@/assets/images/scrollsnap_photos/2021.jpg"),
+          alternative_description: "Aix en Provence - été 2021",
+          date: this.$t("pages.france.photos.cards._2021.date"),
+          description: this.$t("pages.france.photos.cards._2021.description"),
+        },
       ],
     };
   },
@@ -168,8 +168,8 @@ export default {
   max-width: 100vw
   width: 100%
 
-  .column
-    scroll-snap-align: center
+.column
+	scroll-snap-align: center
 .card
   display: flex
   flex-direction: column

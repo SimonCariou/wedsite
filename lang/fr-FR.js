@@ -39,7 +39,7 @@ export default {
                     },
                     june: {
                         date: "27 Juin 2021",
-                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 21 Juillet.",
+                        li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 31 Juillet.",
                         li2: {
                             txt1: "Déroulement de la journée acté ! Allez voir la section ",
                             link: "Déroulement",
@@ -185,8 +185,8 @@ export default {
                         description: "Vacances en Grèce entre 2 confinements! Visite des Cyclades pendant 2 semaines."
                     },
                     _2021: {
-                        date: "fr9",
-                        description: "fr"
+                        date: "Août 2021",
+                        description: "Vacances d'été à Aix-en-Provence avec les Cariou et les copains/copines de chacun."
                     },
                 }
             },
@@ -283,6 +283,16 @@ export default {
                 information: "Divers",
                 poll: "Interessés ?"
             },
+            modal:{
+                title:"Informations pratiques",
+                item1: "🔓 Ouverture des frontières le 1er Octobre sans quarantaine!",
+                item2:{
+                    first_part: "⚠️ Le vaccin est ",
+                    bold: "OBLIGATOIRE",
+                    second_part: " pour rentrer sur le territoire ! 💉"
+                },
+                button: "Compris 👌"
+            },
             welcome: {
                 grand_title: "Bienvenue.",
                 we_gettin: "Nous nous marions à l'île Maurice le",
@@ -328,8 +338,7 @@ export default {
             poll: {
                 title: "Vous êtes intéressés? ",
                 explications: {
-                    first: "Afin de pouvoir estimer le nombre de personnes souhaitant faire part de notre aventure du bout du monde, indiquez nous avant le 1er Mai 2021 si vous pensez venir.",
-                    second: "Pour les familles nombreuses, essayez de mettre un peu plus d'informations que le nom de famille seul "
+                    first: "La date de RSVP est passée et la liste des invités figée. On a hâte de vous y retrouver 😉",
                 },
 
                 form: {

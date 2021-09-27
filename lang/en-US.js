@@ -39,7 +39,7 @@ export default {
                     },
                     june: {
                         date: "June 27th 2021",
-                        li1: "New RSVPs sent by email, Deadline: July 21st.",
+                        li1: "New RSVPs sent by email, Deadline: July 31st.",
                         li2: {
                             txt1: "Wedding day timeline updated. See the ",
                             link: "Schedule",
@@ -183,8 +183,8 @@ export default {
                         description: "Vacation in Greece between 2 lockdonws. Chill in the Cyclades for 2 weeks..."
                     },
                     _2021: {
-                        date: "2021",
-                        description: "TBD"
+                        date: "August 2021",
+                        description: "Holidays in Aix-en-Provence with the Cariou family."
                     },
                 }
             },
@@ -275,6 +275,16 @@ export default {
                 information: "Miscellaneous",
                 poll: "Interested ?"
             },
+            modal:{
+                title:"Flash news",
+                item1: "🔓 The country fully opens on October 1st without the need to self-quarantine!",
+                item2: {
+                    first_part: "⚠️ Being fully vaccinated is ",
+                    bold: "MANDATORY",
+                    second_part:" to be able travel to Mauritius 💉"
+                },
+                button:"Understood 👌"
+            },
             welcome: {
                 grand_title: "Welcome.",
                 we_gettin: "We are getting married on",
@@ -321,8 +331,7 @@ export default {
             }, poll: {
                 title: "Would you like to come?",
                 explications: {
-                    first: "In order for us to estimate who'd like to come to this exciting adventure, please let us know before the 1st of May if you're thinking about joining us!",
-                    second: "For big families, try to be more specific than your name only"
+                    first: "The deadline has been reached and the guest list is now written in stone! Can't wait to see you there 😉",
                 },
                 form: {
                     label: "Interested ?",
