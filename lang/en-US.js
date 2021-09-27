@@ -243,7 +243,7 @@ export default {
                         price: "..."
                     },
                 },
-                description_bottom: "If you'd like to participate to one of the items in the registry, you can give a little something directly on Paypal or in the money box 🤗",
+                description_bottom: "If you'd like to participate to one of the items in the registry, you can give a little something directly in the 'Lyf Pay' pot (replaces Paypal since they stopped doing pots) or in the money box 🤗",
             }, contact: {
                 title: "Contact",
                 subtitle: "Send us a message if you have any question!",
@@ -275,15 +275,15 @@ export default {
                 information: "Miscellaneous",
                 poll: "Interested ?"
             },
-            modal:{
-                title:"Flash news",
+            modal: {
+                title: "Flash news",
                 item1: "🔓 The country fully opens on October 1st without the need to self-quarantine!",
                 item2: {
                     first_part: "⚠️ Being fully vaccinated is ",
                     bold: "MANDATORY",
-                    second_part:" to be able travel to Mauritius 💉"
+                    second_part: " to be able travel to Mauritius 💉"
                 },
-                button:"Understood 👌"
+                button: "Understood 👌"
             },
             welcome: {
                 grand_title: "Welcome.",

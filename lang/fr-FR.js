@@ -248,7 +248,7 @@ export default {
                     },
                 },
                 description_bottom: "Si vous voulez participer à l'achat d'un des cadeaux des images du dessus vous pouvez donner \
-                un petit quelque chose dans la cagnotte Paypal ou dans l'urne qui sera présente sur place 🤗",
+                un petit quelque chose dans la cagnotte Lyf Pay (remplace Paypal car ils ont arrêté les cagnottes) ou dans l'urne qui sera présente sur place 🤗",
             },
             contact: {
                 title: "Contact",
@@ -283,10 +283,10 @@ export default {
                 information: "Divers",
                 poll: "Interessés ?"
             },
-            modal:{
-                title:"Informations pratiques",
+            modal: {
+                title: "Informations pratiques",
                 item1: "🔓 Ouverture des frontières le 1er Octobre sans quarantaine!",
-                item2:{
+                item2: {
                     first_part: "⚠️ Le vaccin est ",
                     bold: "OBLIGATOIRE",
                     second_part: " pour rentrer sur le territoire ! 💉"
