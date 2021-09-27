@@ -24,7 +24,31 @@
         <div class="explications observedElement section-body">
           <p>
             <span
-              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              class="
+                is-size-3
+                has-text-weight-semibold
+                highlight
+                has-text-primary
+              "
+              >{{ $t("pages.france.news.contents.september.date") }}</span
+            >
+          </p>
+          <div class="content">
+            <ul>
+              <li>{{ $t("pages.france.news.contents.september.li1") }}</li>
+              <li>{{ $t("pages.france.news.contents.september.li2") }}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="explications old observedElement section-body">
+          <p>
+            <span
+              class="
+                is-size-3
+                has-text-weight-semibold
+                highlight
+                has-text-primary
+              "
               >{{ $t("pages.france.news.contents.june.date") }}</span
             >
           </p>
@@ -45,7 +69,12 @@
         <div class="explications old observedElement section-body">
           <p>
             <span
-              class="is-size-3 has-text-weight-semibold highlight has-text-primary"
+              class="
+                is-size-3
+                has-text-weight-semibold
+                highlight
+                has-text-primary
+              "
               >{{ $t("pages.france.news.contents.feb.date") }}</span
             >
           </p>

@@ -38,13 +38,18 @@ export default {
                         li2: "Schedule in progress "
                     },
                     june: {
-                        date: "June 27th 2021",
+                        date: "June 2021",
                         li1: "New RSVPs sent by email, Deadline: July 31st.",
                         li2: {
                             txt1: "Wedding day timeline updated. See the ",
                             link: "Schedule",
                             txt2: " section"
                         }
+                    },
+                    september: {
+                        date: "September 2021",
+                        li1: "A negative PCR test (less than 72h prior to October 16th) is required to attend the wedding. When you have the results, please send them to cariou.leval@orange.fr in order to facilitate the management the day of the wedding.",
+                        li2: "Rendez-vous at the Village de Sully at 4:30PM for sanitary pass verification and to have a drink while waiting for everyone before the cecular ceremony taking place at 5PM."
                     }
                 }
             }, information: {
@@ -314,9 +319,7 @@ export default {
                             title: "🥳 COCKTAIL, DINNER & PARTY",
                             description: "At le Chateau de Labourdonnais. Cocktail around the pond followed by a dinner, a dancing party a couple of surprises 😉"
                         },
-
                     },
-
                     end: "Sleep tight 👋"
                 }
             },

@@ -38,13 +38,18 @@ export default {
                         li2: "Planning de la journée en construction "
                     },
                     june: {
-                        date: "27 Juin 2021",
+                        date: "Juin 2021",
                         li1: "Nouveaux faire-parts envoyés par mail! RSVP avant le 31 Juillet.",
                         li2: {
                             txt1: "Déroulement de la journée acté ! Allez voir la section ",
                             link: "Déroulement",
                             txt2: ""
                         }
+                    },
+                    september: {
+                        date: "Septembre 2021",
+                        li1: "Un test PCR négatif de moins de 72H est demandé avant le mariage (dès que vous aurez les résultats, vous pouvez nous l'envoyer à cariou.leval@orange.fr pour faciliter la gestion le jour J). Nous demandons ça car un bon nombre d'entre nous partent pour l'île Maurice quelques jours après pour le mariage religieux.",
+                        li2: "Rendez-vous au Village de Sully à 16h30 pour vérification des pass sanitaires et pour se réchauffer/raffraichir en attendant tout le monde pour la cérémonie laïque à 17h."
                     }
                 }
             }, information: {
