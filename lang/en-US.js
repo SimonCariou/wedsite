@@ -48,7 +48,7 @@ export default {
                     },
                     september: {
                         date: "September 2021",
-                        li1: "A negative PCR test (less than 72h prior to October 16th) is required to attend the wedding. When you have the results, please send them to cariou.leval@orange.fr in order to facilitate the management the day of the wedding.",
+                        li1: "A negative PCR test (less than 72h prior to October 16th) is required to attend the wedding. When you have the results, please send them to cariou.leval@orange.fr in order to facilitate the management the day of the wedding. We are asking that mainly because we'd like to party with you all without any fear with nothing holding us back and also because many of us will take the plane to Mauritius a couple of days later.",
                         li2: "Rendez-vous at the Village de Sully at 4:30PM for sanitary pass verification and to have a drink while waiting for everyone before the cecular ceremony."
                     }
                 }

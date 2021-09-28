@@ -48,7 +48,7 @@ export default {
                     },
                     september: {
                         date: "Septembre 2021",
-                        li1: "Un test PCR négatif de moins de 72H est demandé avant le mariage (dès que vous aurez les résultats, vous pouvez nous l'envoyer à cariou.leval@orange.fr pour faciliter la gestion le jour J). Nous demandons ça car un bon nombre d'entre nous partent pour l'île Maurice quelques jours après pour le mariage religieux.",
+                        li1: "Un test PCR négatif de moins de 72H est demandé avant le mariage (dès que vous aurez les résultats, vous pouvez nous l'envoyer à cariou.leval@orange.fr pour faciliter la gestion le jour J). Nous demandons ça pour nous puissions tous faire la fête sans crainte et pour les voyageurs qui nous accompagnent pour notre mariage à l'île Maurice quelques jours après.",
                         li2: "Rendez-vous au Village de Sully à 16h30 pour vérification des pass sanitaires et pour se réchauffer/raffraichir en attendant tout le monde pour la cérémonie laïque à 17h."
                     }
                 }
