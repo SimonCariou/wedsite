@@ -10,36 +10,36 @@
         </h2>
       </div>
     </div>
-    <div class="hero-body observedElement section-body">
+    <div class="hero-body">
       <div class="container">
         <div class="columns is-centered is-variable is-8-tablet is-3-mobile is-multiline">
           <div class="column is-12-tablet is-12-mobile" style="height: 100%">
             <div class="box explications">
-              <p class="block">
+              <p class="block observedElement section-body">
                 {{ $t("pages.mauritius.introduction.box.first") }}
               </p>
-              <p class="block"><strong class="is-size-5">
+              <p class="block observedElement section-body"><strong class="is-size-5">
                   {{ $t("pages.mauritius.introduction.box.second.title") }}
                 </strong>
               </p>
               <p class="content">
-                <span>{{ $t("pages.mauritius.introduction.box.second.introduction") }}</span>
+                <span class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.introduction") }}</span>
                 <ul>
-                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._1") }}</li>
-                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._2._1") }} <a class="is-link-in-section" target="_blank" href="https://insurly.fr/assurance-voyage-comparatif">{{ $t("pages.mauritius.introduction.box.second.content.ul._2._2") }}</a> {{ $t("pages.mauritius.introduction.box.second.content.ul._2._3") }} </li>
-                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._3.beginning") }}
-                    <ul>
-                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Passenger-Locator-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.id_form") }}</a></li>
-                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Covid-19-Passenger-Self-Declaration-form-003.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.health_declaration_form") }}</a></li>
-                      <li><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/MoHW-Airport-Health-Laboratory-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.lab_form") }}</a></li>
+                  <li class="observedElement section-body" >{{ $t("pages.mauritius.introduction.box.second.content.ul._1") }}</li>
+                  <li class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.content.ul._2._1") }} <a class="is-link-in-section" target="_blank" href="https://insurly.fr/assurance-voyage-comparatif">{{ $t("pages.mauritius.introduction.box.second.content.ul._2._2") }}</a> {{ $t("pages.mauritius.introduction.box.second.content.ul._2._3") }} </li>
+                  <li class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.beginning") }}
+                    <ul >
+                      <li class="observedElement section-body"><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Passenger-Locator-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.id_form") }}</a></li>
+                      <li class="observedElement section-body"><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/Public-Health-Covid-19-Passenger-Self-Declaration-form-003.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.health_declaration_form") }}</a></li>
+                      <li class="observedElement section-body"><a class="is-link-in-section" target="_blank" href="https://mauritiusnow.com/wp-content/uploads/2021/09/MoHW-Airport-Health-Laboratory-Form.pdf">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.links.lab_form") }}</a></li>
                     </ul>
-                    {{ $t("pages.mauritius.introduction.box.second.content.ul._3.end") }}
+                    <span class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.content.ul._3.end") }}</span>
                   </li>
-                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._4") }}</li>
-                  <li>{{ $t("pages.mauritius.introduction.box.second.content.ul._5") }}</li>
+                  <li class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.content.ul._4") }}</li>
+                  <li class="observedElement section-body">{{ $t("pages.mauritius.introduction.box.second.content.ul._5") }}</li>
                 </ul>
               </p>
-              <p class="block">
+              <p class="block observedElement section-body">
                 {{ $t("pages.mauritius.introduction.box.third") }}
               </p>
             </div>

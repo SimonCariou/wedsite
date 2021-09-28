@@ -339,7 +339,7 @@ export default {
                         introduction: "The island reopens for fully vaccinated people ! However here is what is required by the the Mauritian Health Authority:",
                         content: {
                             ul: {
-                                _1: "To enter the island, you will need a negative PCR test taken within 72 hours from the last point of embarkation. (Oropharyngeal is accepted for children aged 6yo and less)",
+                                _1: "To enter the island, you will need a negative PCR test taken within 72 hours from the last point of embarkation. (Oropharyngeal is accepted for children aged 6yo or less)",
                                 _2: {
                                     _1: "Take out a mandatory COVID-19 insurance health cover (Mauritian citizen are exempt). In order to find out the best deals, you can visit this insurance comparator website:",
                                     _2: "insurly.fr",
