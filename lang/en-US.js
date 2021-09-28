@@ -297,32 +297,6 @@ export default {
                 date: "October 27th, 2021",
                 scroll: "Scroll down to learn more!"
             },
-            flow: {
-                title: "Wedding Day",
-                subtitle: "Here's what we have planned for you so far.",
-                wip: "Working on it...",
-                timeline: {
-                    start: "Wake up!",
-                    events: {
-                        first: {
-                            time: "3PM",
-                            title: "WEDDING AT CAP MALHEUREUX ⛪",
-                            description: ""
-                        },
-                        second: {
-                            time: "4PM-6:30PM",
-                            title: "🍹 + 📸 📹 CHILL & PICS",
-                            description: "On the beach right in front of the church. (To be confirmed if we can organize such events with the Covid restrictions)"
-                        },
-                        third: {
-                            time: "7PM - 12AM",
-                            title: "🥳 COCKTAIL, DINNER & PARTY",
-                            description: "At le Chateau de Labourdonnais. Cocktail around the pond followed by a dinner, a dancing party a couple of surprises 😉"
-                        },
-                    },
-                    end: "Sleep tight 👋"
-                }
-            },
             introduction: {
                 title: "Welcome to Mauritius!",
                 subtitle: "",
@@ -336,7 +310,7 @@ export default {
                     second:
                     {
                         title: "Important Covid 🦠",
-                        introduction: "The island reopens for fully vaccinated people ! However here is what is required by the the Mauritian Health Authority:",
+                        introduction: "The island fully reopens for vaccinated people ! However here is what is required by the Mauritian Health Authority:",
                         content: {
                             ul: {
                                 _1: "To enter the island, you will need a negative PCR test taken within 72 hours from the last point of embarkation. (Oropharyngeal is accepted for children aged 6yo or less)",
@@ -361,6 +335,32 @@ export default {
 
                     },
                     third: "The schedule is getting clearer and clearer and from October 1st, there are no restrictions regarding the number of people in the church and during the reception. You can have a look at  the day we have planned for you in the next section 😉"
+                }
+            },
+            flow: {
+                title: "Wedding Day",
+                subtitle: "Here's what we have planned for you so far.",
+                wip: "Working on it...",
+                timeline: {
+                    start: "Wake up!",
+                    events: {
+                        first: {
+                            time: "3PM",
+                            title: "WEDDING AT CAP MALHEUREUX ⛪",
+                            description: ""
+                        },
+                        second: {
+                            time: "4PM-6:30PM",
+                            title: "🍹 + 📸 CHILL & PICS",
+                            description: "On the beach right in front of the church. (To be confirmed if we can organize such events with the Covid restrictions)"
+                        },
+                        third: {
+                            time: "7PM - 12AM",
+                            title: "🥳 COCKTAIL, DINNER & PARTY",
+                            description: "At le Chateau de Labourdonnais. Cocktail around the pond followed by a dinner, a dancing party a couple of surprises 😉"
+                        },
+                    },
+                    end: "Sleep tight 👋"
                 }
             },
             what_to_do: {

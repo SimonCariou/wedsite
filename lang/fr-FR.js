@@ -354,7 +354,7 @@ export default {
                         second: {
                             time: "16H-18h30",
                             title: "🍹 + 📸 📹 APERO & PHOTOS !",
-                            description: "Sur la plage juste devant l'église de Cap Malheureux."
+                            description: "Sur la plage juste devant l'église de Cap Malheureux (à confirmer en fonction des restrictions covid liées aux rassemblements sur la plage)."
                         },
                         third: {
                             time: "19H - 00H",
