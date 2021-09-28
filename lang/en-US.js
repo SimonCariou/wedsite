@@ -49,7 +49,7 @@ export default {
                     september: {
                         date: "September 2021",
                         li1: "A negative PCR test (less than 72h prior to October 16th) is required to attend the wedding. When you have the results, please send them to cariou.leval@orange.fr in order to facilitate the management the day of the wedding.",
-                        li2: "Rendez-vous at the Village de Sully at 4:30PM for sanitary pass verification and to have a drink while waiting for everyone before the cecular ceremony taking place at 5PM."
+                        li2: "Rendez-vous at the Village de Sully at 4:30PM for sanitary pass verification and to have a drink while waiting for everyone before the cecular ceremony."
                     }
                 }
             }, information: {
@@ -311,7 +311,7 @@ export default {
                         },
                         second: {
                             time: "4PM-6:30PM",
-                            title: "🍹 + 📸 📹 CHILL & PICS !",
+                            title: "🍹 + 📸 📹 CHILL & PICS",
                             description: "On the beach right in front of the church. (To be confirmed if we can organize such events with the Covid restrictions)"
                         },
                         third: {
@@ -343,7 +343,7 @@ export default {
                                 _2: {
                                     _1: "Take out a mandatory COVID-19 insurance health cover (Mauritian citizen are exempt). In order to find out the best deals, you can visit this insurance comparator website:",
                                     _2: "insurly.fr",
-                                    _3: ". Play close attention that the fact that it covers the covid-19 need to be specified on the document. Our benchmark led us to the insurance company 'ACS' which seems to have the best value for money but don't hesitate to do your own research."
+                                    _3: ". Play close attention that the fact that it covers the covid-19 needs to be specified on the document. Our benchmark highlighted the insurance company called 'ACS' which seems to have the best value for money but don't hesitate to do your own research."
                                 },
                                 _3: {
                                     beginning: "All travellers must fill out the following forms before or during your flight to Mauritius:",
