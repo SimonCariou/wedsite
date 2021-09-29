@@ -320,7 +320,7 @@ export default {
                                 _2: {
                                     _1: "Souscrire à une assurance voyage indiquant une prise en charge du Covid (Les citoyens mauriciens sont exemptés). Vous pouvez utiliser un site de comparatif d'assurances: ",
                                     _2: "insurly.fr",
-                                    _3: "en faisant bien attention que la mention 'prise en charge Covid' figure sur le papier (mais c'est explicité par insurly lors du choix à la fin). Notre étude de marché nous fait pencher vers 'ACS' mais vous pouvez bien sur faire vos propres recherches."
+                                    _3: "en faisant bien attention que la mention 'prise en charge Covid' figure sur le papier (mais c'est explicité par insurly lors du choix à la fin)."
                                 },
                                 _3: {
                                     beginning: "Vous devrez remplir les formulaires de santé suivant, avant ou pendant votre vol vers l’île Maurice:",

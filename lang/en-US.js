@@ -317,7 +317,7 @@ export default {
                                 _2: {
                                     _1: "Take out a mandatory COVID-19 insurance health cover (Mauritian citizen are exempt). In order to find out the best deals, you can visit this insurance comparator website:",
                                     _2: "insurly.fr",
-                                    _3: ". Play close attention that the fact that it covers the covid-19 needs to be specified on the document. Our benchmark highlighted the insurance company called 'ACS' which seems to have the best value for money but don't hesitate to do your own research."
+                                    _3: ". Play close attention that the fact that it covers the covid-19 needs to be specified on the document."
                                 },
                                 _3: {
                                     beginning: "All travellers must fill out the following forms before or during your flight to Mauritius:",
