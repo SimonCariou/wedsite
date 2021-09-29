@@ -313,7 +313,7 @@ export default {
                     second:
                     {
                         title: "Important Covid 🦠",
-                        introduction: "L'île réouvre ses portes à l'ensemble des personnes vaccinées, néanmoins voici la liste de ce qui est demandé par les autorités de santé Mauricennes:",
+                        introduction: "L'île réouvre ses portes à l'ensemble des personnes vaccinées, néanmoins voici la liste de ce qui est demandé par les autorités de santé Mauriciennes:",
                         content: {
                             ul: {
                                 _1: "Pour entrer sur l’île, vous aurez besoin d’un test PCR négatif effectué dans les 72 heures avant l’embarquement. (Oropharyngé autorisé pour les enfants de moins de 6 ans)",
